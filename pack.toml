@@ -1,0 +1,13 @@
+name = "ampere"
+author = "Metabodiru"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ed91eb5de1eb2b36bbf10e46fe7433b4f0da68e7ef97e4898fea02a385217783"
+
+[versions]
+forge = "47.4.28"
+minecraft = "1.20.1"

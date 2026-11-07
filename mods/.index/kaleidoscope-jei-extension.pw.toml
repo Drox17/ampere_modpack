@@ -1,0 +1,25 @@
+filename = 'kaleidoscope_extension-1.0.1-1.20.1.jar'
+name = 'Kaleidoscope  Jei Extension'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1-1.20.1'
+
+[download]
+hash = '84022dd1716fc568d4189fdea3b71d4bfdad135ba82c90ac4fb1d8ae0aae4d8bb5f8b855294cd71d418b8978f005e0f3b9e750b5845a0be9bf2e1c7d46cd2482'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mNKl9uIp/versions/S2elcFOu/kaleidoscope_extension-1.0.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'mNKl9uIp'
+version = 'S2elcFOu'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'v17FatAc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'REQUIRED'

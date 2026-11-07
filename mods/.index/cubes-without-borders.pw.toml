@@ -1,0 +1,21 @@
+filename = 'cwb-5.0.0+1.20.0.forge.jar'
+name = 'Cubes Without Borders'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cwb-5.0.0+1.20.0.forge.jar'
+
+[download]
+hash = 'adbf6f2a94785168990fed5b9ac80993fd189e13'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9309019
+project-id = 975120
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'

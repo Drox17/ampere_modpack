@@ -1,0 +1,21 @@
+filename = 'familiarslib-1.20.1-1.9.jar'
+name = 'FamiliarsLib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'familiarslib-1.20.1-1.9'
+
+[download]
+hash = '5c31870aed9bdaecafd332c66883fd17342d81c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9052376
+project-id = 1316458
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
