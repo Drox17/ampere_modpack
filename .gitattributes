@@ -1,5 +1,6 @@
 # Forzar saltos de línea consistentes (LF) en archivos de texto
 * text=auto eol=lf
+* -text
 
 # Declarar binarios explícitos para evitar corrupción
 *.jar binary
