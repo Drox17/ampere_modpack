@@ -1,12 +1,12 @@
-§6§l=========================================
+§6§l===================================
 §e§l  NOVEDADES Y MEJORAS DE AVENTURA
-§6§l=========================================§r
+§6§l===================================§r
 
 Bienvenido a la nueva actualizacion. Hemos redisenado el juego para que §eexplorar mazmorras, picar en las minas y salir de aventura§r sea mucho mas satisfactorio, eliminando mecanicas tediosas y castigos innecesarios.
 
------------------------------------------
+-----------------------------------
 §6§l[1] SUPERPODERES DE MATERIALES
------------------------------------------
+-----------------------------------
 Ahora cada material tiene una identidad unica y un proposito real.
 
 §f§l> HIERRO §7- §oEl Caballo de Batalla§r
@@ -36,15 +36,15 @@ Ahora cada material tiene una identidad unica y un proposito real.
 §7§l> VELOCIDAD UNIFICADA§r
 §7- Herramientas con velocidad de minado fluida y consistente en sus bloques correspondientes.
 
------------------------------------------
+-----------------------------------
 §6§l[2] EL NUEVO YUNQUE (SIN COSTE DE XP)
------------------------------------------
+-----------------------------------
 §7- §a0 Niveles de Experiencia:§r Reparar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP.
 §7- §eSin Limite:§r Eliminado el mensaje de §c"Demasiado Caro"§r; cuida y repara tu equipo cuantas veces quieras.
 
------------------------------------------
+-----------------------------------
 §6§l[3] CRIATURAS Y COMBATE EQUILIBRADO
------------------------------------------
+-----------------------------------
 §7- §cNigromantes Mas Justos:§r
   §8* Aparecen con mucha menor frecuencia en la superficie.
   §8* Invocan un §emaximo de 2 esqueletos§r a la vez.
@@ -53,14 +53,14 @@ Ahora cada material tiene una identidad unica y un proposito real.
 §7- §fCalaveras de Esqueleto Wither:§r
   §8* Probabilidad aumentada del 2.5% a §a15% base§r (hasta §a30% con Botin III§r).
 
------------------------------------------
+-----------------------------------
 §6§l[4] MAZMORRAS Y MAGIA DE AVENTURA
------------------------------------------
+-----------------------------------
 §7- §bCofres del Mundo Mejorados:§r Generan pergaminos magicos, tintas arcanas, diamantes y plantillas de herreria.
 §7- §dTorres de Magos:§r Mayor presencia de runas elementales y tintas de alta calidad.
 §7- §aReciclaje al 100%:§r La mesa de desencanto devuelve todos los materiales.
 
------------------------------------------
+-----------------------------------
 §6§l[5] FAMILIARES MAGICOS
------------------------------------------
+-----------------------------------
 §7- Corregido el aprendizaje y casteo continuo de su repertorio completo de hechizos sin bloqueos.

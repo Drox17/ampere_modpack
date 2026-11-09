@@ -439,8 +439,8 @@ element {
   anchor_point = element
   anchor_point_element = 2f158c83-6c14-456c-8455-f402a68414d3-1794202511413
   x = 18
-  y = 12
-  width = 480
+  y = 14
+  width = 470
   height = 245
   stay_on_screen = false
   element_loading_requirement_container_identifier = 532acfba-940f-459d-987f-942d211c6665-1794202629483
@@ -477,7 +477,7 @@ element {
   advanced_horizontal_tilt_degrees = 0.0
   base_color = #FFFFFFFF
   scale = 1.0
-  text_border = 2
+  text_border = 10
   line_spacing = 2
   quote_indent = 8
   bullet_list_indent = 8

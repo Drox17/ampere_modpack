@@ -570,7 +570,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/changelog_ampere_layout.txt"
-hash = "b04da63cc998505a9d093b0bbe323ea760b63f4e7498b356ecf20dbc09bb6759"
+hash = "b695e8dbda32f6d23bde3fe887ca1b15b8ca43630701921ec3f9b43bda0cdb0d"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
