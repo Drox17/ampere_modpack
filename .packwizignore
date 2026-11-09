@@ -1,18 +1,15 @@
-# Archivos de documentación y repositorio
-README.md
-*.zip
-.git*
-.nojekyll
+# 1. Ignorar absolutamente todo en la raíz y subcarpetas
+/*
+*
 
-# Registros y volcados locales
-logs/
-crash-reports/
+# 2. Excepciones permitidas (lo único que packwiz debe rastrear)
+!/pack.toml
+!/index.toml
+!/mods/**
+!/resourcepacks/**
+!/config/**
 
-# Archivos de estado y cachés dinámicas que cambian al jugar
-*.log
-config/jei/lookupHistory.ini
-config/jei/*-sort-order.ini
-options.txt
-optionsof.txt
-usercache.json
-usernamecache.json
+# 3. Exclusiones obligatorias dentro de config (archivos dinámicos de JEI/caché)
+config/**/lookupHistory.ini
+config/**/*sort-order.ini
+config/jei/*
