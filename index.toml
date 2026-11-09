@@ -517,10 +517,6 @@ file = "config/defaultoptions/options.txt"
 hash = "68d756cae56e2a33846c11bf15f7301ec13aab92ebce4532d9dd70e4c249b276"
 
 [[files]]
-file = "config/defaultoptions/servers.dat"
-hash = "1a7d4ee54ca7475e68ca963575739a2465dde47e0cf7c5c549c7d1c5478c4991"
-
-[[files]]
 file = "config/dungeonconfig/dungeonconfig.json5"
 hash = "5df33a55d688eb2dea2e918cd698ccbbd84fc9993bb9f74849bac5482e7c1595"
 
