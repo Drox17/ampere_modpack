@@ -46,7 +46,7 @@ hash = "d6d7d5becfd20cca48dabcb838021694740bd874fba80a259b05d37bcc720a43"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "059ca6dce21222968f145f2a0a1f1f1db4fb75c102a621e1e0afe152732d94b9"
+hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -422,7 +422,7 @@ hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
 
 [[files]]
 file = "config/appleskin-client.toml"
-hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -505,6 +505,18 @@ file = "config/cwb.json"
 hash = "59df651d6ab8a40b5bd3311a1a588429148ed13926b5f8e0ea3e5e8b437ff983"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "75bb1484803b0fb4468843686e97525cb58fb807036780a9efb14b9df56e6a12"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "0c592ca62e6f0acddb49f88aca1cfc51ceaf46ff5e77bf3c4dddedded6b14755"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "0e20de28b4840b27e237d1af40d454a5a70f7eb378b84cfdd67f7b5c5dcaee20"
+
+[[files]]
 file = "config/dungeonconfig/dungeonconfig.json5"
 hash = "5df33a55d688eb2dea2e918cd698ccbbd84fc9993bb9f74849bac5482e7c1595"
 
@@ -522,7 +534,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "e2e4ace23cfc7ff94cbe342d6afd27f39270f6ec5cc8f91ab869b74467ee0994"
+hash = "81e5fa9923ddf487e5e57d32dd7aaaa48f08578420b097ea52fa63f35ec129f3"
 
 [[files]]
 file = "config/entity_model_features.json"
@@ -666,7 +678,7 @@ hash = "099fdfcfb5fe8c4fe0faabe9fef0e35deef90a8a2a3d84c8cca630348ef3a604"
 
 [[files]]
 file = "config/goblintraders-entities.toml"
-hash = "d936e5b10a82489df45ec06acf1101861357d26ec77f5e2e9b1b3ecbaebe6eb1"
+hash = "df3542ca9473d6bb5ad83953c25e8dcffc1f4aa8386d33e47a1ecab51e6cb68c"
 
 [[files]]
 file = "config/guideme.toml"
@@ -741,10 +753,6 @@ file = "config/jade/sort-order.json"
 hash = "6bc01716ec8dd10ccc04b7af728f63de2ddb194289d01f24ec86b5334a5769d9"
 
 [[files]]
-file = "config/jei_plus_plus-client.toml"
-hash = "634043513878357e5399bbd2009fe12f64f7c10e5d7dd12d1ddd744071be0536"
-
-[[files]]
 file = "config/jeresources-common.toml"
 hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
 
@@ -805,6 +813,22 @@ file = "config/kiwi-common.yaml"
 hash = "8fb69c0a392b81158eef544771046c67bacc320710da6d63cf441277a821479e"
 
 [[files]]
+file = "config/konkrete/locals/de_de.local"
+hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
+
+[[files]]
+file = "config/konkrete/locals/en_us.local"
+hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
+
+[[files]]
+file = "config/konkrete/locals/pl_pl.local"
+hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
+
+[[files]]
+file = "config/konkrete/locals/pt_br.local"
+hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
+
+[[files]]
 file = "config/letmedespawn/letmedespawn.json5"
 hash = "5bcd23cb2383983e6e86f35935bae8a088d8efa91633511437c401105c075123"
 
@@ -818,7 +842,7 @@ hash = "4e37c085446f2a5be3a3cc4765ffc9657e71473245574c3e398c64fef07615a0"
 
 [[files]]
 file = "config/lootr-common.toml"
-hash = "c056a537b6cbc9cf4c49f29ec98480537a68932e412f7c5dbd7f0a70bee69ce4"
+hash = "8608b427ee774c20c04cdcd9044269bacd87d74c28497ca6c784a25286d4200f"
 
 [[files]]
 file = "config/mezz_config/client/default/settings.ini"
@@ -842,7 +866,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4b42473392ce9fff3661fa6b9950e5eee8d5084119b5e1b3298a829c977384e7"
+hash = "b75948fbca9b2c0d4629200abae8643d246de8fb231f65e55803219fbd96b4e5"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -874,11 +898,7 @@ hash = "c6daf1caa1da7ec29697ed9e2faecdcc60ef4343d66ffe062510ef775e213d08"
 
 [[files]]
 file = "config/punchy/triggerable-keybindings.json"
-hash = "9148991f4ec6e759cf2b45ea60f02650959b8a3f6ed5b16522ed5ed63cfcf3ea"
-
-[[files]]
-file = "config/punchy_moves/camera.json"
-hash = "ba1ee19bb4f82b2462b6087da65b21482ce26b229b968a53ef0ea4b42b6f3746"
+hash = "2a93483940cc15357d12b24b04cd524b7cdd52753a0f9c38cbbbf7d4c8c720d0"
 
 [[files]]
 file = "config/punchy_moves/tutorial_seen_v1"
@@ -902,7 +922,7 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/simpletomb.toml"
-hash = "b9f030191d475dabf6be03749a86c435448f39c752f549ec2c85f7f71df0d160"
+hash = "c2809a007741f37bf27081d73bae74185bc5d91793367e426bd7c5edaf09d238"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
@@ -930,11 +950,11 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_death_xp.json"
-hash = "96b51e615d838f9810873aa93e1b222791328d596ece4022128f733b32fefb70"
+hash = "9b135a5aaf566400715de3b585358940df348e78be5c64fe124e5d169cbd7b21"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "c349a297ceee32d03f061771218c67f85ab6ce27f8842e49aec92cc92c47d4b1"
+hash = "e0975448792c72225453b9befcbec5752e944b25a0227d6ad9737eab7977fa53"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -943,10 +963,6 @@ hash = "bed71e2722d04afd15e03330d1a157a51077e8fdcd064c80ab4a49bed6a49e59"
 [[files]]
 file = "config/titanium/titanium.toml"
 hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
-
-[[files]]
-file = "config/visuality/config.toml"
-hash = "4127fd1edf4e15159bb8365cb8816c5ae0b6108a02d34aa1d964f4e16b7e3275"
 
 [[files]]
 file = "config/visuality/particle_emitters/block_ambient.json"
