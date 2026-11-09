@@ -402,7 +402,7 @@ element {
 
 element {
   interactable = true
-  source = [source:web]https://drox17.github.io/ampere_modpack/changelog.md
+  source = [source:web]https://raw.githubusercontent.com/Drox17/ampere_modpack/main/changelog.md
   source_mode = resource
   shadow = true
   enable_scrolling = true
