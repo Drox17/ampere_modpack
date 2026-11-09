@@ -545,6 +545,82 @@ file = "config/expatternprovider-common.toml"
 hash = "04555ae40db6358bc2a2353e137f87a60718ab5243892ca925871c41e5958710"
 
 [[files]]
+file = "config/fancymenu/assets/minecraft_title.png"
+hash = "cc59a6712e6d5a48e7a8638e2b066304005321c6681165ba0fbaaff83c63ff3f"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "bab279df1621a43f54366b341fb2eaa05c89fb507c2bd466b445eab0e135d48e"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/changelog_ampere_layout.txt"
+hash = "7e1eed0a882d44b06285c987d40f09bdd6fa63b07c85f09498766da94acbad8d"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "cf4fb6a766a7f08641fe0d6489f63a43bb683ce73aed2b76571ca123a086fac8"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/normalized_scroll_screens.json"
+hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "64f9b1e4abfed61d8318d4d2e3c5da846f142e596c44a006f6cc5223681a3b1b"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "76cb15f822e51ca967f488bd47544f5d8d279e6ff195390ec34fe914f1538369"
+
+[[files]]
 file = "config/fastpaintings-common.toml"
 hash = "4cce6e2bd5d9440c7a6f4618dc05eeb82cc2fc293afa892a3010efe21405ac79"
 
@@ -663,66 +739,6 @@ hash = "567b229a211dc6b55a2746e3574bb44fd28453d02fc6e1a324011e853ab1af7c"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "6bc01716ec8dd10ccc04b7af728f63de2ddb194289d01f24ec86b5334a5769d9"
-
-[[files]]
-file = "config/jei/blacklist.json"
-hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
-
-[[files]]
-file = "config/jei/client/default/jei-client.ini"
-hash = "cdadcf027b25930a10d7aa888883e78d0e3b1b46fb75b7982022130d9bb75d54"
-
-[[files]]
-file = "config/jei/client/default/jei-colors.ini"
-hash = "c6d4ae48280627d04a7ae2b6d3db65e71d73670a72732f5aed9f4cfaac3837c7"
-
-[[files]]
-file = "config/jei/client/default/jei-debug.ini"
-hash = "376cc883cac002d07792f209f7bc1915ea7fa8822effc67734f1589bab9bb806"
-
-[[files]]
-file = "config/jei/client/default/jei-mod-id-format.ini"
-hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
-
-[[files]]
-file = "config/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "f8ef93d074ac2781b43f45c985e7ccaa22a58a3855e7c54ff6356f4cee412b7e"
-
-[[files]]
-file = "config/jei/client/ingredient-list-type-sort-order.ini"
-hash = "06cb3b2fd0c1cf801786902b3d79fd3193c337592669830dda7f704c738da54b"
-
-[[files]]
-file = "config/jei/client/jei-client.ini"
-hash = "f485892c64f1d4a9f368baabfc96c79cec87293a7f1504f865775bb45e257e5a"
-
-[[files]]
-file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "170a28e1fb78b733013ca959627ef4c20eaeb35ef32e4d6766a395c3e5e973d7"
-
-[[files]]
-file = "config/jei/server/world/default/jei-server.ini"
-hash = "d143422ba3144d592e3627874cec2d980f4ce0e3c776bdbd109919dde3c5f4c2"
-
-[[files]]
-file = "config/jei/world/local/ampere/bookmarks.json"
-hash = "9680352e2dd106ba3a90a9d457bb4c61d3d91e4ce38e8ad9012c4a1f5ed1c8c7"
-
-[[files]]
-file = "config/jei/world/local/ampere/lookupHistory.ini"
-hash = "222df361086e365cefa668f30b91e76bfdd5547294916f753abafcebb0facd78"
-
-[[files]]
-file = "config/jei/world/server/Servidor_de_Minecraft_d50cfe53/lookupHistory.ini"
-hash = "c84bb3ec6ccfc12091f0d4f7bfd20b85f67386565eaad51403e887171d45a7e3"
-
-[[files]]
-file = "config/jei/world/server/TheOptimizer - Servidor Dedicado (127_0_0_1)/lookupHistory.ini"
-hash = "61cd550e9c45540c173c2b00add33bc663f2a3c5c463f6f355832029a0b2a36b"
-
-[[files]]
-file = "config/jei/world/server/§bTheOptimizer§r - Servidor Ampere 1_20_1 (LAN connection)/lookupHistory.ini"
-hash = "aed995e6b8ce1241eb0d47f9c5618334fa95061e53a2a2a63adaa8c8e005612f"
 
 [[files]]
 file = "config/jei_plus_plus-client.toml"
@@ -1193,6 +1209,10 @@ file = "mods/familiarslib-1.20.1-1.9.jar"
 hash = "89fa2032bf531d4e6393ff0b6e28bf1f71a7d3429b048df9e7c901e83602a4ee"
 
 [[files]]
+file = "mods/fancymenu_forge_3.9.14_MC_1.20.1.jar"
+hash = "2d14bc9b0cb32e5e3f2f9661add8a78762f2b29df3fbb6db7412675786e76f16"
+
+[[files]]
 file = "mods/fancytabsections-6.2.3-FORGE-1.20.1.jar"
 hash = "396211ce8befb6acef62cb040c997e8e906d2fad4f1c15cdab11dfe05d8c58ba"
 
@@ -1305,6 +1325,10 @@ file = "mods/kaleidoscopedoll-1.4.2-forge+mc1.20.1.jar"
 hash = "74e3504663d3c1880c0440cedf64326bf0e6105086f02ababb9941c7be54089f"
 
 [[files]]
+file = "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+hash = "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
+
+[[files]]
 file = "mods/kotlinforforge-4.12.0-all.jar"
 hash = "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
 
@@ -1319,6 +1343,10 @@ hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
 [[files]]
 file = "mods/mcwifipnp-1.7.6-1.20.1-forge.jar"
 hash = "6355f4569ec26046c0877f45fbc37a28d57b656999945f3f6491cf0109f23aa0"
+
+[[files]]
+file = "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+hash = "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
 
 [[files]]
 file = "mods/mezz_config-1.20.1-forge-0.6.10.jar"
@@ -1391,3 +1419,23 @@ hash = "2b56007a985b162477113bb2ea1776d9ce2ce602886ea21a88d8b2500d2ded5d"
 [[files]]
 file = "mods/wishfulrecipes-1.20.1-forge-1.3.jar"
 hash = "17fa7477865e6a59151ea1cd162d8fb8f9558c1fae9349e02554f661629d4862"
+
+[[files]]
+file = "resourcepacks/Correcciones-TheOptimizer.zip"
+hash = "a17daf428dbd8a069136726616fe1068021a4f173006597db31584e91a0f67d6"
+
+[[files]]
+file = "resourcepacks/Fluid & Foolish 1.0.1.zip"
+hash = "f8c06622c0d444fbc9737c590de3ccec2cad48c33771027127c3ab497bb68c64"
+
+[[files]]
+file = "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip"
+hash = "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e"
+
+[[files]]
+file = "resourcepacks/Stay_True_1.20.zip"
+hash = "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
+
+[[files]]
+file = "resourcepacks/TheOptimizer_ES_MX.zip"
+hash = "6b26798a20638c0919e1692eac2ac5621acc8252e3af1d8b1d402857967e81fe"
