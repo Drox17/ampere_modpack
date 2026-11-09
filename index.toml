@@ -46,7 +46,7 @@ hash = "d6d7d5becfd20cca48dabcb838021694740bd874fba80a259b05d37bcc720a43"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
+hash = "059ca6dce21222968f145f2a0a1f1f1db4fb75c102a621e1e0afe152732d94b9"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -422,7 +422,7 @@ hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
 
 [[files]]
 file = "config/appleskin-client.toml"
-hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
+hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -502,19 +502,23 @@ hash = "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
 
 [[files]]
 file = "config/cwb.json"
-hash = "59df651d6ab8a40b5bd3311a1a588429148ed13926b5f8e0ea3e5e8b437ff983"
+hash = "f32b4b2393e6c45ef71fcce3486dda23733a49c250ba0c998783e5c222587393"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "75bb1484803b0fb4468843686e97525cb58fb807036780a9efb14b9df56e6a12"
+hash = "6461bc2f63c5e53652c3704631bc4d225d9bcd8450195fcdff6b1906ee80a192"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "0c592ca62e6f0acddb49f88aca1cfc51ceaf46ff5e77bf3c4dddedded6b14755"
+hash = "51191cd21a5e963d15ef9adcf58604b68b35f8af11a9d084882aa195a72838b6"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "0e20de28b4840b27e237d1af40d454a5a70f7eb378b84cfdd67f7b5c5dcaee20"
+hash = "68d756cae56e2a33846c11bf15f7301ec13aab92ebce4532d9dd70e4c249b276"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "1a7d4ee54ca7475e68ca963575739a2465dde47e0cf7c5c549c7d1c5478c4991"
 
 [[files]]
 file = "config/dungeonconfig/dungeonconfig.json5"
@@ -574,7 +578,7 @@ hash = "7e1eed0a882d44b06285c987d40f09bdd6fa63b07c85f09498766da94acbad8d"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "cf4fb6a766a7f08641fe0d6489f63a43bb683ce73aed2b76571ca123a086fac8"
+hash = "94719516d0e7b7481c34e233c54859628034a85c15eabbec5347502f1affacd3"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -590,7 +594,7 @@ hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "64f9b1e4abfed61d8318d4d2e3c5da846f142e596c44a006f6cc5223681a3b1b"
+hash = "fa18fdef4a1713df3716108abef51419a0f3a12af66bea15bbac627d8d66008d"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -678,7 +682,7 @@ hash = "099fdfcfb5fe8c4fe0faabe9fef0e35deef90a8a2a3d84c8cca630348ef3a604"
 
 [[files]]
 file = "config/goblintraders-entities.toml"
-hash = "df3542ca9473d6bb5ad83953c25e8dcffc1f4aa8386d33e47a1ecab51e6cb68c"
+hash = "d936e5b10a82489df45ec06acf1101861357d26ec77f5e2e9b1b3ecbaebe6eb1"
 
 [[files]]
 file = "config/guideme.toml"
@@ -753,6 +757,10 @@ file = "config/jade/sort-order.json"
 hash = "6bc01716ec8dd10ccc04b7af728f63de2ddb194289d01f24ec86b5334a5769d9"
 
 [[files]]
+file = "config/jei_plus_plus-client.toml"
+hash = "634043513878357e5399bbd2009fe12f64f7c10e5d7dd12d1ddd744071be0536"
+
+[[files]]
 file = "config/jeresources-common.toml"
 hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
 
@@ -766,11 +774,11 @@ hash = "02d8c3b503052b75e451ae7b35bd65452b4c8953a5edbe5c2f402c624afe6891"
 
 [[files]]
 file = "config/jmsharedmaps/known/integrated.json"
-hash = "b9a67d3fb5dafe5574c81af46773248e59e5cb48e928d543352d17a19d76a06b"
+hash = "69d70a9f7f6203a9db016d77764c7849eb1f2f8eccc1a411c14842441178a54f"
 
 [[files]]
 file = "config/jmsharedmaps/known/remote_0.0.0..0.json"
-hash = "f876876677a6fac1582546acc404a560da9789b4c09ab2bc3dbadfec99dd2af5"
+hash = "d78b9070f9fb5f02cffa622ca5581905cd45bee74b395d27fca2ac2e0bf2ec07"
 
 [[files]]
 file = "config/jmsharedmaps/known/remote_localhost.json"
@@ -842,11 +850,15 @@ hash = "4e37c085446f2a5be3a3cc4765ffc9657e71473245574c3e398c64fef07615a0"
 
 [[files]]
 file = "config/lootr-common.toml"
-hash = "8608b427ee774c20c04cdcd9044269bacd87d74c28497ca6c784a25286d4200f"
+hash = "c056a537b6cbc9cf4c49f29ec98480537a68932e412f7c5dbd7f0a70bee69ce4"
 
 [[files]]
 file = "config/mezz_config/client/default/settings.ini"
 hash = "1febf6ff1d35f4ffe34d6e5444e3c9496155a6abf3f49eb4ef5650d102645249"
+
+[[files]]
+file = "config/minecraft_title.png"
+hash = "cc59a6712e6d5a48e7a8638e2b066304005321c6681165ba0fbaaff83c63ff3f"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -866,7 +878,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b75948fbca9b2c0d4629200abae8643d246de8fb231f65e55803219fbd96b4e5"
+hash = "8f76244b1bc583e0f7d0167b46de0e8d08cd9588990844b486ce4fe6564c698e"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -898,7 +910,11 @@ hash = "c6daf1caa1da7ec29697ed9e2faecdcc60ef4343d66ffe062510ef775e213d08"
 
 [[files]]
 file = "config/punchy/triggerable-keybindings.json"
-hash = "2a93483940cc15357d12b24b04cd524b7cdd52753a0f9c38cbbbf7d4c8c720d0"
+hash = "26e469428d2122965f26f8d0147c662ef93506d1aeafe41961c01332d6f6a4d4"
+
+[[files]]
+file = "config/punchy_moves/camera.json"
+hash = "ba1ee19bb4f82b2462b6087da65b21482ce26b229b968a53ef0ea4b42b6f3746"
 
 [[files]]
 file = "config/punchy_moves/tutorial_seen_v1"
@@ -922,7 +938,7 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/simpletomb.toml"
-hash = "c2809a007741f37bf27081d73bae74185bc5d91793367e426bd7c5edaf09d238"
+hash = "b9f030191d475dabf6be03749a86c435448f39c752f549ec2c85f7f71df0d160"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
@@ -950,11 +966,11 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_death_xp.json"
-hash = "9b135a5aaf566400715de3b585358940df348e78be5c64fe124e5d169cbd7b21"
+hash = "96b51e615d838f9810873aa93e1b222791328d596ece4022128f733b32fefb70"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "e0975448792c72225453b9befcbec5752e944b25a0227d6ad9737eab7977fa53"
+hash = "c349a297ceee32d03f061771218c67f85ab6ce27f8842e49aec92cc92c47d4b1"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -963,6 +979,10 @@ hash = "bed71e2722d04afd15e03330d1a157a51077e8fdcd064c80ab4a49bed6a49e59"
 [[files]]
 file = "config/titanium/titanium.toml"
 hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
+
+[[files]]
+file = "config/visuality/config.toml"
+hash = "4127fd1edf4e15159bb8365cb8816c5ae0b6108a02d34aa1d964f4e16b7e3275"
 
 [[files]]
 file = "config/visuality/particle_emitters/block_ambient.json"
@@ -995,6 +1015,10 @@ hash = "21bb5d5541f740851d0f7cc5116708a58335acf5e76eb41209568523ff152a56"
 [[files]]
 file = "mods/Bountiful-6.0.4+1.20.1-forge.jar"
 hash = "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765"
+
+[[files]]
+file = "mods/Controlling-forge-1.20.1-12.0.2.jar"
+hash = "cff8c3426a77f9e7412262b6d79e423979eff3831e010b3b1ea9677e1ecd74cd"
 
 [[files]]
 file = "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar"
@@ -1083,6 +1107,10 @@ hash = "103f1d46c16023e346802a9b2024db885cf8dc3a43ee5106bcd5ed8165073efd"
 [[files]]
 file = "mods/Ribbits-1.20.1-Forge-3.0.5.jar"
 hash = "e04aa665df7e96844fe8833f29cc343feefac8ad7b949399d7b4a60475123e2b"
+
+[[files]]
+file = "mods/Searchables-forge-1.20.1-1.0.3.jar"
+hash = "461add180eb595004d3c9f5ac0ce337752e403077f96b38304800eadf01fb825"
 
 [[files]]
 file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
@@ -1195,6 +1223,10 @@ hash = "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
 [[files]]
 file = "mods/cwb-5.0.0+1.20.0.forge.jar"
 hash = "f7646364101881caf7b49bfd992cb1210f1e54b71b48a1b0e6f9a8939091e1e9"
+
+[[files]]
+file = "mods/defaultoptions-forge-1.20.1-18.0.5.jar"
+hash = "12fe19e2bbacda90240dc71773590e055b27977dd1ba217806c06bbb4e3a9975"
 
 [[files]]
 file = "mods/deimos-1.20.1-forge-2.8.jar"

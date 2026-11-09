@@ -13,9 +13,9 @@ invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
-directionalAudio:false
+directionalAudio:true
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -30,11 +30,11 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
-renderDistance:12
+gamma:1.0
+renderDistance:10
 simulationDistance:5
-entityDistanceScaling:0.75
-guiScale:3
+entityDistanceScaling:1.0
+guiScale:2
 particles:1
 maxFps:260
 graphicsMode:1
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","mod/punchy:punchy","Moonlight Mods Dynamic Assets","food_dynamic","file/Stay_True_1.20.zip","file/FreshAnimations_v1.11.2_1.20+.zip","file/Fluid \u0026 Foolish 1.0.1.zip","file/TheOptimizer_ES_MX.zip"]
+resourcePacks:["vanilla","mod_resources","mod/punchy:punchy","Moonlight Mods Dynamic Assets","food_dynamic","file/Fluid \u0026 Foolish 1.0.1.zip","file/Stay_True_1.20.zip","file/FreshAnimations_v1.11.2_1.20+.zip","builtin/add_pack_finders_test","file/TheOptimizer_ES_MX.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:es_mx
@@ -72,10 +72,10 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -84,10 +84,10 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_master:0.512141280353201
+soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.15492957746478872
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

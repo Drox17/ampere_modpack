@@ -1,4 +1,4 @@
 {
-  "punchy_sword_inspect_rework": "key.keyboard.page.up",
-  "punchy_sword_inspect_old": "key.keyboard.page.up"
+  "punchy_sword_inspect_rework": "key.keyboard.page.down",
+  "punchy_sword_inspect_old": "key.keyboard.page.down"
 }
