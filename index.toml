@@ -1395,18 +1395,3 @@ hash = "2b56007a985b162477113bb2ea1776d9ce2ce602886ea21a88d8b2500d2ded5d"
 [[files]]
 file = "mods/wishfulrecipes-1.20.1-forge-1.3.jar"
 hash = "17fa7477865e6a59151ea1cd162d8fb8f9558c1fae9349e02554f661629d4862"
-
-[[files]]
-file = "resourcepacks/.index/fluid-foolish.pw.toml"
-hash = "c07ca53c92538d7372961b5d854807620dce22fb43d4909177197f64b6c12f73"
-metafile = true
-
-[[files]]
-file = "resourcepacks/.index/fresh-animations.pw.toml"
-hash = "228a814e89dbbfed14c368a4d085b53abed75fbd1086ce47dcdaf02f83587ede"
-metafile = true
-
-[[files]]
-file = "resourcepacks/.index/stay-true.pw.toml"
-hash = "e0b255393023197c03fac82b0749411c0ce368cd5e32e065c696253f44f62a57"
-metafile = true
