@@ -5,10 +5,6 @@ file = ".nojekyll"
 hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
-file = "README.md"
-hash = "df96a22f67a3c2e45c3bc954c6c59402868109472303a0fd388e760e8f255b7d"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -1924,23 +1920,3 @@ metafile = true
 file = "resourcepacks/.index/stay-true.pw.toml"
 hash = "e0b255393023197c03fac82b0749411c0ce368cd5e32e065c696253f44f62a57"
 metafile = true
-
-[[files]]
-file = "resourcepacks/Correcciones-TheOptimizer.zip"
-hash = "a17daf428dbd8a069136726616fe1068021a4f173006597db31584e91a0f67d6"
-
-[[files]]
-file = "resourcepacks/Fluid & Foolish 1.0.1.zip"
-hash = "f8c06622c0d444fbc9737c590de3ccec2cad48c33771027127c3ab497bb68c64"
-
-[[files]]
-file = "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip"
-hash = "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e"
-
-[[files]]
-file = "resourcepacks/Stay_True_1.20.zip"
-hash = "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
-
-[[files]]
-file = "resourcepacks/TheOptimizer_ES_MX.zip"
-hash = "6b26798a20638c0919e1692eac2ac5621acc8252e3af1d8b1d402857967e81fe"
