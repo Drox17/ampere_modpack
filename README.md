@@ -20,7 +20,7 @@ No necesitas descargar carpetas pesadas ni pegar archivos `.jar` a mano. El laun
 2. En el menú de la izquierda, selecciona la opción **Importar desde zip** (*Import from zip*).
 3. En el campo de texto, copia y pega este enlace directo:
    ```text
-   https://drox17.github.io/ampere_modpack/ampere_setup.zip
+   https://drox17.github.io/ampere_modpack/Ampere Better Survival.zip
    ```
 4. Haz clic en **OK**.
 5. ¡Listo! Selecciona la instancia creada y haz clic en **Iniciar** (*Launch*). 
@@ -40,28 +40,3 @@ Para evitar cierres inesperados o tirones:
 
 ### 🔄 ¿Cómo se actualiza el modpack?
 **No tienes que hacer nada.** Si el administrador añade, borra o cambia mods o configuraciones, tu launcher detectará los cambios y los descargará automáticamente en segundos antes de abrir el juego.
-
----
-
-## 🛠️ Panel de Mantenimiento (Para Administradores)
-
-Flujo de trabajo para aplicar cambios y mandar parches a los clientes:
-
-### 1. Añadir o quitar mods
-* Coloca o elimina los archivos `.jar` directamente dentro de la carpeta `mods/`.
-* Si modificas configs, hazlo dentro de la carpeta `config/`.
-
-### 2. Sincronizar y publicar cambios
-Abre la terminal en la raíz del repositorio (`AmpereRepo`) y ejecuta:
-
-```bash
-# 1. Regenerar el catálogo de hashes
-packwiz refresh
-
-# 2. Guardar y subir a GitHub Pages
-git add .
-git commit -m "Update: descripción del cambio"
-git push origin main
-```
-
-Los cambios tardarán ~30 segundos en propagarse en GitHub Pages y estarán disponibles para todos los jugadores en su siguiente inicio.
