@@ -1,3 +1,18 @@
+# Archivos de documentación y repositorio
 README.md
 *.zip
 .git*
+.nojekyll
+
+# Registros y volcados locales
+logs/
+crash-reports/
+
+# Archivos de estado y cachés dinámicas que cambian al jugar
+*.log
+config/jei/lookupHistory.ini
+config/jei/*-sort-order.ini
+options.txt
+optionsof.txt
+usercache.json
+usernamecache.json
