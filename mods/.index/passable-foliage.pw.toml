@@ -1,0 +1,25 @@
+filename = 'PassableFoliage-1.20.1-forge-8.2.1.jar'
+name = 'Passable Foliage 🌳 (Neo/Forge)'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-forge-8.2.1'
+
+[download]
+hash = '5c6c739ce9bf34e6b434503190ff4c109986ba19'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4869702
+project-id = 379887
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '303657'
+type = 'REQUIRED'

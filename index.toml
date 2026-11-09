@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".nojekyll"
+hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+
+[[files]]
+file = "README.md"
+hash = "df96a22f67a3c2e45c3bc954c6c59402868109472303a0fd388e760e8f255b7d"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -713,8 +721,12 @@ file = "config/jei/world/local/ampere/lookupHistory.ini"
 hash = "222df361086e365cefa668f30b91e76bfdd5547294916f753abafcebb0facd78"
 
 [[files]]
+file = "config/jei/world/server/Servidor_de_Minecraft_d50cfe53/lookupHistory.ini"
+hash = "c84bb3ec6ccfc12091f0d4f7bfd20b85f67386565eaad51403e887171d45a7e3"
+
+[[files]]
 file = "config/jei/world/server/TheOptimizer - Servidor Dedicado (127_0_0_1)/lookupHistory.ini"
-hash = "360ba5aa546aa195dd362297a3ff10eb40135d8c6cc7a6450adc76d68126576b"
+hash = "61cd550e9c45540c173c2b00add33bc663f2a3c5c463f6f355832029a0b2a36b"
 
 [[files]]
 file = "config/jei/world/server/§bTheOptimizer§r - Servidor Ampere 1_20_1 (LAN connection)/lookupHistory.ini"
@@ -741,8 +753,12 @@ file = "config/jmsharedmaps/known/integrated.json"
 hash = "b9a67d3fb5dafe5574c81af46773248e59e5cb48e928d543352d17a19d76a06b"
 
 [[files]]
+file = "config/jmsharedmaps/known/remote_0.0.0..0.json"
+hash = "f876876677a6fac1582546acc404a560da9789b4c09ab2bc3dbadfec99dd2af5"
+
+[[files]]
 file = "config/jmsharedmaps/known/remote_localhost.json"
-hash = "c99438634a3eeca76c793c66e5a6c5188b07edcc130c8cbbb411d6472602258b"
+hash = "aee10c5be9e197281623c945f0a26d91c8731aac326fb6d22bd1872f593d6655"
 
 [[files]]
 file = "config/kaleidoscope_chinesefood-common.toml"
@@ -818,7 +834,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "38c7c555ee8edfea56ab91839ce7b24cdc59229ea3bf3851bba37c0f9d414a74"
+hash = "4b42473392ce9fff3661fa6b9950e5eee8d5084119b5e1b3298a829c977384e7"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -903,6 +919,14 @@ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 [[files]]
 file = "config/structure_layout_optimizer.jsonc"
 hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
+
+[[files]]
+file = "config/theoptimizer_death_xp.json"
+hash = "96b51e615d838f9810873aa93e1b222791328d596ece4022128f733b32fefb70"
+
+[[files]]
+file = "config/theoptimizer_equipment.json"
+hash = "c349a297ceee32d03f061771218c67f85ab6ce27f8842e49aec92cc92c47d4b1"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -1551,8 +1575,24 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
+file = "mods/TheOptimizer-DeathXP-1.0.0.jar"
+hash = "0c99db25be27a3c1ae8a311109a7d1eb175f4ae810ecb62d90853709f5a9afee"
+
+[[files]]
+file = "mods/TheOptimizer-EquipmentBalance-1.0.0.jar"
+hash = "2bed63690b379cf13935fd9547646d22fd635d040bd33486d2c9d75840b9b90d"
+
+[[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
 hash = "834920b4ee77ff84c5c925f7e5baa34cb2d28da3e0124b51e3c44286fb3491f3"
+
+[[files]]
+file = "mods/TheOptimizer-MiningXP-1.2.0.jar"
+hash = "299a1982cf16756d665a169b578ec01cc6c51ea736c8612538641fdc8aef3c96"
+
+[[files]]
+file = "mods/TheOptimizer-MobBalance-1.0.0.jar"
+hash = "c69adc76832a8edbc6a3d598baeb791ee7248b1251131f17380a70903835aa2e"
 
 [[files]]
 file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"

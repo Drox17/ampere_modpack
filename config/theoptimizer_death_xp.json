@@ -1,0 +1,8 @@
+{
+  "retention_rate": 0.75,
+  "mode": "DROP_AT_DEATH",
+  "orbs_fire_immune": true,
+  "orbs_lifespan_minutes": 30,
+  "protect_from_void": true,
+  "min_safe_y": -60
+}
