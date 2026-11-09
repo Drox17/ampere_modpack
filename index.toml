@@ -570,11 +570,11 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/changelog_ampere_layout.txt"
-hash = "7e1eed0a882d44b06285c987d40f09bdd6fa63b07c85f09498766da94acbad8d"
+hash = "40137fe4579fd7dde7bba4e7291520a84e4586115b650594adc46bb4fa558582"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "94719516d0e7b7481c34e233c54859628034a85c15eabbec5347502f1affacd3"
+hash = "0f824702d6cf19a9618a4b15a966f452a10d4c5ce22b630ef880c49369515083"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -630,7 +630,7 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "76cb15f822e51ca967f488bd47544f5d8d279e6ff195390ec34fe914f1538369"
+hash = "0b606fe0211da6bd4f56200037487d4907d5e5bb74bf5fa56895835e14a8c2b2"
 
 [[files]]
 file = "config/fastpaintings-common.toml"

@@ -352,12 +352,12 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1080
   auto_sizing_base_gui_scale = 3.0
-  sticky_anchor = false
+  sticky_anchor = true
   anchor_point = mid-centered
-  x = -292
-  y = -147
-  width = 582
-  height = 294
+  x = 0
+  y = 0
+  width = 540
+  height = 280
   stay_on_screen = true
   element_loading_requirement_container_identifier = 6ff3db07-1a64-4704-99b4-5aea58027f8a-1794202511413
   [loading_requirement_container_meta:6ff3db07-1a64-4704-99b4-5aea58027f8a-1794202511413] = [groups:][instances:]
@@ -382,7 +382,7 @@ element {
   disappearance_delay_seconds = 1.0
   fade_in_speed = 1.0
   fade_out_speed = 1.0
-  base_opacity = 0.8
+  base_opacity = 0.85
   parallax_intensity_x = 0.5
   parallax_intensity_y = 0.5
   rotation_degrees = 0.0
@@ -394,10 +394,10 @@ element {
   color = #3C3C3CFF
   blur_enabled = false
   blur_radius = 3.0
-  corner_radius_top_left = 0.0
-  corner_radius_top_right = 0.0
-  corner_radius_bottom_right = 0.0
-  corner_radius_bottom_left = 0.0
+  corner_radius_top_left = 4.0
+  corner_radius_top_right = 4.0
+  corner_radius_bottom_right = 4.0
+  corner_radius_bottom_left = 4.0
 }
 
 element {
@@ -431,16 +431,16 @@ element {
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
   fade_out = no_fading
-  auto_sizing = false
+  auto_sizing = true
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1080
   auto_sizing_base_gui_scale = 3.0
-  sticky_anchor = false
+  sticky_anchor = true
   anchor_point = mid-centered
-  x = -291
-  y = -147
-  width = 582
-  height = 294
+  x = 0
+  y = 0
+  width = 516
+  height = 256
   stay_on_screen = true
   element_loading_requirement_container_identifier = 532acfba-940f-459d-987f-942d211c6665-1794202629483
   [loading_requirement_container_meta:532acfba-940f-459d-987f-942d211c6665-1794202629483] = [groups:][instances:]

@@ -9,7 +9,10 @@ echo.
 
 cd /d "%~dp0"
 
-echo [1/4] Normalizando archivos de texto a formato Unix (LF)...
+echo [1/4] Generando version de changelog y normalizando a Unix (LF)...
+if exist changelog.md (
+    powershell -NoProfile -Command "$h = (Get-FileHash -Algorithm MD5 changelog.md).Hash.Substring(0,8); [IO.File]::WriteAllText('version.txt', \"$h`n\", (New-Object Text.UTF8Encoding($false)))"
+)
 git add --renormalize . >nul 2>&1
 
 echo [2/4] Actualizando catálogo y hashes de Packwiz...
