@@ -477,14 +477,6 @@ file = "config/chunkloaders-common.toml"
 hash = "eb62dfa3c0b52eb240bcc7a5b50ffbf4d0ff7bdae2fe94fec5f44ab0feeff9c2"
 
 [[files]]
-file = "config/chunky/config.json"
-hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
-
-[[files]]
-file = "config/chunky/tasks/minecraft/overworld.properties"
-hash = "6fcc983dff40a2492dc614604f063b3553c11f3db838d92526b8e9138be8c8ff"
-
-[[files]]
 file = "config/citadel-common.toml"
 hash = "0a41518641bbb4133fc61b934e8663ae5271ffd8190a281e5b35d1efd97fb3e3"
 
@@ -515,10 +507,6 @@ hash = "1943f00bf46143328aefa8faaf8ee673ded6f21443e615823b178b05ef0c801b"
 [[files]]
 file = "config/defaultoptions/options.txt"
 hash = "2586d4c310ad0946468fd2ee6d04accafb1ef1b390a3817d407d71b1b9b90255"
-
-[[files]]
-file = "config/dungeonconfig/dungeonconfig.json5"
-hash = "5df33a55d688eb2dea2e918cd698ccbbd84fc9993bb9f74849bac5482e7c1595"
 
 [[files]]
 file = "config/dynamiccrosshair.json5"
@@ -837,10 +825,6 @@ file = "config/letmedespawn/letmedespawn.json5"
 hash = "5bcd23cb2383983e6e86f35935bae8a088d8efa91633511437c401105c075123"
 
 [[files]]
-file = "config/lithostitched.json"
-hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
-
-[[files]]
 file = "config/lootr-client.toml"
 hash = "01d75dd7be8fbe04ec4e19bdf36fd1f5cd40daa74bd366b6533cb8e65a62dec5"
 
@@ -891,10 +875,6 @@ hash = "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
 [[files]]
 file = "config/polymorph-integrations.toml"
 hash = "47c2b8a65ca08ee0a73400bf6b8ccc0a831b4c220fa95097eff6216456fc511a"
-
-[[files]]
-file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
@@ -975,26 +955,6 @@ hash = "4d28fd2a1b94291b168b3a1bc295869205ba1008b812452952ee18d57b2ec5d3"
 [[files]]
 file = "config/titanium/titanium.toml"
 hash = "cc5ac1d08117b2d79287b4089b941e7b157836446e6f82cc30560d8f6fe927bf"
-
-[[files]]
-file = "config/visuality/config.toml"
-hash = "c3896d3971b99a6b36bb1ba94e82dca634566f250147df25a52f8987876a1a5e"
-
-[[files]]
-file = "config/visuality/particle_emitters/block_ambient.json"
-hash = "0ea27289f3adbd1af8101605e84887cbe040564ef4371c2b4aa0466019ff5b3c"
-
-[[files]]
-file = "config/visuality/particle_emitters/block_step.json"
-hash = "54d4448f6c45ba1ad311f6c35b55b9b800ad4ae664f075707e05cd798b6eab7b"
-
-[[files]]
-file = "config/visuality/particle_emitters/entity_armor.json"
-hash = "4fea5a33cd09a91423bf58e9404ded2edd4ba3faff2d41543c5366adab92a73a"
-
-[[files]]
-file = "config/visuality/particle_emitters/entity_hit.json"
-hash = "db1fe2d772c0ed136c2d1da0c315bc50ba9760032a60253be6f37ce1d7e38ead"
 
 [[files]]
 file = "config/wishfulrecipes.json"
@@ -1137,6 +1097,10 @@ file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
 hash = "fc6ad3184c928b11d422a370504385bf0f79b82e24f5d9e13303ed7a3d8eac15"
 
 [[files]]
+file = "mods/TheOptimizer-WildlifeRepopulation-1.3.0.jar"
+hash = "767ad31aa0d90834ff3b6dedb543a981eac9ed1e961ab1fe945a6ea0fecb7c9e"
+
+[[files]]
 file = "mods/YungsApi-1.20-Forge-4.0.6.jar"
 hash = "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
 
@@ -1161,8 +1125,16 @@ file = "mods/alltheleaks-1.1.4+1.20.1-forge.jar"
 hash = "2109c1c96c196c56bb76cbe7dd9ff85eec5db6822f057b34ce59dd3a67b7f1a6"
 
 [[files]]
+file = "mods/almanac-forge-1.20.1-1.26.11.1.jar"
+hash = "b230b2a50d14314a6c2df25d925e0caa8fc6e322cebf20a6de420b67db3686ed"
+
+[[files]]
 file = "mods/alshanex_familiars-1.20.1_v4.1.0.jar"
 hash = "31cf4c2543fe40172bd15cf4884fb7c4d49ce4be7aa9c17b481f0cbe5cb246ed"
+
+[[files]]
+file = "mods/alternate_current-mc1.20-1.7.0.jar"
+hash = "577587a9b6028340f0b5da4b9bdaee3fdbb1a8a1bdfe1a4a41fa12143c37e1e0"
 
 [[files]]
 file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
@@ -1227,10 +1199,6 @@ hash = "12fe19e2bbacda90240dc71773590e055b27977dd1ba217806c06bbb4e3a9975"
 [[files]]
 file = "mods/deimos-1.20.1-forge-2.8.jar"
 hash = "4a111d4a05e26c7ce58eff1ef2ebd50db9b7191a673e92e9e84bf356802f6706"
-
-[[files]]
-file = "mods/dont-punch-my-tacz-v0.5.2-1.20.1-forge.jar"
-hash = "c6a70b5e705f28ce673b227ba534855411d3d1233661f3f0c010e882341f2f11"
 
 [[files]]
 file = "mods/dynamiccrosshair-9.10+1.20.1-forge.jar"
@@ -1381,6 +1349,10 @@ file = "mods/laserio-1.6.8.jar"
 hash = "f07fc6cb7f2aa28197e87ffc3a35062390259ad803d8996b08b13473c0af6790"
 
 [[files]]
+file = "mods/letmedespawn-forge-1.20.1-1.26.11.1.jar"
+hash = "1ebb0dab42f0e4d22650c5819ffea6484d3c5421464444a6e3d774a52d0c6824"
+
+[[files]]
 file = "mods/lootr-forge-1.20-0.7.35.94.jar"
 hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
 
@@ -1433,6 +1405,10 @@ file = "mods/punchy-moves-1.0.7-forge-1.20.1.jar"
 hash = "c0eaf2e121d3b519cfcd2387af7d9b0a43161ecfd9ef936c23b4568d81a16477"
 
 [[files]]
+file = "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+hash = "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
+
+[[files]]
 file = "mods/simpletomb-1.20.1-1.3.0.jar"
 hash = "74d82cffa45187c206bff260a992a13b9f48cce9ba4d6ba50a397c950ac28ea3"
 
@@ -1443,6 +1419,10 @@ hash = "591fa317c4e462039dae01967bf370acb284d5118cf5839a33f1d01b6c0def3c"
 [[files]]
 file = "mods/spark-1.10.53-forge.jar"
 hash = "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed"
+
+[[files]]
+file = "mods/structure_layout_optimizer-forge-1.0.11.jar"
+hash = "90d9a1440835f56d8b8518b8548853d6d27ac2e705c8601492d88f959fbe1b10"
 
 [[files]]
 file = "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
