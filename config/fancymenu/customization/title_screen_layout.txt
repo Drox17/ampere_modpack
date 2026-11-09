@@ -507,7 +507,7 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 33b9518e-acbe-4ea5-b0da-098861d6d103-1794203897546
   [loading_requirement_container_meta:33b9518e-acbe-4ea5-b0da-098861d6d103-1794203897546] = [groups:][instances:dfc0d254-0c6f-4c28-b7f6-d64d5fdf8462-1794204464786;7b8e9102-1234-4567-89ab-cdef01234567-1794204464787;]
-  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:dfc0d254-0c6f-4c28-b7f6-d64d5fdf8462-1794204464786] = ["mode":"equals","text":"$$ampere_v$$","compare_with":"{"placeholder":"webtext","values":{"link":"https://raw.githubusercontent.com/Drox17/ampere_modpack/main/version.txt"}}"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:dfc0d254-0c6f-4c28-b7f6-d64d5fdf8462-1794204464786] = ["mode":"equals","text":"{"placeholder":"getvariable","values":{"name":"ampere_v"}}","compare_with":"{"placeholder":"webtext","values":{"link":"https://raw.githubusercontent.com/Drox17/ampere_modpack/main/version.txt"}}"]$
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:7b8e9102-1234-4567-89ab-cdef01234567-1794204464787] = ["mode":"equals","text":"{"placeholder":"webtext","values":{"link":"https://raw.githubusercontent.com/Drox17/ampere_modpack/main/version.txt"}}","compare_with":""]$
   enable_parallax = false
   invert_parallax = false
