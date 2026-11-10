@@ -946,7 +946,7 @@ hash = "321504e886852100b6638817fdc42940166e248381fd58a930d321fc6a2b9853"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "6326886fde1eaddc45eeea1997103a16709ce75bcfb1d482a42b91b51eef3312"
+hash = "88e1d338ccd31c74d63d56661657f648b0dc70d2afc04ac5d93d9cb30e9123d1"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
