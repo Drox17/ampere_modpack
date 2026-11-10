@@ -77,20 +77,23 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
     §7+ Caparazon de Nautilus ➔ §3Tridente de la Marea (Propulsion III)§r.
 
 -----------------------------------
-§6§l[3] PODA DE ENCANTAMIENTOS Y NUEVO BOTIN
+§6§l[3] PODA DE ENCANTAMIENTOS, MESA DECORATIVA Y NUEVO BOTIN
 -----------------------------------
-§7- §cFin de la Ruleta:§r Retiradas de mesas y aldeanos todas las protecciones, filos planos, fortuna, toque de seda y caida de pluma (ahora son atributos reales de los materiales).
-§7- §aPermanecen en el juego regular:§r Irrompibilidad (Unbreaking) y Botin (Looting).
-§7- §eEficiencia I en Botin:§r Se obtiene exclusivamente en cofres de minas, mazmorras y templos. Combina varios libros en el yunque para forjar hasta Eficiencia V.
+§7- §cMesa de Encantamientos Inerte:§r La mesa queda desactivada y convertida en un bloque puramente decorativo.
+§7- §cFin de Mending (Reparacion):§r Deshabilitado por completo; no se obtiene, no se comercia, no se crea ni absorbe orbes de XP.
+§7- §aIrrompibilidad I y Botin I en Botin:§r Aparecen exclusivamente a Nivel 1 en cofres de dungeons, templos y minas. Requieren combinarse artesanalmente en el yunque.
+§7- §eEficiencia I en Botin:§r Se obtiene exclusivamente en cofres de minas, mazmorras y templos a nivel 1. Combina varios libros en el yunque para forjar hasta Eficiencia V.
 §7- §6Duendes Comerciantes (Goblin Traders):§r
   §8* En el Overworld ofrecen canas con §bSuerte Marina y Senuelo§r por esmeraldas y pesca.
   §8* En el Nether ofrecen la §dPlantilla de Mejora de Netherita§r por §b16 diamantes + 16 esmeraldas§r.
 
 -----------------------------------
-§6§l[4] EL NUEVO YUNQUE (SIN COSTE DE XP)
+§6§l[4] EL NUEVO YUNQUE Y ALTERNATIVAS SIN XP
 -----------------------------------
-§7- §a0 Niveles de Experiencia:§r Reparar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP (TheOptimizer-MiningXP).
+§7- §a0 Niveles de Experiencia:§r Reparar, combinar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP en yunques vanilla ni en el panel de yunque remoto de ExtendedAE.
 §7- §eSin Limite:§r Eliminado el mensaje de §c"Demasiado Caro"§r; forja y cuida tu equipo libremente.
+§7- §6Revivir Corceles (Icy's Better Horses):§r Despertar a un caballo vinculado ofrenda §e1 Manzana Dorada§r en lugar de niveles de XP.
+§7- §dMesa de Transmutacion (Alex's Mobs):§r La transmutacion de items consume §b1 Fragmento de Amatista§r como catalizador resonante en lugar de niveles de XP.
 
 -----------------------------------
 §6§l[5] OPTIMIZACION DE DESCARGAS (MODRINTH CDN)

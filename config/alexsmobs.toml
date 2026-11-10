@@ -120,7 +120,7 @@
 	transmutingTableExplodes = true
 	#The experience, in levels, that each transmutation of a stack takes in the transmuting table.
 	#Range: 0 ~ 100000
-	transmutingExperienceCost = 3
+	transmutingExperienceCost = 0
 	#The step value multiplied by the log of the stack size when transmuting an item, used to determine its weight for appearing in future transmutation possibilities. Higher number = more likely to appear.
 	#Range: 1.0 ~ 10000.0
 	transmutingWeightAddStep = 3.0

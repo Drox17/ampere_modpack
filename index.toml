@@ -46,7 +46,7 @@ hash = "d6d7d5becfd20cca48dabcb838021694740bd874fba80a259b05d37bcc720a43"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "6a89bf7a79332874ef54932bf0268a06eef9842db2cb7828884e68306d76f1f8"
+hash = "a4116c26f003472cb9d934322df305ef96cd1d2445eb73136e8272263dce7e46"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -674,7 +674,7 @@ hash = "82bcfdf8624ec94cf4cfe30b1def3a0f3d562561b31a0ccef7468657f48e0987"
 
 [[files]]
 file = "config/icys-better-horses.json"
-hash = "e86b2595c2ecda9697acc26e42bc55111ba5df5e1c2e741b412514dd1091b83a"
+hash = "c8e82fd09d66e2ee67e403e4d8cd87132475362973ddcbd0dbadb4cf8da425bd"
 
 [[files]]
 file = "config/immersive_eating.toml"
@@ -962,15 +962,15 @@ hash = "0c99db25be27a3c1ae8a311109a7d1eb175f4ae810ecb62d90853709f5a9afee"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.0.0.jar"
-hash = "7756c8595a2e6e29e12765eedadd463da6b9acc7e6a9d38bf2214af71826d9bf"
+hash = "6125d657fe887136e2de0b9c3a7b7b1b6c061c98404f4f27c31139fc2213cc7f"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
 hash = "834920b4ee77ff84c5c925f7e5baa34cb2d28da3e0124b51e3c44286fb3491f3"
 
 [[files]]
-file = "mods/TheOptimizer-MiningXP-1.2.0.jar"
-hash = "59c823a9d2c293964c7b5ae18be7f07b064aafe8ab85b44150aec6c4fe5ab28c"
+file = "mods/TheOptimizer-MiningXP-1.3.0.jar"
+hash = "f664cd6803ad942204b9c961b81bcf60ab6dccd49c4b9efeb43dd68321eed440"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.0.0.jar"
