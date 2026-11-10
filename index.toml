@@ -962,7 +962,7 @@ hash = "0c99db25be27a3c1ae8a311109a7d1eb175f4ae810ecb62d90853709f5a9afee"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.0.0.jar"
-hash = "6125d657fe887136e2de0b9c3a7b7b1b6c061c98404f4f27c31139fc2213cc7f"
+hash = "882d96bfd4ea0f80f6c267a3d35bdb5fde0aec12c3e45f2549b44018c0a2a96c"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
@@ -973,8 +973,8 @@ file = "mods/TheOptimizer-MiningXP-1.3.0.jar"
 hash = "f664cd6803ad942204b9c961b81bcf60ab6dccd49c4b9efeb43dd68321eed440"
 
 [[files]]
-file = "mods/TheOptimizer-MobBalance-1.0.0.jar"
-hash = "c69adc76832a8edbc6a3d598baeb791ee7248b1251131f17380a70903835aa2e"
+file = "mods/TheOptimizer-MobBalance-1.1.0.jar"
+hash = "e492a783e869e20bab68e82fa8e8ebdd96e00b7d55ef34ea2b9caedac8bb65d1"
 
 [[files]]
 file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
@@ -1560,4 +1560,4 @@ hash = "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
 
 [[files]]
 file = "resourcepacks/TheOptimizer_ES_MX.zip"
-hash = "6b26798a20638c0919e1692eac2ac5621acc8252e3af1d8b1d402857967e81fe"
+hash = "599fd97fccc7d34977d910fbe204a3e867a363fabac20ee25005f9304621eb08"

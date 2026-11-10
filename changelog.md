@@ -100,3 +100,14 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 -----------------------------------
 §7- §aDescargas Ultra-Rapidas:§r 102 mods redirigidos directamente a la red CDN abierta de Modrinth (sin bloqueos ni restricciones de CurseForge).
 §7- §bRepositorio Ultraligero:§r El tamano del repositorio se reduce de 456 MB a solo 41 MB, optimizando el despliegue y la sincronizacion.
+
+-----------------------------------
+§6§l[6] REBALANCE TACTICO DE CRIATURAS Y FORTUNA DE CAZADOR
+-----------------------------------
+§7- §fEsqueletos y Strays (12 HP / 6 Corazones):§r Huesos fragiles y quebradizos; caen de 2 golpes limpios o 1 impacto pesado de hacha, premiando esquivar flechas y cerrar distancia.
+§7- §8Aranas (14 HP / 7 Corazones):§r Combates agiles y directos sin esponjas de dano.
+§7- §bPhantoms (10 HP / 5 Corazones):§r Derribables de 1 impacto limpio y certero con arco en pleno vuelo.
+§7- §5Brujas (20 HP / 10 Corazones):§r Dinamiza el combate compensando sus continuas pociones de regeneracion y curacion.
+§7- §aAnillo de Placa de Esmeralda (Iron's Spells):§r
+  §8* §eNueva Receta:§r 1 Esmeralda + 1 Fragmento de Mitrilo (completamente desvinculado de frascos de XP).
+  §8* §aFortuna de Cazador:§r Otorga §a+1 Nivel de Saqueo (Looting)§r acumulable por anillo en ranura Curios, aumentando cantidad y probabilidad de botin raro al derrotar criaturas.
