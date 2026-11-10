@@ -685,26 +685,6 @@ file = "config/immersiveui.yaml"
 hash = "534f2120968484ac5a3a13aa0cb16eedf8c938bcf8476b657074a6e6ddd75328"
 
 [[files]]
-file = "config/industrialforegoing/machine-agriculture-husbandry.toml"
-hash = "7f8eb0e9c68a475087c24a8fe3a579084b6ff3ba643c06ebf10406ed40f00b8b"
-
-[[files]]
-file = "config/industrialforegoing/machine-core.toml"
-hash = "1d86ddbef29c3e194c322d8bad5b15b23fe8b8742757e565c5087fcc670470ee"
-
-[[files]]
-file = "config/industrialforegoing/machine-generator.toml"
-hash = "83c18c8ed025ad0f5c65f7bab1e2864b5c0f8b7a0077277c533b8771f74ebf3b"
-
-[[files]]
-file = "config/industrialforegoing/machine-misc.toml"
-hash = "adeec75ef2a7ca9f71a67466c9642d5e4a3e220b30fbc7b6d5775d4edef1f1dc"
-
-[[files]]
-file = "config/industrialforegoing/machine-resource-production.toml"
-hash = "760def84aadbd76f306b3a7f14d073624cbe5381f177a749dab5497fef531429"
-
-[[files]]
 file = "config/inventoryessentials-common.toml"
 hash = "81fb018bb31ca9c8262d75870094b38162dedb0f620104f5ed50184552a3cfd4"
 
@@ -1037,6 +1017,10 @@ file = "mods/Kiwi-1.20.1-Forge-11.10.3.jar"
 hash = "803753d53e22124713e66c01559eb0a502e0ccba996ce7e89a9169e48a2660e2"
 
 [[files]]
+file = "mods/L_Enders_Cataclysm-3.31.jar"
+hash = "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+
+[[files]]
 file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
 hash = "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
 
@@ -1078,7 +1062,7 @@ hash = "0c99db25be27a3c1ae8a311109a7d1eb175f4ae810ecb62d90853709f5a9afee"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.0.0.jar"
-hash = "148a8b64873c8669638100f16c4d5f1810efaddd46d62f734711d1aaeb8e865d"
+hash = "34aadbc70fb5a304792ab607e106448da7638e05bd6b6aab772edb9ac4273675"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
@@ -1086,7 +1070,7 @@ hash = "834920b4ee77ff84c5c925f7e5baa34cb2d28da3e0124b51e3c44286fb3491f3"
 
 [[files]]
 file = "mods/TheOptimizer-MiningXP-1.2.0.jar"
-hash = "299a1982cf16756d665a169b578ec01cc6c51ea736c8612538641fdc8aef3c96"
+hash = "59c823a9d2c293964c7b5ae18be7f07b064aafe8ab85b44150aec6c4fe5ab28c"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.0.0.jar"
@@ -1179,6 +1163,14 @@ hash = "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
 [[files]]
 file = "mods/comforts-forge-6.4.0+1.20.1.jar"
 hash = "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+
+[[files]]
+file = "mods/create-1.20.1-6.0.8.jar"
+hash = "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+
+[[files]]
+file = "mods/createaddition-1.20.1-1.3.3.jar"
+hash = "9bf3ae15d86ec95d128542caf10e4b5498e49ca02f725b9302d6daecd5eae1db"
 
 [[files]]
 file = "mods/croaks-1.9.6-forge-1.20.1.jar"
@@ -1277,10 +1269,6 @@ file = "mods/icys-better-horses-2.1.8-forge-1.20.1.jar"
 hash = "eb7bdbf9b9c053f26a5ecf5086a4aca27818ce82ee3f350e4ffced02a611ed4f"
 
 [[files]]
-file = "mods/industrial-foregoing-1.20.1-3.5.22.jar"
-hash = "11b022c5a505fb145bf30fb876532247917696f7fb2f61d1c23e7b2b0cad3985"
-
-[[files]]
 file = "mods/inventoryessentials-forge-1.20.1-8.2.19.jar"
 hash = "4c2a49fd97405ce8c665660155f15b57a3de72bee00f3c93eb054280b658d804"
 
@@ -1351,6 +1339,10 @@ hash = "f07fc6cb7f2aa28197e87ffc3a35062390259ad803d8996b08b13473c0af6790"
 [[files]]
 file = "mods/letmedespawn-forge-1.20.1-1.26.11.1.jar"
 hash = "1ebb0dab42f0e4d22650c5819ffea6484d3c5421464444a6e3d774a52d0c6824"
+
+[[files]]
+file = "mods/lionfishapi-3.0.jar"
+hash = "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
 
 [[files]]
 file = "mods/lootr-forge-1.20-0.7.35.94.jar"
