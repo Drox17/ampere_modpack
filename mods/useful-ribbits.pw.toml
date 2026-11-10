@@ -1,0 +1,13 @@
+name = "Useful Ribbits"
+filename = "useful_ribbits-1.0.2-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m9NSDrCy/versions/Mact0OtA/useful_ribbits-1.0.2-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "d62de9c798b0bd876147b7b907ac9dd3c32f354912c610e7cc7ceef609bc5d21504a3e47afd577261c10848b1f009555aa2f4243d5a9ce9f21130404ddfef02f"
+
+[update]
+[update.modrinth]
+mod-id = "m9NSDrCy"
+version = "Mact0OtA"

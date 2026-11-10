@@ -1,0 +1,13 @@
+name = "Almanac"
+filename = "almanac-forge-1.20.1-1.26.11.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gi02250Z/versions/7h7oaMZz/almanac-forge-1.20.1-1.26.11.1.jar"
+hash-format = "sha512"
+hash = "a70f604edfecbc04de7fc993f2a2921677456b2cdac537b39a0845e189c36e56098bde68669652aa3ead5e4544fe09c0367d0b9f0ae29dbfda69147004f56879"
+
+[update]
+[update.modrinth]
+mod-id = "Gi02250Z"
+version = "7h7oaMZz"

@@ -1,0 +1,13 @@
+name = "Guard Ribbits"
+filename = "GuardRibbits-1.20.1-Forge-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t7UhdlGh/versions/Lru2gIBE/GuardRibbits-1.20.1-Forge-1.0.4.jar"
+hash-format = "sha512"
+hash = "1f17df4e43e473ca79bb66e9f7249a5f3523acd502c964dd550d9326ab895d4f3478e72eec918b012c09af5947a3583707a5da7548e41533dfbb110c9de71350"
+
+[update]
+[update.modrinth]
+mod-id = "t7UhdlGh"
+version = "Lru2gIBE"

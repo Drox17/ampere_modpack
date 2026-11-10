@@ -84,3 +84,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 -----------------------------------
 §7- §a0 Niveles de Experiencia:§r Reparar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP (TheOptimizer-MiningXP).
 §7- §eSin Limite:§r Eliminado el mensaje de §c"Demasiado Caro"§r; forja y cuida tu equipo libremente.
+
+-----------------------------------
+§6§l[5] OPTIMIZACION DE DESCARGAS (MODRINTH CDN)
+-----------------------------------
+§7- §aDescargas Ultra-Rapidas:§r 102 mods redirigidos directamente a la red CDN abierta de Modrinth (sin bloqueos ni restricciones de CurseForge).
+§7- §bRepositorio Ultraligero:§r El tamano del repositorio se reduce de 456 MB a solo 41 MB, optimizando el despliegue y la sincronizacion.

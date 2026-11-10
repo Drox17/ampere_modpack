@@ -1,0 +1,13 @@
+name = "Icy's Better Horses"
+filename = "icys-better-horses-2.1.8-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XlUm5I57/versions/bF0UKYak/icys-better-horses-2.1.8-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "f6cca45eceac8de57be62f79880e6875d9ab629b1e02b3c13d61ada21ec6bc47aaa468ffb467ca4c7146d805b80aefb9b5794656be341cf313c729875fd26cb7"
+
+[update]
+[update.modrinth]
+mod-id = "XlUm5I57"
+version = "bF0UKYak"

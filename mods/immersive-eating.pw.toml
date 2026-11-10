@@ -1,0 +1,13 @@
+name = "Kaleidoscope: Immersive Eating"
+filename = "kaleidoscope_immersiveEating-forge1.20.1-1.5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SI33d5HH/versions/xYnncba8/kaleidoscope_immersiveEating-forge1.20.1-1.5.2.jar"
+hash-format = "sha512"
+hash = "ff257bf65f0e97abbbb64d080ee64e3111b6a227fb80807e5f718ba92b4df844b054f1d384f2feb31fa487896c2543df02579feb309d9efb42d843cb679515c2"
+
+[update]
+[update.modrinth]
+mod-id = "SI33d5HH"
+version = "xYnncba8"

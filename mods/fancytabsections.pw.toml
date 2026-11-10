@@ -1,0 +1,13 @@
+name = "Fancy Tab Sections"
+filename = "fancytabsections-6.2.3-FORGE-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/K0NYarUG/versions/DRorIVcZ/fancytabsections-6.2.3-FORGE-1.20.1.jar"
+hash-format = "sha512"
+hash = "1b977dca7b405dbaf198d622e097dfb6061e67348e316028d82f21ed92ecd814a4550a6f9f6674fca784079175268936c65f426215e26af14411f68b1dd61890"
+
+[update]
+[update.modrinth]
+mod-id = "K0NYarUG"
+version = "DRorIVcZ"

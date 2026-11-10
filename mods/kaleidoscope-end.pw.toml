@@ -1,0 +1,13 @@
+name = "Kaleidoscope End"
+filename = "kaleidoscope_end-1.0.14-forge+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8GKUHBM6/versions/YS2tfy6v/kaleidoscope_end-1.0.14-forge%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "1fd1042dfed9319dc862fa7e840fff9024989adb821614ec2972e54ab885598c825c48af738050d25c10a8b407e7ca33c7ec0d4307468d82274dfb8abc27313d"
+
+[update]
+[update.modrinth]
+mod-id = "8GKUHBM6"
+version = "YS2tfy6v"

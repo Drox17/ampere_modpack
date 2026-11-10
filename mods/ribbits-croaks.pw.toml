@@ -1,0 +1,13 @@
+name = "Ribbits: Croaks"
+filename = "croaks-1.9.6-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VtNWzBdM/versions/NcoR8TJs/croaks-1.9.6-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "5e0266f276d6e13491bea82e755cb4d1602a2278ed22326bc37e15b930727a2f0ef1b7592c1d8ee8840be00d698a63513df0ed3c5292162dbefbc484976a0a42"
+
+[update]
+[update.modrinth]
+mod-id = "VtNWzBdM"
+version = "NcoR8TJs"

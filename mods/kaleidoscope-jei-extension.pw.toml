@@ -1,0 +1,13 @@
+name = "Kaleidoscope  Jei Extension"
+filename = "kaleidoscope_extension-1.0.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mNKl9uIp/versions/S2elcFOu/kaleidoscope_extension-1.0.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "84022dd1716fc568d4189fdea3b71d4bfdad135ba82c90ac4fb1d8ae0aae4d8bb5f8b855294cd71d418b8978f005e0f3b9e750b5845a0be9bf2e1c7d46cd2482"
+
+[update]
+[update.modrinth]
+mod-id = "mNKl9uIp"
+version = "S2elcFOu"

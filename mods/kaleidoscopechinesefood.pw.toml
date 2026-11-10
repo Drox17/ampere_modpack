@@ -1,0 +1,13 @@
+name = "KaleidoscopeChineseFood"
+filename = "kaleidoscope_chinesefood-1.1.16-1.20.1-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cuIIkdlx/versions/NQtt6JoY/kaleidoscope_chinesefood-1.1.16-1.20.1-all.jar"
+hash-format = "sha512"
+hash = "48c55c920549bc0c57e1b83e123f39146b7bc3122a997066f2b4a1201bfb405a6fccaab5b8b78a8ac7ead268511cef40d2043224191b50f2e785f0372d2c08bc"
+
+[update]
+[update.modrinth]
+mod-id = "cuIIkdlx"
+version = "NQtt6JoY"
