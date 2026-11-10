@@ -1062,7 +1062,7 @@ hash = "0c99db25be27a3c1ae8a311109a7d1eb175f4ae810ecb62d90853709f5a9afee"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.0.0.jar"
-hash = "5affc97944e3c367e01451b16f4dcbe0193a34825860667403ceb444aa297e4b"
+hash = "5d94f9a26b1c741ed797e9aa8fc9d7893b1626d77b414b987199ea8c4cabdd01"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
@@ -1167,6 +1167,10 @@ hash = "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
 [[files]]
 file = "mods/create-1.20.1-6.0.8.jar"
 hash = "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+
+[[files]]
+file = "mods/create_repair-forge-1.20.1-1.3.0-all.jar"
+hash = "473dcf4d7fe88b796a9abc056e510f90d01becad94a62f25dbdec0502de144d7"
 
 [[files]]
 file = "mods/createaddition-1.20.1-1.3.3.jar"

@@ -2,65 +2,85 @@
 §e§l  NOVEDADES Y MEJORAS DE AVENTURA
 §6§l===================================§r
 
-Bienvenido a la nueva actualizacion. Hemos redisenado el juego para que §eexplorar mazmorras, picar en las minas y salir de aventura§r sea mucho mas satisfactorio, eliminando mecanicas tediosas y castigos innecesarios.
+Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la ruleta del azar de la mesa de encantamientos y dotar a cada material, arma y armadura de un rol tactico unico, fisico e innato.
 
 -----------------------------------
-§6§l[1] SUPERPODERES DE MATERIALES
+§6§l[1] ROLES Y SUPERPODERES DE ARMADURAS
 -----------------------------------
-Ahora cada material tiene una identidad unica y un proposito real.
+§f§l> CUERO §7- §oAgilidad, Sigilo y Distancia§r
+§7- §aBotas Innatas:§r §eCaida de Pluma IV§r y paso fluido sobre hojas.
+§7- §aGrebas Innatas:§r §eSigilo Veloz III§r (correr agachado en silencio).
+§7- §bBono Set Completo (4 piezas):§r
+  §8* §b+30% Velocidad de flechas§r (+dano con arco).
+  §8* §eCarga Rapida II y Perforacion I§r automaticas con ballesta.
+  §8* §f-35% Dano de caida§r y §a0 hambre por impacto§r.
 
-§f§l> HIERRO §7- §oEl Caballo de Batalla§r
-§7- §aReparacion Definitiva:§r En el yunque, §e1 solo lingote§r repara el §a100%§r de cualquier pieza o herramienta de hierro.
+§7§l> COTA DE MALLA §7- §oMalla Balistica Anti-Proyectiles§r
+§7- §bBono Set Completo (4 piezas):§r
+  §8* §b-30% Dano de proyectiles continuo§r (flechas y asaltantes).
+  §8* §a0 Desgaste cinetico de comida§r.
+
+§f§l> HIERRO §7- §oEscuadron Anti-Hordas del Overworld§r
+§7- §aEspada de Hierro:§r §bFilo Arrasador III innato§r (100% dano de barrido AoE).
+§7- §aArmas y Hachas:§r +0.5 alcance y §bGuardia (+1 Armadura)§r al empunar.
+§7- §aReparacion Definitiva:§r En el yunque, §e1 lingote§r repara el §a100%§r.
 §7- §bBono Set Completo (4 piezas):§r
   §8* §f+30% Resistencia al empuje§r ante golpes y explosiones.
-  §8* §f-20% Dano recibido§r de flechas y tridentes.
+  §8* §b-20% Dano de proyectiles§r y §6-25% dano de explosiones§r (Anti-Creeper).
+  §8* §a0 Desgaste cinetico de comida§r (ideal para hordas).
 
-§e§l> ORO §7- §oMagia, Tesoros y Nether§r
-§7- §aGran Durabilidad:§r Herramientas con §e550 usos§r (mas del doble que el hierro).
-§7- §aPico Mejorado:§r Ahora extrae §bdiamantes§r, §eoro§r, §credstone§r y §aesmeraldas§r.
+§e§l> ORO §7- §oHoja Sagrada y Conductor Aureo§r
+§7- §aEspadas y Hachas:§r §eCastigo V (Smite V) innato§r (+dano letal a no-muertos).
+§7- §aGran Durabilidad:§r Herramientas con §e550 usos§r; armaduras con multiplicador x24.
+§7- §aMineria Aurea:§r Nivel de hierro (extrae diamantes, oro, redstone y esmeraldas).
 §7- §bBono Set Completo (4 piezas):§r
-  §8* §aSuerte I permanente§r para abrir cofres de mazmorras y templos.
-  §8* §d-25% Dano Magico§r frente a pociones y hechizos.
-§7- §6Diplomacia:§r Los Piglins no te atacaran en el Nether.
+  §8* §aSuerte I permanente§r (mejores cofres de mazmorras y pesca).
+  §8* §d-25% Dano Magico§r frente a pociones y brujas.
+  §8* §6Pacificacion Universal:§r Los Piglins respetan tu presencia.
 
-§b§l> DIAMANTE §7- §oResistencia Inquebrantable§r
-§7- §aEncantamientos Epicos:§r Gran consistencia en tiradas legendarias a nivel 30.
+§b§l> DIAMANTE §7- §oBastion Fisico y Precision del Overworld§r
+§7- §aHerramientas de Recoleccion:§r §3Toque de Seda innato§r y mineria 2.0x en Deepslate y Obsidiana.
+§7- §aArmas Quirurgicas:§r +1.0 bloque de alcance de combate.
 §7- §bBono Set Completo (4 piezas):§r
-  §8* §9-15% Dano Fisico§r cuerpo a cuerpo y contra Creepers.
+  §8* §9-15% Dano Fisico continuo§r ante golpes cuerpo a cuerpo contra colosos.
+  §8* §6Blindaje de Elite:§r Absorbe golpes letales masivos (Toughness 8.0).
 
-§8§l> NETHERITA §7- §oEl Traje Abisal§r
-§7- §cInmunidad al Fuego y Lava:§r Con el set completo, no recibes dano y el fuego se apaga al instante.
-§7- §6Piglins Pacificos:§r Cualquier pieza equipada calma a los Piglins.
-§7- §fSuper Resistencia al Empuje§r contra impactos masivos.
+§8§l> NETHERITA (RECALIBRADA) §7- §oChasis del Inframundo§r
+§7- §cSupervivencia Termica:§r Con el set completo, §c-35% dano de fuego y lava§r (deja el trono de lava a Ignitium de Cataclysm).
+§7- §aHerramientas Ancestrales:§r §6Fortuna III innata§r y mineria 2.0x en Escombros Ancestrales.
+§7- §bBotas Abisales:§r §bVelocidad de Almas II innata§r.
+§7- §6Pacificacion Piglin§r y blindaje base de titanio (Toughness 12.0).
 
-§7§l> VELOCIDAD UNIFICADA§r
-§7- Herramientas con velocidad de minado fluida y consistente en sus bloques correspondientes.
+§2§l> CASCO DE TORTUGA §7- §oEscafandra Biologica§r
+§7- §bRespiracion III§r y §bAfinidad Aquatica I§r innatas bajo el agua.
 
------------------------------------
-§6§l[2] EL NUEVO YUNQUE (SIN COSTE DE XP)
------------------------------------
-§7- §a0 Niveles de Experiencia:§r Reparar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP.
-§7- §eSin Limite:§r Eliminado el mensaje de §c"Demasiado Caro"§r; cuida y repara tu equipo cuantas veces quieras.
-
------------------------------------
-§6§l[3] CRIATURAS Y COMBATE EQUILIBRADO
------------------------------------
-§7- §cNigromantes Mas Justos:§r
-  §8* Aparecen con mucha menor frecuencia en la superficie.
-  §8* Invocan un §emaximo de 2 esqueletos§r a la vez.
-§7- §aCocodrilos en su Habitat:§r
-  §8* Eliminados de cuevas profundas. Solo en pantanos, rios y costas.
-§7- §fCalaveras de Esqueleto Wither:§r
-  §8* Probabilidad aumentada del 2.5% a §a15% base§r (hasta §a30% con Botin III§r).
+§6§l> PIEZAS BIOLOGICAS (ALEX'S MOBS)§r
+§7- §bBotas de Pez Volador:§r §bAgilidad Aquatica III innata§r y propulsion al emerger.
+§7- §ePeto Rocoso:§r §eEspinas III pasivas§r sin consumir durabilidad adicional.
 
 -----------------------------------
-§6§l[4] MAZMORRAS Y MAGIA DE AVENTURA
+§6§l[2] ARMAS ESPECIALIZADAS Y TRIDENTES
 -----------------------------------
-§7- §bCofres del Mundo Mejorados:§r Generan pergaminos magicos, tintas arcanas, diamantes y plantillas de herreria.
-§7- §dTorres de Magos:§r Mayor presencia de runas elementales y tintas de alta calidad.
-§7- §aReciclaje al 100%:§r La mesa de desencanto devuelve todos los materiales.
+§7- §fMadera Ligera:§r §aPesadilla de los Artropodos V innata§r, +0.35 vel. de ataque y +7% vel. movimiento.
+§7- §8Piedra Rustica:§r §fEmpuje I innato§r, +0.5 empuje al golpear y +25% resist. empuje.
+§7- §3Tridente de las Profundidades:§r
+  §8* §bLealtad III y Empalamiento V innatos§r de serie (se lanza y regresa siempre).
+  §8* §eForja sin azar en Yunque:§r
+    §7+ Corazon del Mar ➔ §bTridente de la Tempestad (Conductividad I)§r.
+    §7+ Caparazon de Nautilus ➔ §3Tridente de la Marea (Propulsion III)§r.
 
 -----------------------------------
-§6§l[5] FAMILIARES MAGICOS
+§6§l[3] PODA DE ENCANTAMIENTOS Y NUEVO BOTIN
 -----------------------------------
-§7- Corregido el aprendizaje y casteo continuo de su repertorio completo de hechizos sin bloqueos.
+§7- §cFin de la Ruleta:§r Retiradas de mesas y aldeanos todas las protecciones, filos planos, fortuna, toque de seda y caida de pluma (ahora son atributos reales de los materiales).
+§7- §aPermanecen en el juego regular:§r Irrompibilidad (Unbreaking) y Botin (Looting).
+§7- §eEficiencia I en Botin:§r Se obtiene exclusivamente en cofres de minas, mazmorras y templos. Combina varios libros en el yunque para forjar hasta Eficiencia V.
+§7- §6Duendes Comerciantes (Goblin Traders):§r
+  §8* En el Overworld ofrecen canas con §bSuerte Marina y Senuelo§r por esmeraldas y pesca.
+  §8* En el Nether ofrecen la §dPlantilla de Mejora de Netherita§r por §b16 diamantes + 16 esmeraldas§r.
+
+-----------------------------------
+§6§l[4] EL NUEVO YUNQUE (SIN COSTE DE XP)
+-----------------------------------
+§7- §a0 Niveles de Experiencia:§r Reparar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP (TheOptimizer-MiningXP).
+§7- §eSin Limite:§r Eliminado el mensaje de §c"Demasiado Caro"§r; forja y cuida tu equipo libremente.
