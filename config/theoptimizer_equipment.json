@@ -9,6 +9,7 @@
   "iron_repair_fraction": 1.0,
   "basic_enchantability": 8,
   "sprint_independent_of_hunger": true,
+  "hide_experience_bar": true,
   "constant_healing": true,
   "constant_heal_interval_ticks": 40,
   "constant_heal_exhaustion": 2.0,
