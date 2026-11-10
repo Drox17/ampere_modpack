@@ -1,7 +1,7 @@
 {
   "unified_harvest_speed": 6.0,
-  "gold_tools_durability": 550,
-  "gold_armor_multiplier": 24,
+  "gold_tools_durability": 250,
+  "gold_armor_multiplier": 15,
   "gold_is_iron_tier": true,
   "netherite_pacifies_piglins": true,
   "enable_mineral_set_bonuses": true,
