@@ -7,5 +7,12 @@
   "enable_mineral_set_bonuses": true,
   "enable_tool_attributes": true,
   "iron_repair_fraction": 1.0,
-  "basic_enchantability": 8
+  "basic_enchantability": 8,
+  "sprint_independent_of_hunger": true,
+  "constant_healing": true,
+  "constant_heal_interval_ticks": 40,
+  "constant_heal_exhaustion": 2.0,
+  "kinetic_impact_exhaustion": true,
+  "netherite_impact_base_exhaustion": 0.4,
+  "diamond_impact_base_exhaustion": 0.4
 }
