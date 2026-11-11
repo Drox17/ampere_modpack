@@ -6,7 +6,7 @@
 ## 1. Filosofía del pack (no negociable)
 
 Modpack privado Forge 1.20.1 pensado como **RPG de equipo y exploración**, no como sandbox
-vanilla con mods. Si una propuesta contradice estos diez puntos, está mal.
+vanilla con mods. Si una propuesta contradice estos trece puntos, está mal.
 
 | # | Principio | Qué implica | Qué **no** implica |
 |---|---|---|---|
@@ -17,7 +17,7 @@ vanilla con mods. Si una propuesta contradice estos diez puntos, está mal.
 | P5 | **Encantamientos eliminados del juego** | Solo **Irrompibilidad I, Botín I y Eficiencia I** aparecen en cofres de mina/mazmorra/templo y se combinan en yunque | Que existan libros de otros encantamientos |
 | P6 | **Velocidad de minado unificada a hierro (6.0)** | Ninguna herramienta es más rápida por tier; la diferencia es el rol | Que el diamante mine más rápido |
 | P7 | **Ninguna pieza opaca a otra** | Cada material debe ser la mejor opción en al menos una actividad | Que todas sirvan para todo |
-| P8 | **Spawns adulterados a propósito** | Reparto 75/25 vanilla-mods, cap de criaturas 36, nigromante 18→2, cocodrilos bajo tierra | Que sea "spawn vanilla" |
+| P8 | **Spawns adulterados a propósito** | Reparto 55/45 vanilla-mods, cap de criaturas 16 (config `creature_spawn_cap`), nigromante 18→2, fauna vanilla con respawn cíclico | Que sea "spawn vanilla" |
 | P9 | **Yunque reworkeado** | 0 niveles de XP, sin "demasiado caro", reparación por familia (100 % baratos / 25 % caros), forja de tridentes | Que sea el yunque vanilla |
 | P10 | **Iron's Spellbooks looteable** | Las tintas y materiales mágicos entran por cofres (datapack `TheOptimizer_AdventureLoot`), porque en vanilla una granja de mobs es más eficiente | Que se hayan añadido recetas nuevas para tintas |
 | P11 | **Se buscan sugerencias** | Cualquier mecánica propuesta se evalúa contra P1-P10 y, si encaja, se implementa | Que la filosofía esté cerrada: el diseño está abierto a ideas |
@@ -40,12 +40,12 @@ Reglas derivadas que ya han causado errores:
 
 ## 2. Mods del pack (lo que existe y lo que no)
 
-126 entradas (103 metafiles Modrinth + 23 jars locales) · servidor con 93 jars · Forge 47.4.28.
+363 entradas (103 metafiles Modrinth + 20 jars locales) · servidor con 90 jars · Forge 47.4.28.
 **Si un mod no aparece aquí, no está en el pack: no lo propongas.**
 
 | Dominio | Mods |
 |---|---|
-| Equipo y balance | `TheOptimizer-EquipmentBalance`, `TheOptimizer-MobBalance`, `TheOptimizer-WildlifeRepopulation`, `TheOptimizer-MiningXP`, `TheOptimizer-DeathXP` |
+| Equipo y balance | `TheOptimizer-EquipmentBalance`, `TheOptimizer-MobBalance`, `TheOptimizer-WildlifeRepopulation` |
 | Magia | `irons_spellbooks`, `irons_lib`, `alexs_caves_spellbooks`, `alshanex_familiars`, `familiarslib` |
 | Combate/jefes | `L_Enders_Cataclysm`, `alexsmobs`, `alexscaves`, `citadel`, `lionfishapi` |
 | Spawns y fauna | (TheOptimizer) + `alexsmobs` config, `letmedespawn` |
@@ -59,6 +59,7 @@ Reglas derivadas que ya han causado errores:
 **No están** (no los asumas): Apotheosis, Tinkers, Spore, Botania, Mekanism, Sophisticated
 Backpacks, Ars Nouveau, Tetra (solo el addon de barras de Iron's), Create: Crafts & Additions
 sí está, Create: Diesel Generators no.
+También fuera: `TheOptimizer-MiningXP` y `TheOptimizer-DeathXP` (retirados: la XP no tiene función, P3).
 
 ## 3. Estado implementado (IDs estables)
 
