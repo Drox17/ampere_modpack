@@ -168,3 +168,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Sin coste de niveles:§r el yunque elimina de raíz el coste de experiencia, la penalización acumulativa y el bloqueo "Demasiado caro". Solo se consumen minerales, herramientas o libros.
 §7- §8Terminal remota:§r el panel de yunque de la Terminal de Crafteo de ExtendedAE aplica exactamente la misma política de 0 XP y 0 fluido.
 §7- §8Retirado TheOptimizer MiningXP:§r su lógica de yunque vive ahora en EquipmentBalance, así que el mod de experiencia minera deja de existir en el pack. Mientras se completa la retirada de la XP, los orbes vuelven al comportamiento base del juego (sin filtro por fuente).
+-----------------------------------
+§6§l[15] LA EXPERIENCIA SALE DEL MUNDO (v1.8.0)
+-----------------------------------
+§7- §cSin orbes:§r ningún orbe de experiencia entra al mundo. Minar, matar, criar o cocinar ya no generan objetos de XP: la experiencia deja de existir como cosa física.
+§7- §8Nada depende de ella:§r el yunque no cobra niveles, la mesa de encantamientos es decorativa y Mending no existe. Los aldeanos conservan su experiencia interna para comerciar (no pasa por orbes).
+§7- §aEfecto secundario buscado:§r menos entidades en el suelo y menos cálculo de recogida: el servidor respira y el suelo de las granjas deja de llenarse de orbes.
