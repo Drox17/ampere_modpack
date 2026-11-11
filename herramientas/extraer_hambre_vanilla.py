@@ -85,15 +85,20 @@ def extraer() -> list[dict]:
     return filas
 
 
+def _escribir(ruta: Path, contenido: str) -> None:
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    with open(ruta, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(contenido)
+
+
 def main() -> None:
     filas = extraer()
     DATOS.mkdir(parents=True, exist_ok=True)
-    (DATOS / "hambre_vanilla.json").write_text(
+    _escribir(DATOS / "hambre_vanilla.json", 
         json.dumps({"version": "1.20.1", "fuente": "bytecode SRG", "llamadas": filas},
                    ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
     )
-    (DOCS / "HAMBRE_VANILLA_EXTRACCION.md").write_text(
+    _escribir(DOCS / "HAMBRE_VANILLA_EXTRACCION.md", 
         "\n".join([
             "# Fuentes vanilla de agotamiento (1.20.1)",
             "",
@@ -105,7 +110,6 @@ def main() -> None:
             *[f"| {f['clase']} | {f['metodo'][:60]} | {f['via']} | {'-' if f['valor'] is None else f['valor']} |" for f in filas],
             "",
         ]) + "\n",
-        encoding="utf-8",
     )
     print(f"llamadas extraidas: {len(filas)}")
 
