@@ -43,5 +43,6 @@
   "stone_gather_bonus": 0.15,
   "stone_stun_ticks": 8,
   "diamond_crit_chance": 0.1,
-  "diamond_crit_multiplier": 1.5
+  "diamond_crit_multiplier": 1.5,
+  "leaves_free_durability": true
 }

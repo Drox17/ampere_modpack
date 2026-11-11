@@ -191,3 +191,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §7Hacha y espada de piedra:§r §f+0.5 empuje§r y §faturdimiento 0.4 s§r (Lentitud I) al impactar.
 §7- §bEspada y hacha de diamante:§r §f10 % de crítico ×1.5§r además de su alcance.
 §7- §8Sin cambios:§r oro (suerte y piglins), diamante herramienta (intacto + ×2 pizarra), netherita (botín y ×2 escombros).
+-----------------------------------
+§6§l[18] HOJAS SIN DESGASTE (v1.11.0)
+-----------------------------------
+§7- §2Hojas gratis:§r romper hojas no gasta durabilidad de la herramienta. Limpiar un bosque deja de ser un castigo para el pico o el hacha.
+§7- §8Encaja con la madera:§r su identidad es recolección (+25 % en madera, hojas y cultivos) sin tocar movimiento ni armadura.
+§7- §8Configurable:§r leaves_free_durability en theoptimizer_equipment.json.
