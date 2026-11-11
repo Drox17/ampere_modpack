@@ -66,12 +66,12 @@ sí está, Create: Diesel Generators no.
 
 | ID | Set | Rol | Coste |
 |---|---|---|---|
-| S1 | Cuero | Explorador: caída −5/12/20/35 % | sin defensa extra |
+| S1 | Cuero | Explorador: caída −7/15/25/40 % | sin defensa extra |
 | S2 | Cota de malla | Escaramuzador: proyectiles −5/10/18/30 %, velocidad +2/4/7/10 % | sin ayuda vs explosiones |
-| S3 | Hierro | Infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 % | — |
+| S3 | Hierro | Infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 %, dureza +0.5/pieza | — |
 | S4 | Oro | Arcano: magia −4/8/15/25 %, +1 Suerte, piglins | — |
-| S5 | Diamante | Élite: golpes ≥8 −6/12/19/25 % | **+10 % daño <8**, agotamiento, rep. 25 % |
-| S6 | Netherita | Nether: fuego −5/12/20/35 %, wither −10/20/35/50 %, golpes ≥8 −4/8/13/18 % | **+5 % daño <8**, agotamiento, rep. 25 % |
+| S5 | Diamante | Élite: golpes ≥8 −6/12/19/25 % | **+5 % daño <8**, agotamiento, rep. 25 % |
+| S6 | Netherita | Nether: fuego −5/12/20/35 %, wither −10/20/35/50 %, golpes ≥8 −4/8/13/18 % | **+10 % daño <8**, agotamiento, rep. 25 % |
 | S7 | Tortuga | Escafandra: respiración + minar bajo el agua | — |
 
 **Linaje netherita (L)** — todo lo forjado sobre `minecraft:netherite_*` hereda S6:
@@ -79,7 +79,7 @@ sí está, Create: Diesel Generators no.
 
 **Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %; `bard_*` fuera) · `R2` anti-mago (oro, S4).
 
-**Herramientas/armas (T)**: rediseño hecho en 1.10.0/1.11.0. Madera: +25 % en madera/hojas/cultivos y hojas sin desgaste · Piedra: +15 % en cantera/menas y aturdimiento 0.4 s (solo armas) · Hierro: alcance +0.5 (sin guardia) · Diamante: alcance +1.0 y 10 % crítico ×1.5 · Oro: suerte y piglins. Detalle y números en `docs/BALANCE.md`.
+**Herramientas/armas (T)**: rediseño hecho en 1.10.0/1.11.0. Madera: +25 % en madera/hojas/cultivos y hojas sin desgaste · Piedra: +15 % en cantera/menas y aturdimiento 0.4 s (solo armas) · Hierro: alcance +0.5 (sin guardia) · Diamante: alcance +1.0 y 15 % crítico ×1.5 · Oro: Castigo III (+7.5 vs no-muertos), suerte y piglins. Detalle y números en `docs/BALANCE.md`.
 
 ## 4. Invariantes (si falla una, es bug)
 

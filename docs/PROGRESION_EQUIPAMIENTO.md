@@ -134,3 +134,20 @@
   `diamond_crit_multiplier`, `unified_harvest_speed`.
 - Tras tocar el módulo: `python -m gestion.herramientas.reparaciones.balance_equipamiento.instalar` y
   `... .probar`, luego `verificar_estado.ps1` (15 comprobaciones).
+## 7. Decisiones aplicadas (1.15.0)
+
+| Hallazgo | Decisión | Valor final |
+|---|---|---|
+| H1 oro aplasta el tier | **Nerfeado** | Castigo V → **III** (+7.5 contra no-muertos); `gold_smite_level = 3` |
+| H2 tooltip de oro | **Corregido** | Muestra "+7.5 daño" calculado desde la config |
+| H3 empuje doble de piedra | **Corregido** | Tooltip "+1.0 empuje" (real: Knockback I + 0.5 de atributo) |
+| H4 netherita domina al diamante | **Invertido** | Diamante −5 % / netherita −10 % en golpes <8; diamante **crítico 15 % ×1.5** |
+| H5 armadura pesada sin coste de movilidad | **Rechazado el cambio** | No se penaliza el movimiento (parkour intacto); el coste es el **agotamiento** (daño convertido en hambre) y la reparación al 25 % |
+| H6 oro armadura = hierro + extras | **Rechazado el nerf** | El oro no se toca; el hierro gana **dureza +0.5/pieza** (2.0 con set, frente a 8 del diamante) |
+| H7 "rompe-escudos" sin código | **Línea borrada** | Queda "Lentitud II al impactar" |
+| H8 cuero solo en botas | **Aplicado** | Caída 7/15/25/40 % (antes 5/12/20/35) |
+
+Nota de diseño aceptada: las armaduras de diamante y netherita son **de jefe**, no de horda; su
+ineficiencia contra hordas viene del agotamiento, no de frenar al jugador. La cota de malla conserva
+su identidad de escaramuzador (velocidad sin coste de hambre) y el hierro la de infantería (dureza + resistencias).
+

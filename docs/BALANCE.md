@@ -9,7 +9,7 @@
 
 | Set | Eje | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
-| Cuero | caída | 5 % | 12 % | 20 % | 35 % |
+| Cuero | caída | 7 % | 15 % | 25 % | 40 % |
 | Malla | proyectiles | 5 % | 10 % | 18 % | 30 % |
 | Malla | velocidad | +2 % | +4 % | +7 % | +10 % |
 | Hierro | empuje | 5 % | 10 % | 18 % | 30 % |
@@ -21,7 +21,7 @@
 | Netherita | golpes ≥8 | 4 % | 8 % | 13 % | 18 % |
 
 Umbral de "golpe fuerte": `HEAVY_HIT_THRESHOLD = 8.0`.
-Debilidad de sets pesados: diamante +10 % y netherita +5 % de daño recibido por golpes <8
+Debilidad de sets pesados: diamante +5 % y netherita +10 % de daño recibido por golpes <8
 (escalado por pieza: `/4`).
 
 ### 1.2 Costes por eje
@@ -29,7 +29,8 @@ Debilidad de sets pesados: diamante +10 % y netherita +5 % de daño recibido por
 | Coste | Dónde | Valor |
 |---|---|---|
 | Agotamiento por golpe pesado | diamante / netherita | base 0.5 / 0.6 + 3 % del daño × piezas |
-| Daño recibido de golpes débiles | diamante / netherita | +10 % / +5 % a 4 piezas |
+| Daño recibido de golpes débiles | diamante / netherita | +5 % / +10 % a 4 piezas |
+| Dureza de armadura | hierro / diamante / netherita | 0.5 / 2.0 / 3.0 por pieza |
 | Daño cuerpo a cuerpo | túnicas (rol mago) | −5 % por pieza, máx −20 % |
 | Reparación | baratos / caros | 100 % / 25 % por unidad |
 
@@ -69,7 +70,7 @@ no tienen daño cuerpo a cuerpo (explosión, bola de fuego, proyectil).
 Quitar de herramientas la velocidad de movimiento y de armas la guardia de armadura; dar
 identidad de recolección (madera +25 % madera/hojas/cultivos; piedra +15 % piedra y menas;
 hierro alcance; oro suerte; diamante toque de seda + ×2 pizarra/obsidiana; netherita botín +
-×2 escombros) y de combate (piedra aturdimiento 0.4 s; diamante +10 % crítico; hierro barrido
+×2 escombros) y de combate (piedra aturdimiento 0.4 s; diamante 15 % crítico; hierro barrido
 100 % + alcance; oro no-muertos ×2.5; netherita lentitud/rompe escudos + 15 % vs armadura).
 **Aceptación**: ninguna herramienta altera movimiento ni armadura; cada tier tiene una línea
 propia en el tooltip.
