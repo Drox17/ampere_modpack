@@ -144,3 +144,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §aArcos, ballestas, cañas y escudos:§r se reparan al §f100 %§r en el yunque con su material (cuerda, cuerda, cuerda y tablones). Antes el arco y la ballesta no tenían reparación posible y con Mending fuera quedaban inservibles al gastarse.
 §7- §aTijeras:§r se reparan al §f100 %§r con un lingote de hierro.
 §7- §8Tridente y elytra quedan fuera§r a propósito: son objetos fuertes y necesitan un tradeoff propio antes de entrar en la economía de reparación.
+-----------------------------------
+§6§l[11] TRIDENTE DE AGUA, MUERTE CON DESGASTE Y LIMPIEZA (v1.4.0)
+-----------------------------------
+§7- §3Tridente de las Profundidades:§r ahora es un §farmamento de agua§r. En agua o lluvia pega §f+15 %§r; en seco pega §f-15 %§r. Sigue volviendo sola y con sus mejoras de yunque, pero en tierra pierde contra una espada.
+§7- §cMuerte con desgaste:§r al morir, cada pieza equipada pierde un §f10 %§r de su durabilidad máxima. Nunca se rompe por morir: la durabilidad se queda en 1 antes de llegar a cero.
+§7- §8Retirados del pack:§r §7Goblin Traders§r (sin encantamientos su comercio no aportaba) y §7TheOptimizer DeathXP§r (la XP deja de existir como moneda).

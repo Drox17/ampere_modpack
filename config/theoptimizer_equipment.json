@@ -25,5 +25,8 @@
   "diamond_repair_fraction": 0.25,
   "netherite_repair_fraction": 0.25,
   "mage_weapon_damage_penalty": 0.05,
-  "simple_repair_fraction": 1.0
+  "simple_repair_fraction": 1.0,
+  "death_durability_loss": 0.1,
+  "trident_wet_bonus": 0.15,
+  "trident_dry_penalty": 0.15
 }
