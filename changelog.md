@@ -1,333 +1,186 @@
 §6§l===================================
-§e§l  NOVEDADES Y MEJORAS DE AVENTURA
+§e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-
-Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la ruleta del azar de la mesa de encantamientos y dotar a cada material, arma y armadura de un rol tactico unico, fisico e innato.
-
------------------------------------
-§6§l[1] ROLES Y SUPERPODERES DE ARMADURAS
------------------------------------
-§e§l> SISTEMA DE ESCALADO EXPONENCIAL (COMBINACIONES LIBRES)§r
-§7Ahora cada pieza individual otorga una porcion real de sus atributos pasivos, alcanzando su cuspide al completar el set:
-§8  * 1 Pieza equipada: §f~15% de efecto
-§8  * 2 Piezas equipadas: §f~33% de efecto
-§8  * 3 Piezas equipadas: §f~60% de efecto
-§8  * 4 Piezas equipadas (Set Completo): §a100% de efecto + Superpoder unico§r.
-§7¡Permite construcciones hibridas viables! (Ej: Casco de Tortuga + 3 de Hierro, o Botas de Cuero + Cota de Malla).
-
-§f§l> CUERO §7- §oAgilidad, Sigilo y Distancia§r
-§7- §aBotas Innatas:§r §eCaida de Pluma IV§r y paso fluido sobre hojas.
-§7- §aGrebas Innatas:§r §eSigilo Veloz III§r (correr agachado en silencio).
-§7- §cEscalado de Caida:§r 1 pc: §f-5%§r | 2 pcs: §f-12%§r | 3 pcs: §f-20%§r | 4 pcs: §f-35%§r.
-§7- §bSuperpoder Set Completo (4 piezas):§r
-  §8* §b+30% Velocidad de flechas§r (+dano con arco).
-  §8* §eCarga Rapida II y Perforacion I§r automaticas con ballesta.
-
-§7§l> COTA DE MALLA §7- §oMalla Balistica y Agilidad de Escaramuzador§r
-§7- §aParidad de Blindaje:§r §f15 Puntos de Armadura (7.5 escudos)§r y §e825 durabilidad§r (paridad total con hierro).
-§7- §cEscalado Balistico y Movilidad (2 stats):§r
-  §8* §bProyectiles:§r 1 pc: §f-5%§r | 2 pcs: §f-10%§r | 3 pcs: §f-18%§r | 4 pcs: §f-30%§r.
-  §8* §fVelocidad de movimiento:§r 1 pc: §f+2%§r | 2 pcs: §f+4%§r | 3 pcs: §f+7%§r | 4 pcs: §f+10%§r.
-
-§f§l> HIERRO §7- §oEscuadron Anti-Hordas del Overworld§r
-§7- §aEspada de Hierro:§r §bFilo Arrasador III innato§r (100% dano de barrido AoE).
-§7- §aArmas y Hachas:§r +0.5 alcance y §bGuardia (+1 Armadura)§r al empunar.
-§7- §aReparacion Definitiva:§r En el yunque, §e1 lingote§r repara el §a100%§r.
-§7- §cEscalado Anti-Hordas y Asedio (2 stats):§r
-  §8* §fResistencia al empuje:§r 1 pc: §f+5%§r | 2 pcs: §f+10%§r | 3 pcs: §f+18%§r | 4 pcs: §f+30%§r.
-  §8* §6Explosiones:§r 1 pc: §f-4%§r | 2 pcs: §f-8%§r | 3 pcs: §f-15%§r | 4 pcs: §f-25%§r.
-
-§e§l> ORO §7- §oHoja Sagrada y Conductor Aureo del Inframundo§r
-§7- §aParidad de Blindaje:§r §f15 Puntos de Armadura (7.5 escudos)§r y §e825 durabilidad§r (paridad total con hierro).
-§7- §aHerramientas Aureas:§r §e250 usos§r (paridad con hierro) y nivel de extraccion de hierro.
-§7- §aEspadas y Hachas:§r §eCastigo V (Smite V) innato§r (+dano letal a no-muertos).
-§7- §cEscalado Arcano:§r 1 pc: §f-4%§r | 2 pcs: §f-8%§r | 3 pcs: §f-15%§r | 4 pcs: §f-25% magia/pociones§r.
-§7- §bSuperpoder Set Completo (4 piezas):§r §a+1 Suerte pasiva permanente§r.
-§7- §6Pacificacion Universal:§r Cada pieza de oro pacifica la hostilidad Piglin.
-
-§b§l> DIAMANTE §7- §oBastion Fisico y Precision del Overworld§r
-§7- §aHerramientas de Recoleccion:§r §3Toque de Seda innato§r y mineria 2.0x en Deepslate y Obsidiana.
-§7- §aArmas Quirurgicas:§r +1.0 bloque de alcance de combate.
-§7- §cEscalado Anti-Colosos:§r 1 pc: §f-6%§r | 2 pcs: §f-12%§r | 3 pcs: §f-19%§r | 4 pcs: §f-25% dano fisico directo con golpes de 8 o mas§r.
-§7- §6Blindaje de Elite:§r Absorbe golpes letales masivos (Toughness 8.0).
-
-§8§l> NETHERITA Y EVOLUCIONES DE CATACLYSM §7- §oChasis del Inframundo§r
-§7- §cHerencia Termica Ancestral:§r Ignitium y Monstrous Helm de Cataclysm heredan e integran plenamente la proteccion termica de Netherita.
-§7- §cEscalado Termico:§r 1 pc: §f-5%§r | 2 pcs: §f-12%§r | 3 pcs: §f-20%§r | 4+ pcs: §f-35% fuego y lava§r.
-§7- §aHerramientas Ancestrales:§r §6Fortuna III innata§r y mineria 2.0x en Escombros Ancestrales.
-§7- §bBotas Abisales:§r §bVelocidad de Almas II innata§r.
-§7- §6Pacificacion Piglin§r y blindaje base de titanio (Toughness 12.0 a 16.0).
-
-§2§l> CASCO DE TORTUGA §7- §oEscafandra Biologica§r
-§7- §bRespiracion III§r y §bAfinidad Aquatica I§r innatas bajo el agua.
-
-§6§l> PIEZAS BIOLOGICAS (ALEX'S MOBS)§r
-§7- §bBotas de Pez Volador:§r §bAgilidad Aquatica III innata§r y propulsion al emerger.
-§7- §ePeto Rocoso:§r §eEspinas III pasivas§r sin consumir durabilidad adicional.
+§7Pack §f1.23.2§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §a16/16§r.
+§7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[2] ARMAS ESPECIALIZADAS Y TRIDENTES
+§6§l[GUIA] CÓMO LEERLO
 -----------------------------------
-§7- §fMadera Ligera:§r §aPesadilla de los Artropodos V innata§r, +0.35 vel. de ataque y +7% vel. movimiento.
-§7- §8Piedra Rustica:§r §fEmpuje I innato§r, +0.5 empuje al golpear y +25% resist. empuje.
-§7- §3Tridente de las Profundidades:§r
-  §8* §bLealtad III y Empalamiento V innatos§r de serie (se lanza y regresa siempre).
-  §8* §eForja sin azar en Yunque:§r
-    §7+ Corazon del Mar ➔ §bTridente de la Tempestad (Conductividad I)§r.
-    §7+ Caparazon de Nautilus ➔ §3Tridente de la Marea (Propulsion III)§r.
+§7Cada bloque tiene dos columnas de texto: §8vanilla§r y §aAmpere§r. Si algo no aparece aquí, no está en el pack.
+§7Los números salen del código (invariante C6): no hay prosa con cifras inventadas.
 
 -----------------------------------
-§6§l[3] PODA DE ENCANTAMIENTOS, MESA DECORATIVA Y NUEVO BOTIN
+§6§l[1] FILOSOFÍA (13 PRINCIPIOS)
 -----------------------------------
-§7- §cMesa de Encantamientos Inerte:§r La mesa queda desactivada y convertida en un bloque puramente decorativo.
-§7- §cFin de Mending (Reparacion):§r Deshabilitado por completo; no se obtiene, no se comercia, no se crea ni absorbe orbes de XP.
-§7- §aIrrompibilidad I y Botin I en Botin:§r Aparecen exclusivamente a Nivel 1 en cofres de dungeons, templos y minas. Requieren combinarse artesanalmente en el yunque.
-§7- §eEficiencia I en Botin:§r Se obtiene exclusivamente en cofres de minas, mazmorras y templos a nivel 1. Combina varios libros en el yunque para forjar hasta Eficiencia V.
-§7- §6Duendes Comerciantes (Goblin Traders):§r
-  §8* En el Overworld ofrecen canas con §bSuerte Marina y Senuelo§r por esmeraldas y pesca.
-  §8* En el Nether ofrecen la §dPlantilla de Mejora de Netherita§r por §b16 diamantes + 16 esmeraldas§r.
+§aP1§r Progresión horizontal (roles) + vertical (tier) §fcon coste§r.
+§aP2§r Todo poder tiene coste explícito: agotamiento, daño recibido, reparación cara.
+§aP3§r La XP §fno§r tiene función económica: los niveles solo marcan progreso.
+§aP4§r Mesa de encantamientos §fdecorativa§r (interacción cancelada).
+§aP5§r Solo existen §f3§r encantamientos looteables: Irrompibilidad I, Botín I, Eficiencia I.
+§aP6§r Velocidad de minado §funificada a 6.0§r para todas las herramientas.
+§aP7§r Ninguna pieza opaca a otra: cada material es el mejor en algo.
+§aP8§r Spawns adulterados a propósito: §f55/45§r vanilla-mods, tope de criaturas §f16§r.
+§aP9§r Yunque reworkeado: §f0 XP§r, sin "demasiado caro", reparación por familia.
+§aP10§r Iron's Spellbooks looteable por cofres (no por granja).
+§aP11§r Se aceptan sugerencias que respeten P1–P10.
+§aP12§r Juego tradicional primero: explorar, pelear, construir, coleccionar.
+§aP13§r Desincentivar al jugador técnico: granjas, AFK y min-max deben ser §fpeores§r, no prohibidos.
 
 -----------------------------------
-§6§l[4] EL NUEVO YUNQUE Y ALTERNATIVAS SIN XP
+§6§l[2] ARMADURAS
 -----------------------------------
-§7- §a0 Niveles de Experiencia:§r Reparar, combinar o renombrar equipo con minerales ya §cNO§r cuesta niveles de XP en yunques vanilla ni en el panel de yunque remoto de ExtendedAE.
-§7- §eSin Limite:§r Eliminado el mensaje de §c"Demasiado Caro"§r; forja y cuida tu equipo libremente.
-§7- §6Revivir Corceles (Icy's Better Horses):§r Despertar a un caballo vinculado ofrenda §e1 Manzana Dorada§r en lugar de niveles de XP.
-§7- §dMesa de Transmutacion (Alex's Mobs):§r La transmutacion de items consume §b1 Fragmento de Amatista§r como catalizador resonante en lugar de niveles de XP.
+§e§l> COLUMNA VANILLA§r
+§8- Durabilidad por material: cuero §f55/80/75/65§8 · cota y hierro §f165/240/225/195§8 · oro §f77/112/105/91§8 · diamante §f363/528/495/429§8 · netherita §f407/592/555/481§8.
+§8- 15 armadura: cuero, cota, oro, hierro. 20 armadura: diamante y netherita.
+§8- Reparación de yunque: 25 % por material. Todo encantable.
+
+§e§l> COLUMNA AMPERE§r
+§a- Sets de §f15§r (cuero, cota, oro, hierro): durabilidad §funificada§r §f165 / 240 / 225 / 195§r por pieza (§f825§r el set).
+§a- Sets de §f20§r (diamante, netherita): durabilidad de élite intacta.
+§a- Reparación: §f100 %§r en tiers base (madera, piedra, cuero, cota, oro, hierro) y §f25 %§r en élite (diamante, netherita).
+§a- Pérdida al morir: §f10 %§r de durabilidad, también sobre las piezas de 15.
+
+§e§l> ROLES DE SET§r
+§7- §fCuero§r: caída −7/15/25/40 % (1/2/3/4 piezas), paso fluido sobre hojas.
+§7- §fCota§r: proyectiles −5/10/18/30 % y velocidad +4/8/12/16 %.
+§7- §fHierro§r: empuje −5/10/18/30 %, explosiones −4/8/15/25 %, dureza +0.5 por pieza.
+§7- §fOro§r: magia −4/8/15/25 %, Suerte +1, piglins pacificados.
+§7- §fDiamante§r: golpes ≥8 −6/12/19/25 %; a cambio, §c+5 %§r de daño recibido en golpes <8, agotamiento y reparación 25 %.
+§7- §fNetherita§r: fuego −5/12/20/35 %, wither −10/20/35/50 %, golpes ≥8 −4/8/13/18 %; a cambio, §c+10 %§r en golpes <8, agotamiento y reparación 25 %.
+§7- §fTortuga§r: respiración acuática y minado submarino.
+§7- §fLinaje netherita§r (ignitium, cursium, monstrous_helm, netherite_mage): hereda el set de netherita completo.
+§7- §fTúnicas de mago§r: −5 % de daño cuerpo a cuerpo por pieza (máximo −20 %).
 
 -----------------------------------
-§6§l[5] OPTIMIZACION DE DESCARGAS (MODRINTH CDN)
+§6§l[3] HERRAMIENTAS Y ARMAS
 -----------------------------------
-§7- §aDescargas Ultra-Rapidas:§r 102 mods redirigidos directamente a la red CDN abierta de Modrinth (sin bloqueos ni restricciones de CurseForge).
-§7- §bRepositorio Ultraligero:§r El tamano del repositorio se reduce de 456 MB a solo 41 MB, optimizando el despliegue y la sincronizacion.
+§e§l> COLUMNA VANILLA§r
+§8- Durabilidad: madera §f59§8 · piedra §f131§8 · hierro §f250§8 · oro §f32§8 · diamante §f1561§8 · netherita §f2031§8.
+§8- Velocidad de minado por tier: §f2 / 4 / 6 / 8 / 9 / 12§8 (madera → oro).
+§8- Espada: daño §f4 / 5 / 6 / 4 / 7 / 8§8 y velocidad §f1.6§8 en todas.
+
+§e§l> COLUMNA AMPERE§r
+§a- Durabilidad: madera §f80§r · piedra §f160§r · hierro §f300§r · oro §f160§r (frágil) · diamante §f1561§r · netherita §f2031§r.
+§a- Velocidad de minado: §f6.0§r para todos los tiers. El tier solo abre bloques, da aguante y el innato.
+§a- Espada: daño §f4 / 5 / 6 / 5 / 7 / 8§r y velocidad §f1.95 / 1.4 / 1.6 / 2.0 / 1.6 / 1.5§r.
+
+§e§l> PASIVAS INNATAS (aplican a todo §fDiggerItem§r: pico, pala, hacha y azada)§r
+§7- §fMadera§r: +25 % en madera, hojas y cultivos · hojas sin desgaste · §a10 % de abono§r al romper vegetales · armas: ×1.5 contra artrópodos y +0.5 de empuje.
+§7- §fPiedra§r: +15 % en menas, piedra y pizarra · armas: aturdimiento 0.4 s (cancela mechas, pociones y conjuros) y +1.0 de empuje.
+§7- §fHierro§r: §aToque de Seda§r innato · armas: barrido al 75 % y alcance +0.5.
+§7- §fOro§r: §aAuto-Fundición§r (menas crudas → lingotes, arena → cristal, arcilla → ladrillo, troncos → carbón vegetal) · Suerte +1 · nivel de minado de hierro · armas: Castigo III (+7.5 contra no-muertos) y piglins.
+§7- §fDiamante§r: §aÁrea 3×3§r · alcance +1.0 · armas: 15 % crítico ×1.5 y anclaje dimensional 3 s · ×2 velocidad en pizarra profunda y obsidiana.
+§7- §fNetherita§r: §aFortuna III§r · alcance +1.0 · ×2 velocidad en escombros ancestrales · armas: Lentitud II y +15 % contra blindados · piglins.
+§c- El área 3×3 cuesta §f1 + 4§r de durabilidad (5 por uso), solo rompe periféricos con dureza §f> 0§r y §f≤§r la del bloque central, y §cexcluye§r los bloques del tag §fminecraft:needs_diamond_tool§r.
+§c- Un arma no aplica las pasivas de recolección de su material (las pasivas de herramienta son solo para herramientas).
 
 -----------------------------------
-§6§l[6] REBALANCE TACTICO DE CRIATURAS Y FORTUNA DE CAZADOR
+§6§l[4] COMBATE Y MOBS
 -----------------------------------
-§7- §fEsqueletos y Strays (12 HP / 6 Corazones):§r Huesos fragiles y quebradizos; caen de 2 golpes limpios o 1 impacto pesado de hacha, premiando esquivar flechas y cerrar distancia.
-§7- §8Aranas (14 HP / 7 Corazones):§r Combates agiles y directos sin esponjas de dano.
-§7- §bPhantoms (10 HP / 5 Corazones):§r Derribables de 1 impacto limpio y certero con arco en pleno vuelo.
-§7- §5Brujas (20 HP / 10 Corazones):§r Dinamiza el combate compensando sus continuas pociones de regeneracion y curacion.
-§7- §aAnillo de Placa de Esmeralda (Iron's Spells):§r
-  §8* §eNueva Receta:§r 1 Esmeralda + 1 Fragmento de Mitrilo (completamente desvinculado de frascos de XP).
-  §8* §aFortuna de Cazador:§r Otorga §a+1 Nivel de Saqueo (Looting)§r acumulable por anillo en ranura Curios, aumentando cantidad y probabilidad de botin raro al derrotar criaturas.
+§8Vanilla§r: esqueletos y stray 20 de vida, araña 16, phantom 20, bruja 26; sin armadura en jefes salvo la suya.
+§aAmpere§r:
+§7- Vida ajustada: esqueleto/stray §f12§r · araña §f14§r · phantom §f10§r · bruja §f20§r.
+§7- Armadura real: Ravager §f10§r · Elder Guardian §f8§r · Piglin Brute §f8§r · Guardian §f4§r · Vindicator §f4§r · Zoglin §f4§r.
+§7- Familias y counters: arañas esquivan 25 % (mitad de daño) → §fMadera§r las ignora y pega ×1.5; hordas de 3+ zombis empujan +25 % y cobran 1.5 de agotamiento → §fHierro§r (área) y §fOro§r (Castigo) responden; esqueletos y saqueadores aplican Lentitud I a más de 8 bloques → §fCota§r con 2+ piezas lo evita; Enderman y Shulker se teletransportan → §fDiamante§r los ancla 3 s; creeper, bruja y evocador se interrumpen con §fPiedra§r.
+§7- Lealtad del tridente: solo vuelve a jugadores; los mobs no la recuperan.
+§7- Equipo de spawn: la armadura/arma generada al aparecer §fno se dropea§r; la que entrega el jugador sí.
+§7- Jefes: respuestas reactivas (no prohibiciones): el Wither no escapa ni se ahoga, el agua se evapora, el Warden pierde agro, las explosiones tienen tope, los raiders sueltan botín y el monumento conserva prismarine.
 
 -----------------------------------
-§6§l[7] CORRECCIONES DE LA VERSION 1.1.0
+§6§l[5] HAMBRE, SATURACIÓN Y CURACIÓN
 -----------------------------------
-§7- §aNigromantes:§r Restaurado el limite real de invocaciones del Nigromante. El mixin del mod no se registraba por un error de empaquetado (faltaba la entrada en el MANIFEST), por lo que la regla existia en el codigo pero nunca se aplicaba.
-§7- §aVersion del pack:§r El pack pasa a la version 1.1.0 y el beacon de version vuelve a coincidir con este changelog.
------------------------------------
-§6§l[8] TOOLTIPS COMPACTOS DE EQUIPO (v1.2.0)
------------------------------------
-§7- §aMenos ruido:§r cada pieza muestra un encabezado (§f⚡ Ampere · Hierro — Infantería§r) y una línea por estadística, en lugar de bloques de prosa de hasta 10 líneas.
-§7- §eNúmeros reales:§r las reducciones y bonus aparecen con el valor que aplica el mod (§fEmpuje -10 % ➔ -30 %§r); si el set está incompleto se ve la escala por número de piezas.
-§7- §bVocabulario único:§r desaparecen "Mejora Ampere", "Estilo", "Blindaje de Élite" y "Herencia Térmica" como nombres sueltos; todo se lee como §fmaterial + rol§r (Cuero/Explorador, Cota de malla/Escaramuzador, Oro/Arcano, Hierro/Infantería, Diamante/Élite, Netherita/Nether).
-§7- §aArmas y herramientas:§r conservan su rol con valores concretos de alcance, guardia, empuje, velocidad de ataque, Fortuna o Toque de Seda.
-§7- §8Sin pérdida de información:§r se sigue explicando lo mismo, solo cambia cómo se presenta.
-§7- §cCoste de los sets pesados:§r diamante y netherita muestran su precio y lo cobran al recibir golpes: agotamiento proporcional al daño y, con el set completo, §f+10 %§r (diamante) o §f+5 %§r (netherita) de daño recibido de golpes débiles (<8). Las hordas dejan de ser gratis para quien viste diamante.
-§7- §eEconomía de reparación:§r cuero, malla, hierro y oro restauran el §f100 %§r con una unidad de su material; diamante y netherita solo el §f25 %§r. Mantener el equipo caro cuesta caro; los sets baratos son los de explorar y arriesgar.
-§7- §8Todo configurable:§r theoptimizer_equipment.json expone las fracciones de reparación por familia, la escala de agotamiento y ambas penalizaciones.
-§7- §8Sin nombres de encantamiento:§r los tooltips describen el efecto, no el encantamiento ("daño ×1.5 a artrópodos", "recoge bloques intactos", "más botín de minerales"). Como los encantamientos ya no existen en el pack, nombrarlos sobraba.
-§7- §8Herencia de Netherita:§r ignitium, cursium y monstrous helm se forjan sobre piezas de netherita, así que heredan su protección térmica, su debilidad ante golpes débiles y su reparación al 25 % (antes el cursium se libraba de todo y era el camino de trampa).
+§8Vanilla§r: correr 0.1/m, caminar 0.01/m, salto 0.05, salto corriendo 0.2, ataque 0.1, romper bloque 0.005, recibir daño 0.1 y regeneración de 6.0 por medio corazón (rápida cada 10 ticks con saturación).
+§aAmpere§r:
+§7- Movimiento §f÷5§r: correr §f0.02/m§r, caminar/nadar §f0.002/m§r, salto §f0.01§r, salto corriendo §f0.04§r. Atacar, minar, recibir daño, escudo y sets pesados §fno cambian§r.
+§7- Regeneración vanilla §fcancelada§r: no existe la "aspiradora" de 6.0 por medio corazón.
+§7- Curación de Ampere: §f1 HP cada 40 ticks (2 s)§r con comida y herido, por §f2.0 de agotamiento§r. Un corazón completo cuesta §f4.0§r (1 punto de saturación) repartido en 4 s.
+§7- Escudo de hambre: §f2.0 de agotamiento por cada 1.0 de daño físico absorbido§r (mínimo 8 de comida).
+§7- Sets pesados al golpear: §f0.5§r (diamante) / §f0.6§r (netherita) + §f0.03 × daño§r por pieza.
+§7- Sprint libre: se puede correr con cualquier nivel de comida.
 
 -----------------------------------
-§6§l[9] ROL MAGO: LAS TÚNICAS DE IRON'S (v1.2.0)
+§6§l[6] XP, ENCANTAMIENTOS Y YUNQUE
 -----------------------------------
-§7- §dTrece sets y cuatro piezas sueltas§r de Iron's Spellbooks entran en el sistema: cada túnica muestra su §fescuela§r (Fuego, Hielo, Rayo, Sagrado, Ender, Sangre, Evocación, Naturaleza, Batalla o Arcano) y conserva el poder de hechizo que ya otorga el mod.
-§7- §cCoste del mago:§r cada pieza de túnica resta §f-5 %§r de daño cuerpo a cuerpo (máximo §f-20 %§r con el set completo). La túnica pega con hechizos, no con espada: deja de ser el camino cómodo que sumaba armadura y poder sin pagar nada.
-§7- §8El triángulo queda cerrado:§r túnica = daño mágico, oro = resistencia mágica (-25 % a 4/4), y Netherite Battlemage = mago de aguante que paga el coste de la netherita.
-§7- §8Configurable:§r mage_weapon_damage_penalty en theoptimizer_equipment.json.
+§8Vanilla§r: XP como moneda, mesa de encantamientos, 30+ encantamientos, Mending, yunque que cobra niveles y muela que extrae cualquier encantamiento.
+§aAmpere§r:
+§7- La XP existe pero §fno compra nada§r: ni mesa, ni yunque, ni reparaciones. Sin orbes en el suelo.
+§7- Mesa de encantamientos §fdecorativa§r; los libros solo salen de cofres de mina/mazmorra/templo con §fIrrompibilidad I§r, §fBotín I§r y §fEficiencia I§r.
+§7- Sin Mending. La durabilidad se gestiona reparando.
+§7- Yunque: §f0 niveles§r, sin "demasiado caro", reparación por familia (100 % base, 25 % élite) y forja de tridentes.
+§7- Muela: solo extrae los §f3§r looteables; los innatos del material (Seda, Fortuna, Castigo, Lealtad…) §fnunca§r se convierten en libros y no cobran XP.
+§7- Encantamientos innatos: ligados al material (Seda=hierro, Fortuna=netherita, Castigo=oro, Filo Arrasador=hierro, Suerte=oro…) y solo para jugadores.
+
 -----------------------------------
-§6§l[10] REPARACIÓN DE EQUIPO SENCILLO (v1.3.0)
+§6§l[7] LOOT Y ECONOMÍA
 -----------------------------------
-§7- §aArcos, ballestas, cañas y escudos:§r se reparan al §f100 %§r en el yunque con su material (cuerda, cuerda, cuerda y tablones). Antes el arco y la ballesta no tenían reparación posible y con Mending fuera quedaban inservibles al gastarse.
-§7- §aTijeras:§r se reparan al §f100 %§r con un lingote de hierro.
-§7- §8Tridente y elytra quedan fuera§r a propósito: son objetos fuertes y necesitan un tradeoff propio antes de entrar en la economía de reparación.
+§8Vanilla§r: cobre 2–5 crudos por mena, botín aleatorio, libros de encantamiento de mesa, tintas de Iron's solo por granja.
+§aAmpere§r:
+§7- Cobre: §f1 crudo fijo§r por mena (Fortuna sigue aplicando). Se acabó la inundación de inventario.
+§7- §f27§r tablas de loot tocadas: cofres vanilla e Iron's, entidades y menas de cobre.
+§7- Drops cotidianos deterministas con mínimo 1: vara de blaze §f1–2§r, pólvora §f1–2§r, perla de ender §f1§r, caparazón de shulker §f1§r, carbón de wither §f1–2§r, calavera §f15 %§r.
+§7- Tintas y materiales de Iron's entran por cofres, no por granja.
+§7- Cofre del End: solo materiales, gated por §festrella del Nether§r; rechaza armas, herramientas, armaduras y contenedores (el tooltip lo avisa).
+
 -----------------------------------
-§6§l[11] TRIDENTE DE AGUA, MUERTE CON DESGASTE Y LIMPIEZA (v1.4.0)
+§6§l[8] SPAWNS Y FAUNA
 -----------------------------------
-§7- §3Tridente de las Profundidades:§r ahora es un §farmamento de agua§r. En agua o lluvia pega §f+15 %§r; en seco pega §f-15 %§r. Sigue volviendo sola y con sus mejoras de yunque, pero en tierra pierde contra una espada.
-§7- §cMuerte con desgaste:§r al morir, cada pieza equipada pierde un §f10 %§r de su durabilidad máxima. Nunca se rompe por morir: la durabilidad se queda en 1 antes de llegar a cero.
-§7- §8Retirados del pack:§r §7Goblin Traders§r (sin encantamientos su comercio no aportaba) y §7TheOptimizer DeathXP§r (la XP deja de existir como moneda).
+§8Vanilla§r: reparto y respawn vanilla, sin tope configurable.
+§aAmpere§r:
+§7- Reparto §f55/45§r vanilla-mods y tope de criaturas §f16§r (`creature_spawn_cap`).
+§7- Nigromante de Iron's: §f18 → 2§r por noche.
+§7- La fauna vanilla deja de repoblarse y vuelve con respawn cíclico.
+§7- Equipo de spawn sin drop; mobs con armadura real (ver §4).
+
 -----------------------------------
-§6§l[12] ELYTRA, ESCUDO DE HAMBRE Y BEACON PACIFICADOR (v1.5.0)
+§6§l[9] JUGADOR TÉCNICO
 -----------------------------------
-§7- §bElytra:§r planear consume agotamiento (§f1 punto de comida cada ~20 s§r) y su reparación pasa de 1 a §f4 membranas§r por cada 25 %. Volar deja de ser gratis: es una herramienta de expedición, no el transporte definitivo.
-§7- §6Escudo de hambre:§r la comida amortigua hasta el §f50 %§r de cada golpe físico si llevas al menos §f4 muslitos§r (8 puntos). Cuesta §f2§r de agotamiento por punto absorbido. Fuego, magia, wither y caída siguen entrando completos: los sets conservan su papel.
-§7- §eBeacon pacificador:§r mientras alguien con §fPrisa§r esté en un radio de §f30§r bloques, no aparecen monstruos. La base pasa a ser un refugio real sin necesidad de iluminar todo.
+§7El pack §fno prohíbe§r granjas ni redstone: las hace §fpeores§r que jugar.
+§8- Sin Mending ni XP útil: mantener equipo exige reparar, no afkear.
+§8- Drops con mínimo fijo: la granja no escala con RNG.
+§8- Cobre y menas normalizados: menos inventario, menos automatización rentable.
+§8- Cofre del End restringido y muela limitada: menos "almacenamiento infinito" y menos libros infinitos.
+§8- Mesa decorativa: el poder viene del material y del combate, no de la mesa.
+
 -----------------------------------
-§6§l[13] BEACON COMO ÁREA, NO COMO EFECTO (v1.6.0)
+§6§l[10] VERIFICACIÓN
 -----------------------------------
-§7- §ePacificación real:§r el beacon cancela los spawns hostiles en su área de efecto completa: §fradio horizontal de 30 bloques§r y §ftodo el eje vertical§r, sin depender de qué efecto tenga el jugador.
-§7- §6Escudo de hambre con base:§r la comida solo amortigua daño §fdentro del área del beacon§r. Fuera de tu base no hay escudo: la comida se vuelve una ventaja territorial.
-§7- §8Rendimiento:§r los beacons se cachean por chunk y la caché se invalida al colocar o romper bloques.
+§7- §a16/16§r comprobaciones del pack (`verificar_estado.ps1`).
+§7- §a27/27§r tablas de loot con hash (`loot.json`).
+§7- §a17/17§r pruebas de `balance_equipamiento`; §a16/16§r de `balance_mobs`.
+§7- §f52§r claves de configuración de equipo; §f363§r entradas de pack (103 metafiles Modrinth + 20 jars locales).
+§7- Cliente y servidor con los mismos jars (`EquipmentBalance 1.22.0`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`).
+
 -----------------------------------
-§6§l[14] EL YUNQUE PASA A EQUIPAMIENTO (v1.7.0)
+§6§l  HISTORIAL DE VERSIONES
 -----------------------------------
-§7- §8Sin coste de niveles:§r el yunque elimina de raíz el coste de experiencia, la penalización acumulativa y el bloqueo "Demasiado caro". Solo se consumen minerales, herramientas o libros.
-§7- §8Terminal remota:§r el panel de yunque de la Terminal de Crafteo de ExtendedAE aplica exactamente la misma política de 0 XP y 0 fluido.
-§7- §8Retirado TheOptimizer MiningXP:§r su lógica de yunque vive ahora en EquipmentBalance, así que el mod de experiencia minera deja de existir en el pack. Mientras se completa la retirada de la XP, los orbes vuelven al comportamiento base del juego (sin filtro por fuente).
------------------------------------
-§6§l[15] LA EXPERIENCIA SALE DEL MUNDO (v1.8.0)
------------------------------------
-§7- §cSin orbes:§r ningún orbe de experiencia entra al mundo. Minar, matar, criar o cocinar ya no generan objetos de XP: la experiencia deja de existir como cosa física.
-§7- §8Nada depende de ella:§r el yunque no cobra niveles, la mesa de encantamientos es decorativa y Mending no existe. Los aldeanos conservan su experiencia interna para comerciar (no pasa por orbes).
-§7- §aEfecto secundario buscado:§r menos entidades en el suelo y menos cálculo de recogida: el servidor respira y el suelo de las granjas deja de llenarse de orbes.
------------------------------------
-§6§l[16] LA MUELA EXTRAE ENCANTAMIENTOS (v1.9.0)
------------------------------------
-§7- §3Muela de afilar:§r ya no borra el encantamiento. Si el objeto tiene uno de los tres encantamientos looteables, la muela devuelve §fsu libro de nivel 1§r y consume el objeto original.
-§7- §8El bucle del botin:§r explorar → cofre con Irrompibilidad / Botin / Eficiencia → moler el objeto → libro → yunque (0 niveles) sobre tu equipo bueno. La muela no crea nada nuevo: solo convierte lo que ya cayó.
-§7- §8Coste asumido:§r el objeto molido se destruye. Extraer conocimiento cuesta la pieza.
-§7- §8Configurable:§r grindstone_extraction en theoptimizer_equipment.json.
------------------------------------
-§6§l[17] TRES EJES SEPARADOS: HERRAMIENTA, ARMA Y ARMADURA (v1.10.0)
------------------------------------
-§7- §8Fin de la mezcla:§r ninguna herramienta da ya velocidad de movimiento y ninguna arma da armadura. Eso vuelve a ser exclusivo de los sets.
-§7- §aMadera:§r §f+25 %§r al romper madera, hojas y cultivos. Ya no da velocidad de movimiento.
-§7- §7Piedra:§r §f+15 %§r en piedra, pizarra y menas. La resistencia al empuje queda solo en sus armas.
-§7- §fHierro:§r alcance §f+0.5§r (arma y herramienta); fuera la guardia de +1 armadura.
-§7- §7Hacha y espada de piedra:§r §f+0.5 empuje§r y §faturdimiento 0.4 s§r (Lentitud I) al impactar.
-§7- §bEspada y hacha de diamante:§r §f10 % de crítico ×1.5§r además de su alcance.
-§7- §8Sin cambios:§r oro (suerte y piglins), diamante herramienta (intacto + ×2 pizarra), netherita (botín y ×2 escombros).
------------------------------------
-§6§l[18] HOJAS SIN DESGASTE (v1.11.0)
------------------------------------
-§7- §2Hojas gratis:§r romper hojas no gasta durabilidad de la herramienta. Limpiar un bosque deja de ser un castigo para el pico o el hacha.
-§7- §8Encaja con la madera:§r su identidad es recolección (+25 % en madera, hojas y cultivos) sin tocar movimiento ni armadura.
-§7- §8Configurable:§r leaves_free_durability en theoptimizer_equipment.json.
------------------------------------
-§6§l[19] CORRECCIONES DE LOOT TABLES (v1.12.0)
------------------------------------
-§7- §8Tablas rotas de mods:§r la interfaz EMC de ExtendedAE y las seis muñecas de Kaleidoscope Chinese Food tenían tablas que apuntaban a items que ya no existen. Ahora se corrigen desde un §fdatapack§r, que sí tiene prioridad.
-§7- §2Interfaz EMC:§r vuelve a dropear, con su item real (§fex_emc_interface_part§r). Antes el bloque no soltaba nada.
-§7- §8Muñecas:§r se quedan sin drop (no tienen item) pero dejan de llenar el log de errores.
-§7- §8Pendiente conocido:§r dos tablas de Iron's (citadel_tomes y crypt_loot) tienen errores propios del mod en 1.20.1; esos cofres quedan sin botín y está documentado en docs/LOOT.md.
------------------------------------
-§6§l[20] LA FAUNA VANILLA DEJA DE REPOBLARSE (v1.13.0)
------------------------------------
-§7- §aAnimales vanilla:§r dejan de aparecer por el §fspawn natural cíclico§r. Los que existen son los que generó el mundo y los que críes tú.
-§7- §8Sin tocar lo importante:§r la §fgeneración inicial de chunks§r sigue creando fauna (explorar sigue dando recursos) y §fla fauna de mods§r (Alex's Mobs y compañía) sigue apareciendo con normalidad.
-§7- §bConfigurable:§r config/theoptimizer_repopulation.json con disable_vanilla_passive_spawns (true) y rebalance_spawn_pools (false). El balanceador 75/25 queda apagado porque sin respawn no hay nada que repartir; la cría, las abejas y la protección de despawn siguen activas.
-§7- §8Motivo de diseño:§r animales infinitos alrededor del jugador hacían que la ganadería no valiera nada; ahora la fauna es un recurso del mundo, no un grifo.
------------------------------------
-§6§l[21] FAUNA EQUILIBRADA 55/45 Y TOPE DE CRIATURAS (v1.14.0)
------------------------------------
-§7- §aVuelve el respawn vanilla:§r los animales vuelven a repoblarse y el balanceador reparte §f55 % vanilla / 45 % mods§r (antes 75/25).
-§7- §bAlex's Mobs recortado:§r 14 especies con peso alto bajan a 2-4 (straddler 15→4, rockyRoller 12→4, underminer/mimicube 10→3, soulVulture/guster 8→3, fareer/warpedToad/blobfish/gazelle 6→3, kangaroo/platypus/tortuga/mudskipper 5→2).
-§7- §fTope de criaturas:§r baja de §f36§r a §f16§r por chunk (vanilla 10). Es la palanca real de rendimiento: el spawner solo rellena hasta ese cupo, no borra ni recrea entidades.
-§7- §8Configurable:§r config/theoptimizer_repopulation.json expone disable_vanilla_passive_spawns, rebalance_spawn_pools, creature_spawn_cap y animal_despawn_guard.
------------------------------------
-§6§l[22] COHERENCIA DEL EQUIPO: COSTE REAL POR MATERIAL (v1.15.0)
------------------------------------
-§7- §eOro:§r Castigo pasa de V a §fIII§r: §f+7.5§r de daño contra no-muertos (antes +12.5). Ya no aplasta al resto de tiers. El tooltip muestra la cifra real.
-§7- §bDiamante:§r crítico §f15 %§r (antes 10 %) y penalización de golpe débil §f−5 %§r (antes −10 %). Rol de precisión contra enemigos sin blindaje.
-§7- §8Netherita:§r penalización de golpe débil §f−10 %§r (antes −5 %). La élite paga más y se queda con el rol de control y blindados.
-§7- §fHierro (armadura):§r dureza §f+0.5§r por pieza (§f2.0§r con set completo, frente a 8 del diamante). Sigue en 15 puntos.
-§7- §6Cuero:§r caída §f7/15/25/40 %§r (antes 5/12/20/35): el set completo de explorador por fin se nota.
-§7- §8Fuera texto sin código:§r se retira "rotura de escudos" de la netherita (nunca se implementó); queda Lentitud II. El empuje de piedra se corrige a §f+1.0§r real.
-§7- §8Sin penalización de movimiento:§r las armaduras pesadas no frenan (parkour intacto); su coste es el agotamiento al golpear y la reparación al 25 %.
------------------------------------
-§6§l[24] GUARDIA DE INVOCACIÓN DEL WITHER (v1.16.0)
------------------------------------
-§7- §8El problema:§r pelear al Wither en una jaula de bedrock lo volvía trivial (no huye, no rompe terreno y se le puede golpear sin riesgo).
-§7- §cRechazo:§r si hay §fbedrock§r en un radio de §f5 bloques§r alrededor de la T, la invocación no cobra vida. Las tres calaveras vuelven al suelo como objetos y suena un aviso con el mensaje «La entidad rechaza ataduras indestructibles».
-§7- §8Configurable:§r wither_reject_bedrock, wither_reject_radius y wither_reject_message en theoptimizer_equipment.json.
-§7- §7Detalle:§r solo se rechaza una T completa (se valida con el patrón real del juego); colocar una calavera suelta junto a bedrock no gasta nada.
------------------------------------
-§6§l[25] RESPUESTAS REACTIVAS DE JEFES (v1.17.0)
------------------------------------
-§7- §8Se retira el guardia de invocación:§r cancelar la T del Wither se sentía artificial. Ahora el jefe reacciona.
-§7- §8Wither atrapado:§r si pasa §f3 s§r dentro de bloques, escapa sobre el jugador más cercano. Su calor §fevapora el agua§r en 4 bloques, así que los búnkeres acuáticos dejan de servir.
-§7- §8Wither y Warden:§r no se hacen daño entre ellos y redirigen su agro al jugador. Ya no se puede usar a uno para matar al otro.
-§7- §cTope explosivo:§r Wither y Dragón reciben como máximo §f12 de daño explosivo por segundo§r (camas y TNT dejan de saltarse fases).
-§7- §8Tridentes abandonados:§r un tridente clavado más de §f3 s§r deja de hacer daño (fin de los trident killers).
-§7- §8Saqueadores:§r si el golpe letal no es de un jugador activo, no sueltan tótem, esmeraldas ni libros.
-§7- §8Warden:§r destruye nieve en polvo y trampillas de su hitbox; desde un pilar inalcanzable recibe lentitud y un tirón hacia abajo.
-§7- §8Monumento:§r la prismarina no la rompe la TNT mientras quede un Guardián anciano vivo.
------------------------------------
-§6§l[26] COHERENCIA, ARMADURA REAL Y DROPS DETERMINISTAS (v1.18.0)
------------------------------------
-§7- §2Madera:§r fuera la Pesadilla de los Artrópodos V; ahora el §f×1.5§r contra artrópodos se aplica de verdad en el golpe y el tooltip sale de la misma constante.
-§7- §fHierro:§r el tooltip de barrido muestra el §f75 %§r real de Filo Arrasador III (antes decía 100 %).
-§7- §7Cota de malla:§r velocidad §f+4 / +8 / +12 / +16 %§r (antes 2/4/7/10). Por fin compensa que ninguna armadura frene.
-§7- §8Umbral de golpe fuerte:§r se mide sobre el daño §fbruto§r, antes del escudo de hambre y de las reducciones. Un golpe de 12 ya no se convierte en "débil" por amortiguarlo.
-§7- §5Cofre del End:§r ahora cuesta una §fEstrella del Nether§r (antes ojo de ender) y §frechaza§r armas, herramientas, armaduras y contenedores; solo guarda materiales, recursos y consumibles. El tooltip lo avisa.
-§7- §2Armadura real en mobs pesados:§r Devastador §f10§r, Guardián anciano §f8§r, Piglin bruto §f8§r, Guardián/Vindicador/Zoglin §f4§r. El §f+15 %§r de la netherita contra blindados ya tiene objetivo.
-§7- §8Tirón del Warden:§r se marca la entidad para que el cliente reciba el impulso.
-§7- §aDrops cotidianos sin RNG:§r carbón del esqueleto del Wither §f1-2§r garantizado; vara de blaze, pólvora, perla de ender y caparazón de shulker con §fmínimo 1§r por baja legítima. El cráneo sigue al 15 %.
------------------------------------
-§6§l[27] IDENTIDADES TÁCTICAS: FAMILIAS Y COUNTERS (v1.19.0)
------------------------------------
-§7- §7Piedra:§r además del aturdimiento, §fcorta la mecha§r del creeper, §fcorta la poción§r de la bruja y aplica stun al §fevocador/ilusionista§r que esté casteando.
-§7- §2Arañas:§r §f25 %§r de esquiva parcial (mitad de daño + salto) contra todo lo que no sea madera. La §fmadera§r ignora la esquiva y mantiene su ×1.5.
-§7- §8Horda de no-muertos:§r con §f3+ zombis§r a 4 bloques, el golpe empuja §f+25 %§r y suma §f1.5§r de agotamiento. Hierro y oro los limpian sin ese coste.
-§7- §fEsqueletos y saqueadores:§r disparo a más de §f8 bloques§r aplica §fLentitud I 1 s§r; la §fcota de malla con 2+ piezas§r es inmune.
-§7- §bDiamante:§r §fanclaje dimensional de 3 s§r sobre Enderman y Shulker: no pueden teletransportarse.
-§7- §8Tooltips:§r nuevas líneas de precisión (madera), interrupción (piedra), inmunidad (cota) y anclaje (diamante), todas con las constantes del código.
-§7- §8Sin coste de IA:§r cero Goals y cero escaneos por tick; todo ocurre en el instante del golpe o del teletransporte.
-§7- §4Corrección de despliegue:§r el jar de MobBalance ahora también se publica en el repositorio; antes el pack seguía sirviendo la 1.1.0.
------------------------------------
-§6§l[28] LA LEALTAD DEL TRIDENTE YA NO ES PARA LOS MOBS (v1.19.1)
------------------------------------
-§7- §8Bug:§r los encantamientos innatos se aplican al ítem, no al portador. Un §fdrowned§r con tridente heredaba §fLealtad III§r y sus lanzamientos volvían en bucle: decenas de tridentes girando a su alrededor.
-§7- §aFix:§r `ThrownTridentMixin` corta el retorno cuando el dueño no es un jugador. El jugador conserva su Lealtad III; los mobs lanzan el tridente una vez y se queda clavado.
-§7- §8Nota:§r los bonos de set siguen siendo exclusivos del jugador por diseño; la armadura de los mobs pesados (Devastador 10, Guardián anciano 8, etc.) llega con `MobBalance 1.4.0`, ya publicado en el repositorio.
------------------------------------
-§6§l[29] EL EQUIPO DE SPAWN SE VA CON EL MOB (v1.20.0)
------------------------------------
-§7- §8Regla:§r la armadura y las armas que el juego genera al spawnear (dificultad local, aleatorio, invocaciones del nigromante y del evocador de Iron's) §fno se dropean§r.
-§7- §8Por qué:§r el equipo generado es gratis; si cae, cada spawn se vuelve una granja de armas y tridentes (P12/P13).
-§7- §aExcepciones:§r el equipo que el jugador entrega o el mob recoge del suelo §fsí cae§r, igual que el estandarte de capitán y los objetos con nombre propio.
-§7- §bImplementación:§r `SpawnedGearRule` marca las piezas al entrar al mundo y filtra las gotas en `LivingDropsEvent`. `MobBalance 1.5.0`.
------------------------------------
-§6§l[30] LA MUELA YA NO EXTRAE ENCANTAMIENTOS INNATOS (v1.20.1)
------------------------------------
-§7- §8Bug:§r la muela extraía cualquier encantamiento visible, incluidos los innatos del material (Toque de Seda, Fortuna, Castigo, Lealtad…). Se podían fabricar libros de Fortuna o Lealtad con una muela.
-§7- §aFix:§r solo se extraen los §ftres looteables§r (Irrompibilidad, Botín, Eficiencia). Si el objeto solo tiene innatos, la muela no ofrece resultado ni cobra XP.
-§7- §8Consecuencia:§r la identidad del material sigue en el material; la muela solo convierte conocimiento que ya existía como botín. `EquipmentBalance 1.19.0`.
------------------------------------
-§6§l[31] HAMBRE SUAVE AL VIAJAR (v1.21.0)
------------------------------------
-§7- §aMovimiento ÷5:§r correr pasa de §f0.1§r a §f0.02§r por metro (200 m por punto de saturación); caminar/nadar §f0.002§r; salto §f0.01§r; salto corriendo §f0.04§r.
-§7- §8Solo movimiento:§r el factor se aplica únicamente en `jumpFromGround` y `checkMovementStatistics`. Escudo de hambre, sets pesados, atacar y daño recibido siguen con su valor nominal.
-§7- §8Regeneración:§r la rama vanilla de 6.0 por medio corazón ya estaba cancelada por la curación constante de Ampere (2.0 por HP cada 40 ticks). 1 corazón = 4.0 de agotamiento en 4 s, sin picos.
-§7- §7Tests:§r comprobación de que el ÷5 solo toca movimiento y de que la curación constante sigue activa.
------------------------------------
-§6§l[32] ARRANQUE CORREGIDO: TARGET DE MIXIN (v1.21.1)
------------------------------------
-§4§l- El servidor no arrancaba:§r `MovementExhaustionMixin` usaba sintaxis de campo (`m_36399_:`) en el `target`. Mixin la rechaza con `Invalid name`.
-§7- §aFix:§r target con sintaxis de método: `Player;m_36399_(F)V`. La lógica del ÷5 no cambia.
-§7- §8Blindaje:§r `probar.py` verifica ahora que el target esté bien formado y que no use `:`. Trampa documentada en `docs/BALANCE.md` §3.1.
------------------------------------
-§6§l[33] DURABILIDAD HORIZONTAL Y ESCALA CONSERVADORA (v1.22.0)
------------------------------------
-§7- §8Bloque de 15 puntos:§r cuero, cota, oro y hierro comparten durabilidad de hierro: §f165 / 240 / 225 / 195§r por pieza (§f825§r el set). Los sets de rol dejan de desintegrarse.
-§7- §8Diamante y netherita:§r intactos (363/528/495/429 y 407/592/555/481) con su reparación al 25 %.
-§7- §aHerramientas:§r escala §f80 → 160 → 300§r (madera, piedra, hierro/oro). Diamante 1561 y netherita 2031 sin tocar.
-§7- §8Reparación y muerte:§r 100 % en tiers base, 25 % en élite y −10 % al morir siguen igual.
-§7- §7Docs:§r `docs/EQUIPAMIENTO.md` con la tabla completa; BALANCE §1.14 y AGENTS actualizados.
------------------------------------
-§6§l[34] PARIDAD CLIENTE-SERVIDOR (v1.22.1)
------------------------------------
-§7- §8Seis mods de servidor pasan a `both`:§r `almanac`, `alternate-current`, `lmd`, `structure-layout-optimizer`, `wishful-recipes` y `yungs-better-strongholds`.
-§7- §aMotivo:§r en singleplayer el servidor integrado no los cargaba, así que el gameplay no era idéntico al del servidor (despawn, recetas, estructuras, optimización de redstone).
-§7- §7Verificado:§r el updater del cliente descargó `EquipmentBalance 1.21.0` y la config con 52 claves; las seis incorporaciones se instalan en el próximo pase del updater.
------------------------------------
-§6§l[35] PARIDAD CLIENTE-SERVIDOR: APLICADA (v1.22.2)
------------------------------------
-§7- §4Corrección:§r el primer intento no cambió ningún metafile (los saltos de línea impedían el reemplazo). Ahora los seis pasan a `side = "both"`.
-§7- §8Efecto:§r `almanac`, `alternate-current`, `lmd`, `structure-layout-optimizer`, `wishful-recipes` y `yungs-better-strongholds` se instalan también en el cliente, así que singleplayer reproduce el servidor.
------------------------------------
-§6§l[36] PASIVAS REASIGNADAS Y COBRE FIJO (v1.23.0)
------------------------------------
-§7- §8Herramientas:§r Hierro gana §fToque de Seda§r; Diamante pasa a §fÁrea 3×3§r (coste 5 por uso, filtra dureza y excluye `needs_diamond_tool`); Oro gana §fAuto-Fundición§r y sigue con Suerte +1; Netherita mantiene Fortuna III. Todo aplica a §fDiggerItem§r (pico, pala, hacha, azada).
-§7- §8Armas:§r Madera +empuje 0.5; Piedra vel §f1.4§r; Oro vel §f2.0§r y daño 5 (durabilidad §f160§r); Netherita vel §f1.5§r.
-§7- §8Cobre:§r menas de cobre sueltan §f1 crudo fijo§r con Fortuna; se acaba la inundación de inventario. `loot.json` pasa a 27 entradas.
-§7- §7Tests:§r comprobación de seda en hierro, área 3×3, auto-fundición y abono. 31 clases compiladas con `-Werror`.
------------------------------------
-§6§l[37] ORO FRÁGIL: 160 EN CONFIG (v1.23.1)
------------------------------------
-§7- §4Bug:§r el merge de config respetó el valor viejo de `gold_tools_durability = 300` y el cliente seguía con oro de 300.
-§7- §aFix:§r el valor queda en §f160§r en repo, servidor y cliente; el default del código también es 160.
+§7[1.23.2] Este changelog reescrito: estado vigente vanilla vs Ampere.
+§7[1.23.1] Oro a 160 de durabilidad en la config (el merge conservaba 300).
+§7[1.23.0] Pasivas reasignadas: Seda=hierro, Área 3×3=diamante, Auto-Fundición=oro, Fortuna III=netherita. Armas: piedra 1.4, oro 2.0, netherita 1.5, madera +0.5 de empuje. Cobre fijo a 1.
+§7[1.22.2] Paridad real cliente-servidor: seis mods de servidor pasan a `both`.
+§7[1.22.1] Primer intento de paridad (sin efecto por CRLF en los metafiles).
+§7[1.22.0] Durabilidad unificada del bloque de 15 (825 el set) y escala 80/160/300 en herramientas.
+§7[1.21.1] Target de mixin corregido (`Player.m_36399_(F)V`); el servidor vuelve a arrancar.
+§7[1.21.0] Agotamiento por movimiento ÷5 y regeneración vanilla cancelada; curación constante de Ampere.
+§7[1.20.1] La muela solo extrae los 3 looteables; los innatos no son libros.
+§7[1.20.0] El equipo generado al spawnear no se dropea.
+§7[1.19.1] Lealtad del tridente solo para jugadores.
+§7[1.19.0] Identidades tácticas: familias de mobs y counters por material.
+§7[1.18.0] Armadura real de mobs pesados, cofre del End con estrella, drops deterministas y cota de malla.
+§7[1.17.0] Respuestas reactivas de jefes (sin prohibiciones).
+§7[1.16.0] Guardia de invocación del Wither contra bedrock.
+§7[1.15.0] Coherencia de equipo: coste real por material (roles, linaje netherita).
+§7[1.14.0] Fauna 55/45 y tope de criaturas 16.
+§7[1.13.0] La fauna vanilla deja de repoblarse.
+§7[1.12.0] Datapack de correcciones de loot con prioridad.
+§7[1.11.0] Las hojas no gastan durabilidad.
+§7[1.10.0] Separación de recolección, combate y armadura por material.
+§7[1.9.0] La muela extrae el encantamiento a libro (después limitado a 3 en 1.20.1).
+§7[1.8.0] Orbes de experiencia apagados.
+§7[1.7.0] El yunque pasa a equipamiento.
+§7[1.6.0] El beacon se aplica como área, no como efecto.
+§7[1.5.0] Elytra, escudo de hambre y beacon pacificador.
+§7[1.4.0] Tridente de agua, muerte con desgaste y limpieza.
+§7[1.3.0] Reparación de equipo sencillo.
+§7[1.2.0] Tooltips compactos de equipo y rol mago para las túnicas de Iron's.
+§7[1.1.0] Base del rediseño de roles y superpoderes de armaduras.
