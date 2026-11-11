@@ -319,3 +319,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 -----------------------------------
 §7- §4Corrección:§r el primer intento no cambió ningún metafile (los saltos de línea impedían el reemplazo). Ahora los seis pasan a `side = "both"`.
 §7- §8Efecto:§r `almanac`, `alternate-current`, `lmd`, `structure-layout-optimizer`, `wishful-recipes` y `yungs-better-strongholds` se instalan también en el cliente, así que singleplayer reproduce el servidor.
+-----------------------------------
+§6§l[36] PASIVAS REASIGNADAS Y COBRE FIJO (v1.23.0)
+-----------------------------------
+§7- §8Herramientas:§r Hierro gana §fToque de Seda§r; Diamante pasa a §fÁrea 3×3§r (coste 5 por uso, filtra dureza y excluye `needs_diamond_tool`); Oro gana §fAuto-Fundición§r y sigue con Suerte +1; Netherita mantiene Fortuna III. Todo aplica a §fDiggerItem§r (pico, pala, hacha, azada).
+§7- §8Armas:§r Madera +empuje 0.5; Piedra vel §f1.4§r; Oro vel §f2.0§r y daño 5 (durabilidad §f160§r); Netherita vel §f1.5§r.
+§7- §8Cobre:§r menas de cobre sueltan §f1 crudo fijo§r con Fortuna; se acaba la inundación de inventario. `loot.json` pasa a 27 entradas.
+§7- §7Tests:§r comprobación de seda en hierro, área 3×3, auto-fundición y abono. 31 clases compiladas con `-Werror`.

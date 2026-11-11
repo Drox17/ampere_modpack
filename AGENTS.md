@@ -38,6 +38,7 @@ Reglas derivadas que ya han causado errores:
 - **No proponer sistemas que usen XP** como moneda (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
 - **Cofre del End: estrella del Nether y solo materiales** (rechaza armas, herramientas, armaduras y contenedores; el tooltip lo avisa).
+- **Pasivas de recolección en todo `DiggerItem`** (pico, pala, hacha, azada), no solo el pico. Seda=Hierro, Auto-Fundición=Oro, Área 3×3=Diamante, Fortuna III=Netherita.
 - **Durabilidad 1.22.0**: armaduras de 15 puntos a 165/240/225/195 (825 el set); herramientas 80→160→300→300→1561→2031.
 - **Movimiento ÷5** (`movement_exhaustion_factor = 0.2`): correr 0.02/m, salto 0.01, salto corriendo 0.04. Combate intacto.
 - **La muela solo extrae Irrompibilidad, Botín y Eficiencia**; los innatos del material nunca son libros.

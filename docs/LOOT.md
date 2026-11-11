@@ -99,3 +99,7 @@ con contenido coherente (tintas, runas, pergaminos).
 
 Las tablas de blaze, creeper, enderman y shulker se reescriben para garantizar un mínimo de **1** recurso,
 y el carbón del esqueleto del Wither pasa a **1-2** (antes −1 a 1). El cráneo se mantiene al **15 %**.
+
+## Cobre fijo
+
+| `minecraft:blocks/copper_ore` / `deepslate_copper_ore` | Bloque vanilla | `raw_copper` **1 fijo** (antes 2–5) con Fortuna y `explosion_decay` | Cero RNG cotidiano |

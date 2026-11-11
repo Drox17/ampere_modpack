@@ -227,6 +227,27 @@ botas 429/481) y su reparación al 25 %.
 
 Reparación sin cambios: 100 % para madera/piedra/cuero/cota/oro/hierro y 25 % para diamante/netherita.
 La pérdida del 10 % al morir se aplica sobre estos valores.
+
+### 1.15 Reasignación de pasivas y cobre fijo (1.23.0)
+
+| Material | Herramientas (DiggerItem completo) | Armas |
+|---|---|---|
+| **Madera** | Hojas sin desgaste · **10 % de abono** al romper vegetales | ×1.5 artrópodos · **empuje +0.5** · vel 1.95 |
+| **Piedra** | +15 % menas, piedra y pizarra | Aturdimiento 0.4 s · empuje +1.0 · **vel 1.4** |
+| **Hierro** | **Toque de Seda** innato | Barrido 75 % · alcance +0.5 · vel 1.6 |
+| **Oro** | **Auto-Fundición** + Suerte +1 · durabilidad **160** | Castigo III · **vel 2.0** (daño 5) |
+| **Diamante** | **Área 3×3** (coste 1 + 4 de durabilidad) · alcance +1.0 | Crítico 15 % ×1.5 · anclaje 3 s · vel 1.6 |
+| **Netherita** | **Fortuna III** · alcance +1.0 | Lentitud II · +15 % vs blindados · **vel 1.5** |
+
+**Reglas del área 3×3:** el plano se calcula con la mirada del jugador; solo rompe periféricos con
+`0 < dureza <= dureza central`; **excluye** bloques del tag `minecraft:needs_diamond_tool`; no daña la
+herramienta por cada bloque, aplica `hurtAndBreak(4)` agrupado (+1 del central = **5 por uso**).
+
+**Alcance del código:** todas las pasivas de recolección se aplican a `DiggerItem` (pico, pala, hacha y
+azada), no solo al pico.
+
+**Cobre:** `copper_ore` y `deepslate_copper_ore` sueltan **1 crudo fijo** (antes 2–5), con `apply_bonus`
+de Fortuna y `explosion_decay`. El registro de loot pasa a **27 entradas**.
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)

@@ -1,8 +1,24 @@
 {
     "actualizado":  "2026-11-11",
     "nota":  "Loot tables tocadas por el pack. Si cambia un sha256, revisar y actualizar este archivo en el mismo commit.",
-    "total":  25,
+    "total":  27,
     "entradas":  [
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/blocks/copper_ore.json",
+                         "tipo":  "override_block",
+                         "objetivo":  "bloque vanilla: copper_ore",
+                         "sha256":  "7469399af26fafe3c0505be3c85fd116c36b289bfc32246675beacd89c79b7bd"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/blocks/deepslate_copper_ore.json",
+                         "tipo":  "override_block",
+                         "objetivo":  "bloque vanilla: deepslate_copper_ore",
+                         "sha256":  "7469399af26fafe3c0505be3c85fd116c36b289bfc32246675beacd89c79b7bd"
+                     },
                      {
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
@@ -31,7 +47,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/irons_spellbooks/loot_tables/chests/additional_generic_loot.json",
-                         "tipo":  "override_mod",
+                         "tipo":  "override_chest",
                          "objetivo":  "cofre Iron\u0027s: additional_generic_loot",
                          "sha256":  "fd76b24cbc162966566912dfd7f6d79ac3eafd5ad59417669b89b8d3d7902c80"
                      },
@@ -39,7 +55,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/irons_spellbooks/loot_tables/chests/additional_good_loot.json",
-                         "tipo":  "override_mod",
+                         "tipo":  "override_chest",
                          "objetivo":  "cofre Iron\u0027s: additional_good_loot",
                          "sha256":  "f687229d57733e05aac574218a9ef767c4e2c4ed1d89dab19a70c20be8812131"
                      },
@@ -47,7 +63,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/irons_spellbooks/loot_tables/chests/additional_treasure_loot.json",
-                         "tipo":  "override_mod",
+                         "tipo":  "override_chest",
                          "objetivo":  "cofre Iron\u0027s: additional_treasure_loot",
                          "sha256":  "c2b380ad30e44ae3180ed1b1eef7e7963f55952ccaf2be809d9b8df8d2f41caa"
                      },
@@ -55,7 +71,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/pyromancer_supplies.json",
-                         "tipo":  "override_mod",
+                         "tipo":  "override_chest",
                          "objetivo":  "cofre Iron\u0027s: pyromancer_supplies",
                          "sha256":  "75a4b70b5fec2fe4f9f52dcc770a02629706fb37ef78f111d06b5d2a56ae1976"
                      },
@@ -63,7 +79,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/irons_spellbooks/loot_tables/chests/mountain_tower/mountain_tower.json",
-                         "tipo":  "override_mod",
+                         "tipo":  "override_chest",
                          "objetivo":  "cofre Iron\u0027s: mountain_tower",
                          "sha256":  "1785f00af00a2ab0a29dad086612c46c7392e3c9fb840ff42e3a02d490824949"
                      },
@@ -71,7 +87,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/irons_spellbooks/loot_tables/chests/ice_spider_den/dungeon.json",
-                         "tipo":  "override_mod",
+                         "tipo":  "override_chest",
                          "objetivo":  "cofre Iron\u0027s: dungeon",
                          "sha256":  "45f395084692a05f0f9d05204248bb7dc27650dbd99c69e9b5056cb81deb73a3"
                      },
@@ -79,39 +95,39 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/chests/simple_dungeon.json",
-                         "tipo":  "override_vanilla",
-                         "objetivo":  "cofre vanilla: simple_dungeon",
+                         "tipo":  "override_chest",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
                          "sha256":  "2ab336cb93ca154df678d565a56d8f167222ad1c1362eb86a122e8c219d6d7c2"
                      },
                      {
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/chests/desert_pyramid.json",
-                         "tipo":  "override_vanilla",
-                         "objetivo":  "cofre vanilla: desert_pyramid",
+                         "tipo":  "override_chest",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
                          "sha256":  "54d4733c7d6dab71bb4ef838bdbf12c8f566ce80c9a09b8dead4bbb87a098d0a"
                      },
                      {
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/chests/jungle_temple.json",
-                         "tipo":  "override_vanilla",
-                         "objetivo":  "cofre vanilla: jungle_temple",
+                         "tipo":  "override_chest",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
                          "sha256":  "083669cdd6c794c228329b180b4d1869731e19ce2f891a01afa14caa99f55e1a"
                      },
                      {
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/chests/abandoned_mineshaft.json",
-                         "tipo":  "override_vanilla",
-                         "objetivo":  "cofre vanilla: abandoned_mineshaft",
+                         "tipo":  "override_chest",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
                          "sha256":  "1ead98f09536b354456ac2433f32c076594e7ef0b9df2984b43a14a8ef0123f4"
                      },
                      {
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/entities/wither_skeleton.json",
-                         "tipo":  "override_vanilla",
+                         "tipo":  "override_entity",
                          "objetivo":  "entidad vanilla: wither_skeleton",
                          "sha256":  "3fe1cadfa3a78b8eb3420af7cd6bbb977f31d3a7897ccf07b261f8c2911b61af"
                      },
@@ -119,7 +135,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/entities/blaze.json",
-                         "tipo":  "override_vanilla",
+                         "tipo":  "override_entity",
                          "objetivo":  "entidad vanilla: blaze",
                          "sha256":  "80b8dc8f7469f27fc3417f0f2e7543251d80e37ea55257660fcd477fc31ceb30"
                      },
@@ -127,7 +143,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/entities/creeper.json",
-                         "tipo":  "override_vanilla",
+                         "tipo":  "override_entity",
                          "objetivo":  "entidad vanilla: creeper",
                          "sha256":  "a70f0ede8e11e395fbc998e29fdafbc37abc9d805912cfe940648efd09a0ca7a"
                      },
@@ -135,7 +151,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/entities/enderman.json",
-                         "tipo":  "override_vanilla",
+                         "tipo":  "override_entity",
                          "objetivo":  "entidad vanilla: enderman",
                          "sha256":  "4597731fdae3007377cb672137e29fd1c8a75e4eac53de23e1d2c5d331f80cec"
                      },
@@ -143,7 +159,7 @@
                          "base":  "server",
                          "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
                          "entrada":  "data/minecraft/loot_tables/entities/shulker.json",
-                         "tipo":  "override_vanilla",
+                         "tipo":  "override_entity",
                          "objetivo":  "entidad vanilla: shulker",
                          "sha256":  "d123959cf6e6aa152eb62ead97164b82e34ed46a0e019d93141009b349476a17"
                      },
