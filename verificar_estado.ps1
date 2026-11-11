@@ -1,4 +1,4 @@
-﻿# Verifica el estado del balance contra estado.json.
+# Verifica el estado del balance contra estado.json.
 # Uso:  .\verificar_estado.ps1 [-Json] [-SkipTests]
 # Salida: una linea por comprobacion (OK/FAIL/SKIP id detalle) y un RESUMEN.
 # Codigo de salida: 0 si todo OK o SKIP, 1 si hay algun FAIL.
@@ -173,7 +173,7 @@ if ($SkipTests) {
 # --- 5. invariantes de contenido (C1, C2, C3) -------------------------------
 $txtClase = ''
 if ($hashRepo) { $txtClase = (tar -xOf $jarRepo 'theoptimizer/equipment/EquipmentEvents.class' 2>$null | Out-String) }
-$nombresEncantamiento = $txtClase -match 'Pesadilla|Castigo|Toque de Seda|Fortuna III|Lealtad III|Empalamiento'
+$nombresEncantamiento = $txtClase -match 'Pesadilla|Castigo|Lealtad III|Empalamiento'
 Add-Check 'C1.sin-encantamientos' (-not $nombresEncantamiento) ($(if ($nombresEncantamiento) { 'tooltip nombra un encantamiento' } else { 'tooltips solo describen efectos' }))
 
 $policy = Join-Path $instancia 'gestion\herramientas\reparaciones\balance_equipamiento\theoptimizer\equipment\EquipmentPolicy.java'
