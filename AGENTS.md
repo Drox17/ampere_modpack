@@ -97,6 +97,7 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 |---|---|---|---|
 | 2026-11-10 | `97ab9e0` | base del registro | config reescrita por `instalar.py` → corregido con merge |
 | 2026-11-10 | `1dd27aa` | 13/13 sin derivas (1 SKIP en `tests.modulo`) | ninguna; config y jar alineados |
+| 2026-11-10 | `6b2f902` | 13/13 tras 1.3.0 (reparación simple) | `pages.version` desfasado ~50 s; convergió |
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 

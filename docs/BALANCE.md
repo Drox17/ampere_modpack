@@ -1,4 +1,4 @@
-# BALANCE.md — memoria profunda del sistema de sets
+﻿# BALANCE.md — memoria profunda del sistema de sets
 
 > Se lee **solo al diseñar** (cambiar reglas, añadir sets, revisar números). Para `/sync`
 > usa `verificar_estado.ps1` + `estado.json`. Este archivo explica el porqué y el backlog.
@@ -73,6 +73,17 @@ siendo mejor.
 ### J1. Jefes multifase
 Rotación físico → mágico → fuego por umbrales de vida para que ningún set sea la respuesta
 universal. **No implementar sin sesión de prueba**: rompe el endgame si falla.
+
+### D1. Decisiones tomadas el 2026-11-10 (pendientes de ejecutar)
+
+| ID | Decisión | Estado |
+|---|---|---|
+| D1.1 | **Quitar `goblintraders`** del pack: sin encantamientos su comercio no aporta | pendiente |
+| D1.2 | Reparación simple de arco, ballesta, escudo, caña y tijeras al 100 % | **hecho en 1.3.0** |
+| D1.3 | Tridente y elytra **no** entran a reparación hasta tener tradeoff propio | diseñar |
+| D1.4 | **Eliminar la XP** del pack y sustituir su función por bucles materiales/loot | diseñar |
+| D1.5 | Decidir el rol del beacon (¿logística o buff de combate?) | diseñar |
+| D1.6 | Alquimia/pociones como eje de soporte | diseñar |
 
 ### S1. Sueltas
 `bone_reptile_*`, `sturdy_boots` sin rol. `bard_*` pendiente de confirmar si dan `spell_power`
