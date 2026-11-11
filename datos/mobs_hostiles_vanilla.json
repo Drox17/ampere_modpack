@@ -1,0 +1,877 @@
+{
+  "version": "1.20.1",
+  "fuente": "bytecode SRG (javap) + TheOptimizer-MobBalance",
+  "nota": "efectivo = vanilla con los cambios del pack aplicados",
+  "mobs": [
+    {
+      "mob": "Zombi",
+      "clase": "monster.Zombie",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      }
+    },
+    {
+      "mob": "Zombi momificado",
+      "clase": "monster.Husk",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      }
+    },
+    {
+      "mob": "Ahogado",
+      "clase": "monster.Drowned",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      }
+    },
+    {
+      "mob": "Aldeano zombi",
+      "clase": "monster.ZombieVillager",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 2.0,
+        "armor_toughness": 0.0,
+        "follow_range": 35.0,
+        "attack_damage": 3.0
+      }
+    },
+    {
+      "mob": "Esqueleto",
+      "clase": "monster.Skeleton",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {
+        "max_health": 12.0
+      },
+      "efectivo": {
+        "max_health": 12.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Errante",
+      "clase": "monster.Stray",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {
+        "max_health": 12.0
+      },
+      "efectivo": {
+        "max_health": 12.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Esqueleto del Wither",
+      "clase": "monster.WitherSkeleton",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Creeper",
+      "clase": "monster.Creeper",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Arana",
+      "clase": "monster.Spider",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 16.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {
+        "max_health": 14.0
+      },
+      "efectivo": {
+        "max_health": 14.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Arana de cueva",
+      "clase": "monster.CaveSpider",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 12.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 12.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Lepisma",
+      "clase": "monster.Silverfish",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 8.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 8.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Endermite",
+      "clase": "monster.Endermite",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 8.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 8.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Slime",
+      "clase": "monster.Slime",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      }
+    },
+    {
+      "mob": "Cubo de magma",
+      "clase": "monster.MagmaCube",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.2,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.2,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      }
+    },
+    {
+      "mob": "Ghast",
+      "clase": "monster.Ghast",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 10.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 100.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 10.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 100.0
+      }
+    },
+    {
+      "mob": "Blaze",
+      "clase": "monster.Blaze",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 48.0,
+        "attack_damage": 6.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.23,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 48.0,
+        "attack_damage": 6.0
+      }
+    },
+    {
+      "mob": "Bruja",
+      "clase": "monster.Witch",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 26.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      },
+      "pack": {
+        "max_health": 20.0
+      },
+      "efectivo": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.25,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Saqueador",
+      "clase": "monster.Pillager",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 24.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 32.0,
+        "attack_damage": 5.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 24.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 32.0,
+        "attack_damage": 5.0
+      }
+    },
+    {
+      "mob": "Vindicador",
+      "clase": "monster.Vindicator",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 24.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 12.0,
+        "attack_damage": 5.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 24.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 12.0,
+        "attack_damage": 5.0
+      }
+    },
+    {
+      "mob": "Evocador",
+      "clase": "monster.Evoker",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 24.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 12.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 24.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 12.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Ilusionista",
+      "clase": "monster.Illusioner",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 32.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 18.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 32.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 18.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Devastador",
+      "clase": "monster.Ravager",
+      "grupo": "mini-jefe",
+      "vanilla": {
+        "max_health": 100.0,
+        "knockback_resistance": 0.75,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 32.0,
+        "attack_damage": 12.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 100.0,
+        "knockback_resistance": 0.75,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 32.0,
+        "attack_damage": 12.0
+      }
+    },
+    {
+      "mob": "Guardian",
+      "clase": "monster.Guardian",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 30.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 6.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 30.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 6.0
+      }
+    },
+    {
+      "mob": "Guardian anciano",
+      "clase": "monster.ElderGuardian",
+      "grupo": "mini-jefe",
+      "vanilla": {
+        "max_health": 80.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 8.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 80.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 8.0
+      }
+    },
+    {
+      "mob": "Shulker",
+      "clase": "monster.Shulker",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 30.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 30.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      }
+    },
+    {
+      "mob": "Fantasma",
+      "clase": "monster.Phantom",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 20.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      },
+      "pack": {
+        "max_health": 10.0
+      },
+      "efectivo": {
+        "max_health": 10.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      }
+    },
+    {
+      "mob": "Enderman",
+      "clase": "monster.EnderMan",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 40.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 64.0,
+        "attack_damage": 7.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 40.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 64.0,
+        "attack_damage": 7.0
+      }
+    },
+    {
+      "mob": "Vex",
+      "clase": "monster.Vex",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 14.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 4.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 14.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 4.0
+      }
+    },
+    {
+      "mob": "Hoglin",
+      "clase": "monster.hoglin.Hoglin",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 40.0,
+        "knockback_resistance": 0.6,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 6.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 40.0,
+        "knockback_resistance": 0.6,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 6.0
+      }
+    },
+    {
+      "mob": "Zoglin",
+      "clase": "monster.Zoglin",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 40.0,
+        "knockback_resistance": 0.6,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 6.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 40.0,
+        "knockback_resistance": 0.6,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 6.0
+      }
+    },
+    {
+      "mob": "Piglin",
+      "clase": "monster.piglin.Piglin",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 16.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 5.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 16.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 5.0
+      }
+    },
+    {
+      "mob": "Piglin bruto",
+      "clase": "monster.piglin.PiglinBrute",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 50.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 7.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 50.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.35,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 7.0
+      }
+    },
+    {
+      "mob": "Piglin zombificado",
+      "clase": "monster.piglin.ZombifiedPiglin",
+      "grupo": "hostil",
+      "vanilla": {},
+      "pack": {},
+      "efectivo": {}
+    },
+    {
+      "mob": "Gigante",
+      "clase": "monster.Giant",
+      "grupo": "hostil",
+      "vanilla": {
+        "max_health": 100.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 50.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 100.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.5,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 50.0
+      }
+    },
+    {
+      "mob": "Warden",
+      "clase": "monster.warden.Warden",
+      "grupo": "jefe",
+      "vanilla": {
+        "max_health": 500.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 30.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 500.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.3,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0,
+        "attack_damage": 30.0
+      }
+    },
+    {
+      "mob": "Wither",
+      "clase": "boss.wither.WitherBoss",
+      "grupo": "jefe",
+      "vanilla": {
+        "max_health": 300.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.6,
+        "armor": 4.0,
+        "armor_toughness": 0.0,
+        "follow_range": 40.0,
+        "attack_damage": 2.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 300.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.6,
+        "armor": 4.0,
+        "armor_toughness": 0.0,
+        "follow_range": 40.0,
+        "attack_damage": 2.0
+      }
+    },
+    {
+      "mob": "Dragon del End",
+      "clase": "boss.enderdragon.EnderDragon",
+      "grupo": "jefe",
+      "vanilla": {
+        "max_health": 200.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      },
+      "pack": {},
+      "efectivo": {
+        "max_health": 200.0,
+        "knockback_resistance": 0.0,
+        "movement_speed": 0.7,
+        "armor": 0.0,
+        "armor_toughness": 0.0,
+        "follow_range": 16.0
+      }
+    }
+  ]
+}
