@@ -10,12 +10,12 @@
 
 | Material | Daño espada | Daño hacha | Durabilidad | Alcance | Puntos de armadura | Dureza |
 |---|---:|---:|---:|---:|---:|---:|
-| Madera | 4 | 7 | 59 | — | — | — |
-| Piedra | 5 | 9 | 131 | — | — | — |
+| Madera | 4 | 7 | **80** | — | — | — |
+| Piedra | 5 | 9 | **160** | — | — | — |
 | Cuero | — | — | (×15) | — | **15** | 0 |
 | Cota de malla | — | — | vanilla | — | **15** | 0 |
-| Hierro | 6 | 9 | 250 | +0.5 | **15** | 0 |
-| Oro | 4 | 7 | 250 | — | **15** | 0 |
+| Hierro | 6 | 9 | **300** | +0.5 | **15** | 0 |
+| Oro | 4 | 7 | **300** | — | **15** | 0 |
 | Diamante | 7 | 9 | 1561 | +1.0 | **20** | 2 |
 | Netherita | 8 | 10 | 2031 | +1.0 | **20** | 3 |
 

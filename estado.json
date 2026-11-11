@@ -1,20 +1,23 @@
 {
     "actualizado":  "2026-11-11",
     "pack":  {
-                 "version":  "1.21.1",
+                 "version":  "1.22.0",
                  "entradas":  363,
                  "metafiles":  103,
                  "jars_locales":  20
              },
     "mod":  {
                 "id":  "theoptimizer_equipment",
-                "version":  "1.20.1",
-                "jar":  "TheOptimizer-EquipmentBalance-1.20.1.jar",
+                "version":  "1.21.0",
+                "jar":  "TheOptimizer-EquipmentBalance-1.21.0.jar",
                 "pruebas":  17
             },
     "config":  {
                    "unified_harvest_speed":  6.0,
-                   "gold_tools_durability":  250,
+                   "gold_tools_durability":  300,
+                   "wood_tool_durability":  80,
+                   "stone_tool_durability":  160,
+                   "iron_tool_durability":  300,
                    "gold_armor_multiplier":  15,
                    "gold_is_iron_tier":  true,
                    "netherite_pacifies_piglins":  true,

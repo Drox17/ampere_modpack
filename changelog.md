@@ -300,3 +300,11 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §4§l- El servidor no arrancaba:§r `MovementExhaustionMixin` usaba sintaxis de campo (`m_36399_:`) en el `target`. Mixin la rechaza con `Invalid name`.
 §7- §aFix:§r target con sintaxis de método: `Player;m_36399_(F)V`. La lógica del ÷5 no cambia.
 §7- §8Blindaje:§r `probar.py` verifica ahora que el target esté bien formado y que no use `:`. Trampa documentada en `docs/BALANCE.md` §3.1.
+-----------------------------------
+§6§l[33] DURABILIDAD HORIZONTAL Y ESCALA CONSERVADORA (v1.22.0)
+-----------------------------------
+§7- §8Bloque de 15 puntos:§r cuero, cota, oro y hierro comparten durabilidad de hierro: §f165 / 240 / 225 / 195§r por pieza (§f825§r el set). Los sets de rol dejan de desintegrarse.
+§7- §8Diamante y netherita:§r intactos (363/528/495/429 y 407/592/555/481) con su reparación al 25 %.
+§7- §aHerramientas:§r escala §f80 → 160 → 300§r (madera, piedra, hierro/oro). Diamante 1561 y netherita 2031 sin tocar.
+§7- §8Reparación y muerte:§r 100 % en tiers base, 25 % en élite y −10 % al morir siguen igual.
+§7- §7Docs:§r `docs/EQUIPAMIENTO.md` con la tabla completa; BALANCE §1.14 y AGENTS actualizados.

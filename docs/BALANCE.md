@@ -198,6 +198,35 @@ los innatos.
 `FoodDataMixin` ya cancelaba `FoodData.tick` para implementar la curación constante; eso deja fuera la
 regen rápida vanilla de 6.0. La reducción de movimiento no toca ese camino.
 
+
+### 1.14 Durabilidad unificada y escala de herramientas (1.22.0)
+
+**Armaduras del bloque de 15** (cuero, cota, oro, hierro): misma durabilidad por pieza que el hierro.
+
+| Pieza | Cuero | Cota | Oro | Hierro | Total set |
+|---|---:|---:|---:|---:|---:|
+| Casco | 165 | 165 | 165 | 165 |
+| Peto | 240 | 240 | 240 | 240 |
+| Grebas | 225 | 225 | 225 | 225 |
+| Botas | 195 | 195 | 195 | 195 |
+| **Set** | **825** | **825** | **825** | **825** | 825 |
+
+Diamante y netherita conservan su durabilidad de élite (casco 363/407, peto 528/592, grebas 495/555,
+botas 429/481) y su reparación al 25 %.
+
+**Herramientas y armas**: escala 80 → 160 → 300, con diamante y netherita intactos.
+
+| Tier | Antes | Ahora |
+|---|---:|---:|
+| Madera | 59 | **80** |
+| Piedra | 131 | **160** |
+| Hierro | 250 | **300** |
+| Oro | 250 | **300** |
+| Diamante | 1561 | 1561 |
+| Netherita | 2031 | 2031 |
+
+Reparación sin cambios: 100 % para madera/piedra/cuero/cota/oro/hierro y 25 % para diamante/netherita.
+La pérdida del 10 % al morir se aplica sobre estos valores.
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)
