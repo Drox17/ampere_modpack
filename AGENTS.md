@@ -20,6 +20,17 @@ vanilla con mods. Si una propuesta contradice estos diez puntos, está mal.
 | P8 | **Spawns adulterados a propósito** | Reparto 75/25 vanilla-mods, cap de criaturas 36, nigromante 18→2, cocodrilos bajo tierra | Que sea "spawn vanilla" |
 | P9 | **Yunque reworkeado** | 0 niveles de XP, sin "demasiado caro", reparación por familia (100 % baratos / 25 % caros), forja de tridentes | Que sea el yunque vanilla |
 | P10 | **Iron's Spellbooks looteable** | Las tintas y materiales mágicos entran por cofres (datapack `TheOptimizer_AdventureLoot`), porque en vanilla una granja de mobs es más eficiente | Que se hayan añadido recetas nuevas para tintas |
+| P11 | **Se buscan sugerencias** | Cualquier mecánica propuesta se evalúa contra P1-P10 y, si encaja, se implementa | Que la filosofía esté cerrada: el diseño está abierto a ideas |
+| P12 | **Juego tradicional primero** | Las recompensas salen de explorar, combatir, construir y coleccionar | Que la automatización o el AFK sean la vía óptima |
+| P13 | **Desincentivar al jugador técnico** | Granjas AFK, duplicación, min-max y automatización deben **dejar de ser la mejor opción** (no se prohíben: se vuelven peores) | Que se bloqueen mecánicas legítimas de construcción o redstone |
+
+**Prueba de diseño (aplicar antes de proponer nada):**
+
+1. ¿La forma más eficiente de conseguir X es **jugar** (explorar, pelear, construir) o **dejar una máquina**?
+2. ¿Un jugador técnico que optimiza 200 horas obtiene una ventaja que rompe la progresión?
+3. ¿La mecánica se puede resolver **AFK**?
+
+Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se rediseña** antes de implementarse.
 
 Reglas derivadas que ya han causado errores:
 - **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×1.5 a artrópodos").

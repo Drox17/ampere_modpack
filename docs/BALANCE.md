@@ -125,3 +125,29 @@ antes de entrar al rol mago.
   El agotamiento es la moneda natural porque la curación constante ya lo consume.
 - **P10 (Iron's looteable)**: en vanilla las tintas se farmean con granjas; el pack inyecta
   tintas y materiales en cofres para que explorar sea la vía.
+## 6. Juego tradicional vs jugador técnico
+
+El objetivo del pack **no es prohibir** granjas ni redstone: es que **jugar sea la vía óptima** y que
+la optimización técnica deje de dar una ventaja que rompa la progresión. Las mecánicas se diseñan
+para que la máquina sea peor, no para que sea imposible.
+
+**Prueba de diseño (antes de proponer cualquier mecánica):**
+
+1. ¿La forma más eficiente de conseguir X es jugar (explorar, pelear, construir) o dejar una máquina?
+2. ¿Un jugador técnico con 200 horas de optimización obtiene una ventaja que rompe la progresión?
+3. ¿La mecánica se puede resolver AFK?
+
+Si la respuesta lleva a máquina, optimización extrema o AFK, la propuesta se rediseña.
+
+**Lo que ya desincentiva al técnico:**
+
+- La XP no vale nada y no hay orbes: las granjas de XP y los spawners de XP pierden su razón.
+- Mending fuera: no hay reparación infinita; el equipo se mantiene con materiales (100 % baratos, 25 % caros).
+- Tintas y materiales mágicos por cofre: explorar rinde más que una granja de mobs.
+- Beacon que pacifica su área: menos presión para iluminar/farmear el perímetro de la base.
+- La comida como recurso de combate (escudo de hambre) y el agotamiento de los sets pesados: el AFK no cura.
+- Elytra consumible y con coste: el transporte infinito deja de existir.
+
+**Candidatos pendientes de revisar con el mismo criterio:** spawners de un solo uso, granjas de hierro
+y de raids (tótems), chunk loading, duplicación de cualquier tipo.
+
