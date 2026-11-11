@@ -175,6 +175,25 @@ if ($versionPages) {
     Add-Check 'pages.version' ($versionPages -eq $versionLocal) ("pages={0} repo={1}" -f $versionPages, $versionLocal)
 }
 
+# --- 8. registro de loot tables ---------------------------------------------
+$lootRuta = Join-Path $repo 'loot.json'
+if (Test-Path $lootRuta) {
+    $loot = Get-Content $lootRuta -Raw -Encoding UTF8 | ConvertFrom-Json
+    $totalLoot = 0
+    $malasLoot = 0
+    foreach ($e in $loot.entradas) {
+        $totalLoot++
+        $base = if ($e.base -eq 'server') { $srv } else { $repo }
+        $archivo = Join-Path $base $e.archivo
+        if (-not (Test-Path $archivo)) { $malasLoot++; continue }
+        $contenido = (tar -xOf $archivo $e.entrada 2>$null | Out-String)
+        $sha = [System.Security.Cryptography.SHA256]::Create()
+        $calculado = (($sha.ComputeHash([Text.Encoding]::UTF8.GetBytes($contenido)) | ForEach-Object { $_.ToString('x2') }) -join '')
+        if ($calculado -ne $e.sha256) { $malasLoot++ }
+    }
+    Add-Check 'loot.registro' ($malasLoot -eq 0) ("{0}/{1} tablas sin cambios" -f ($totalLoot - $malasLoot), $totalLoot)
+}
+
 # --- 7. git -----------------------------------------------------------------
 $porcelain = (git -C $repo status --porcelain 2>$null | Out-String).Trim()
 Add-Check 'git.limpio' ([string]::IsNullOrWhiteSpace($porcelain)) ($(if ([string]::IsNullOrWhiteSpace($porcelain)) { 'sin cambios pendientes' } else { 'hay cambios sin commitear' }))

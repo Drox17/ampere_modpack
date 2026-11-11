@@ -107,3 +107,4 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 
 `docs/BALANCE.md`: números de referencia, backlog con criterios de aceptación, trampas
 conocidas, procedimiento de publicación y razón de cada regla.
+`docs/LOOT.md` + `loot.json`: qué loot tables toca el pack (y cuáles no), con hashes verificados en cada `/sync`.

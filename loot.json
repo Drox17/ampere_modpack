@@ -1,0 +1,175 @@
+{
+    "actualizado":  "2026-11-11",
+    "nota":  "Registro de loot tables tocadas por el pack. Si cambia un sha256, alguien modifico esa tabla: revisar y actualizar este archivo en el mismo commit.",
+    "total":  21,
+    "entradas":  [
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json",
+                         "tipo":  "loot_modifier",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
+                         "sha256":  "488e2c4c424dfa5e0594b4b2a2b1d4816c93bc6102047a4857a46c36584597a9"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_modifiers/chest_loot/compat_good_loot_modifier.json",
+                         "tipo":  "loot_modifier",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
+                         "sha256":  "c648ab49389df2481551e0ae6d15b85685fbad3894fe5c835ae290cbb9cf0c9b"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_modifiers/chest_loot/compat_treasure_loot_modifier.json",
+                         "tipo":  "loot_modifier",
+                         "objetivo":  "inyeccion en cofres Iron\u0027s",
+                         "sha256":  "0a016860ce1d1c2391c3b75d6879b0b7cf193eb8fba6e73b6273bbcaa2c9b1b9"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_tables/chests/additional_generic_loot.json",
+                         "tipo":  "override_mod",
+                         "objetivo":  "cofre Iron\u0027s: additional_generic_loot",
+                         "sha256":  "fd76b24cbc162966566912dfd7f6d79ac3eafd5ad59417669b89b8d3d7902c80"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_tables/chests/additional_good_loot.json",
+                         "tipo":  "override_mod",
+                         "objetivo":  "cofre Iron\u0027s: additional_good_loot",
+                         "sha256":  "f687229d57733e05aac574218a9ef767c4e2c4ed1d89dab19a70c20be8812131"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_tables/chests/additional_treasure_loot.json",
+                         "tipo":  "override_mod",
+                         "objetivo":  "cofre Iron\u0027s: additional_treasure_loot",
+                         "sha256":  "c2b380ad30e44ae3180ed1b1eef7e7963f55952ccaf2be809d9b8df8d2f41caa"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/pyromancer_supplies.json",
+                         "tipo":  "override_mod",
+                         "objetivo":  "cofre Iron\u0027s: pyromancer_supplies",
+                         "sha256":  "75a4b70b5fec2fe4f9f52dcc770a02629706fb37ef78f111d06b5d2a56ae1976"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_tables/chests/mountain_tower/mountain_tower.json",
+                         "tipo":  "override_mod",
+                         "objetivo":  "cofre Iron\u0027s: mountain_tower",
+                         "sha256":  "1785f00af00a2ab0a29dad086612c46c7392e3c9fb840ff42e3a02d490824949"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/irons_spellbooks/loot_tables/chests/ice_spider_den/dungeon.json",
+                         "tipo":  "override_mod",
+                         "objetivo":  "cofre Iron\u0027s: dungeon",
+                         "sha256":  "45f395084692a05f0f9d05204248bb7dc27650dbd99c69e9b5056cb81deb73a3"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/chests/simple_dungeon.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "cofre vanilla: simple_dungeon",
+                         "sha256":  "2ab336cb93ca154df678d565a56d8f167222ad1c1362eb86a122e8c219d6d7c2"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/chests/desert_pyramid.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "cofre vanilla: desert_pyramid",
+                         "sha256":  "54d4733c7d6dab71bb4ef838bdbf12c8f566ce80c9a09b8dead4bbb87a098d0a"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/chests/jungle_temple.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "cofre vanilla: jungle_temple",
+                         "sha256":  "083669cdd6c794c228329b180b4d1869731e19ce2f891a01afa14caa99f55e1a"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/chests/abandoned_mineshaft.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "cofre vanilla: abandoned_mineshaft",
+                         "sha256":  "1ead98f09536b354456ac2433f32c076594e7ef0b9df2984b43a14a8ef0123f4"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/entities/wither_skeleton.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "entidad vanilla: wither_skeleton",
+                         "sha256":  "a9b3fc215b9780170a8dfba25f5380a8d8e7c103e18b684c6c0d2937917e6972"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/expatternprovider/loot_tables/blocks/ex_emc_interface.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "expatternprovider (drop de bloque)",
+                         "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_0.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "sha256":  "826fdc19528d45cb3a377d15b3483113a5b2231c00186389cea9516378fe5f45"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_1.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "sha256":  "3a7d6fa0eeb7cfa94f72b935c310ef2f04ad0a3377759d16ffe75069bfdb4296"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_2.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "sha256":  "d455a8c498edf7041e28ddac6c685c0dec4a7632fe3235269e7a3039eadee3de"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_3.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "sha256":  "9b9c0a9436e1e6d8618404a0354cf04224d80caa4f7f107d1d12b9314acc0d72"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_4.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "sha256":  "88aa259a8f435ef32c67be6e4eb2f7d03db97e043caa7016d3eca6ba744273af"
+                     },
+                     {
+                         "base":  "repo",
+                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_5.json",
+                         "tipo":  "bloque",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "sha256":  "19975a44c01813d4f5f025e2e18f3b85a5094ddfed0a8541ac1aca84e06a940e"
+                     }
+                 ]
+}
