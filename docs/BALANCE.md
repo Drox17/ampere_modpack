@@ -160,6 +160,22 @@ del evocador de Iron's) **no se dropea**. `SpawnedGearRule` marca cada pieza al 
 Motivo (P12/P13): el equipo generado es gratis; si cae, cualquier spawn se convierte en granja de
 armas y tridentes. El equipo del jugador sí vuelve para no perder objetos propios.
 
+
+### 1.12 Muela de afilar: solo se extraen los 3 looteables (1.20.1)
+
+La muela convierte un encantamiento **looteable** en su libro de nivel 1. Nunca extrae encantamientos
+innatos del material (Toque de Seda, Fortuna, Castigo, Lealtad, Empuje, Filo Arrasador…): esos son la
+identidad del tier, no conocimiento extraíble.
+
+| Objeto en la muela | Resultado |
+|---|---|
+| Herramienta con Irrompibilidad/Botín/Eficiencia real | Libro de nivel 1 de ese encantamiento |
+| Herramienta solo con innatos (pico de diamante, espada de oro, tridente) | **Nada**: sin libro y sin coste |
+| Objeto sin encantamientos | Reparación normal de la muela |
+
+Consecuencia: no se pueden fabricar libros de Fortuna, Seda, Castigo o Lealtad con una muela; esos
+efectos siguen viviendo en el material. Además desaparece el coste de XP que la muela cobraba por
+los innatos.
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)

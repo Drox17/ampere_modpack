@@ -38,6 +38,7 @@ Reglas derivadas que ya han causado errores:
 - **No proponer sistemas que usen XP** como moneda (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
 - **Cofre del End: estrella del Nether y solo materiales** (rechaza armas, herramientas, armaduras y contenedores; el tooltip lo avisa).
+- **La muela solo extrae Irrompibilidad, Botín y Eficiencia**; los innatos del material nunca son libros.
 - **Equipo de spawn: no se dropea** (armadura/armas generadas e invocaciones); el que entrega el jugador sí.
 - **Encantamientos innatos: solo para jugadores** (la Lealtad del tridente no vuelve a los mobs).
 - **Drops cotidianos con mínimo 1, sin RNG de granja** (vara de blaze, pólvora, perla, caparazón, carbón del wither skeleton).

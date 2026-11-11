@@ -281,3 +281,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Por qué:§r el equipo generado es gratis; si cae, cada spawn se vuelve una granja de armas y tridentes (P12/P13).
 §7- §aExcepciones:§r el equipo que el jugador entrega o el mob recoge del suelo §fsí cae§r, igual que el estandarte de capitán y los objetos con nombre propio.
 §7- §bImplementación:§r `SpawnedGearRule` marca las piezas al entrar al mundo y filtra las gotas en `LivingDropsEvent`. `MobBalance 1.5.0`.
+-----------------------------------
+§6§l[30] LA MUELA YA NO EXTRAE ENCANTAMIENTOS INNATOS (v1.20.1)
+-----------------------------------
+§7- §8Bug:§r la muela extraía cualquier encantamiento visible, incluidos los innatos del material (Toque de Seda, Fortuna, Castigo, Lealtad…). Se podían fabricar libros de Fortuna o Lealtad con una muela.
+§7- §aFix:§r solo se extraen los §ftres looteables§r (Irrompibilidad, Botín, Eficiencia). Si el objeto solo tiene innatos, la muela no ofrece resultado ni cobra XP.
+§7- §8Consecuencia:§r la identidad del material sigue en el material; la muela solo convierte conocimiento que ya existía como botín. `EquipmentBalance 1.19.0`.
