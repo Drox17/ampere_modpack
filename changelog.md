@@ -274,3 +274,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Bug:§r los encantamientos innatos se aplican al ítem, no al portador. Un §fdrowned§r con tridente heredaba §fLealtad III§r y sus lanzamientos volvían en bucle: decenas de tridentes girando a su alrededor.
 §7- §aFix:§r `ThrownTridentMixin` corta el retorno cuando el dueño no es un jugador. El jugador conserva su Lealtad III; los mobs lanzan el tridente una vez y se queda clavado.
 §7- §8Nota:§r los bonos de set siguen siendo exclusivos del jugador por diseño; la armadura de los mobs pesados (Devastador 10, Guardián anciano 8, etc.) llega con `MobBalance 1.4.0`, ya publicado en el repositorio.
+-----------------------------------
+§6§l[29] EL EQUIPO DE SPAWN SE VA CON EL MOB (v1.20.0)
+-----------------------------------
+§7- §8Regla:§r la armadura y las armas que el juego genera al spawnear (dificultad local, aleatorio, invocaciones del nigromante y del evocador de Iron's) §fno se dropean§r.
+§7- §8Por qué:§r el equipo generado es gratis; si cae, cada spawn se vuelve una granja de armas y tridentes (P12/P13).
+§7- §aExcepciones:§r el equipo que el jugador entrega o el mob recoge del suelo §fsí cae§r, igual que el estandarte de capitán y los objetos con nombre propio.
+§7- §bImplementación:§r `SpawnedGearRule` marca las piezas al entrar al mundo y filtra las gotas en `LivingDropsEvent`. `MobBalance 1.5.0`.

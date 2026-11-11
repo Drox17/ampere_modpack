@@ -142,6 +142,24 @@ con tridente heredara **Lealtad III** y sus lanzamientos volvieran en bucle (dec
 girando a su alrededor). `ThrownTridentMixin` corta el retorno cuando el dueño no es un jugador
 (`m_37594_` + comprobación de `m_19749_`). El jugador conserva su Lealtad III.
 
+
+### 1.11 Equipo de spawn: se va con el mob (1.20.0)
+
+El equipo con el que un mob aparece (dificultad local, spawns aleatorios, invocaciones de nigromante o
+del evocador de Iron's) **no se dropea**. `SpawnedGearRule` marca cada pieza al entrar al mundo con
+`AmpereSpawnGear` y `LivingDropsEvent` descarta las gotas marcadas.
+
+| Caso | ¿Dropea? |
+|---|---|
+| Armadura/arma generada por el juego al spawnear | **No** |
+| Equipo de invocaciones (nigromante, evocador de Iron's) | **No** |
+| Equipo que el jugador entrega o el mob recoge del suelo | **Sí** (sin marca) |
+| Estandarte de capitán (raid) | **Sí** (excluido: objeto único) |
+| Objeto con nombre personalizado | **Sí** (excluido) |
+
+Motivo (P12/P13): el equipo generado es gratis; si cae, cualquier spawn se convierte en granja de
+armas y tridentes. El equipo del jugador sí vuelve para no perder objetos propios.
+
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)
