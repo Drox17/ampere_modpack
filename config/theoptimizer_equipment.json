@@ -14,14 +14,6 @@
   "constant_heal_interval_ticks": 40,
   "constant_heal_exhaustion": 2.0,
   "kinetic_impact_exhaustion": true,
-  "netherite_impact_base_exhaustion": 0.6,
-  "diamond_impact_base_exhaustion": 0.5,
-  "heavy_exhaustion_hit_scale": 0.03,
-  "diamond_weak_hit_penalty": 0.1,
-  "netherite_weak_hit_penalty": 0.05,
-  "leather_repair_fraction": 1.0,
-  "chain_repair_fraction": 1.0,
-  "gold_repair_fraction": 1.0,
-  "diamond_repair_fraction": 0.25,
-  "netherite_repair_fraction": 0.25
+  "netherite_impact_base_exhaustion": 0.4,
+  "diamond_impact_base_exhaustion": 0.4
 }
