@@ -37,5 +37,6 @@
   "hunger_shield_exhaustion_per_damage": 2.0,
   "beacon_pacify": true,
   "beacon_pacify_radius": 30.0,
-  "disable_experience_orbs": true
+  "disable_experience_orbs": true,
+  "grindstone_extraction": true
 }

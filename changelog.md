@@ -174,3 +174,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §cSin orbes:§r ningún orbe de experiencia entra al mundo. Minar, matar, criar o cocinar ya no generan objetos de XP: la experiencia deja de existir como cosa física.
 §7- §8Nada depende de ella:§r el yunque no cobra niveles, la mesa de encantamientos es decorativa y Mending no existe. Los aldeanos conservan su experiencia interna para comerciar (no pasa por orbes).
 §7- §aEfecto secundario buscado:§r menos entidades en el suelo y menos cálculo de recogida: el servidor respira y el suelo de las granjas deja de llenarse de orbes.
+-----------------------------------
+§6§l[16] LA MUELA EXTRAE ENCANTAMIENTOS (v1.9.0)
+-----------------------------------
+§7- §3Muela de afilar:§r ya no borra el encantamiento. Si el objeto tiene uno de los tres encantamientos looteables, la muela devuelve §fsu libro de nivel 1§r y consume el objeto original.
+§7- §8El bucle del botin:§r explorar → cofre con Irrompibilidad / Botin / Eficiencia → moler el objeto → libro → yunque (0 niveles) sobre tu equipo bueno. La muela no crea nada nuevo: solo convierte lo que ya cayó.
+§7- §8Coste asumido:§r el objeto molido se destruye. Extraer conocimiento cuesta la pieza.
+§7- §8Configurable:§r grindstone_extraction en theoptimizer_equipment.json.
