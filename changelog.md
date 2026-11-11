@@ -246,3 +246,14 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Saqueadores:§r si el golpe letal no es de un jugador activo, no sueltan tótem, esmeraldas ni libros.
 §7- §8Warden:§r destruye nieve en polvo y trampillas de su hitbox; desde un pilar inalcanzable recibe lentitud y un tirón hacia abajo.
 §7- §8Monumento:§r la prismarina no la rompe la TNT mientras quede un Guardián anciano vivo.
+-----------------------------------
+§6§l[26] COHERENCIA, ARMADURA REAL Y DROPS DETERMINISTAS (v1.18.0)
+-----------------------------------
+§7- §2Madera:§r fuera la Pesadilla de los Artrópodos V; ahora el §f×1.5§r contra artrópodos se aplica de verdad en el golpe y el tooltip sale de la misma constante.
+§7- §fHierro:§r el tooltip de barrido muestra el §f75 %§r real de Filo Arrasador III (antes decía 100 %).
+§7- §7Cota de malla:§r velocidad §f+4 / +8 / +12 / +16 %§r (antes 2/4/7/10). Por fin compensa que ninguna armadura frene.
+§7- §8Umbral de golpe fuerte:§r se mide sobre el daño §fbruto§r, antes del escudo de hambre y de las reducciones. Un golpe de 12 ya no se convierte en "débil" por amortiguarlo.
+§7- §5Cofre del End:§r ahora cuesta una §fEstrella del Nether§r (antes ojo de ender) y §frechaza§r armas, herramientas, armaduras y contenedores; solo guarda materiales, recursos y consumibles. El tooltip lo avisa.
+§7- §2Armadura real en mobs pesados:§r Devastador §f10§r, Guardián anciano §f8§r, Piglin bruto §f8§r, Guardián/Vindicador/Zoglin §f4§r. El §f+15 %§r de la netherita contra blindados ya tiene objetivo.
+§7- §8Tirón del Warden:§r se marca la entidad para que el cliente reciba el impulso.
+§7- §aDrops cotidianos sin RNG:§r carbón del esqueleto del Wither §f1-2§r garantizado; vara de blaze, pólvora, perla de ender y caparazón de shulker con §fmínimo 1§r por baja legítima. El cráneo sigue al 15 %.

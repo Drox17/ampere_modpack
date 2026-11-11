@@ -1,7 +1,7 @@
 {
     "actualizado":  "2026-11-11",
     "nota":  "Loot tables tocadas por el pack. Si cambia un sha256, revisar y actualizar este archivo en el mismo commit.",
-    "total":  21,
+    "total":  25,
     "entradas":  [
                      {
                          "base":  "server",
@@ -113,7 +113,39 @@
                          "entrada":  "data/minecraft/loot_tables/entities/wither_skeleton.json",
                          "tipo":  "override_vanilla",
                          "objetivo":  "entidad vanilla: wither_skeleton",
-                         "sha256":  "a9b3fc215b9780170a8dfba25f5380a8d8e7c103e18b684c6c0d2937917e6972"
+                         "sha256":  "3fe1cadfa3a78b8eb3420af7cd6bbb977f31d3a7897ccf07b261f8c2911b61af"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/entities/blaze.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "entidad vanilla: blaze",
+                         "sha256":  "80b8dc8f7469f27fc3417f0f2e7543251d80e37ea55257660fcd477fc31ceb30"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/entities/creeper.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "entidad vanilla: creeper",
+                         "sha256":  "a70f0ede8e11e395fbc998e29fdafbc37abc9d805912cfe940648efd09a0ca7a"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/entities/enderman.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "entidad vanilla: enderman",
+                         "sha256":  "4597731fdae3007377cb672137e29fd1c8a75e4eac53de23e1d2c5d331f80cec"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_AdventureLoot.zip",
+                         "entrada":  "data/minecraft/loot_tables/entities/shulker.json",
+                         "tipo":  "override_vanilla",
+                         "objetivo":  "entidad vanilla: shulker",
+                         "sha256":  "d123959cf6e6aa152eb62ead97164b82e34ed46a0e019d93141009b349476a17"
                      },
                      {
                          "base":  "server",
