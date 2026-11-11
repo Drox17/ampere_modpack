@@ -78,11 +78,11 @@ universal. **No implementar sin sesión de prueba**: rompe el endgame si falla.
 
 | ID | Decisión | Estado |
 |---|---|---|
-| D1.1 | **Quitar `goblintraders`** del pack: sin encantamientos su comercio no aporta | pendiente |
+| D1.1 | **Quitar `goblintraders`** del pack: sin encantamientos su comercio no aporta | **hecho en 1.4.0** |
 | D1.2 | Reparación simple de arco, ballesta, escudo, caña y tijeras al 100 % | **hecho en 1.3.0** |
-| D1.3 | Tridente y elytra **no** entran a reparación hasta tener tradeoff propio | diseñar |
-| D1.4 | **Eliminar la XP** del pack y sustituir su función por bucles materiales/loot | en curso: yunque portado y MiningXP retirado (1.7.0); falta apagar los orbes |
-| D1.5 | Decidir el rol del beacon (¿logística o buff de combate?) | diseñar |
+| D1.3 | Tridente y elytra con tradeoff propio | **hecho: tridente 1.4.0, elytra 1.5.0** |
+| D1.4 | **Eliminar la XP** del pack | **hecho en 1.8.0** (yunque 1.7.0, MiningXP retirado, orbes apagados) |
+| D1.5 | Rol del beacon | **hecho en 1.6.0**: área de paz (radio 30, todo el eje Y) + escudo de hambre dentro del área |
 | D1.6 | Alquimia/pociones como eje de soporte | diseñar |
 
 ### S1. Sueltas
