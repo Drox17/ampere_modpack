@@ -76,6 +76,8 @@ tocarlas, tendrían que aparecer en `loot.json`.
 
 Estas siete tablas se envían en un **datapack**, no en el jar: un datapack tiene prioridad sobre los
 recursos de los mods, y desde el jar perdían la prioridad y no servían de nada (verificado en log).
+El zip se despliega al mundo del servidor y además viaja en el pack (`moonlight-global-datapacks/`),
+así que también aplica en partidas individuales del cliente.
 
 | Tabla del mod | Problema (bug del mod) | Corrección del pack |
 |---|---|---|

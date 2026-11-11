@@ -1528,6 +1528,10 @@ hash = "18dfe8ada0af83eb86d4b8ff8e202479b7c2ab1ee1f894d9bb07cda1744e8981"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"
+hash = "ff7e0822c5a1813afea4db2d3c88f02654a9345d84a480b7abb4d3ab785f228f"
+
+[[files]]
 file = "resourcepacks/Correcciones-TheOptimizer.zip"
 hash = "a17daf428dbd8a069136726616fe1068021a4f173006597db31584e91a0f67d6"
 
