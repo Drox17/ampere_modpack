@@ -128,6 +128,7 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §cCoste de los sets pesados:§r diamante y netherita muestran su precio y lo cobran al recibir golpes: agotamiento proporcional al daño y, con el set completo, §f+10 %§r (diamante) o §f+5 %§r (netherita) de daño recibido de golpes débiles (<8). Las hordas dejan de ser gratis para quien viste diamante.
 §7- §eEconomía de reparación:§r cuero, malla, hierro y oro restauran el §f100 %§r con una unidad de su material; diamante y netherita solo el §f25 %§r. Mantener el equipo caro cuesta caro; los sets baratos son los de explorar y arriesgar.
 §7- §8Todo configurable:§r theoptimizer_equipment.json expone las fracciones de reparación por familia, la escala de agotamiento y ambas penalizaciones.
+§7- §8Sin nombres de encantamiento:§r los tooltips describen el efecto, no el encantamiento ("daño ×1.5 a artrópodos", "recoge bloques intactos", "más botín de minerales"). Como los encantamientos ya no existen en el pack, nombrarlos sobraba.
 §7- §8Herencia de Netherita:§r ignitium, cursium y monstrous helm se forjan sobre piezas de netherita, así que heredan su protección térmica, su debilidad ante golpes débiles y su reparación al 25 % (antes el cursium se libraba de todo y era el camino de trampa).
 
 -----------------------------------
