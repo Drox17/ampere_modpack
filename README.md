@@ -40,3 +40,13 @@ Para evitar cierres inesperados o tirones:
 
 ### 🔄 ¿Cómo se actualiza el modpack?
 **No tienes que hacer nada.** Si el administrador añade, borra o cambia mods o configuraciones, tu launcher detectará los cambios y los descargará automáticamente en segundos antes de abrir el juego.
+---
+
+## 🧰 Mantenimiento (solo administrador)
+
+Antes de publicar cambios, valida que el pack siga siendo coherente:
+
+1. `packwiz refresh` (o simplemente haz commit: el hook local lo ejecuta).
+2. `powershell -NoProfile -ExecutionPolicy Bypass -File validar.ps1` → debe imprimir `OK: el pack es coherente.`
+
+`.github/workflows/pack-validate.yml` aplica esas mismas comprobaciones en cada push cuando GitHub Actions está disponible para la cuenta (hoy no lo está por un bloqueo de facturación).
