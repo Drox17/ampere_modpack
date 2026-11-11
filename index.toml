@@ -954,7 +954,7 @@ hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.21.0.jar"
-hash = "5afd1af5ca8b61f46e01eae6f9d2259c423c8e8823f26c3b0769efa29132c55c"
+hash = "f14de2fdddf7862354f06dde93a06e48e3153b96026683405790878b9cae0c30"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
@@ -970,7 +970,7 @@ hash = "fc6ad3184c928b11d422a370504385bf0f79b82e24f5d9e13303ed7a3d8eac15"
 
 [[files]]
 file = "mods/TheOptimizer-WildlifeRepopulation-1.6.0.jar"
-hash = "785e8ca2f803762d23933ef5d1f2e4a70ebbfb430581a29d2f0169c72d5c365f"
+hash = "270fd64e9bb221c0b26cb90a725c765d86063865818c9901269b069d36d19add"
 
 [[files]]
 file = "mods/ae2.pw.toml"
