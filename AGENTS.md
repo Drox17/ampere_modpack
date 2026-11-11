@@ -37,6 +37,7 @@ Reglas derivadas que ya han causado errores:
 - **Nada de prosa con números**: los valores salen del código y se muestran en el tooltip.
 - **No proponer sistemas que usen XP** como moneda (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
+- **Jefes: respuestas reactivas, no prohibiciones**: se corrige el daño, el agro o el entorno; no se bloquean bloques ni se cancelan invocaciones (ver `docs/BALANCE.md` §1.6).
 
 ## 2. Mods del pack (lo que existe y lo que no)
 

@@ -64,6 +64,26 @@ no tienen daño cuerpo a cuerpo (explosión, bola de fuego, proyectil).
 
 > Auditoría del eje horizontal/vertical y márgenes de mejora: `docs/PROGRESION_EQUIPAMIENTO.md`.
 
+### 1.6 Respuestas reactivas de jefes (anti-cheese)
+
+`TheOptimizer-MobBalance` (1.2.0) no prohíbe bloques ni cancela invocaciones: cambia las reglas del
+combate cuando se intenta abusar. Todo vive en `AntiCheeseBossHandler` (`@EventBusSubscriber`).
+
+| Abuso | Respuesta | Detalle |
+|---|---|---|
+| Encerrar al Wither en bedrock/techo | Escapa sobre el jugador | 60 ticks atrapado → teleport + Lentitud I |
+| Búnker acuático | El Wither evapora el agua | Radio 4, cada 20 ticks |
+| Wither vs Warden | No se dañan y redirigen el agro | Al jugador más cercano (48 bloques) |
+| Camas / TNT en cadena | Tope explosivo por segundo | 12 de daño por ventana de 20 ticks; el resto se descarta |
+| Trident killer | Tridente viejo no daña | Cualquier tridente con más de 60 ticks |
+| Granja de raids (lava/caída/gólem) | Sin premios gordos | Sin tótem, esmeraldas ni libros si el golpe letal no es de un jugador activo |
+| Warden en nieve en polvo / pilar | Limpia y derriba | Rompe nieve y trampillas de su hitbox; a 16-40 bloques aplica Lentitud III y un tirón |
+| TNT al monumento | Prismarina protegida | Inmune a explosiones mientras quede un Guardián anciano vivo |
+
+Criterio: un jugador que pelea de forma normal no nota nada; el que abusa pierde la ventaja sin que se le
+prohíba construir. Es la aplicación directa de P12 (juego tradicional primero) y P13 (el técnico deja de
+tener la mejor opción).
+
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)
