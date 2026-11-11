@@ -1,4 +1,4 @@
-﻿# BALANCE.md — memoria profunda del sistema de sets
+# BALANCE.md — memoria profunda del sistema de sets
 
 > Se lee **solo al diseñar** (cambiar reglas, añadir sets, revisar números). Para `/sync`
 > usa `verificar_estado.ps1` + `estado.json`. Este archivo explica el porqué y el backlog.
@@ -42,6 +42,24 @@ seda, netherita +1.0 alcance y más botín.
 
 **Problema conocido**: una herramienta no debería dar movimiento ni armadura (es eje de
 armadura). Ver backlog T1.
+
+### 1.4 Hostiles no jefes (1.20.1, atributos base)
+
+Datos completos en `docs/MOBS_HOSTILES_VANILLA.md` (bytecode real, reejecutable). Lo que cambia el pack
+(`TheOptimizer-MobBalance`, `EntityAttributeModificationEvent`):
+
+| Mob | Vida vanilla | Vida pack |
+|---|---:|---:|
+| Esqueleto | 20 | 12 |
+| Errante | 20 | 12 |
+| Araña | 16 | 14 |
+| Fantasma | 20 | 10 |
+| Bruja | 26 | 20 |
+
+Referencias del resto: casi todos los básicos tienen 20 de vida y 2-3 de daño base; los pesados son
+Devastador (100/12, empuje 0.75), Guardián anciano (80/8), Piglin bruto (50/7), Zoglin/Hoglin/Enderman (40/6-7).
+El daño base se escala ×0.5 / ×1.0 / ×1.5 por dificultad al golpear. Creeper, Ghast, Blaze y Shulker
+no tienen daño cuerpo a cuerpo (explosión, bola de fuego, proyectil).
 
 ## 2. Backlog con criterio de aceptación
 

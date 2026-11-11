@@ -1,4 +1,4 @@
-﻿# AGENTS.md — Ampere Better Survival (modpack)
+# AGENTS.md — Ampere Better Survival (modpack)
 
 > **Punto de entrada.** Lee §1 (filosofía) y §2 (mods) antes de proponer cualquier cosa.
 > En `/sync` ejecuta **un solo comando**: `.\verificar_estado.ps1`. Detalle largo en `docs/BALANCE.md`.
@@ -79,7 +79,7 @@ sí está, Create: Diesel Generators no.
 
 **Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %; `bard_*` fuera) · `R2` anti-mago (oro, S4).
 
-**Herramientas/armas (T)**: sin rediseño todavía. Hoy dan movimiento/guardia (pendiente T1 en `docs/BALANCE.md`).
+**Herramientas/armas (T)**: rediseño hecho en 1.10.0/1.11.0. Madera: +25 % en madera/hojas/cultivos y hojas sin desgaste · Piedra: +15 % en cantera/menas y aturdimiento 0.4 s (solo armas) · Hierro: alcance +0.5 (sin guardia) · Diamante: alcance +1.0 y 10 % crítico ×1.5 · Oro: suerte y piglins. Detalle y números en `docs/BALANCE.md`.
 
 ## 4. Invariantes (si falla una, es bug)
 
@@ -119,3 +119,4 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 `docs/BALANCE.md`: números de referencia, backlog con criterios de aceptación, trampas
 conocidas, procedimiento de publicación y razón de cada regla.
 `docs/LOOT.md` + `loot.json`: qué loot tables toca el pack (y cuáles no), con hashes verificados en cada `/sync`.
+`docs/MOBS_HOSTILES_VANILLA.md` + `datos/mobs_hostiles_vanilla.json`: atributos de los 37 hostiles vanilla (bytecode 1.20.1) y qué cambia MobBalance. Reejecutable con `herramientas/extraer_atributos_vanilla.py`.

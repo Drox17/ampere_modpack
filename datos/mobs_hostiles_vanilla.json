@@ -25,7 +25,8 @@
         "armor_toughness": 0.0,
         "follow_range": 35.0,
         "attack_damage": 3.0
-      }
+      },
+      "nota": "20 de vida y armadura 2; el no-muerto más lento (0.23). En Difícil pega ~4.5."
     },
     {
       "mob": "Zombi momificado",
@@ -49,7 +50,8 @@
         "armor_toughness": 0.0,
         "follow_range": 35.0,
         "attack_damage": 3.0
-      }
+      },
+      "nota": "Igual que el zombi, pero no se quema de día y aplica Hambre."
     },
     {
       "mob": "Ahogado",
@@ -73,7 +75,8 @@
         "armor_toughness": 0.0,
         "follow_range": 35.0,
         "attack_damage": 3.0
-      }
+      },
+      "nota": "Zombi acuático; puede llevar tridente y nada."
     },
     {
       "mob": "Aldeano zombi",
@@ -97,7 +100,8 @@
         "armor_toughness": 0.0,
         "follow_range": 35.0,
         "attack_damage": 3.0
-      }
+      },
+      "nota": "Zombi con armadura 2; se cura con debilidad + manzana dorada."
     },
     {
       "mob": "Esqueleto",
@@ -123,7 +127,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "Pack: 12 de vida (antes 20). Arquero; su cuerpo a cuerpo es flojo."
     },
     {
       "mob": "Errante",
@@ -149,7 +154,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "Pack: 12 de vida. Flechas de lentitud."
     },
     {
       "mob": "Esqueleto del Wither",
@@ -173,7 +179,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "20 de vida; espada de piedra y efecto Wither."
     },
     {
       "mob": "Creeper",
@@ -197,7 +204,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "20 de vida; su daño es la explosión, no el atributo de melee."
     },
     {
       "mob": "Arana",
@@ -223,7 +231,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "Pack: 14 de vida (antes 16). Rápida y escala paredes."
     },
     {
       "mob": "Arana de cueva",
@@ -247,7 +256,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "12 de vida; aplica veneno."
     },
     {
       "mob": "Lepisma",
@@ -271,7 +281,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "8 de vida; llama a más lepismas al ser golpeada."
     },
     {
       "mob": "Endermite",
@@ -295,7 +306,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "8 de vida; aparece al usar perlas del End."
     },
     {
       "mob": "Slime",
@@ -317,7 +329,8 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0
-      }
+      },
+      "nota": "La vida depende del tamaño; el daño es por contacto."
     },
     {
       "mob": "Cubo de magma",
@@ -339,7 +352,8 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0
-      }
+      },
+      "nota": "Vida por tamaño; daño de fuego al contacto."
     },
     {
       "mob": "Ghast",
@@ -361,7 +375,8 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 100.0
-      }
+      },
+      "nota": "10 de vida; bola de fuego; el mayor seguimiento (100)."
     },
     {
       "mob": "Blaze",
@@ -385,7 +400,8 @@
         "armor_toughness": 0.0,
         "follow_range": 48.0,
         "attack_damage": 6.0
-      }
+      },
+      "nota": "20 de vida y 6 de daño base; ataca con bolas de fuego."
     },
     {
       "mob": "Bruja",
@@ -411,7 +427,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "Pack: 20 de vida (antes 26). Combate con pociones."
     },
     {
       "mob": "Saqueador",
@@ -435,7 +452,8 @@
         "armor_toughness": 0.0,
         "follow_range": 32.0,
         "attack_damage": 5.0
-      }
+      },
+      "nota": "24 de vida; ballesta y seguimiento 32."
     },
     {
       "mob": "Vindicador",
@@ -459,7 +477,8 @@
         "armor_toughness": 0.0,
         "follow_range": 12.0,
         "attack_damage": 5.0
-      }
+      },
+      "nota": "24 de vida, 5 base; en Difícil su hacha pega ~19."
     },
     {
       "mob": "Evocador",
@@ -483,7 +502,8 @@
         "armor_toughness": 0.0,
         "follow_range": 12.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "24 de vida; invoca Vex y colmillos."
     },
     {
       "mob": "Ilusionista",
@@ -507,7 +527,8 @@
         "armor_toughness": 0.0,
         "follow_range": 18.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "32 de vida; ilusiones y arco."
     },
     {
       "mob": "Devastador",
@@ -531,7 +552,8 @@
         "armor_toughness": 0.0,
         "follow_range": 32.0,
         "attack_damage": 12.0
-      }
+      },
+      "nota": "100 de vida, 12 base y 0.75 de resistencia al empuje; montura de saqueadores."
     },
     {
       "mob": "Guardian",
@@ -555,7 +577,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 6.0
-      }
+      },
+      "nota": "30 de vida; rayo y seguimiento largo."
     },
     {
       "mob": "Guardian anciano",
@@ -579,7 +602,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 8.0
-      }
+      },
+      "nota": "80 de vida; aplica fatiga de minería."
     },
     {
       "mob": "Shulker",
@@ -601,7 +625,8 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0
-      }
+      },
+      "nota": "30 de vida; proyectiles de levitación."
     },
     {
       "mob": "Fantasma",
@@ -625,7 +650,8 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0
-      }
+      },
+      "nota": "Pack: 10 de vida (antes 20). Vuela y ataca en picado."
     },
     {
       "mob": "Enderman",
@@ -649,7 +675,8 @@
         "armor_toughness": 0.0,
         "follow_range": 64.0,
         "attack_damage": 7.0
-      }
+      },
+      "nota": "40 de vida y 7 base; se teletransporta y esquiva flechas."
     },
     {
       "mob": "Vex",
@@ -673,7 +700,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 4.0
-      }
+      },
+      "nota": "14 de vida; atraviesa paredes."
     },
     {
       "mob": "Hoglin",
@@ -697,7 +725,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 6.0
-      }
+      },
+      "nota": "40 de vida, 6 base y 0.6 de resistencia al empuje."
     },
     {
       "mob": "Zoglin",
@@ -721,7 +750,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 6.0
-      }
+      },
+      "nota": "40 de vida; inmune al fuego y 0.6 de resistencia al empuje."
     },
     {
       "mob": "Piglin",
@@ -745,7 +775,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 5.0
-      }
+      },
+      "nota": "16 de vida; trueque y ballesta."
     },
     {
       "mob": "Piglin bruto",
@@ -769,7 +800,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 7.0
-      }
+      },
+      "nota": "50 de vida y 7 base; hacha y mucha resistencia."
     },
     {
       "mob": "Piglin zombificado",
@@ -777,7 +809,8 @@
       "grupo": "hostil",
       "vanilla": {},
       "pack": {},
-      "efectivo": {}
+      "efectivo": {},
+      "nota": "No parseable (clase sin atributos propios); hereda de Zombi: 20 de vida y 3 de daño."
     },
     {
       "mob": "Gigante",
@@ -801,7 +834,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 50.0
-      }
+      },
+      "nota": "100 de vida y 50 base; no aparece en supervivencia, solo referencia."
     },
     {
       "mob": "Warden",
@@ -825,7 +859,8 @@
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 30.0
-      }
+      },
+      "nota": "500 de vida y 30 base; su resistencia al empuje real es 1.0 (inmune), no capturada por el extractor."
     },
     {
       "mob": "Wither",
@@ -849,7 +884,8 @@
         "armor_toughness": 0.0,
         "follow_range": 40.0,
         "attack_damage": 2.0
-      }
+      },
+      "nota": "300 de vida; jefe. Su daño no es cuerpo a cuerpo."
     },
     {
       "mob": "Dragon del End",
@@ -871,7 +907,8 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0
-      }
+      },
+      "nota": "200 de vida; jefe. Ataca con aliento y embestidas."
     }
   ]
 }

@@ -235,6 +235,46 @@ def resolver(fqn: str, mapa: dict[str, str], cache: dict[str, dict[str, float | 
     return resultado
 
 
+NOTAS = {
+    "Zombi": "20 de vida y armadura 2; el no-muerto más lento (0.23). En Difícil pega ~4.5.",
+    "Zombi momificado": "Igual que el zombi, pero no se quema de día y aplica Hambre.",
+    "Ahogado": "Zombi acuático; puede llevar tridente y nada.",
+    "Aldeano zombi": "Zombi con armadura 2; se cura con debilidad + manzana dorada.",
+    "Esqueleto": "Pack: 12 de vida (antes 20). Arquero; su cuerpo a cuerpo es flojo.",
+    "Errante": "Pack: 12 de vida. Flechas de lentitud.",
+    "Esqueleto del Wither": "20 de vida; espada de piedra y efecto Wither.",
+    "Creeper": "20 de vida; su daño es la explosión, no el atributo de melee.",
+    "Arana": "Pack: 14 de vida (antes 16). Rápida y escala paredes.",
+    "Arana de cueva": "12 de vida; aplica veneno.",
+    "Lepisma": "8 de vida; llama a más lepismas al ser golpeada.",
+    "Endermite": "8 de vida; aparece al usar perlas del End.",
+    "Slime": "La vida depende del tamaño; el daño es por contacto.",
+    "Cubo de magma": "Vida por tamaño; daño de fuego al contacto.",
+    "Ghast": "10 de vida; bola de fuego; el mayor seguimiento (100).",
+    "Blaze": "20 de vida y 6 de daño base; ataca con bolas de fuego.",
+    "Bruja": "Pack: 20 de vida (antes 26). Combate con pociones.",
+    "Saqueador": "24 de vida; ballesta y seguimiento 32.",
+    "Vindicador": "24 de vida, 5 base; en Difícil su hacha pega ~19.",
+    "Evocador": "24 de vida; invoca Vex y colmillos.",
+    "Ilusionista": "32 de vida; ilusiones y arco.",
+    "Devastador": "100 de vida, 12 base y 0.75 de resistencia al empuje; montura de saqueadores.",
+    "Guardian": "30 de vida; rayo y seguimiento largo.",
+    "Guardian anciano": "80 de vida; aplica fatiga de minería.",
+    "Shulker": "30 de vida; proyectiles de levitación.",
+    "Fantasma": "Pack: 10 de vida (antes 20). Vuela y ataca en picado.",
+    "Enderman": "40 de vida y 7 base; se teletransporta y esquiva flechas.",
+    "Vex": "14 de vida; atraviesa paredes.",
+    "Hoglin": "40 de vida, 6 base y 0.6 de resistencia al empuje.",
+    "Zoglin": "40 de vida; inmune al fuego y 0.6 de resistencia al empuje.",
+    "Piglin": "16 de vida; trueque y ballesta.",
+    "Piglin bruto": "50 de vida y 7 base; hacha y mucha resistencia.",
+    "Piglin zombificado": "No parseable (clase sin atributos propios); hereda de Zombi: 20 de vida y 3 de daño.",
+    "Gigante": "100 de vida y 50 base; no aparece en supervivencia, solo referencia.",
+    "Warden": "500 de vida y 30 base; su resistencia al empuje real es 1.0 (inmune), no capturada por el extractor.",
+    "Wither": "300 de vida; jefe. Su daño no es cuerpo a cuerpo.",
+    "Dragon del End": "200 de vida; jefe. Ataca con aliento y embestidas.",
+}
+
 CLAVES = {c[0] for c in COLUMNAS}
 
 def _escribir(ruta: Path, contenido: str) -> None:
@@ -263,6 +303,7 @@ def main() -> None:
         efectivo.update(cambios)
         fila["pack"] = {k: round(v, 4) for k, v in cambios.items()}
         fila["efectivo"] = {k: round(v, 4) for k, v in efectivo.items()}
+        fila["nota"] = NOTAS.get(nombre, "")
         filas.append(fila)
 
     DATOS.mkdir(parents=True, exist_ok=True)
@@ -279,34 +320,27 @@ def main() -> None:
         ) + "\n",
     )
 
+    def fmt(f: dict, clave: str) -> str:
+        valor = f["efectivo"].get(clave)
+        return "-" if valor is None else ("%g" % valor)
+
     lineas = [
         "# Mobs hostiles vanilla (1.20.1): atributos base y efecto del pack",
         "",
-        "Extraido del bytecode del servidor (SRG, `javap`) resolviendo la herencia de clases, y",
-        "cruzado con los cambios de `TheOptimizer-MobBalance` (`EntityAttributeModificationEvent`).",
-        "`Vida pack` es la vida **efectiva** en el modpack; el resto de atributos no los modifica el pack.",
+        "> Generado por `herramientas/extraer_atributos_vanilla.py`. No editar a mano.",
         "",
-        "| Mob | Grupo | Vida vanilla | Vida pack | Daño | Armadura | Dureza | Res. empuje | Velocidad | Seguimiento |",
-        "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|",
-    ]
-
-    def fmt(fila: dict, clave: str) -> str:
-        valor = fila["efectivo"].get(clave)
-        return "-" if valor is None else ("%g" % valor)
-
-    for f in filas:
-        vida_vanilla = f["vanilla"].get("max_health")
-        vida_pack = f["efectivo"].get("max_health")
-        vv = "-" if vida_vanilla is None else ("%g" % vida_vanilla)
-        vp = "-" if vida_pack is None else ("%g" % vida_pack)
-        cambio = " *(pack)*" if "max_health" in f["pack"] else ""
-        lineas.append(
-            f"| {f['mob']} | {f['grupo']} | {vv} | {vp}{cambio} | {fmt(f,'attack_damage')} | "
-            f"{fmt(f,'armor')} | {fmt(f,'armor_toughness')} | {fmt(f,'knockback_resistance')} | "
-            f"{fmt(f,'movement_speed')} | {fmt(f,'follow_range')} |"
-        )
-
-    lineas += [
+        "## Cómo se obtuvieron estos datos",
+        "",
+        "1. Se lee el **bytecode** del servidor Forge (jar SRG) con `javap`, sin depender de la wiki.",
+        "2. Cada entidad define sus atributos en un método estático que devuelve `AttributeSupplier$Builder`;",
+        "   las constantes aparecen como `getstatic Attributes.f_XXXX_` + `ldc2_w` + `Builder.m_22268_(Attribute, D)`.",
+        "3. La **herencia** se resuelve por la cabecera `extends` (p. ej. Zombi → Monster → PathfinderMob → Mob → LivingEntity).",
+        "4. Los atributos añadidos sin valor (`Builder.m_22266_`) usan el **valor por defecto** del atributo,",
+        "   que se extrae del inicializador estático de `Attributes`.",
+        "5. Se cruza con el único mod del pack que toca atributos de hostiles:",
+        "   `TheOptimizer-MobBalance` (`EntityAttributeModificationEvent`).",
+        "",
+        "Reejecutar: `python herramientas/extraer_atributos_vanilla.py`.",
         "",
         "## Cambios del pack (MobBalance)",
         "",
@@ -320,18 +354,117 @@ def main() -> None:
 
     lineas += [
         "",
-        "## Notas",
+        "## Hostiles (no jefes)",
         "",
-        "- `danio` es el ataque cuerpo a cuerpo base; la dificultad lo escala en el cálculo del golpe (x0.5 a x1.5),",
-        "  no en el atributo.",
-        "- `res_empuje` = 1.0 significa inmune al empuje (Warden, Wither, Devastador).",
-        "- `velocidad` es el multiplicador por tick (0.25 ≈ jugador caminando).",
-        "- Los grupos `jefe` se incluyen como referencia; el análisis de no jefes usa `hostil` y `mini-jefe`.",
-        "- Reejecutar: `python herramientas/extraer_atributos_vanilla.py`.",
+        "| Mob | Vida vanilla | Vida pack | Daño | Armadura | Dureza | Res. empuje | Velocidad | Seguimiento |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
     ]
-    DOCS.mkdir(parents=True, exist_ok=True)
-    _escribir(DOCS / "MOBS_HOSTILES_VANILLA.md", "\n".join(lineas) + "\n")
+    for f in filas:
+        if f["grupo"] != "hostil":
+            continue
+        vida_vanilla = f["vanilla"].get("max_health")
+        vida_pack = f["efectivo"].get("max_health")
+        vv = "-" if vida_vanilla is None else ("%g" % vida_vanilla)
+        vp = "-" if vida_pack is None else ("%g" % vida_pack)
+        cambio = " *(pack)*" if "max_health" in f["pack"] else ""
+        lineas.append(
+            f"| {f['mob']} | {vv} | {vp}{cambio} | {fmt(f,'attack_damage')} | "
+            f"{fmt(f,'armor')} | {fmt(f,'armor_toughness')} | {fmt(f,'knockback_resistance')} | "
+            f"{fmt(f,'movement_speed')} | {fmt(f,'follow_range')} |"
+        )
 
+    lineas += [
+        "",
+        "## Mini-jefes",
+        "",
+        "| Mob | Vida vanilla | Vida pack | Daño | Armadura | Dureza | Res. empuje | Velocidad | Seguimiento |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
+    ]
+    for f in filas:
+        if f["grupo"] != "mini-jefe":
+            continue
+        vida_vanilla = f["vanilla"].get("max_health")
+        vida_pack = f["efectivo"].get("max_health")
+        vv = "-" if vida_vanilla is None else ("%g" % vida_vanilla)
+        vp = "-" if vida_pack is None else ("%g" % vida_pack)
+        cambio = " *(pack)*" if "max_health" in f["pack"] else ""
+        lineas.append(
+            f"| {f['mob']} | {vv} | {vp}{cambio} | {fmt(f,'attack_damage')} | "
+            f"{fmt(f,'armor')} | {fmt(f,'armor_toughness')} | {fmt(f,'knockback_resistance')} | "
+            f"{fmt(f,'movement_speed')} | {fmt(f,'follow_range')} |"
+        )
+
+    lineas += [
+        "",
+        "## Jefes (solo referencia, fuera del análisis de no jefes)",
+        "",
+        "| Mob | Vida | Daño | Armadura | Res. empuje | Velocidad | Seguimiento |",
+        "|---|---:|---:|---:|---:|---:|---:|",
+    ]
+    for f in filas:
+        if f["grupo"] != "jefe":
+            continue
+        lineas.append(
+            f"| {f['mob']} | {fmt(f,'max_health')} | {fmt(f,'attack_damage')} | {fmt(f,'armor')} | "
+            f"{fmt(f,'knockback_resistance')} | {fmt(f,'movement_speed')} | {fmt(f,'follow_range')} |"
+        )
+
+    lineas += [
+        "",
+        "## Daño cuerpo a cuerpo por dificultad",
+        "",
+        "El atributo `danio` se escala al golpear: ×0.5 (Fácil), ×1.0 (Normal), ×1.5 (Difícil).",
+        "",
+        "| Mob | Base | Fácil | Normal | Difícil |",
+        "|---|---:|---:|---:|---:|",
+    ]
+    for f in filas:
+        if f["grupo"] == "jefe":
+            continue
+        danio = f["efectivo"].get("attack_damage")
+        if danio is None:
+            continue
+        lineas.append(
+            f"| {f['mob']} | {'%g' % danio} | {'%g' % round(danio * 0.5, 2)} | "
+            f"{'%g' % round(danio, 2)} | {'%g' % round(danio * 1.5, 2)} |"
+        )
+
+    lineas += [
+        "",
+        "## Notas por mob",
+        "",
+    ]
+    for nombre, nota in NOTAS.items():
+        lineas.append(f"- **{nombre}**: {nota}")
+
+    lineas += [
+        "",
+        "## Limitaciones conocidas",
+        "",
+        "- `danio` es el ataque **base**; la dificultad lo escala al golpear (ver tabla anterior).",
+        "- **Creeper, Ghast, Blaze, Shulker, Slime y Cubo de magma** no tienen daño cuerpo a cuerpo:",
+        "  usan explosión, bola de fuego, proyectil o daño por tamaño/contacto, que no son atributos.",
+        "- La vida de **Slime** y **Cubo de magma** depende del tamaño (la tabla muestra el atributo base).",
+        "- **Warden**: su resistencia al empuje real es 1.0 (inmune); el extractor no la captura porque la",
+        "  asigna por una vía distinta al patrón `add(Attribute, valor)`.",
+        "- **Piglin zombificado** no se pudo parsear (su clase no define atributos); hereda de Zombi: 20 de vida, 3 de daño.",
+        "- **Gigante** está incluido como referencia, pero no aparece en supervivencia.",
+        "- El daño de los proyectiles (flechas de esqueleto, bolas de blaze) y los efectos (veneno de araña de",
+        "  cueva, wither) no son atributos y no están en esta tabla.",
+        "",
+        "## Familias de comportamiento (para balance)",
+        "",
+        "| Familia | Mobs |",
+        "|---|---|",
+        "| No-muertos básicos | Zombi, Husk, Ahogado, Aldeano zombi, Esqueleto, Errante, Esqueleto del Wither |",
+        "| Artrópodos | Araña, Araña de cueva, Lepisma, Endermite |",
+        "| Nether | Blaze, Ghast, Cubo de magma, Piglin, Piglin bruto, Hoglin, Zoglin, Piglin zombificado |",
+        "| Saqueadores | Saqueador, Vindicador, Evocador, Ilusionista, Bruja, Devastador |",
+        "| Acuáticos | Ahogado, Guardián, Guardián anciano |",
+        "| Especiales | Creeper, Enderman, Shulker, Fantasma, Vex, Slime, Warden |",
+        "",
+    ]
+    _escribir(DOCS / "MOBS_HOSTILES_VANILLA.md", "\n".join(lineas) + "\n")
     print(f"mobs extraidos: {len(filas)}")
     faltan = [f["mob"] for f in filas if "max_health" not in f["vanilla"]]
     if faltan:
