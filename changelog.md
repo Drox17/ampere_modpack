@@ -294,3 +294,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Solo movimiento:§r el factor se aplica únicamente en `jumpFromGround` y `checkMovementStatistics`. Escudo de hambre, sets pesados, atacar y daño recibido siguen con su valor nominal.
 §7- §8Regeneración:§r la rama vanilla de 6.0 por medio corazón ya estaba cancelada por la curación constante de Ampere (2.0 por HP cada 40 ticks). 1 corazón = 4.0 de agotamiento en 4 s, sin picos.
 §7- §7Tests:§r comprobación de que el ÷5 solo toca movimiento y de que la curación constante sigue activa.
+-----------------------------------
+§6§l[32] ARRANQUE CORREGIDO: TARGET DE MIXIN (v1.21.1)
+-----------------------------------
+§4§l- El servidor no arrancaba:§r `MovementExhaustionMixin` usaba sintaxis de campo (`m_36399_:`) en el `target`. Mixin la rechaza con `Invalid name`.
+§7- §aFix:§r target con sintaxis de método: `Player;m_36399_(F)V`. La lógica del ÷5 no cambia.
+§7- §8Blindaje:§r `probar.py` verifica ahora que el target esté bien formado y que no use `:`. Trampa documentada en `docs/BALANCE.md` §3.1.
