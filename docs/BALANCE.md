@@ -45,7 +45,7 @@ armadura). Ver backlog T1.
 
 ## 2. Backlog con criterio de aceptación
 
-### T1. Rediseño de herramientas y armas (siguiente)
+### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)
 Quitar de herramientas la velocidad de movimiento y de armas la guardia de armadura; dar
 identidad de recolección (madera +25 % madera/hojas/cultivos; piedra +15 % piedra y menas;
 hierro alcance; oro suerte; diamante toque de seda + ×2 pizarra/obsidiana; netherita botín +

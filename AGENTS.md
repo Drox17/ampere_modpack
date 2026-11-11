@@ -101,6 +101,7 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 | 2026-11-10 | `1addb4e` | 13/13 tras 1.5.0 (elytra, hambre-escudo, beacon) | ninguna |
 | 2026-11-11 | `ccc36b6` | 13/13 tras 1.7.0 (yunque en EquipmentBalance, MiningXP retirado) | orbes de XP vuelven a vanilla hasta la siguiente pasada |
 | 2026-11-11 | `0211a6a` | 1.8.0: orbes de XP apagados; estados D1.1-D1.5 corregidos | ninguna |
+| 2026-11-11 | `7068456` | 1.11.0: hojas sin desgaste (cierra T1) | ninguna |
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 
