@@ -1,15 +1,15 @@
 {
     "actualizado":  "2026-11-11",
     "pack":  {
-                 "version":  "1.11.0",
+                 "version":  "1.12.0",
                  "entradas":  361,
                  "metafiles":  103,
                  "jars_locales":  20
              },
     "mod":  {
                 "id":  "theoptimizer_equipment",
-                "version":  "1.11.0",
-                "jar":  "TheOptimizer-EquipmentBalance-1.11.0.jar",
+                "version":  "1.12.0",
+                "jar":  "TheOptimizer-EquipmentBalance-1.12.0.jar",
                 "pruebas":  17
             },
     "config":  {

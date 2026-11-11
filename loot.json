@@ -1,6 +1,6 @@
 {
     "actualizado":  "2026-11-11",
-    "nota":  "Registro de loot tables tocadas por el pack. Si cambia un sha256, alguien modifico esa tabla: revisar y actualizar este archivo en el mismo commit.",
+    "nota":  "Loot tables tocadas por el pack. Si cambia un sha256, revisar y actualizar este archivo en el mismo commit.",
     "total":  21,
     "entradas":  [
                      {
@@ -116,60 +116,67 @@
                          "sha256":  "a9b3fc215b9780170a8dfba25f5380a8d8e7c103e18b684c6c0d2937917e6972"
                      },
                      {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
                          "entrada":  "data/expatternprovider/loot_tables/blocks/ex_emc_interface.json",
-                         "tipo":  "bloque",
+                         "tipo":  "correccion",
                          "objetivo":  "expatternprovider (drop de bloque)",
+                         "nota":  "drop del bloque con el item real (_part)",
+                         "sha256":  "4fedaea67fecbd6cb27a74c529f48fd0d7912805e796a23d914f85de3c39ba33"
+                     },
+                     {
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
+                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_0.json",
+                         "tipo":  "correccion",
+                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
+                         "nota":  "bloque sin item: sin drop (tabla del mod rota)",
                          "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
                      },
                      {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
-                         "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_0.json",
-                         "tipo":  "bloque",
-                         "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
-                         "sha256":  "826fdc19528d45cb3a377d15b3483113a5b2231c00186389cea9516378fe5f45"
-                     },
-                     {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
                          "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_1.json",
-                         "tipo":  "bloque",
+                         "tipo":  "correccion",
                          "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
-                         "sha256":  "3a7d6fa0eeb7cfa94f72b935c310ef2f04ad0a3377759d16ffe75069bfdb4296"
+                         "nota":  "bloque sin item: sin drop (tabla del mod rota)",
+                         "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
                      },
                      {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
                          "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_2.json",
-                         "tipo":  "bloque",
+                         "tipo":  "correccion",
                          "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
-                         "sha256":  "d455a8c498edf7041e28ddac6c685c0dec4a7632fe3235269e7a3039eadee3de"
+                         "nota":  "bloque sin item: sin drop (tabla del mod rota)",
+                         "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
                      },
                      {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
                          "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_3.json",
-                         "tipo":  "bloque",
+                         "tipo":  "correccion",
                          "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
-                         "sha256":  "9b9c0a9436e1e6d8618404a0354cf04224d80caa4f7f107d1d12b9314acc0d72"
+                         "nota":  "bloque sin item: sin drop (tabla del mod rota)",
+                         "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
                      },
                      {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
                          "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_4.json",
-                         "tipo":  "bloque",
+                         "tipo":  "correccion",
                          "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
-                         "sha256":  "88aa259a8f435ef32c67be6e4eb2f7d03db97e043caa7016d3eca6ba744273af"
+                         "nota":  "bloque sin item: sin drop (tabla del mod rota)",
+                         "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
                      },
                      {
-                         "base":  "repo",
-                         "archivo":  "mods/TheOptimizer-EquipmentBalance-1.11.0.jar",
+                         "base":  "server",
+                         "archivo":  "ampere/datapacks/TheOptimizer_LootFixes.zip",
                          "entrada":  "data/kaleidoscope_chinesefood/loot_tables/blocks/doll_5.json",
-                         "tipo":  "bloque",
+                         "tipo":  "correccion",
                          "objetivo":  "kaleidoscope_chinesefood (drop de bloque)",
-                         "sha256":  "19975a44c01813d4f5f025e2e18f3b85a5094ddfed0a8541ac1aca84e06a940e"
+                         "nota":  "bloque sin item: sin drop (tabla del mod rota)",
+                         "sha256":  "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
                      }
                  ]
 }

@@ -1,4 +1,4 @@
-# LOOT.md — Registro de loot tables del pack
+﻿# LOOT.md — Registro de loot tables del pack
 
 > Regla de oro: **si una tabla no aparece aquí, el pack NO la modifica.** El registro contiene
 > solo lo tocado y guarda el hash de cada entrada en `loot.json`. Si un hash cambia, alguien
@@ -12,10 +12,10 @@
 | `TheOptimizer_AdventureLoot.zip` | `entities/wither_skeleton` | override | Tabla reescrita (incluye cráneo) — **intención exacta pendiente de documentar** |
 | `TheOptimizer_AdventureLoot.zip` | 3 cofres de Iron's (pyromancer_supplies, mountain_tower, ice_spider_den) | override | Tintas y materiales mágicos por exploración (P10) |
 | `TheOptimizer_AdventureLoot.zip` | `additional_generic/good/treasure_loot` + 3 loot modifiers | loot_modifier | Inyección en cofres de Iron's sin reemplazar sus tablas base |
-| `TheOptimizer-EquipmentBalance.jar` | `expatternprovider:ex_emc_interface` | drop de bloque | Drop del bloque (evita pérdida al romperlo) |
-| `TheOptimizer-EquipmentBalance.jar` | `kaleidoscope_chinesefood:doll_0..5` | drop de bloque | Drops de las seis muñecas |
+| `TheOptimizer_LootFixes.zip` | `expatternprovider:ex_emc_interface` | corrección | La tabla del mod apunta a un item que no existe; el datapack la sustituye por el item real (`ex_emc_interface_part`) |
+| `TheOptimizer_LootFixes.zip` | `kaleidoscope_chinesefood:doll_0..5` | corrección | Las muñecas ya no existen como item: tabla vacía para cortar el error de parseo |
 
-Total registrado: **21 entradas** (5 overrides vanilla, 6 overrides de mods, 3 loot modifiers, 7 drops de bloque).
+Total registrado: **21 entradas** (5 overrides vanilla, 6 overrides de mods, 3 loot modifiers, 7 correcciones en datapack).
 
 ## Detalle
 
@@ -70,3 +70,25 @@ tocarlas, tendrían que aparecer en `loot.json`.
   documentarla cuando se revise.
 - El registro cubre datapacks y jars propios; si un mod del pack cambia sus tablas al
   actualizarse, el hash no lo detecta (no lo controlamos nosotros).
+
+
+### Correcciones de tablas de mods (`TheOptimizer_LootFixes.zip`)
+
+Estas siete tablas se envían en un **datapack**, no en el jar: un datapack tiene prioridad sobre los
+recursos de los mods, y desde el jar perdían la prioridad y no servían de nada (verificado en log).
+
+| Tabla del mod | Problema (bug del mod) | Corrección del pack |
+|---|---|---|
+| `expatternprovider:blocks/ex_emc_interface` | Referencia `expatternprovider:ex_emc_interface` como item, pero el item real es `…_emc_interface_part` | Dropea `…_emc_interface_part` |
+| `kaleidoscope_chinesefood:blocks/doll_0..5` | Las muñecas no existen como item en 1.1.16 | Tabla vacía (sin drop) para cortar el error |
+
+### Bugs upstream que NO se corrigen (documentados)
+
+| Tabla de Iron's | Error | Efecto |
+|---|---|---|
+| `chests/citadel/citadel_tomes` | `Unknown type 'minecraft:set_written_book_pages'` (función que no existe en 1.20.1) | La tabla no carga: el cofre `citadel_tomes` y el pool 8 de `citadel_bookshelf` quedan sin botín |
+| `chests/catacombs/crypt_loot` | `Missing name, expected to find a string` en `LootTableReference` | La tabla no carga: los cofres de catacumbas quedan sin botín |
+
+No se tocan porque son del mod y decidir qué botín deberían dar es una decisión de diseño, no una
+corrección mecánica. Si se quiere arreglar, la vía es reescribir ambas tablas en este mismo datapack
+con contenido coherente (tintas, runas, pergaminos).

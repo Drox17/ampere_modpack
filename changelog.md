@@ -197,3 +197,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §2Hojas gratis:§r romper hojas no gasta durabilidad de la herramienta. Limpiar un bosque deja de ser un castigo para el pico o el hacha.
 §7- §8Encaja con la madera:§r su identidad es recolección (+25 % en madera, hojas y cultivos) sin tocar movimiento ni armadura.
 §7- §8Configurable:§r leaves_free_durability en theoptimizer_equipment.json.
+-----------------------------------
+§6§l[19] CORRECCIONES DE LOOT TABLES (v1.12.0)
+-----------------------------------
+§7- §8Tablas rotas de mods:§r la interfaz EMC de ExtendedAE y las seis muñecas de Kaleidoscope Chinese Food tenían tablas que apuntaban a items que ya no existen. Ahora se corrigen desde un §fdatapack§r, que sí tiene prioridad.
+§7- §2Interfaz EMC:§r vuelve a dropear, con su item real (§fex_emc_interface_part§r). Antes el bloque no soltaba nada.
+§7- §8Muñecas:§r se quedan sin drop (no tienen item) pero dejan de llenar el log de errores.
+§7- §8Pendiente conocido:§r dos tablas de Iron's (citadel_tomes y crypt_loot) tienen errores propios del mod en 1.20.1; esos cofres quedan sin botín y está documentado en docs/LOOT.md.
