@@ -218,3 +218,13 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §bAlex's Mobs recortado:§r 14 especies con peso alto bajan a 2-4 (straddler 15→4, rockyRoller 12→4, underminer/mimicube 10→3, soulVulture/guster 8→3, fareer/warpedToad/blobfish/gazelle 6→3, kangaroo/platypus/tortuga/mudskipper 5→2).
 §7- §fTope de criaturas:§r baja de §f36§r a §f16§r por chunk (vanilla 10). Es la palanca real de rendimiento: el spawner solo rellena hasta ese cupo, no borra ni recrea entidades.
 §7- §8Configurable:§r config/theoptimizer_repopulation.json expone disable_vanilla_passive_spawns, rebalance_spawn_pools, creature_spawn_cap y animal_despawn_guard.
+-----------------------------------
+§6§l[22] COHERENCIA DEL EQUIPO: COSTE REAL POR MATERIAL (v1.15.0)
+-----------------------------------
+§7- §eOro:§r Castigo pasa de V a §fIII§r: §f+7.5§r de daño contra no-muertos (antes +12.5). Ya no aplasta al resto de tiers. El tooltip muestra la cifra real.
+§7- §bDiamante:§r crítico §f15 %§r (antes 10 %) y penalización de golpe débil §f−5 %§r (antes −10 %). Rol de precisión contra enemigos sin blindaje.
+§7- §8Netherita:§r penalización de golpe débil §f−10 %§r (antes −5 %). La élite paga más y se queda con el rol de control y blindados.
+§7- §fHierro (armadura):§r dureza §f+0.5§r por pieza (§f2.0§r con set completo, frente a 8 del diamante). Sigue en 15 puntos.
+§7- §6Cuero:§r caída §f7/15/25/40 %§r (antes 5/12/20/35): el set completo de explorador por fin se nota.
+§7- §8Fuera texto sin código:§r se retira "rotura de escudos" de la netherita (nunca se implementó); queda Lentitud II. El empuje de piedra se corrige a §f+1.0§r real.
+§7- §8Sin penalización de movimiento:§r las armaduras pesadas no frenan (parkour intacto); su coste es el agotamiento al golpear y la reparación al 25 %.

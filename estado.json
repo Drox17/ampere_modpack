@@ -1,15 +1,15 @@
 {
     "actualizado":  "2026-11-11",
     "pack":  {
-                 "version":  "1.14.0",
+                 "version":  "1.15.0",
                  "entradas":  363,
                  "metafiles":  103,
                  "jars_locales":  20
              },
     "mod":  {
                 "id":  "theoptimizer_equipment",
-                "version":  "1.12.0",
-                "jar":  "TheOptimizer-EquipmentBalance-1.12.0.jar",
+                "version":  "1.13.0",
+                "jar":  "TheOptimizer-EquipmentBalance-1.13.0.jar",
                 "pruebas":  17
             },
     "config":  {
@@ -31,8 +31,8 @@
                    "netherite_impact_base_exhaustion":  0.6,
                    "diamond_impact_base_exhaustion":  0.5,
                    "heavy_exhaustion_hit_scale":  0.03,
-                   "diamond_weak_hit_penalty":  0.1,
-                   "netherite_weak_hit_penalty":  0.05,
+                   "diamond_weak_hit_penalty":  0.05,
+                   "netherite_weak_hit_penalty":  0.1,
                    "leather_repair_fraction":  1.0,
                    "chain_repair_fraction":  1.0,
                    "gold_repair_fraction":  1.0,
@@ -56,8 +56,10 @@
                    "wood_gather_bonus":  0.25,
                    "stone_gather_bonus":  0.15,
                    "stone_stun_ticks":  8,
-                   "diamond_crit_chance":  0.1,
+                   "diamond_crit_chance":  0.15,
                    "diamond_crit_multiplier":  1.5,
+                   "iron_armor_toughness":  0.5,
+                   "gold_smite_level":  3,
                    "leaves_free_durability":  true
                },
     "invariantes":  [
