@@ -137,5 +137,6 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 `docs/BALANCE.md`: números de referencia, backlog con criterios de aceptación, trampas
 conocidas, procedimiento de publicación y razón de cada regla.
 `docs/LOOT.md` + `loot.json`: qué loot tables toca el pack (y cuáles no), con hashes verificados en cada `/sync`.
+`docs/HAMBRE_VANILLA.md`: fuentes vanilla de agotamiento (correr 0.1/m, salto 0.05, ataque 0.1, minería 0.005, regen 6.0) y su conversión a saturación/hambre.
 `docs/MOBS_HOSTILES_VANILLA.md` + `datos/mobs_hostiles_vanilla.json`: atributos de los 37 hostiles vanilla (bytecode 1.20.1) y qué cambia MobBalance. Reejecutable con `herramientas/extraer_atributos_vanilla.py`.
 `docs/PROGRESION_EQUIPAMIENTO.md`: auditoría horizontal vs vertical del equipo, hallazgos H1-H8 y márgenes de mejora priorizados.

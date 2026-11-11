@@ -1,0 +1,96 @@
+{
+  "version": "1.20.1",
+  "fuente": "bytecode SRG",
+  "llamadas": [
+    {
+      "clase": "MobEffect",
+      "metodo": "public void m_6742_(net.minecraft.world.entity.LivingEntity, int);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": 0.005
+    },
+    {
+      "clase": "Player",
+      "metodo": "protected void m_6475_(net.minecraft.world.damagesource.DamageSource, float);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": 0.0
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_5706_(net.minecraft.world.entity.Entity);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": 2.0
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_6135_();",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_6135_();",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36378_(double, double, double);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36378_(double, double, double);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36378_(double, double, double);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36378_(double, double, double);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36378_(double, double, double);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": 0.0
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36378_(double, double, double);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": 0.0
+    },
+    {
+      "clase": "Player",
+      "metodo": "public void m_36399_(float);",
+      "via": "FoodData.addExhaustion (agotamiento del sistema de comida)",
+      "valor": null
+    },
+    {
+      "clase": "FoodData",
+      "metodo": "public void m_38710_(net.minecraft.world.entity.player.Player);",
+      "via": "FoodData.addExhaustion (agotamiento del sistema de comida)",
+      "valor": 6.0
+    },
+    {
+      "clase": "FoodData",
+      "metodo": "public void m_38710_(net.minecraft.world.entity.player.Player);",
+      "via": "FoodData.addExhaustion (agotamiento del sistema de comida)",
+      "valor": 6.0
+    },
+    {
+      "clase": "Block",
+      "metodo": "public void m_6240_(net.minecraft.world.level.Level, net.minecraft.world.entity.player.Player, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.block.entity.BlockEntity, net.minecraft.world.item.ItemStack);",
+      "via": "Player.causeFoodExhaustion (agotamiento del jugador)",
+      "valor": null
+    }
+  ]
+}
