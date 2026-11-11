@@ -1,15 +1,15 @@
 {
     "actualizado":  "2026-11-11",
     "pack":  {
-                 "version":  "1.9.0",
+                 "version":  "1.10.0",
                  "entradas":  361,
                  "metafiles":  103,
                  "jars_locales":  20
              },
     "mod":  {
                 "id":  "theoptimizer_equipment",
-                "version":  "1.9.0",
-                "jar":  "TheOptimizer-EquipmentBalance-1.9.0.jar",
+                "version":  "1.10.0",
+                "jar":  "TheOptimizer-EquipmentBalance-1.10.0.jar",
                 "pruebas":  17
             },
     "config":  {
@@ -52,7 +52,12 @@
                    "beacon_pacify":  true,
                    "beacon_pacify_radius":  30.0,
                    "disable_experience_orbs":  true,
-                   "grindstone_extraction":  true
+                   "grindstone_extraction":  true,
+                   "wood_gather_bonus":  0.25,
+                   "stone_gather_bonus":  0.15,
+                   "stone_stun_ticks":  8,
+                   "diamond_crit_chance":  0.1,
+                   "diamond_crit_multiplier":  1.5
                },
     "invariantes":  [
                         "C1",

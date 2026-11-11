@@ -181,3 +181,13 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8El bucle del botin:§r explorar → cofre con Irrompibilidad / Botin / Eficiencia → moler el objeto → libro → yunque (0 niveles) sobre tu equipo bueno. La muela no crea nada nuevo: solo convierte lo que ya cayó.
 §7- §8Coste asumido:§r el objeto molido se destruye. Extraer conocimiento cuesta la pieza.
 §7- §8Configurable:§r grindstone_extraction en theoptimizer_equipment.json.
+-----------------------------------
+§6§l[17] TRES EJES SEPARADOS: HERRAMIENTA, ARMA Y ARMADURA (v1.10.0)
+-----------------------------------
+§7- §8Fin de la mezcla:§r ninguna herramienta da ya velocidad de movimiento y ninguna arma da armadura. Eso vuelve a ser exclusivo de los sets.
+§7- §aMadera:§r §f+25 %§r al romper madera, hojas y cultivos. Ya no da velocidad de movimiento.
+§7- §7Piedra:§r §f+15 %§r en piedra, pizarra y menas. La resistencia al empuje queda solo en sus armas.
+§7- §fHierro:§r alcance §f+0.5§r (arma y herramienta); fuera la guardia de +1 armadura.
+§7- §7Hacha y espada de piedra:§r §f+0.5 empuje§r y §faturdimiento 0.4 s§r (Lentitud I) al impactar.
+§7- §bEspada y hacha de diamante:§r §f10 % de crítico ×1.5§r además de su alcance.
+§7- §8Sin cambios:§r oro (suerte y piglins), diamante herramienta (intacto + ×2 pizarra), netherita (botín y ×2 escombros).
