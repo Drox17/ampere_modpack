@@ -1,7 +1,7 @@
 {
     "actualizado":  "2026-11-11",
     "pack":  {
-                 "version":  "1.23.0",
+                 "version":  "1.23.1",
                  "entradas":  363,
                  "metafiles":  103,
                  "jars_locales":  20
@@ -14,7 +14,6 @@
             },
     "config":  {
                    "unified_harvest_speed":  6.0,
-                   "gold_tools_durability":  300,
                    "wood_tool_durability":  80,
                    "stone_tool_durability":  160,
                    "iron_tool_durability":  300,
@@ -64,7 +63,8 @@
                    "diamond_crit_multiplier":  1.5,
                    "iron_armor_toughness":  0.5,
                    "gold_smite_level":  3,
-                   "leaves_free_durability":  true
+                   "leaves_free_durability":  true,
+                   "gold_tools_durability":  160
                },
     "invariantes":  [
                         "C1",

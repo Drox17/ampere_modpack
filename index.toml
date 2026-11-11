@@ -918,7 +918,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "345df285e944ada12e0f4d8bcdf4a1c82b911eae5dbab9e6e4adac253b52e8c1"
+hash = "e0af93499d94fb7b329a590b661d368e02b00b0d32a42ce39c17c9ce4e0225cf"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"

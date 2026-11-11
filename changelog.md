@@ -326,3 +326,8 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Armas:§r Madera +empuje 0.5; Piedra vel §f1.4§r; Oro vel §f2.0§r y daño 5 (durabilidad §f160§r); Netherita vel §f1.5§r.
 §7- §8Cobre:§r menas de cobre sueltan §f1 crudo fijo§r con Fortuna; se acaba la inundación de inventario. `loot.json` pasa a 27 entradas.
 §7- §7Tests:§r comprobación de seda en hierro, área 3×3, auto-fundición y abono. 31 clases compiladas con `-Werror`.
+-----------------------------------
+§6§l[37] ORO FRÁGIL: 160 EN CONFIG (v1.23.1)
+-----------------------------------
+§7- §4Bug:§r el merge de config respetó el valor viejo de `gold_tools_durability = 300` y el cliente seguía con oro de 300.
+§7- §aFix:§r el valor queda en §f160§r en repo, servidor y cliente; el default del código también es 160.
