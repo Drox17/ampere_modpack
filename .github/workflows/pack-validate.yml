@@ -1,0 +1,65 @@
+name: Validar pack
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Integridad de packwiz
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar packwiz
+        shell: bash
+        run: |
+          set -euo pipefail
+          asset=""
+          for candidato in packwiz_linux_amd64 packwiz-linux-amd64; do
+            if curl -fsSL -o /tmp/packwiz "https://github.com/packwiz/packwiz/releases/latest/download/${candidato}"; then
+              asset="${candidato}"; break
+            fi
+          done
+          test -n "${asset}" || { echo "::error::No se pudo descargar packwiz"; exit 1; }
+          chmod +x /tmp/packwiz
+          /tmp/packwiz --help > /dev/null
+          echo "packwiz listo (${asset})"
+
+      - name: Comprobar que index.toml y pack.toml estan sincronizados
+        shell: bash
+        run: |
+          set -euo pipefail
+          /tmp/packwiz refresh
+          if ! git diff --exit-code -- index.toml pack.toml; then
+            echo "::error::index.toml o pack.toml desincronizados. Ejecuta 'packwiz refresh' y commitea el resultado."
+            exit 1
+          fi
+
+      - name: Comprobar que los jars locales declarados existen
+        shell: bash
+        run: |
+          set -euo pipefail
+          faltan=0
+          while IFS= read -r f; do
+            if [ ! -f "$f" ]; then echo "::error::Falta el archivo declarado en index.toml: $f"; faltan=1; fi
+          done < <(grep -o 'file = "mods/[^"]*\.jar"' index.toml | sed 's/^file = "//; s/"$//')
+          exit "${faltan}"
+
+      - name: Comprobar metadatos de cada mod
+        shell: bash
+        run: |
+          set -euo pipefail
+          fallos=0
+          for pw in mods/*.pw.toml; do
+            grep -q '^\[download\]' "$pw" || { echo "::error::$pw sin bloque [download]"; fallos=1; }
+            grep -q '^hash[[:space:]]*=' "$pw" || { echo "::error::$pw sin hash"; fallos=1; }
+            grep -q '^filename[[:space:]]*=' "$pw" || { echo "::error::$pw sin filename"; fallos=1; }
+          done
+          exit "${fallos}"

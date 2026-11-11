@@ -111,3 +111,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §aAnillo de Placa de Esmeralda (Iron's Spells):§r
   §8* §eNueva Receta:§r 1 Esmeralda + 1 Fragmento de Mitrilo (completamente desvinculado de frascos de XP).
   §8* §aFortuna de Cazador:§r Otorga §a+1 Nivel de Saqueo (Looting)§r acumulable por anillo en ranura Curios, aumentando cantidad y probabilidad de botin raro al derrotar criaturas.
+
+-----------------------------------
+§6§l[7] CORRECCIONES DE LA VERSION 1.1.0
+-----------------------------------
+§7- §aNigromantes:§r Restaurado el limite real de invocaciones del Nigromante. El mixin del mod no se registraba por un error de empaquetado (faltaba la entrada en el MANIFEST), por lo que la regla existia en el codigo pero nunca se aplicaba.
+§7- §aVersion del pack:§r El pack pasa a la version 1.1.0 y el beacon de version vuelve a coincidir con este changelog.
