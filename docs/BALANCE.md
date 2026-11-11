@@ -81,7 +81,7 @@ universal. **No implementar sin sesión de prueba**: rompe el endgame si falla.
 | D1.1 | **Quitar `goblintraders`** del pack: sin encantamientos su comercio no aporta | pendiente |
 | D1.2 | Reparación simple de arco, ballesta, escudo, caña y tijeras al 100 % | **hecho en 1.3.0** |
 | D1.3 | Tridente y elytra **no** entran a reparación hasta tener tradeoff propio | diseñar |
-| D1.4 | **Eliminar la XP** del pack y sustituir su función por bucles materiales/loot | diseñar |
+| D1.4 | **Eliminar la XP** del pack y sustituir su función por bucles materiales/loot | en curso: yunque portado y MiningXP retirado (1.7.0); falta apagar los orbes |
 | D1.5 | Decidir el rol del beacon (¿logística o buff de combate?) | diseñar |
 | D1.6 | Alquimia/pociones como eje de soporte | diseñar |
 
