@@ -125,3 +125,6 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §bVocabulario único:§r desaparecen "Mejora Ampere", "Estilo", "Blindaje de Élite" y "Herencia Térmica" como nombres sueltos; todo se lee como §fmaterial + rol§r (Cuero/Explorador, Cota de malla/Escaramuzador, Oro/Arcano, Hierro/Infantería, Diamante/Élite, Netherita/Nether).
 §7- §aArmas y herramientas:§r conservan su rol con valores concretos de alcance, guardia, empuje, velocidad de ataque, Fortuna o Toque de Seda.
 §7- §8Sin pérdida de información:§r se sigue explicando lo mismo, solo cambia cómo se presenta.
+§7- §cCoste de los sets pesados:§r diamante y netherita muestran su precio y lo cobran al recibir golpes: agotamiento proporcional al daño y, con el set completo, §f+10 %§r (diamante) o §f+5 %§r (netherita) de daño recibido de golpes débiles (<8). Las hordas dejan de ser gratis para quien viste diamante.
+§7- §eEconomía de reparación:§r cuero, malla, hierro y oro restauran el §f100 %§r con una unidad de su material; diamante y netherita solo el §f25 %§r. Mantener el equipo caro cuesta caro; los sets baratos son los de explorar y arriesgar.
+§7- §8Todo configurable:§r theoptimizer_equipment.json expone las fracciones de reparación por familia, la escala de agotamiento y ambas penalizaciones.
