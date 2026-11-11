@@ -156,3 +156,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §bElytra:§r planear consume agotamiento (§f1 punto de comida cada ~20 s§r) y su reparación pasa de 1 a §f4 membranas§r por cada 25 %. Volar deja de ser gratis: es una herramienta de expedición, no el transporte definitivo.
 §7- §6Escudo de hambre:§r la comida amortigua hasta el §f50 %§r de cada golpe físico si llevas al menos §f4 muslitos§r (8 puntos). Cuesta §f2§r de agotamiento por punto absorbido. Fuego, magia, wither y caída siguen entrando completos: los sets conservan su papel.
 §7- §eBeacon pacificador:§r mientras alguien con §fPrisa§r esté en un radio de §f30§r bloques, no aparecen monstruos. La base pasa a ser un refugio real sin necesidad de iluminar todo.
+-----------------------------------
+§6§l[13] BEACON COMO ÁREA, NO COMO EFECTO (v1.6.0)
+-----------------------------------
+§7- §ePacificación real:§r el beacon cancela los spawns hostiles en su área de efecto completa: §fradio horizontal de 30 bloques§r y §ftodo el eje vertical§r, sin depender de qué efecto tenga el jugador.
+§7- §6Escudo de hambre con base:§r la comida solo amortigua daño §fdentro del área del beacon§r. Fuera de tu base no hay escudo: la comida se vuelve una ventaja territorial.
+§7- §8Rendimiento:§r los beacons se cachean por chunk y la caché se invalida al colocar o romper bloques.
