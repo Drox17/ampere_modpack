@@ -921,6 +921,10 @@ file = "config/theoptimizer_equipment.json"
 hash = "3d5750d56746bc550bd53c31be47c7f16213d5125f34d0710e6fdace8deba3b5"
 
 [[files]]
+file = "config/theoptimizer_repopulation.json"
+hash = "84332368df0b46ec97f3747fce1f445f33abde85b8e9e5835348f568a53d4f6c"
+
+[[files]]
 file = "config/titanium/titanium-tags.toml"
 hash = "4d28fd2a1b94291b168b3a1bc295869205ba1008b812452952ee18d57b2ec5d3"
 
@@ -965,8 +969,8 @@ file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
 hash = "fc6ad3184c928b11d422a370504385bf0f79b82e24f5d9e13303ed7a3d8eac15"
 
 [[files]]
-file = "mods/TheOptimizer-WildlifeRepopulation-1.4.0.jar"
-hash = "2c7696458d821bce793f37e15f39161d40728a4f613dddfa607640beb37db85d"
+file = "mods/TheOptimizer-WildlifeRepopulation-1.5.0.jar"
+hash = "7876df5c7e104bdb03894d40263bdc928c530ad20e46829689d9832ca33565f0"
 
 [[files]]
 file = "mods/ae2.pw.toml"

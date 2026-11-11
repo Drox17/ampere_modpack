@@ -204,3 +204,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §2Interfaz EMC:§r vuelve a dropear, con su item real (§fex_emc_interface_part§r). Antes el bloque no soltaba nada.
 §7- §8Muñecas:§r se quedan sin drop (no tienen item) pero dejan de llenar el log de errores.
 §7- §8Pendiente conocido:§r dos tablas de Iron's (citadel_tomes y crypt_loot) tienen errores propios del mod en 1.20.1; esos cofres quedan sin botín y está documentado en docs/LOOT.md.
+-----------------------------------
+§6§l[20] LA FAUNA VANILLA DEJA DE REPOBLARSE (v1.13.0)
+-----------------------------------
+§7- §aAnimales vanilla:§r dejan de aparecer por el §fspawn natural cíclico§r. Los que existen son los que generó el mundo y los que críes tú.
+§7- §8Sin tocar lo importante:§r la §fgeneración inicial de chunks§r sigue creando fauna (explorar sigue dando recursos) y §fla fauna de mods§r (Alex's Mobs y compañía) sigue apareciendo con normalidad.
+§7- §bConfigurable:§r config/theoptimizer_repopulation.json con disable_vanilla_passive_spawns (true) y rebalance_spawn_pools (false). El balanceador 75/25 queda apagado porque sin respawn no hay nada que repartir; la cría, las abejas y la protección de despawn siguen activas.
+§7- §8Motivo de diseño:§r animales infinitos alrededor del jugador hacían que la ganadería no valiera nada; ahora la fauna es un recurso del mundo, no un grifo.
