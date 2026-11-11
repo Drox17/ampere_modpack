@@ -162,3 +162,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §ePacificación real:§r el beacon cancela los spawns hostiles en su área de efecto completa: §fradio horizontal de 30 bloques§r y §ftodo el eje vertical§r, sin depender de qué efecto tenga el jugador.
 §7- §6Escudo de hambre con base:§r la comida solo amortigua daño §fdentro del área del beacon§r. Fuera de tu base no hay escudo: la comida se vuelve una ventaja territorial.
 §7- §8Rendimiento:§r los beacons se cachean por chunk y la caché se invalida al colocar o romper bloques.
+-----------------------------------
+§6§l[14] EL YUNQUE PASA A EQUIPAMIENTO (v1.7.0)
+-----------------------------------
+§7- §8Sin coste de niveles:§r el yunque elimina de raíz el coste de experiencia, la penalización acumulativa y el bloqueo "Demasiado caro". Solo se consumen minerales, herramientas o libros.
+§7- §8Terminal remota:§r el panel de yunque de la Terminal de Crafteo de ExtendedAE aplica exactamente la misma política de 0 XP y 0 fluido.
+§7- §8Retirado TheOptimizer MiningXP:§r su lógica de yunque vive ahora en EquipmentBalance, así que el mod de experiencia minera deja de existir en el pack. Mientras se completa la retirada de la XP, los orbes vuelven al comportamiento base del juego (sin filtro por fuente).

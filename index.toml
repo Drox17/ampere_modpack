@@ -949,16 +949,12 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.6.0.jar"
-hash = "51d9d1629481310ee8afd3f6ccb6ffa8e883e773ef07a6d4fb4fd49b04ec2989"
+file = "mods/TheOptimizer-EquipmentBalance-1.7.0.jar"
+hash = "f96aa2aeb1a164357a90804fd3e5921fae747998bf7b765da6dafa15e2a37109"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
 hash = "834920b4ee77ff84c5c925f7e5baa34cb2d28da3e0124b51e3c44286fb3491f3"
-
-[[files]]
-file = "mods/TheOptimizer-MiningXP-1.3.0.jar"
-hash = "f664cd6803ad942204b9c961b81bcf60ab6dccd49c4b9efeb43dd68321eed440"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.1.0.jar"
