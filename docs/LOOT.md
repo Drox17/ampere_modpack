@@ -1,4 +1,4 @@
-﻿# LOOT.md — Registro de loot tables del pack
+# LOOT.md — Registro de loot tables del pack
 
 > Regla de oro: **si una tabla no aparece aquí, el pack NO la modifica.** El registro contiene
 > solo lo tocado y guarda el hash de cada entrada en `loot.json`. Si un hash cambia, alguien
@@ -15,7 +15,7 @@
 | `TheOptimizer_LootFixes.zip` | `expatternprovider:ex_emc_interface` | corrección | La tabla del mod apunta a un item que no existe; el datapack la sustituye por el item real (`ex_emc_interface_part`) |
 | `TheOptimizer_LootFixes.zip` | `kaleidoscope_chinesefood:doll_0..5` | corrección | Las muñecas ya no existen como item: tabla vacía para cortar el error de parseo |
 
-Total registrado: **21 entradas** (5 overrides vanilla, 6 overrides de mods, 3 loot modifiers, 7 correcciones en datapack).
+Total registrado: **25 entradas** (9 overrides vanilla —4 cofres, esqueleto del Wither, blaze, creeper, enderman y shulker—, 6 overrides de mods, 3 loot modifiers, 7 correcciones en datapack).
 
 ## Detalle
 
@@ -94,3 +94,8 @@ así que también aplica en partidas individuales del cliente.
 No se tocan porque son del mod y decidir qué botín deberían dar es una decisión de diseño, no una
 corrección mecánica. Si se quiere arreglar, la vía es reescribir ambas tablas en este mismo datapack
 con contenido coherente (tintas, runas, pergaminos).
+
+## Drops deterministas (1.18.0)
+
+Las tablas de blaze, creeper, enderman y shulker se reescriben para garantizar un mínimo de **1** recurso,
+y el carbón del esqueleto del Wither pasa a **1-2** (antes −1 a 1). El cráneo se mantiene al **15 %**.

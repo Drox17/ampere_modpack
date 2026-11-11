@@ -11,7 +11,7 @@
 |---|---|---|---|---|---|
 | Cuero | caída | 7 % | 15 % | 25 % | 40 % |
 | Malla | proyectiles | 5 % | 10 % | 18 % | 30 % |
-| Malla | velocidad | +2 % | +4 % | +7 % | +10 % |
+| Malla | velocidad | +4 % | +8 % | +12 % | +16 % |
 | Hierro | empuje | 5 % | 10 % | 18 % | 30 % |
 | Hierro | explosiones | 4 % | 8 % | 15 % | 25 % |
 | Oro | magia/pociones | 4 % | 8 % | 15 % | 25 % |
@@ -83,6 +83,43 @@ combate cuando se intenta abusar. Todo vive en `AntiCheeseBossHandler` (`@EventB
 Criterio: un jugador que pelea de forma normal no nota nada; el que abusa pierde la ventaja sin que se le
 prohíba construir. Es la aplicación directa de P12 (juego tradicional primero) y P13 (el técnico deja de
 tener la mejor opción).
+
+
+### 1.5 Armadura real de mobs pesados (1.18.0)
+
+El `+15 %` de la netherita contra enemigos con armadura necesita objetivos con armadura real:
+
+| Mob | Armadura añadida |
+|---|---:|
+| Devastador | **10** |
+| Guardián anciano | **8** |
+| Piglin bruto | **8** |
+| Guardián | **4** |
+| Vindicador | **4** |
+| Zoglin | **4** |
+
+Se añaden por `EntityAttributeModificationEvent` (`MobBalanceEvents`), sumadas a la base 0 que tenían.
+
+### 1.7 Drops cotidianos deterministas (1.18.0)
+
+Regla P12/P13: el recurso base de un mob común no depende de RNG de granja. Tablas del pack en
+`TheOptimizer_AdventureLoot`:
+
+| Mob | Drop garantizado | Extra por Saqueo |
+|---|---|---|
+| Esqueleto del Wither | carbón **1-2** + cráneo al **15 %** | +5 % de cráneo por nivel |
+| Blaze | **1-2** varas | +0-1 |
+| Creeper | **1-2** pólvora | +0-1 |
+| Enderman | **1** perla | +0-1 |
+| Shulker | **1** caparazón | — |
+
+### 1.8 Cofre del End (1.18.0)
+
+- **Receta**: 8 obsidiana + **Estrella del Nether** en el centro (antes ojo de ender).
+- **Restricción**: rechaza armas, herramientas, armaduras, escudos, tridentes, arcos/ballestas y cajas de
+  shulker. Solo admite materiales, recursos y consumibles. Se aplica en `Slot.mayPlace`, así que cubre clic,
+  shift-clic y arrastre.
+- **Tooltip**: muestra la restricción (Invariante 5).
 
 ## 2. Backlog con criterio de aceptación
 

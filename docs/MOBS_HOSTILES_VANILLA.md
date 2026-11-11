@@ -176,3 +176,13 @@ El atributo `danio` se escala al golpear: ×0.5 (Fácil), ×1.0 (Normal), ×1.5 
 | Acuáticos | Ahogado, Guardián, Guardián anciano |
 | Especiales | Creeper, Enderman, Shulker, Fantasma, Vex, Slime, Warden |
 
+## Armadura añadida por el pack (1.18.0)
+
+| Mob | Armadura |
+|---|---:|
+| Devastador | 10 |
+| Guardián anciano | 8 |
+| Piglin bruto | 8 |
+| Guardián / Vindicador / Zoglin | 4 |
+
+Así el +15 % de la netherita contra enemigos con armadura tiene objetivos reales.
