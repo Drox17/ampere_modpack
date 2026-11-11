@@ -287,3 +287,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Bug:§r la muela extraía cualquier encantamiento visible, incluidos los innatos del material (Toque de Seda, Fortuna, Castigo, Lealtad…). Se podían fabricar libros de Fortuna o Lealtad con una muela.
 §7- §aFix:§r solo se extraen los §ftres looteables§r (Irrompibilidad, Botín, Eficiencia). Si el objeto solo tiene innatos, la muela no ofrece resultado ni cobra XP.
 §7- §8Consecuencia:§r la identidad del material sigue en el material; la muela solo convierte conocimiento que ya existía como botín. `EquipmentBalance 1.19.0`.
+-----------------------------------
+§6§l[31] HAMBRE SUAVE AL VIAJAR (v1.21.0)
+-----------------------------------
+§7- §aMovimiento ÷5:§r correr pasa de §f0.1§r a §f0.02§r por metro (200 m por punto de saturación); caminar/nadar §f0.002§r; salto §f0.01§r; salto corriendo §f0.04§r.
+§7- §8Solo movimiento:§r el factor se aplica únicamente en `jumpFromGround` y `checkMovementStatistics`. Escudo de hambre, sets pesados, atacar y daño recibido siguen con su valor nominal.
+§7- §8Regeneración:§r la rama vanilla de 6.0 por medio corazón ya estaba cancelada por la curación constante de Ampere (2.0 por HP cada 40 ticks). 1 corazón = 4.0 de agotamiento en 4 s, sin picos.
+§7- §7Tests:§r comprobación de que el ÷5 solo toca movimiento y de que la curación constante sigue activa.

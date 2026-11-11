@@ -16,16 +16,16 @@ Es decir: **4.0 de agotamiento = 1 punto de saturación**, y cuando la saturaci�
 
 ## Fuentes
 
-| Acción | Agotamiento | Equivale a |
-|---|---:|---|
-| **Correr** (sprint) | **0.1 por metro** | 40 m por punto de saturación |
-| **Caminar / nadar** | **0.01 por metro** | 400 m por punto de saturación |
-| **Salto normal** | **0.05** | 80 saltos por punto |
-| **Salto corriendo** | **0.2** | 20 saltos por punto |
-| **Atacar** (golpe cuerpo a cuerpo) | **0.1** | 40 golpes por punto |
-| **Romper un bloque** | **0.005** | 800 bloques por punto |
-| **Recibir daño** | según el tipo de daño (`DamageType.exhaustion`, habitualmente **0.1**) | 40 golpes recibidos |
-| **Regeneración natural** | **6.0 por medio corazón curado** | 1.5 puntos de saturación por medio corazón |
+| Acción | Vanilla | En Ampere (÷5) | Equivale en Ampere |
+|---|---:|---:|---|
+| **Correr** (sprint) | 0.1 / m | **0.02 / m** | 200 m por punto de saturación |
+| **Caminar / nadar** | 0.01 / m | **0.002 / m** | 2000 m por punto |
+| **Salto normal** | 0.05 | **0.01** | 400 saltos por punto |
+| **Salto corriendo** | 0.2 | **0.04** | 100 saltos por punto |
+| **Atacar** (golpe cuerpo a cuerpo) | **0.1** | **0.1** (sin cambio) | 40 golpes por punto |
+| **Romper un bloque** | **0.005** | **0.005** (sin cambio) | 800 bloques por punto |
+| **Recibir daño** | 0.1 según tipo | **sin cambio** | 40 golpes recibidos |
+| **Regeneración natural** | 6.0 por medio corazón | **desactivada** | Sustituida por la curación de Ampere |
 
 Notas de la extracción:
 
@@ -49,3 +49,14 @@ Notas de la extracción:
 
 `python herramientas/extraer_hambre_vanilla.py` regenera `datos/hambre_vanilla.json` y el volcado`n`docs/HAMBRE_VANILLA_EXTRACCION.md` con las 15
 llamadas detectadas en el bytecode y sus constantes.
+
+## Regeneración en Ampere (1.21.0)
+
+La rama de regeneración vanilla (`FoodData.tick`) está **cancelada**: no existe la "aspiradora" de 6.0
+por medio corazón. La única regeneración pasiva es la del pack:
+
+- **1 HP cada 40 ticks (2 s)** mientras haya comida y el jugador esté herido.
+- Coste: **2.0 de agotamiento** por HP → **1 corazón = 4.0 = 1 punto de saturación**, repartido en 4 s.
+- Fuego, veneno, wither y punciones siguen bloqueando la regeneración natural por las reglas de
+  `naturalRegeneration` y del propio `Player.canHeal`... salvo que el daño no impida curar.
+

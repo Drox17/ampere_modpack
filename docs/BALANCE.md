@@ -176,6 +176,28 @@ identidad del tier, no conocimiento extraíble.
 Consecuencia: no se pueden fabricar libros de Fortuna, Seda, Castigo o Lealtad con una muela; esos
 efectos siguen viviendo en el material. Además desaparece el coste de XP que la muela cobraba por
 los innatos.
+
+### 1.13 Agotamiento por movimiento ÷5 y regeneración única (1.21.0)
+
+`MovementExhaustionMixin` aplica `movement_exhaustion_factor = 0.2` **solo** en `jumpFromGround` y
+`checkMovementStatistics`. El resto de fuentes conserva su valor nominal.
+
+| Fuente | Antes | Ahora |
+|---|---:|---:|
+| Correr | 0.1 / m | **0.02 / m** (200 m por saturación) |
+| Caminar / nadar | 0.01 / m | **0.002 / m** |
+| Salto normal | 0.05 | **0.01** |
+| Salto corriendo | 0.2 | **0.04** |
+| Atacar | 0.1 | 0.1 (intacto) |
+| Daño recibido | según tipo | intacto |
+| Escudo de hambre | 2.0 por daño absorbido | **intacto** |
+| Sets pesados al golpear | 0.5/0.6 + 0.03×daño | **intacto** |
+| Regeneración natural vanilla | 6.0 por medio corazón | **cancelada** |
+| Curación de Ampere | 2.0 por HP cada 40 ticks | **única regeneración pasiva** |
+
+`FoodDataMixin` ya cancelaba `FoodData.tick` para implementar la curación constante; eso deja fuera la
+regen rápida vanilla de 6.0. La reducción de movimiento no toca ese camino.
+
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)
