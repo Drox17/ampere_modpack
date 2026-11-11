@@ -1,7 +1,6 @@
 name = "Almanac"
 filename = "almanac-forge-1.20.1-1.26.11.1.jar"
-side = "server"
-
+side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/Gi02250Z/versions/7h7oaMZz/almanac-forge-1.20.1-1.26.11.1.jar"
 hash-format = "sha512"

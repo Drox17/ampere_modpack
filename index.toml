@@ -997,7 +997,7 @@ hash = "2109c1c96c196c56bb76cbe7dd9ff85eec5db6822f057b34ce59dd3a67b7f1a6"
 
 [[files]]
 file = "mods/almanac.pw.toml"
-hash = "fe84493f0c7333ef23dbaaf94eaa7d1209d8ecf6aa929509d7e81159ddc8e1a1"
+hash = "68a4d1a23e993426a291a35f5d402aff408ba59c979436ff826b9c0f3d6bc011"
 metafile = true
 
 [[files]]
@@ -1006,7 +1006,7 @@ hash = "31cf4c2543fe40172bd15cf4884fb7c4d49ce4be7aa9c17b481f0cbe5cb246ed"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
-hash = "54e171ca3f1f39eba38186a9a5ce6901eb12be05341d76956adff63805d79225"
+hash = "135732fa94e3b3b02d36c50060c9768fbdbe8021e8e674c0019877590d018646"
 metafile = true
 
 [[files]]
@@ -1365,7 +1365,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "978bef55072e21077597cae714ed10602bbc1406f0cf07b38919a53d74ce89a8"
+hash = "8b95947a0bdf2204d15d87283adb8357df722024323493fa7dcb9cdfff73bb34"
 metafile = true
 
 [[files]]
@@ -1493,7 +1493,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "241ccb7944dc0ff00adc6f1ad88d7f6896be51f4a808e18dad92109733dcfe67"
+hash = "2151240c1d37869d329ec0c72036f83f464272f0c0a287a27b5692d50d442c92"
 metafile = true
 
 [[files]]
@@ -1518,7 +1518,7 @@ metafile = true
 
 [[files]]
 file = "mods/wishful-recipes.pw.toml"
-hash = "36b6c35f9982d674e318b66434906b8ffafd2105b01180c317b850beabfce54f"
+hash = "90b5addddb2e2debd385f56693593793163871991a367f59dadff225db8f785c"
 metafile = true
 
 [[files]]
@@ -1528,7 +1528,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
-hash = "18dfe8ada0af83eb86d4b8ff8e202479b7c2ab1ee1f894d9bb07cda1744e8981"
+hash = "687bd06f0855a38f4f605c0ac69cef8aceae87cec622d9e48e6ba709de95ce9f"
 metafile = true
 
 [[files]]

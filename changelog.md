@@ -314,3 +314,8 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Seis mods de servidor pasan a `both`:§r `almanac`, `alternate-current`, `lmd`, `structure-layout-optimizer`, `wishful-recipes` y `yungs-better-strongholds`.
 §7- §aMotivo:§r en singleplayer el servidor integrado no los cargaba, así que el gameplay no era idéntico al del servidor (despawn, recetas, estructuras, optimización de redstone).
 §7- §7Verificado:§r el updater del cliente descargó `EquipmentBalance 1.21.0` y la config con 52 claves; las seis incorporaciones se instalan en el próximo pase del updater.
+-----------------------------------
+§6§l[35] PARIDAD CLIENTE-SERVIDOR: APLICADA (v1.22.2)
+-----------------------------------
+§7- §4Corrección:§r el primer intento no cambió ningún metafile (los saltos de línea impedían el reemplazo). Ahora los seis pasan a `side = "both"`.
+§7- §8Efecto:§r `almanac`, `alternate-current`, `lmd`, `structure-layout-optimizer`, `wishful-recipes` y `yungs-better-strongholds` se instalan también en el cliente, así que singleplayer reproduce el servidor.
