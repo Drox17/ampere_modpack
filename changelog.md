@@ -228,3 +228,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §6Cuero:§r caída §f7/15/25/40 %§r (antes 5/12/20/35): el set completo de explorador por fin se nota.
 §7- §8Fuera texto sin código:§r se retira "rotura de escudos" de la netherita (nunca se implementó); queda Lentitud II. El empuje de piedra se corrige a §f+1.0§r real.
 §7- §8Sin penalización de movimiento:§r las armaduras pesadas no frenan (parkour intacto); su coste es el agotamiento al golpear y la reparación al 25 %.
+-----------------------------------
+§6§l[24] GUARDIA DE INVOCACIÓN DEL WITHER (v1.16.0)
+-----------------------------------
+§7- §8El problema:§r pelear al Wither en una jaula de bedrock lo volvía trivial (no huye, no rompe terreno y se le puede golpear sin riesgo).
+§7- §cRechazo:§r si hay §fbedrock§r en un radio de §f5 bloques§r alrededor de la T, la invocación no cobra vida. Las tres calaveras vuelven al suelo como objetos y suena un aviso con el mensaje «La entidad rechaza ataduras indestructibles».
+§7- §8Configurable:§r wither_reject_bedrock, wither_reject_radius y wither_reject_message en theoptimizer_equipment.json.
+§7- §7Detalle:§r solo se rechaza una T completa (se valida con el patrón real del juego); colocar una calavera suelta junto a bedrock no gasta nada.

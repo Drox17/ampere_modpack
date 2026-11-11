@@ -1,15 +1,15 @@
 {
     "actualizado":  "2026-11-11",
     "pack":  {
-                 "version":  "1.15.0",
+                 "version":  "1.16.0",
                  "entradas":  363,
                  "metafiles":  103,
                  "jars_locales":  20
              },
     "mod":  {
                 "id":  "theoptimizer_equipment",
-                "version":  "1.13.0",
-                "jar":  "TheOptimizer-EquipmentBalance-1.13.0.jar",
+                "version":  "1.14.0",
+                "jar":  "TheOptimizer-EquipmentBalance-1.14.0.jar",
                 "pruebas":  17
             },
     "config":  {
@@ -60,7 +60,10 @@
                    "diamond_crit_multiplier":  1.5,
                    "iron_armor_toughness":  0.5,
                    "gold_smite_level":  3,
-                   "leaves_free_durability":  true
+                   "leaves_free_durability":  true,
+                   "wither_reject_bedrock":  true,
+                   "wither_reject_radius":  5,
+                   "wither_reject_message":  "Â§cLa entidad rechaza ataduras indestructibles"
                },
     "invariantes":  [
                         "C1",

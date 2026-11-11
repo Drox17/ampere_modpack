@@ -46,5 +46,8 @@
   "diamond_crit_multiplier": 1.5,
   "iron_armor_toughness": 0.5,
   "gold_smite_level": 3,
-  "leaves_free_durability": true
+  "leaves_free_durability": true,
+  "wither_reject_bedrock": true,
+  "wither_reject_radius": 5,
+  "wither_reject_message": "§cLa entidad rechaza ataduras indestructibles"
 }
