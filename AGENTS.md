@@ -1,4 +1,4 @@
-# AGENTS.md — Ampere Better Survival (modpack)
+﻿# AGENTS.md — Ampere Better Survival (modpack)
 
 > **Punto de entrada.** Lee §1 (filosofía) y §2 (mods) antes de proponer cualquier cosa.
 > En `/sync` ejecuta **un solo comando**: `.\verificar_estado.ps1`. Detalle largo en `docs/BALANCE.md`.
@@ -96,6 +96,7 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 | Fecha | Commit | Resultado | Deriva detectada |
 |---|---|---|---|
 | 2026-11-10 | `97ab9e0` | base del registro | config reescrita por `instalar.py` → corregido con merge |
+| 2026-11-10 | `1dd27aa` | 13/13 sin derivas (1 SKIP en `tests.modulo`) | ninguna; config y jar alineados |
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 
