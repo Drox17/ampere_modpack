@@ -129,3 +129,11 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §eEconomía de reparación:§r cuero, malla, hierro y oro restauran el §f100 %§r con una unidad de su material; diamante y netherita solo el §f25 %§r. Mantener el equipo caro cuesta caro; los sets baratos son los de explorar y arriesgar.
 §7- §8Todo configurable:§r theoptimizer_equipment.json expone las fracciones de reparación por familia, la escala de agotamiento y ambas penalizaciones.
 §7- §8Herencia de Netherita:§r ignitium, cursium y monstrous helm se forjan sobre piezas de netherita, así que heredan su protección térmica, su debilidad ante golpes débiles y su reparación al 25 % (antes el cursium se libraba de todo y era el camino de trampa).
+
+-----------------------------------
+§6§l[9] ROL MAGO: LAS TÚNICAS DE IRON'S (v1.2.0)
+-----------------------------------
+§7- §dTrece sets y cuatro piezas sueltas§r de Iron's Spellbooks entran en el sistema: cada túnica muestra su §fescuela§r (Fuego, Hielo, Rayo, Sagrado, Ender, Sangre, Evocación, Naturaleza, Batalla o Arcano) y conserva el poder de hechizo que ya otorga el mod.
+§7- §cCoste del mago:§r cada pieza de túnica resta §f-5 %§r de daño cuerpo a cuerpo (máximo §f-20 %§r con el set completo). La túnica pega con hechizos, no con espada: deja de ser el camino cómodo que sumaba armadura y poder sin pagar nada.
+§7- §8El triángulo queda cerrado:§r túnica = daño mágico, oro = resistencia mágica (-25 % a 4/4), y Netherite Battlemage = mago de aguante que paga el coste de la netherita.
+§7- §8Configurable:§r mage_weapon_damage_penalty en theoptimizer_equipment.json.
