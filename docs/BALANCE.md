@@ -134,6 +134,14 @@ Todo se resuelve en eventos de daño/teletransporte: cero Goals y cero escaneos 
 | **Enderman y Shulker** | Se teletransportan para huir | **Diamante**: anclaje dimensional 3 s; el teletransporte se cancela con partículas | `DIAMOND_ANCHOR_TICKS=60` |
 | **Creeper, bruja y evocador/ilusionista** | Mecha, poción o conjuro en curso | **Piedra**: interrumpe la mecha (`setSwellDir(-1)`), corta la bebida y aplica stun al conjurador | `stone_stun_ticks=8` |
 
+
+### 1.10 Lealtad del tridente: solo jugadores (1.19.1)
+
+Los encantamientos innatos se calculan desde el ítem, no desde el portador. Eso hacía que un drowned
+con tridente heredara **Lealtad III** y sus lanzamientos volvieran en bucle (decenas de tridentes
+girando a su alrededor). `ThrownTridentMixin` corta el retorno cuando el dueño no es un jugador
+(`m_37594_` + comprobación de `m_19749_`). El jugador conserva su Lealtad III.
+
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)

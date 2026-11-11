@@ -268,3 +268,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Tooltips:§r nuevas líneas de precisión (madera), interrupción (piedra), inmunidad (cota) y anclaje (diamante), todas con las constantes del código.
 §7- §8Sin coste de IA:§r cero Goals y cero escaneos por tick; todo ocurre en el instante del golpe o del teletransporte.
 §7- §4Corrección de despliegue:§r el jar de MobBalance ahora también se publica en el repositorio; antes el pack seguía sirviendo la 1.1.0.
+-----------------------------------
+§6§l[28] LA LEALTAD DEL TRIDENTE YA NO ES PARA LOS MOBS (v1.19.1)
+-----------------------------------
+§7- §8Bug:§r los encantamientos innatos se aplican al ítem, no al portador. Un §fdrowned§r con tridente heredaba §fLealtad III§r y sus lanzamientos volvían en bucle: decenas de tridentes girando a su alrededor.
+§7- §aFix:§r `ThrownTridentMixin` corta el retorno cuando el dueño no es un jugador. El jugador conserva su Lealtad III; los mobs lanzan el tridente una vez y se queda clavado.
+§7- §8Nota:§r los bonos de set siguen siendo exclusivos del jugador por diseño; la armadura de los mobs pesados (Devastador 10, Guardián anciano 8, etc.) llega con `MobBalance 1.4.0`, ya publicado en el repositorio.

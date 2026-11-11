@@ -38,6 +38,7 @@ Reglas derivadas que ya han causado errores:
 - **No proponer sistemas que usen XP** como moneda (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
 - **Cofre del End: estrella del Nether y solo materiales** (rechaza armas, herramientas, armaduras y contenedores; el tooltip lo avisa).
+- **Encantamientos innatos: solo para jugadores** (la Lealtad del tridente no vuelve a los mobs).
 - **Drops cotidianos con mínimo 1, sin RNG de granja** (vara de blaze, pólvora, perla, caparazón, carbón del wither skeleton).
 - **Jefes: respuestas reactivas, no prohibiciones**: se corrige el daño, el agro o el entorno; no se bloquean bloques ni se cancelan invocaciones (ver `docs/BALANCE.md` §1.6).
 
