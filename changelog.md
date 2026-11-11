@@ -235,3 +235,14 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §cRechazo:§r si hay §fbedrock§r en un radio de §f5 bloques§r alrededor de la T, la invocación no cobra vida. Las tres calaveras vuelven al suelo como objetos y suena un aviso con el mensaje «La entidad rechaza ataduras indestructibles».
 §7- §8Configurable:§r wither_reject_bedrock, wither_reject_radius y wither_reject_message en theoptimizer_equipment.json.
 §7- §7Detalle:§r solo se rechaza una T completa (se valida con el patrón real del juego); colocar una calavera suelta junto a bedrock no gasta nada.
+-----------------------------------
+§6§l[25] RESPUESTAS REACTIVAS DE JEFES (v1.17.0)
+-----------------------------------
+§7- §8Se retira el guardia de invocación:§r cancelar la T del Wither se sentía artificial. Ahora el jefe reacciona.
+§7- §8Wither atrapado:§r si pasa §f3 s§r dentro de bloques, escapa sobre el jugador más cercano. Su calor §fevapora el agua§r en 4 bloques, así que los búnkeres acuáticos dejan de servir.
+§7- §8Wither y Warden:§r no se hacen daño entre ellos y redirigen su agro al jugador. Ya no se puede usar a uno para matar al otro.
+§7- §cTope explosivo:§r Wither y Dragón reciben como máximo §f12 de daño explosivo por segundo§r (camas y TNT dejan de saltarse fases).
+§7- §8Tridentes abandonados:§r un tridente clavado más de §f3 s§r deja de hacer daño (fin de los trident killers).
+§7- §8Saqueadores:§r si el golpe letal no es de un jugador activo, no sueltan tótem, esmeraldas ni libros.
+§7- §8Warden:§r destruye nieve en polvo y trampillas de su hitbox; desde un pilar inalcanzable recibe lentitud y un tirón hacia abajo.
+§7- §8Monumento:§r la prismarina no la rompe la TNT mientras quede un Guardián anciano vivo.
