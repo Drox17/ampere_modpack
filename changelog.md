@@ -48,7 +48,7 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §b§l> DIAMANTE §7- §oBastion Fisico y Precision del Overworld§r
 §7- §aHerramientas de Recoleccion:§r §3Toque de Seda innato§r y mineria 2.0x en Deepslate y Obsidiana.
 §7- §aArmas Quirurgicas:§r +1.0 bloque de alcance de combate.
-§7- §cEscalado Anti-Colosos:§r 1 pc: §f-2%§r | 2 pcs: §f-5%§r | 3 pcs: §f-9%§r | 4 pcs: §f-15% dano fisico directo§r.
+§7- §cEscalado Anti-Colosos:§r 1 pc: §f-6%§r | 2 pcs: §f-12%§r | 3 pcs: §f-19%§r | 4 pcs: §f-25% dano fisico directo con golpes de 8 o mas§r.
 §7- §6Blindaje de Elite:§r Absorbe golpes letales masivos (Toughness 8.0).
 
 §8§l> NETHERITA Y EVOLUCIONES DE CATACLYSM §7- §oChasis del Inframundo§r
@@ -117,3 +117,11 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 -----------------------------------
 §7- §aNigromantes:§r Restaurado el limite real de invocaciones del Nigromante. El mixin del mod no se registraba por un error de empaquetado (faltaba la entrada en el MANIFEST), por lo que la regla existia en el codigo pero nunca se aplicaba.
 §7- §aVersion del pack:§r El pack pasa a la version 1.1.0 y el beacon de version vuelve a coincidir con este changelog.
+-----------------------------------
+§6§l[8] TOOLTIPS COMPACTOS DE EQUIPO (v1.2.0)
+-----------------------------------
+§7- §aMenos ruido:§r cada pieza muestra un encabezado (§f⚡ Ampere · Hierro — Infantería§r) y una línea por estadística, en lugar de bloques de prosa de hasta 10 líneas.
+§7- §eNúmeros reales:§r las reducciones y bonus aparecen con el valor que aplica el mod (§fEmpuje -10 % ➔ -30 %§r); si el set está incompleto se ve la escala por número de piezas.
+§7- §bVocabulario único:§r desaparecen "Mejora Ampere", "Estilo", "Blindaje de Élite" y "Herencia Térmica" como nombres sueltos; todo se lee como §fmaterial + rol§r (Cuero/Explorador, Cota de malla/Escaramuzador, Oro/Arcano, Hierro/Infantería, Diamante/Élite, Netherita/Nether).
+§7- §aArmas y herramientas:§r conservan su rol con valores concretos de alcance, guardia, empuje, velocidad de ataque, Fortuna o Toque de Seda.
+§7- §8Sin pérdida de información:§r se sigue explicando lo mismo, solo cambia cómo se presenta.
