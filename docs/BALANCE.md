@@ -61,6 +61,8 @@ Devastador (100/12, empuje 0.75), Guardián anciano (80/8), Piglin bruto (50/7),
 El daño base se escala ×0.5 / ×1.0 / ×1.5 por dificultad al golpear. Creeper, Ghast, Blaze y Shulker
 no tienen daño cuerpo a cuerpo (explosión, bola de fuego, proyectil).
 
+> Auditoría del eje horizontal/vertical y márgenes de mejora: `docs/PROGRESION_EQUIPAMIENTO.md`.
+
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)
