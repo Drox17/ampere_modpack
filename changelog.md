@@ -211,3 +211,10 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §8Sin tocar lo importante:§r la §fgeneración inicial de chunks§r sigue creando fauna (explorar sigue dando recursos) y §fla fauna de mods§r (Alex's Mobs y compañía) sigue apareciendo con normalidad.
 §7- §bConfigurable:§r config/theoptimizer_repopulation.json con disable_vanilla_passive_spawns (true) y rebalance_spawn_pools (false). El balanceador 75/25 queda apagado porque sin respawn no hay nada que repartir; la cría, las abejas y la protección de despawn siguen activas.
 §7- §8Motivo de diseño:§r animales infinitos alrededor del jugador hacían que la ganadería no valiera nada; ahora la fauna es un recurso del mundo, no un grifo.
+-----------------------------------
+§6§l[21] FAUNA EQUILIBRADA 55/45 Y TOPE DE CRIATURAS (v1.14.0)
+-----------------------------------
+§7- §aVuelve el respawn vanilla:§r los animales vuelven a repoblarse y el balanceador reparte §f55 % vanilla / 45 % mods§r (antes 75/25).
+§7- §bAlex's Mobs recortado:§r 14 especies con peso alto bajan a 2-4 (straddler 15→4, rockyRoller 12→4, underminer/mimicube 10→3, soulVulture/guster 8→3, fareer/warpedToad/blobfish/gazelle 6→3, kangaroo/platypus/tortuga/mudskipper 5→2).
+§7- §fTope de criaturas:§r baja de §f36§r a §f16§r por chunk (vanilla 10). Es la palanca real de rendimiento: el spawner solo rellena hasta ese cupo, no borra ni recrea entidades.
+§7- §8Configurable:§r config/theoptimizer_repopulation.json expone disable_vanilla_passive_spawns, rebalance_spawn_pools, creature_spawn_cap y animal_despawn_guard.

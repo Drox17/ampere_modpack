@@ -46,7 +46,7 @@ hash = "d6d7d5becfd20cca48dabcb838021694740bd874fba80a259b05d37bcc720a43"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "656da32587b08cd04f1b3ae38f283e42ab327b1fe846725324461375933f5809"
+hash = "bf0c217a804e659b47e3d74aed12b814c8772717eddadd5ae7affb5ab204f857"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -922,7 +922,7 @@ hash = "3d5750d56746bc550bd53c31be47c7f16213d5125f34d0710e6fdace8deba3b5"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
-hash = "20f10339e51099150f8acb02540b4b9de401d8521655a54fc8226e4ec5a563d8"
+hash = "cfd2a0c49ec43b4d98a6bf5c90610e9af0b63087a93ff8776f20a9e481fc9d7a"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -969,8 +969,8 @@ file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
 hash = "fc6ad3184c928b11d422a370504385bf0f79b82e24f5d9e13303ed7a3d8eac15"
 
 [[files]]
-file = "mods/TheOptimizer-WildlifeRepopulation-1.5.0.jar"
-hash = "7876df5c7e104bdb03894d40263bdc928c530ad20e46829689d9832ca33565f0"
+file = "mods/TheOptimizer-WildlifeRepopulation-1.6.0.jar"
+hash = "785e8ca2f803762d23933ef5d1f2e4a70ebbfb430581a29d2f0169c72d5c365f"
 
 [[files]]
 file = "mods/ae2.pw.toml"

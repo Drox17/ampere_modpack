@@ -1,4 +1,6 @@
 {
-  "disable_vanilla_passive_spawns": true,
-  "rebalance_spawn_pools": false
+  "disable_vanilla_passive_spawns": false,
+  "rebalance_spawn_pools": true,
+  "creature_spawn_cap": 16,
+  "animal_despawn_guard": true
 }
