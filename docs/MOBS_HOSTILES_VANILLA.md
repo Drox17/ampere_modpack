@@ -186,3 +186,13 @@ El atributo `danio` se escala al golpear: ×0.5 (Fácil), ×1.0 (Normal), ×1.5 
 | Guardián / Vindicador / Zoglin | 4 |
 
 Así el +15 % de la netherita contra enemigos con armadura tiene objetivos reales.
+## Reacciones tácticas por familia (1.19.0)
+
+| Familia | Mecánica | Counter |
+|---|---|---|
+| Arañas | Esquiva 25 %: mitad de daño + salto | Armas de madera (ignoran la esquiva, ×1.5) |
+| Zombis (incluye Husk, Drowned, ZombieVillager) | Con 3+ zombis a 4 bloques: +25 % empuje y 1.5 de agotamiento | Hierro (área) y oro (Castigo III) |
+| Esqueletos y saqueadores | Proyectil a >8 bloques: Lentitud I 1 s | 2+ piezas de cota de malla |
+| Enderman y Shulker | Teletransporte | Diamante: anclaje 3 s |
+| Creeper, bruja, evocador/ilusionista | Mecha, poción, conjuro | Piedra: interrupción al golpear |
+

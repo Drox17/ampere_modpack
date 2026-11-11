@@ -257,3 +257,14 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §2Armadura real en mobs pesados:§r Devastador §f10§r, Guardián anciano §f8§r, Piglin bruto §f8§r, Guardián/Vindicador/Zoglin §f4§r. El §f+15 %§r de la netherita contra blindados ya tiene objetivo.
 §7- §8Tirón del Warden:§r se marca la entidad para que el cliente reciba el impulso.
 §7- §aDrops cotidianos sin RNG:§r carbón del esqueleto del Wither §f1-2§r garantizado; vara de blaze, pólvora, perla de ender y caparazón de shulker con §fmínimo 1§r por baja legítima. El cráneo sigue al 15 %.
+-----------------------------------
+§6§l[27] IDENTIDADES TÁCTICAS: FAMILIAS Y COUNTERS (v1.19.0)
+-----------------------------------
+§7- §7Piedra:§r además del aturdimiento, §fcorta la mecha§r del creeper, §fcorta la poción§r de la bruja y aplica stun al §fevocador/ilusionista§r que esté casteando.
+§7- §2Arañas:§r §f25 %§r de esquiva parcial (mitad de daño + salto) contra todo lo que no sea madera. La §fmadera§r ignora la esquiva y mantiene su ×1.5.
+§7- §8Horda de no-muertos:§r con §f3+ zombis§r a 4 bloques, el golpe empuja §f+25 %§r y suma §f1.5§r de agotamiento. Hierro y oro los limpian sin ese coste.
+§7- §fEsqueletos y saqueadores:§r disparo a más de §f8 bloques§r aplica §fLentitud I 1 s§r; la §fcota de malla con 2+ piezas§r es inmune.
+§7- §bDiamante:§r §fanclaje dimensional de 3 s§r sobre Enderman y Shulker: no pueden teletransportarse.
+§7- §8Tooltips:§r nuevas líneas de precisión (madera), interrupción (piedra), inmunidad (cota) y anclaje (diamante), todas con las constantes del código.
+§7- §8Sin coste de IA:§r cero Goals y cero escaneos por tick; todo ocurre en el instante del golpe o del teletransporte.
+§7- §4Corrección de despliegue:§r el jar de MobBalance ahora también se publica en el repositorio; antes el pack seguía sirviendo la 1.1.0.

@@ -85,6 +85,17 @@ También fuera: `TheOptimizer-MiningXP` y `TheOptimizer-DeathXP` (retirados: la 
 
 **Herramientas/armas (T)**: rediseño hecho en 1.10.0/1.11.0. Madera: +25 % en madera/hojas/cultivos y hojas sin desgaste · Piedra: +15 % en cantera/menas y aturdimiento 0.4 s (solo armas) · Hierro: alcance +0.5 y barrido 75 % (Filo Arrasador III real) · Diamante: alcance +1.0 y 15 % crítico ×1.5 · Oro: Castigo III (+7.5 vs no-muertos), suerte y piglins · Madera: ×1.5 real contra artrópodos, recolección +25 %. Detalle y números en `docs/BALANCE.md`.
 
+
+**Matriz familia ↔ counter (1.19.0):**
+
+| Familia | Mecánica | Counter |
+|---|---|---|
+| Arañas | Esquiva 25 % (mitad de daño) | **Madera** (precisión + ×1.5) |
+| No-muertos | Horda: +25 % empuje y 1.5 de agotamiento con 3+ zombis | **Hierro** (área) · **Oro** (Castigo III) |
+| Esqueletos/ saqueadores | Lentitud I 1 s a más de 8 bloques | **Cota de malla ≥2 piezas** |
+| Enderman/Shulker | Teletransporte | **Diamante** (anclaje 3 s) |
+| Creeper/Bruja/Evocador | Mecha, poción o conjuro | **Piedra** (interrupción) |
+
 ## 4. Invariantes (si falla una, es bug)
 
 1. **C1** Ningún tooltip nombra encantamientos.

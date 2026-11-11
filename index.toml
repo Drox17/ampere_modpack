@@ -953,16 +953,16 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.16.0.jar"
-hash = "06b3b60ff75e7721350d0a0fa6f3bb7a252e56b9bab7e67c8566ac78aa5c6633"
+file = "mods/TheOptimizer-EquipmentBalance-1.17.0.jar"
+hash = "6aaf76b8085d6a491de156ca36d0a77991911b85ca8a7cbc59a2b43d8a6950f2"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
 hash = "834920b4ee77ff84c5c925f7e5baa34cb2d28da3e0124b51e3c44286fb3491f3"
 
 [[files]]
-file = "mods/TheOptimizer-MobBalance-1.1.0.jar"
-hash = "85fb1a5e096fdba19754208f68b13c7f37c819d2ee582deb6950e9abc61d9c5f"
+file = "mods/TheOptimizer-MobBalance-1.4.0.jar"
+hash = "62f5e975d9f990ea3f471134ce49442270891e30df4e2e788e83a48fa6859e61"
 
 [[files]]
 file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"

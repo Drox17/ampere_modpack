@@ -133,7 +133,7 @@
   `netherite_weak_hit_penalty`, `gold_armor_multiplier`, `diamond_crit_chance`,
   `diamond_crit_multiplier`, `unified_harvest_speed`.
 - Tras tocar el módulo: `python -m gestion.herramientas.reparaciones.balance_equipamiento.instalar` y
-  `... .probar`, luego `verificar_estado.ps1` (15 comprobaciones).
+  `... .probar`, luego `verificar_estado.ps1` (16 comprobaciones).
 ## 7. Decisiones aplicadas (1.15.0)
 
 | Hallazgo | Decisión | Valor final |

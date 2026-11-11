@@ -121,6 +121,19 @@ Regla P12/P13: el recurso base de un mob común no depende de RNG de granja. Tab
   shift-clic y arrastre.
 - **Tooltip**: muestra la restricción (Invariante 5).
 
+
+### 1.9 Identidades tácticas: familias de mobs y counters (1.19.0)
+
+Todo se resuelve en eventos de daño/teletransporte: cero Goals y cero escaneos por tick.
+
+| Familia | Mecánica del mob | Counter | Constantes |
+|---|---|---|---|
+| **Arañas** | 25 % de esquiva parcial (daño ×0.5 + salto lateral) contra armas que no sean de madera | **Madera**: ignora la esquiva y pega ×1.5 contra artrópodos | `SPIDER_DODGE_CHANCE=0.25`, `SPIDER_DODGE_REDUCTION=0.5` |
+| **No-muertos** | Con 3+ zombis en 4 bloques, el golpe empuja +25 % y añade 1.5 de agotamiento | **Hierro** (área) y **Oro** (Castigo III) los limpian sin pagar ese coste | `HORDE_MIN_ZOMBIES=3`, `HORDE_RADIUS=4`, `HORDE_EXHAUSTION=1.5` |
+| **Esqueletos y saqueadores** | Proyectil a más de 8 bloques aplica Lentitud I 1 s | **Cota de malla con 2+ piezas**: inmune | `SUPPRESSION_DISTANCE_SQ=64`, `SUPPRESSION_TICKS=20`, `CHAIN_IMMUNITY_PIECES=2` |
+| **Enderman y Shulker** | Se teletransportan para huir | **Diamante**: anclaje dimensional 3 s; el teletransporte se cancela con partículas | `DIAMOND_ANCHOR_TICKS=60` |
+| **Creeper, bruja y evocador/ilusionista** | Mecha, poción o conjuro en curso | **Piedra**: interrumpe la mecha (`setSwellDir(-1)`), corta la bebida y aplica stun al conjurador | `stone_stun_ticks=8` |
+
 ## 2. Backlog con criterio de aceptación
 
 ### T1. Rediseño de herramientas y armas (**hecho en 1.10.0 y 1.11.0**)

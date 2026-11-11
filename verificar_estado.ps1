@@ -85,6 +85,18 @@ if ($mi.Success) { $hashIndice = $mi.Groups[1].Value.ToLower() }
 $paridad = ($hashRepo -ne '') -and ($hashRepo -eq $hashSrv) -and ($hashRepo -eq $hashIndice)
 Add-Check 'jar.paridad' $paridad ("repo={0} servidor={1} indice={2}" -f $hashRepo.Substring(0, [Math]::Min(12, $hashRepo.Length)), $hashSrv.Substring(0, [Math]::Min(12, $hashSrv.Length)), $hashIndice.Substring(0, [Math]::Min(12, $hashIndice.Length)))
 
+# --- 2b. paridad del jar de mobs -------------------------------------------
+$jarMobsRepo = Get-ChildItem (Join-Path $repo 'mods') -Filter 'TheOptimizer-MobBalance-*.jar' -ErrorAction SilentlyContinue | Select-Object -First 1
+$jarMobsSrv = Get-ChildItem (Join-Path $srv 'mods') -Filter 'TheOptimizer-MobBalance-*.jar' -ErrorAction SilentlyContinue | Select-Object -First 1
+if ($jarMobsRepo -and $jarMobsSrv) {
+    $hRepoM = (Get-FileHash -Algorithm SHA256 $jarMobsRepo.FullName).Hash.ToLower()
+    $hSrvM = (Get-FileHash -Algorithm SHA256 $jarMobsSrv.FullName).Hash.ToLower()
+    $idxTxt = Get-Content (Join-Path $repo 'index.toml') -Raw
+    $mh = [regex]::Match($idxTxt, 'file = "mods/' + [regex]::Escape($jarMobsRepo.Name) + '"\s*hash = "([0-9a-f]+)"')
+    $hIdxM = if ($mh.Success) { $mh.Groups[1].Value } else { 'sin-indice' }
+    Add-Check 'jar.mobs' ($hRepoM -eq $hSrvM -and $hRepoM -eq $hIdxM) ("repo={0} servidor={1} indice={2}" -f $hRepoM.Substring(0,12), $hSrvM.Substring(0,12), $hIdxM.Substring(0,[Math]::Min(12,$hIdxM.Length)))
+}
+
 # --- 3. config: claves y valores -------------------------------------------
 $cfgRuta = Join-Path $repo 'config\theoptimizer_equipment.json'
 $cfg = $null
