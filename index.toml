@@ -926,7 +926,7 @@ hash = "321504e886852100b6638817fdc42940166e248381fd58a930d321fc6a2b9853"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "2b5543d08ad5de6d90cd8137d2b0fdcd0b3b7893327c0e30ff32696a91c417cd"
+hash = "f1002bbd8286b812a444cff7ea43a56adc9cc4a9276e0c746b3a8caf05a77e73"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -961,8 +961,8 @@ file = "mods/TheOptimizer-DeathXP-1.0.0.jar"
 hash = "0c99db25be27a3c1ae8a311109a7d1eb175f4ae810ecb62d90853709f5a9afee"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.2.0.jar"
-hash = "6aee062bb174cc5ee9fbe7c5a94ac3708b1dc180cbf10d2b645961510a48bce2"
+file = "mods/TheOptimizer-EquipmentBalance-1.3.0.jar"
+hash = "356a4d32013b70d14fd75b0a8dfae3502a0ecd1f51af3da64c0328b8bbbc5243"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"

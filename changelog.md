@@ -138,3 +138,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §cCoste del mago:§r cada pieza de túnica resta §f-5 %§r de daño cuerpo a cuerpo (máximo §f-20 %§r con el set completo). La túnica pega con hechizos, no con espada: deja de ser el camino cómodo que sumaba armadura y poder sin pagar nada.
 §7- §8El triángulo queda cerrado:§r túnica = daño mágico, oro = resistencia mágica (-25 % a 4/4), y Netherite Battlemage = mago de aguante que paga el coste de la netherita.
 §7- §8Configurable:§r mage_weapon_damage_penalty en theoptimizer_equipment.json.
+-----------------------------------
+§6§l[10] REPARACIÓN DE EQUIPO SENCILLO (v1.3.0)
+-----------------------------------
+§7- §aArcos, ballestas, cañas y escudos:§r se reparan al §f100 %§r en el yunque con su material (cuerda, cuerda, cuerda y tablones). Antes el arco y la ballesta no tenían reparación posible y con Mending fuera quedaban inservibles al gastarse.
+§7- §aTijeras:§r se reparan al §f100 %§r con un lingote de hierro.
+§7- §8Tridente y elytra quedan fuera§r a propósito: son objetos fuertes y necesitan un tradeoff propio antes de entrar en la economía de reparación.
