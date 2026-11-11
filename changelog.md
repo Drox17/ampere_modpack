@@ -308,3 +308,9 @@ Bienvenido a la nueva actualizacion. Hemos redisenado el juego para erradicar la
 §7- §aHerramientas:§r escala §f80 → 160 → 300§r (madera, piedra, hierro/oro). Diamante 1561 y netherita 2031 sin tocar.
 §7- §8Reparación y muerte:§r 100 % en tiers base, 25 % en élite y −10 % al morir siguen igual.
 §7- §7Docs:§r `docs/EQUIPAMIENTO.md` con la tabla completa; BALANCE §1.14 y AGENTS actualizados.
+-----------------------------------
+§6§l[34] PARIDAD CLIENTE-SERVIDOR (v1.22.1)
+-----------------------------------
+§7- §8Seis mods de servidor pasan a `both`:§r `almanac`, `alternate-current`, `lmd`, `structure-layout-optimizer`, `wishful-recipes` y `yungs-better-strongholds`.
+§7- §aMotivo:§r en singleplayer el servidor integrado no los cargaba, así que el gameplay no era idéntico al del servidor (despawn, recetas, estructuras, optimización de redstone).
+§7- §7Verificado:§r el updater del cliente descargó `EquipmentBalance 1.21.0` y la config con 52 claves; las seis incorporaciones se instalan en el próximo pase del updater.
