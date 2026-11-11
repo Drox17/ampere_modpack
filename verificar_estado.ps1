@@ -55,6 +55,16 @@ if ($null -ne $estado) {
     Add-Check 'pack.entradas' ($entradas.Count -eq $estado.pack.entradas) ("{0}/{1}" -f $entradas.Count, $estado.pack.entradas)
 }
 
+# --- 1b. finales de linea: packwiz hashea el arbol y Git publica LF --------
+$eolGit = git -C $repo ls-files --eol 2>$null
+$crlfTexto = @($eolGit | Where-Object { $_ -match 'i/lf' -and $_ -match 'w/crlf' })
+if ($crlfTexto.Count -eq 0) {
+    Add-Check 'pack.eol' $true 'sin CRLF en archivos de texto'
+} else {
+    $nombres = ($crlfTexto | ForEach-Object { ($_ -split "`t")[-1] }) -join ', '
+    Add-Check 'pack.eol' $false ("{0} archivo(s) con CRLF (romperian la descarga): {1}" -f $crlfTexto.Count, $nombres)
+}
+
 # --- 2. jar: version, paridad repo/servidor/indice ---------------------------
 $jarRepo = Join-Path $repo ('mods\' + $estado.mod.jar)
 $jarSrv = Join-Path $srv ('mods\' + $estado.mod.jar)
