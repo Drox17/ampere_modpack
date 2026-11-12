@@ -918,7 +918,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "e0af93499d94fb7b329a590b661d368e02b00b0d32a42ce39c17c9ce4e0225cf"
+hash = "7db03f15e6c280ebfd777603f52dcf7c7fb9f17766c56185a66b4964f68d5b96"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -954,7 +954,7 @@ hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.22.0.jar"
-hash = "f178d55195f04eabc697f99ed1b7038def3023be18e8dfc501b5d7bfdb93d3f2"
+hash = "0c425218d9d3b461c319ed53c20bb51662e1852bf9fa77123a60cab4f211c247"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
