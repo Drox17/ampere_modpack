@@ -13,7 +13,7 @@ $ErrorActionPreference = 'Continue'
 $repo = if ($PSScriptRoot) { $PSScriptRoot } else { (Get-Location).Path }
 $srv = 'C:\Users\Metabodiru\Desktop\servidor-theoptimizer'
 $py = 'C:\Users\Metabodiru\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python.exe'
-$instancia = Join-Path $env:APPDATA 'PrismLauncher\instances\TheOptimizer'
+$modsSrc = 'C:\Users\Metabodiru\Desktop\TheOptimizerMods'
 
 $estado = $null
 try { $estado = Get-Content (Join-Path $repo 'estado.json') -Raw -Encoding UTF8 | ConvertFrom-Json } catch { }
@@ -139,9 +139,9 @@ if ($SkipTests) {
 
     $salidaPruebas = ''
     foreach ($interprete in $interpretes) {
-        Push-Location $instancia
+        Push-Location $modsSrc
         try {
-            $salidaPruebas = (& $interprete -m gestion.herramientas.reparaciones.balance_equipamiento.probar 2>&1 | Out-String)
+            $salidaPruebas = (& $interprete -m balance_equipamiento.probar 2>&1 | Out-String)
         } catch {
             $salidaPruebas = ''
         } finally { Pop-Location }
@@ -150,9 +150,9 @@ if ($SkipTests) {
 
     # Fallback: algunas shells no resuelven la ruta absoluta al interprete; cmd.exe si.
     if (-not ($salidaPruebas -match 'VERIFICACION EXITOSA') -and (Test-Path $py)) {
-        Push-Location $instancia
+        Push-Location $modsSrc
         try {
-            $linea = '"' + $py + '" -m gestion.herramientas.reparaciones.balance_equipamiento.probar 2>&1'
+            $linea = '"' + $py + '" -m balance_equipamiento.probar 2>&1'
             $salidaPruebas = (& cmd.exe /c $linea | Out-String)
         } catch {
             $salidaPruebas = ''
@@ -166,7 +166,7 @@ if ($SkipTests) {
         $primera = (($salidaPruebas.Trim() -split "`n")[0]).Trim()
         Add-Check 'tests.modulo' $false ('salida inesperada: ' + $primera)
     } else {
-        Add-Check 'tests.modulo' $true 'SKIP: ejecuta a mano  python -m gestion.herramientas.reparaciones.balance_equipamiento.probar' -Skip $true
+        Add-Check 'tests.modulo' $true 'SKIP: ejecuta a mano  python -m balance_equipamiento.probar (en TheOptimizerMods)' -Skip $true
     }
 }
 
@@ -176,7 +176,7 @@ if ($hashRepo) { $txtClase = (tar -xOf $jarRepo 'theoptimizer/equipment/Equipmen
 $nombresEncantamiento = $txtClase -match 'Pesadilla|Castigo|Lealtad III|Empalamiento'
 Add-Check 'C1.sin-encantamientos' (-not $nombresEncantamiento) ($(if ($nombresEncantamiento) { 'tooltip nombra un encantamiento' } else { 'tooltips solo describen efectos' }))
 
-$policy = Join-Path $instancia 'gestion\herramientas\reparaciones\balance_equipamiento\theoptimizer\equipment\EquipmentPolicy.java'
+$policy = Join-Path $modsSrc 'balance_equipamiento\theoptimizer\equipment\EquipmentPolicy.java'
 $policyTexto = if (Test-Path $policy) { [IO.File]::ReadAllText($policy) } else { '' }
 $linajeOk = ($policyTexto -match 'cursium_') -and ($policyTexto -match 'netherite_mage_') -and ($policyTexto -match 'cataclysmFamily')
 Add-Check 'C2.linaje-netherita' $linajeOk ($(if ($linajeOk) { 'ignitium/cursium/monstrous/mage presentes' } else { 'falta alguna familia en EquipmentPolicy' }))

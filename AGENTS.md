@@ -12,9 +12,9 @@ vanilla con mods. Si una propuesta contradice estos trece puntos, está mal.
 |---|---|---|---|
 | P1 | **Progresión horizontal + vertical** | Cada set/tier tiene un rol; el vertical (diamante→netherita) añade aguante pero arrastra un coste | Que el tier alto sea mejor en todo |
 | P2 | **Todo poder tiene coste explícito** | Agotamiento, daño recibido, daño de arma, reparación cara | Que exista un set "gratis" |
-| P3 | **XP sin función económica** | No hay mesa de encantamientos, el yunque no cobra niveles, Mending no existe: los niveles solo marcan progreso | Que la XP se elimine del HUD o de las estadísticas |
+| P3 | **XP completamente erradicada** | No hay orbes de experiencia, mesa de encantamientos ni Mending. El yunque no cobra niveles y la barra de XP está oculta del HUD. | Que se usen los niveles para medir progresión, dar stats o desbloquear cosas |
 | P4 | **Mesa de encantamientos decorativa** | Interacción cancelada; es un bloque de decoración | Que se pueda usar "con suerte" |
-| P5 | **Encantamientos eliminados del juego** | Solo **Irrompibilidad I, Botín I y Eficiencia I** aparecen en cofres de mina/mazmorra/templo y se combinan en yunque | Que existan libros de otros encantamientos |
+| P5 | **Encantamientos eliminados del juego** | Solo **Irrompibilidad I y Eficiencia I** aparecen en cofres de mina/mazmorra/templo y se combinan en yunque | Que existan libros de otros encantamientos |
 | P6 | **Velocidad de minado unificada a hierro (6.0)** | Ninguna herramienta es más rápida por tier; la diferencia es el rol | Que el diamante mine más rápido |
 | P7 | **Ninguna pieza opaca a otra** | Cada material debe ser la mejor opción en al menos una actividad | Que todas sirvan para todo |
 | P8 | **Spawns adulterados a propósito** | Reparto 55/45 vanilla-mods, cap de criaturas 16 (config `creature_spawn_cap`), nigromante 18→2, fauna vanilla con respawn cíclico | Que sea "spawn vanilla" |
@@ -25,55 +25,38 @@ vanilla con mods. Si una propuesta contradice estos trece puntos, está mal.
 | P13 | **Desincentivar al jugador técnico** | Granjas AFK, duplicación, min-max y automatización deben **dejar de ser la mejor opción** (no se prohíben: se vuelven peores) | Que se bloqueen mecánicas legítimas de construcción o redstone |
 
 **Prueba de diseño (aplicar antes de proponer nada):**
-
 1. ¿La forma más eficiente de conseguir X es **jugar** (explorar, pelear, construir) o **dejar una máquina**?
 2. ¿Un jugador técnico que optimiza 200 horas obtiene una ventaja que rompe la progresión?
 3. ¿La mecánica se puede resolver **AFK**?
 
 Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se rediseña** antes de implementarse.
 
-Reglas derivadas que ya han causado errores:
+**Reglas derivadas que ya han causado errores:**
 - **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×1.5 a artrópodos").
+- **Detalles avanzados con Shift**: Si se quiere ver información detallada o mecánicas complejas de un ítem, se usa la tecla **Shift** sobre el ítem con el cursor (mecánica por implementar).
 - **Nada de prosa con números**: los valores salen del código y se muestran en el tooltip.
-- **No proponer sistemas que usen XP** como moneda (P3).
+- **No proponer sistemas que usen XP** como moneda ni escalar mecánicas con niveles (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
 - **Cofre del End: estrella del Nether y solo materiales** (rechaza armas, herramientas, armaduras y contenedores; el tooltip lo avisa).
-- **Pasivas de recolección en todo `DiggerItem`** (pico, pala, hacha, azada), no solo el pico. Seda=Hierro, Auto-Fundición=Oro, Área 3×3=Diamante, Fortuna III=Netherita.
-- **Durabilidad 1.22.0**: armaduras de 15 puntos a 165/240/225/195 (825 el set); herramientas 80→160→300→300→1561→2031.
+- **Pasivas de recolección en todo `DiggerItem`** (pico, pala, hacha, azada), no solo el pico. Madera=Hojas Gratis, Piedra=+15% en menas, Hierro=Minado 3x3, Oro=Auto-Fundición, Diamante=Toque de Seda oculto, Netherita=Fortuna III. *(Esta mecánica está abierta a ajustes coherentes que no violen otros puntos del balance)*.
+- **Durabilidad 1.22.0**: armaduras de 15 puntos a 165/240/225/195 (825 el set); herramientas de tiers a 80→160→300→160→1561→2031.
 - **Movimiento ÷5** (`movement_exhaustion_factor = 0.2`): correr 0.02/m, salto 0.01, salto corriendo 0.04. Combate intacto.
-- **La muela solo extrae Irrompibilidad, Botín y Eficiencia**; los innatos del material nunca son libros.
+- **La piedra de afilar solo extrae Irrompibilidad y Eficiencia**; los innatos del material nunca son libros.
 - **Equipo de spawn: no se dropea** (armadura/armas generadas e invocaciones); el que entrega el jugador sí.
 - **Encantamientos innatos: solo para jugadores** (la Lealtad del tridente no vuelve a los mobs).
 - **Drops cotidianos con mínimo 1, sin RNG de granja** (vara de blaze, pólvora, perla, caparazón, carbón del wither skeleton).
-- **Jefes: respuestas reactivas, no prohibiciones**: se corrige el daño, el agro o el entorno; no se bloquean bloques ni se cancelan invocaciones (ver `docs/BALANCE.md` §1.6).
+- **Jefes: respuestas reactivas, no prohibiciones**: se corrige el daño, el agro o el entorno; no se bloquean bloques ni se cancelan invocaciones.
 
 ## 2. Mods del pack (lo que existe y lo que no)
 
-363 entradas (103 metafiles Modrinth + 20 jars locales) · servidor con 90 jars · Forge 47.4.28.
-**Si un mod no aparece aquí, no está en el pack: no lo propongas.**
+**Lista de mods instalados (Forge 1.20.1):**
+`Alex's Caves (y Spellbooks), Alex's Mobs, All The Leaks, Almanac, Alshanex Familiars, Alternate Current, AmbientSounds, AppleSkin, Applied Energistics 2, Architectury, Balm, Better Advancements, BetterDays, Blueprint, Bountiful, Building Gadgets 2, Citadel, Chunk Loaders, Clean Swing Through Grass, Cloth Config v10, Comforts, Controlling, Create, Create Crafts & Additions, Create Repair, CreativeCore, Cubes Without Borders, Curios API, Default Options, Deimos, Dynamic Crosshair, Embeddium, Entity Model/Texture Features, Equipment Compare, ExtendedAE, FamiliarsLib, Fancy Tab Sections, FancyMenu, Fast Item Frames, Fast Leaf Decay, Fast Paintings, Ferrite Core, flib, FramedBlocks, Framework, Functional Storage, Gallery, GeckoLib 4, Glodium, Gnetum, Guard Ribbits, GuideME, Highlight, Iceberg, Icy's Better Horses, ImmersiveUI, Inventory Essentials, Iron's Spells 'n Spellbooks (y Lib), Jade, JEI, JER, JourneyMap, Kaleidoscope (Caves Cookery, ChineseFood, Cookery, Doll, End, Extension, Flora, ImmersiveEating, Nether), Kambrik, Kiwi Library, Konkrete, kotlinforforge, L_Enders_Cataclysm, LAN World Plug-n-Play, LaserIO, LetMeDespawn, LionfishAPI, Lootr, Melody, MezzConfig, ModernFix, Moonlight Library, Mouse Tweaks, No Trample, OctoLib, Oculus, Particular Reforged, Passable Foliage, Patchouli, Player Animator, Polymorph, Presence Footsteps, Punchy (y Moves), Puzzles Lib, Resourcefulconfig, Ribbits (y addons Croaks/Useful), Searchables, Simple Tombstone, Sound Physics Remastered, spark, Structure Layout Optimizer, SuperMartijn642's (Config/Core Lib), TheOptimizer (AdvancementLayout, EquipmentBalance, FamiliarsTagFix, MobBalance, SimpleTombParticlesFix, WildlifeRepopulation), Titanium, Wishful Recipes, YUNG's (API, Better Strongholds)`.
 
-| Dominio | Mods |
-|---|---|
-| Equipo y balance | `TheOptimizer-EquipmentBalance`, `TheOptimizer-MobBalance`, `TheOptimizer-WildlifeRepopulation` |
-| Magia | `irons_spellbooks`, `irons_lib`, `alexs_caves_spellbooks`, `alshanex_familiars`, `familiarslib` |
-| Combate/jefes | `L_Enders_Cataclysm`, `alexsmobs`, `alexscaves`, `citadel`, `lionfishapi` |
-| Spawns y fauna | (TheOptimizer) + `alexsmobs` config, `letmedespawn` |
-| Loot y cofres | `lootr`, `Bountiful`, `BountifulBounties` (datapack), datapacks `TheOptimizer_*` |
-| Cocina/hogar | `kaleidoscope_cookery`, `kaleidoscope_flora`, `kaleidoscope_nether`, `kaleidoscope_end`, `kaleidoscope_doll`, `kaleidoscope_chinesefood`, `KaleidoscopeCavescookery`, `comforts` |
-| Tecnología | `create`, `createaddition`, `create_repair`, `appliedenergistics2`, `ExtendedAE`, `expatternprovider`, `laserio`, `functionalstorage`, `framedblocks`, `buildinggadgets2`, `blueprint` |
-| Progresión/estructuras | `yungs-better-strongholds`, `yungsapi`, `structure_layout_optimizer` |
-| Rendimiento | `modernfix`, `ferritecore`, `alternate-current`, `spark`, `alltheleaks` |
-| Cliente/QoL | `jei`, `jade`, `journeymap`, `journeymap-shared-maps`, `embeddium`, `oculus`, `fancymenu`, `patchouli`, `simpletomb` |
-
-**No están** (no los asumas): Apotheosis, Tinkers, Spore, Botania, Mekanism, Sophisticated
-Backpacks, Ars Nouveau, Tetra (solo el addon de barras de Iron's), Create: Crafts & Additions
-sí está, Create: Diesel Generators no.
-También fuera: `TheOptimizer-MiningXP` y `TheOptimizer-DeathXP` (retirados: la XP no tiene función, P3).
+**No están** (no los asumas): Apotheosis, Tinkers, Spore, Botania, Mekanism, Sophisticated Backpacks, Ars Nouveau. Tampoco asumas mecánicas de XP (`MiningXP` y `DeathXP` fueron retirados).
 
 ## 3. Estado implementado (IDs estables)
 
 **Sets vanilla (S)** — 15 armadura los cuatro primeros, 20 los dos últimos:
-
 | ID | Set | Rol | Coste |
 |---|---|---|---|
 | S1 | Cuero | Explorador: caída −7/15/25/40 % | sin defensa extra |
@@ -87,13 +70,17 @@ También fuera: `TheOptimizer-MiningXP` y `TheOptimizer-DeathXP` (retirados: la 
 **Linaje netherita (L)** — todo lo forjado sobre `minecraft:netherite_*` hereda S6:
 `L1` ignitium · `L2` cursium · `L3` monstrous_helm · `L4` netherite_mage. Fuera: `bone_reptile`, `sturdy_boots`.
 
-**Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %; `bard_*` fuera) · `R2` anti-mago (oro, S4).
+**Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %) · `R2` anti-mago (oro, S4).
 
-**Herramientas/armas (T)**: rediseño hecho en 1.10.0/1.11.0. Madera: +25 % en madera/hojas/cultivos y hojas sin desgaste · Piedra: +15 % en cantera/menas y aturdimiento 0.4 s (solo armas) · Hierro: alcance +0.5 y barrido 75 % (Filo Arrasador III real) · Diamante: alcance +1.0 y 15 % crítico ×1.5 · Oro: Castigo III (+7.5 vs no-muertos), suerte y piglins · Madera: ×1.5 real contra artrópodos, recolección +25 %. Detalle y números en `docs/BALANCE.md`.
-
+**Herramientas/armas (T)**: rediseño unificando extracción a 6.0.
+*   **Madera:** Daño x1.5 a artrópodos. Hojas no gastan durabilidad. +25% vel en madera/cultivos y sueltan polvo de hueso.
+*   **Piedra:** Empuje I, Lentitud I al golpear, interrumpe casters/creepers. +15% vel en menas y piedra.
+*   **Hierro:** Barrido III y alcance +0.5 (armas). Minado 3x3 y doble durabilidad (DiggerItem). 100% rep por lingote.
+*   **Oro:** Castigo III, pacifica piglins, +1 Suerte. Auto-fundición en DiggerItem. 100% rep por lingote. Daño/durabilidad = Hierro.
+*   **Diamante:** 15% chance de crítico, alcance +1.0. Toque de seda oculto en herramientas. 25% rep por diamante.
+*   **Netherita:** Lentitud II al golpear, +15% daño vs armadura. Fortuna III oculta. 25% rep por lingote.
 
 **Matriz familia ↔ counter (1.19.0):**
-
 | Familia | Mecánica | Counter |
 |---|---|---|
 | Arañas | Esquiva 25 % (mitad de daño) | **Madera** (precisión + ×1.5) |
@@ -111,17 +98,28 @@ También fuera: `TheOptimizer-MiningXP` y `TheOptimizer-DeathXP` (retirados: la 
 5. **C5** Todo poder tiene coste visible en el tooltip (P2).
 6. **C6** Los números del tooltip son los del código.
 
-## 5. Verificación
+## 5. Verificación y Rutas de Desarrollo (Antigravity Workspace)
 
-```powershell
-cd C:\Users\Metabodiru\Desktop\AmpereRepo
-.\verificar_estado.ps1          # imprime OK/FAIL/SKIP por check y un RESUMEN
-```
+**A. Ejecución de Diagnóstico (`/sync`)**
+    cd C:\Users\Metabodiru\Desktop\AmpereRepo
+    .\verificar_estado.ps1          # imprime OK/FAIL/SKIP por check y un RESUMEN
 
 - **1 sola llamada.** No abras fuentes, jars ni configs si el resumen dice `9/9` o más.
 - Si hay `FAIL`, el script imprime `id · esperado · real`: con eso basta para reportar.
-- `.\verificar_estado.ps1 -Json` para salida máquina; `-SkipTests` si no quieres esperar `probar.py`.
+- Opciones útiles: `.\verificar_estado.ps1 -Json` para salida máquina; `-SkipTests` si no quieres esperar `probar.py`.
 - El estado esperado vive en `estado.json` (versiones, conteos, 26 claves de config, IDs).
+
+**B. Mapa de Rutas (Dónde programar sin explorar)**
+| Tarea / Componente | Directorio / Comando exacto |
+|---|---|
+| **Lógica Java, Mixins y Eventos** | `src/main/java/` (Ej: `balance_equipamiento`, `balance_mobs`) |
+| **Loot Tables y Recetas** | `datapacks/TheOptimizer_AdventureLoot/data/` |
+| **Búsqueda de Tags (Scripts)** | Usa `python scripts/find_tags.py` |
+| **Compilación silenciosa** | Usa `python scripts/compile_quiet.py` antes de testear |
+| **Gestión de Mods** | Vía `packwiz` (modifica `packwiz.json` o usa comandos CLI, no subas `.jar` al repo) |
+
+**C. Post-Operación (Regla de Limpieza)**
+Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualizar obligatoriamente los datos de mods y versiones** en la documentación si es necesario para mantener sincronizado este archivo y `estado.json`.
 
 ## 6. Registro de `/sync` (append-only: añade una línea por pasada)
 
@@ -137,8 +135,7 @@ cd C:\Users\Metabodiru\Desktop\AmpereRepo
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 
-`docs/BALANCE.md`: números de referencia, backlog con criterios de aceptación, trampas
-conocidas, procedimiento de publicación y razón de cada regla.
+`docs/BALANCE.md`: números de referencia, backlog con criterios de aceptación, trampas conocidas, procedimiento de publicación y razón de cada regla.
 `docs/LOOT.md` + `loot.json`: qué loot tables toca el pack (y cuáles no), con hashes verificados en cada `/sync`.
 `docs/HAMBRE_VANILLA.md`: fuentes vanilla de agotamiento (correr 0.1/m, salto 0.05, ataque 0.1, minería 0.005, regen 6.0) y su conversión a saturación/hambre.
 `docs/MOBS_HOSTILES_VANILLA.md` + `datos/mobs_hostiles_vanilla.json`: atributos de los 37 hostiles vanilla (bytecode 1.20.1) y qué cambia MobBalance. Reejecutable con `herramientas/extraer_atributos_vanilla.py`.
