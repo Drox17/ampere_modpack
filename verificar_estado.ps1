@@ -232,7 +232,7 @@ $porcelain = (git -C $repo status --porcelain 2>$null | Out-String).Trim()
 Add-Check 'git.limpio' ([string]::IsNullOrWhiteSpace($porcelain)) ($(if ([string]::IsNullOrWhiteSpace($porcelain)) { 'sin cambios pendientes' } else { 'hay cambios sin commitear' }))
 
 $pendientes = 0
-try { $pendientes = [int](git -C $repo rev-list --count 'HEAD..@{u}' 2>$null) } catch { $pendientes = -1 }
+try { $pendientes = [int](git -C $repo rev-list --count '@{u}..HEAD' 2>$null) } catch { $pendientes = -1 }
 Add-Check 'git.sincronizado' ($pendientes -eq 0) ("commits sin subir: {0}" -f $pendientes)
 
 # --- salida -----------------------------------------------------------------
