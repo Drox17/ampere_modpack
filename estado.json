@@ -1,16 +1,16 @@
 {
   "actualizado": "2026-11-13",
   "pack": {
-    "version": "1.23.2",
+    "version": "1.23.3",
     "entradas": 363,
     "metafiles": 103,
     "jars_locales": 20
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.23.0",
-    "jar": "TheOptimizer-EquipmentBalance-1.23.0.jar",
-    "pruebas": 75
+    "version": "1.23.1",
+    "jar": "TheOptimizer-EquipmentBalance-1.23.1.jar",
+    "pruebas": 737
   },
   "config": {
     "unified_harvest_speed": 6.0,
@@ -95,10 +95,14 @@
     "starvation_feedback": true,
     "starvation_sound_volume": 0.35,
     "starvation_sound_pitch": 0.65,
-    "hunger_reserve_warning": true,
-    "hunger_warning_volume": 0.2,
-    "hunger_warning_pitch": 0.8,
-    "hunger_warning_cooldown_ticks": 100
+    "low_hunger_warning": true,
+    "low_hunger_warning_food": 6,
+    "low_hunger_critical_food": 2,
+    "low_hunger_jitter_interval_ticks": 4,
+    "low_hunger_growl_interval_ticks": 160,
+    "low_hunger_critical_interval_multiplier": 0.5,
+    "low_hunger_growl_volume": 0.2,
+    "low_hunger_growl_pitch": 0.55
   },
   "invariantes": [
     "C1",

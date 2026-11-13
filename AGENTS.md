@@ -74,7 +74,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 
 **Brecha**: 2 impactos de combate aceptados dentro de 30 ticks reducen la armadura efectiva a la mitad en el segundo impacto. Ventana móvil; las fuentes ambientales y la inanición no cuentan. Cursium conserva la exención por pieza; mezclarlo con una pieza pesada vuelve a permitir brecha.
 
-**Feedback de hambre**: STARVE usa un latido grave y omite la animación de daño del cliente (sin alterar el daño real). Aviso sonoro al cruzar de ≥8 a <8 de comida, con recarga de 100 ticks; no se repite mientras siga baja.
+**Feedback de hambre (EquipmentBalance 1.23.1)**: a ≤6 puntos de comida se muestran los sprites vanilla de Hambre y un temblor de −1 a +1 píxel, cada 4 ticks; a ≤2, cada 2 ticks. Gruñido local de Sniffer cada 160 ticks con 1–6 puntos, cada 80 ticks con 1–2 (volumen 0.20, tono 0.55). Comer por encima del umbral reinicia el temporizador; creativo/espectador/muerto quedan excluidos. Solo cambia el feedback, sin aplicar efectos ni alterar saturación. STARVE a cero conserva el latido y la supresión de animación de daño de 1.23.0. Se sustituye el aviso anterior de cruce 8→7.
 
 **Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %) · `R2` anti-mago (oro, S4).
 
@@ -113,7 +113,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 - **1 sola llamada.** No abras fuentes, jars ni configs si el resumen dice `9/9` o más.
 - Si hay `FAIL`, el script imprime `id · esperado · real`: con eso basta para reportar.
 - Opciones útiles: `.\verificar_estado.ps1 -Json` para salida máquina; `-SkipTests` si no quieres esperar `probar.py`.
-- El estado esperado vive en `estado.json` (versiones, conteos, 86 claves de config, IDs).
+- El estado esperado vive en `estado.json` (versiones, conteos, 90 claves de config, IDs).
 
 **B. Mapa de Rutas (Dónde programar sin explorar)**
 | Tarea / Componente | Directorio / Comando exacto |
@@ -139,6 +139,7 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-11 | `0211a6a` | 1.8.0: orbes de XP apagados; estados D1.1-D1.5 corregidos | ninguna |
 | 2026-11-11 | `7068456` | 1.11.0: hojas sin desgaste (cierra T1) | ninguna |
 | 2026-11-13 | pendiente de commit | EquipmentBalance 1.23.0: 15/16; 75 pruebas JVM, 86 claves, 27 tablas de loot | solo git.limpio (cambios locales para prueba); Pages SKIP por DNS; sin push |
+| 2026-11-13 | publicación 1.23.1 | 15/16 antes del commit; 737 comprobaciones JVM, 90 claves, 27 tablas de loot | git.limpio temporal hasta commit; Pages SKIP por DNS; push autorizado en ambos repositorios |
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 
