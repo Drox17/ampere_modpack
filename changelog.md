@@ -1,11 +1,11 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.24.2§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.3§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f360§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[EQUIPMENTBALANCE 1.24.2]
+§6§l[EQUIPMENTBALANCE 1.24.3]
 -----------------------------------
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
@@ -204,3 +204,11 @@
 §7[1.3.0] Reparación de equipo sencillo.
 §7[1.2.0] Tooltips compactos de equipo y rol mago para las túnicas de Iron's.
 §7[1.1.0] Base del rediseño de roles y superpoderes de armaduras.
+
+-----------------------------------
+§6§l[PACK 1.24.3 — RETIRADA LOCAL]§r
+§7Se retira Alshanex Familiars 4.1.0 y su parche dependiente TheOptimizer-FamiliarsTagFix. FamiliarsLib se conserva. EquipmentBalance permanece en 1.24.2; sin cambios de balance. Auditoría de equipables externos en reporte.md. Historial de la retirada local previa; incluida ahora en esta publicación.
+
+-----------------------------------
+§6§l[EQUIPMENTBALANCE 1.24.3 — COMPATIBILIDAD EXTERNA]§r
+§7Se conserva el balance vanilla 1.24.2. Cataclysm deja de acumular atributos físicos: Ignitium 16/0, Cursium 12/0 y firmeza de linaje 25%. Bone Reptile 3/6 y Bloom Stone 6. Skull y Monstrous no añaden dureza. Emerald Stoneplate concede Suerte al equiparlo en anillo; Fluix usa extracción 6.0. Grave Key no activa pasivas de combate. Rocky usa sus efectos nativos, sin reflejo añadido. Se retiran Alshanex, su parche y FamiliarsLib. Configuración: 108 claves.

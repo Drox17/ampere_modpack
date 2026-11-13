@@ -502,7 +502,7 @@ hash = "95280f0343d0e8e387298afc32d38611ef96ad8c8536012d42ed81d66f865050"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "1943f00bf46143328aefa8faaf8ee673ded6f21443e615823b178b05ef0c801b"
+hash = "597d1ef3344640c8bb57a25c11c1a958efcc9b20f7beed315ef751c10afb20eb"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -918,7 +918,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "5ccc6e0bdca286d4fc2b50c92b1993870d771d6695ddc2580ff8e98b17559617"
+hash = "f2a20cc96c1aeac7ceeb1740513595ac435a6272232afe2fbc9cf579d3319d25"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -953,12 +953,8 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.24.2.jar"
-hash = "086f7f61e5c16897beb66cbf24b6ecb47ecd3ad454f44def841fe1f09cc5c7b1"
-
-[[files]]
-file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
-hash = "834920b4ee77ff84c5c925f7e5baa34cb2d28da3e0124b51e3c44286fb3491f3"
+file = "mods/TheOptimizer-EquipmentBalance-1.24.3.jar"
+hash = "9d057712bdc682bc04588de72ee7d083c49aa5e9589aa459a1d21c8d88731d58"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.0.jar"
@@ -999,10 +995,6 @@ hash = "2109c1c96c196c56bb76cbe7dd9ff85eec5db6822f057b34ce59dd3a67b7f1a6"
 file = "mods/almanac.pw.toml"
 hash = "68a4d1a23e993426a291a35f5d402aff408ba59c979436ff826b9c0f3d6bc011"
 metafile = true
-
-[[files]]
-file = "mods/alshanex_familiars-1.20.1_v4.1.0.jar"
-hash = "31cf4c2543fe40172bd15cf4884fb7c4d49ce4be7aa9c17b481f0cbe5cb246ed"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
@@ -1151,10 +1143,6 @@ metafile = true
 file = "mods/extended-ae.pw.toml"
 hash = "5736f5e97d55b11b47aba1ef93c9c15bfcd107223aa9026a181212d26485c80a"
 metafile = true
-
-[[files]]
-file = "mods/familiarslib-1.20.1-1.9.jar"
-hash = "89fa2032bf531d4e6393ff0b6e28bf1f71a7d3429b048df9e7c901e83602a4ee"
 
 [[files]]
 file = "mods/fancymenu.pw.toml"

@@ -50,7 +50,7 @@ bloque, no de botín: garantizan que el bloque suelte lo que debe.
 
 Todo lo demás. Ejemplos de mods con tablas propias que el pack deja intactas: `alexsmobs`,
 `alexscaves`, `cataclysm`, `create`, `kaleidoscope_*`, `lootr`, `bountiful`, `simpletomb`,
-`irons_spellbooks` (fuera de las 9 entradas de arriba), `alshanex_familiars`. Si el pack quisiera
+`irons_spellbooks` (fuera de las 9 entradas de arriba). Alshanex Familiars fue retirado localmente en el pack 1.24.3, sin modificar tablas registradas. Si el pack quisiera
 tocarlas, tendrían que aparecer en `loot.json`.
 
 ## Cómo se revisa

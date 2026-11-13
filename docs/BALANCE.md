@@ -317,6 +317,8 @@ hierro alcance; oro suerte; diamante toque de seda + ×2 pizarra/obsidiana; neth
 propia en el tooltip.
 
 ### A1. Familias de armaduras huérfanas (~32 piezas)
+
+**Nota de auditoría 2026-11-13:** el inventario siguiente es histórico. Alshanex Familiars y su parche de tags se retiraron localmente en el pack 1.24.3. El inventario por registro y los atributos efectivos actuales se documentan en `../reporte.md`; no se ha cambiado el balance de los equipables.
 Inventario: `irons_spellbooks` 52 (cubiertas), `alexscaves` 13, `cataclysm` 12 (cubiertas las
 de linaje), `create` 8, `alexsmobs` 8, `alexs_caves_spellbooks` 7 (cubiertas), `alshanex_familiars`
 5, `kaleidoscope_cookery` 2; `geckolib` 8 son de mascota.
@@ -412,3 +414,24 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, la propuesta se r
 **Candidatos pendientes de revisar con el mismo criterio:** spawners de un solo uso, granjas de hierro
 y de raids (tótems), chunk loading, duplicación de cualquier tipo.
 
+
+
+## Compatibilidad externa — EquipmentBalance 1.24.3 (2026-11-13)
+
+Se mantiene el balance vanilla de 1.24.2. ItemAttributeModifierEvent se procesa en LOWEST: se retiran todos los aportes físicos previos de Cataclysm antes de insertar Ampere. Ignitium aporta 2/5/6/3 (16), Cursium 2/4/4/2 (12), dureza cero y 0.0625 de resistencia al empuje por pieza de linaje. Bone Reptile y Bloom Stone son excepciones externas expresamente solicitadas: casco Bone 3, peto Bone 6, peto Bloom 6, sin dureza ni repulsión física residual. Las pasivas y atributos ajenos a esos tres se conservan.
+
+Unbreakable Skull conserva armadura +1 y su inmunidad nativa al aturdimiento, pero no añade dureza. Se retira también la dureza del efecto temporal Monstrous, conservando sus otros modificadores y regeneración; así no reaparece mitigación oculta desde un efecto.
+
+Emerald Stoneplate añade suerte solo en ranura ring. La cifra del tooltip procede de emerald_ring_luck; se sustituye la descripción nativa en su origen para evitar depender del orden de renderizado. Su coste visible es ocupar esa ranura de anillo. No se altera la supresión global de orbes. Las herramientas Fluix DiggerItem usan velocidad efectiva unificada cuando el bloque es adecuado, conservando su comportamiento lento en bloques inadecuados y sus otras propiedades. Rocky ya no recibe el golpe artificial ni niveles virtuales de reflejo de Ampere; permanecen las habilidades de Alex’s Mobs.
+
+Las pasivas de combate se limitan a espadas/hachas, incluidos los cuchillos que sean SwordItem. Grave Key se excluye por ID incluso cuando su clase nativa hereda de SwordItem. No se cambian extracción o reparación vanilla para conseguir esta separación.
+
+Claves nuevas, con paridad Java/instalador/pack/servidor/instancia: bone_reptile_armor_helmet=3, bone_reptile_armor_chest=6, bloom_stone_armor_chest=6, emerald_ring_luck=1.0. Total 108.
+
+FamiliarsLib se retira tras comprobar que no quedan consumidores obligatorios. La publicación incluye la retirada anterior de Alshanex y FamiliarsTagFix. No se modifican las 27 tablas de loot registradas.
+
+La suite incluye una JVM de Forge aislada con Cataclysm/Curios reales: comprueba orden del evento, eliminación de aportes duplicados, suma de armadura/dureza/repulsión, suerte y su tooltip, Fluix, clave de tumba, Rocky y regresión de las familias vanilla. Usa copias temporales; no abre el mundo real ni genera chunks. Las advertencias de anotaciones ausentes en classfiles de terceros se excluyen del lint de compilación; las advertencias de fuentes propias siguen siendo errores.
+
+Alcance: esta versión implementa los ítems y reglas enumerados en la petición. H3 (otras familias físicas externas) y los poderes/costes nativos restantes de H6 no reciben un rediseño adicional; siguen documentados en el backlog. No se afirma haber armonizado todos los poderes de todos los mods.
+
+Resultado de la suite 1.24.3: 1606 comprobaciones JVM, incluidas 100 de compatibilidad sobre Forge real, además de 59 descriptores/firmas de enlace contrastados con los JAR.

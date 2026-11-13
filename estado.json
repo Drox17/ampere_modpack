@@ -1,16 +1,16 @@
 {
   "actualizado": "2026-11-13",
   "pack": {
-    "version": "1.24.2",
-    "entradas": 363,
+    "version": "1.24.3",
+    "entradas": 360,
     "metafiles": 103,
-    "jars_locales": 20
+    "jars_locales": 17
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.24.2",
-    "jar": "TheOptimizer-EquipmentBalance-1.24.2.jar",
-    "pruebas": 1506
+    "version": "1.24.3",
+    "jar": "TheOptimizer-EquipmentBalance-1.24.3.jar",
+    "pruebas": 1606
   },
   "config": {
     "unified_harvest_speed": 6.0,
@@ -116,7 +116,11 @@
     "low_hunger_growl_volume": 0.2,
     "low_hunger_growl_pitch": 0.55,
     "gold_smite_level": 3,
-    "leaves_free_durability": true
+    "leaves_free_durability": true,
+    "bone_reptile_armor_helmet": 3,
+    "bone_reptile_armor_chest": 6,
+    "bloom_stone_armor_chest": 6,
+    "emerald_ring_luck": 1.0
   },
   "invariantes": [
     "C1",
