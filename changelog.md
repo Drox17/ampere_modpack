@@ -1,11 +1,11 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.24.3§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f360§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.4§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f366§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[EQUIPMENTBALANCE 1.24.3]
+§6§l[EQUIPMENTBALANCE 1.24.4]
 -----------------------------------
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
@@ -212,3 +212,6 @@
 -----------------------------------
 §6§l[EQUIPMENTBALANCE 1.24.3 — COMPATIBILIDAD EXTERNA]§r
 §7Se conserva el balance vanilla 1.24.2. Cataclysm deja de acumular atributos físicos: Ignitium 16/0, Cursium 12/0 y firmeza de linaje 25%. Bone Reptile 3/6 y Bloom Stone 6. Skull y Monstrous no añaden dureza. Emerald Stoneplate concede Suerte al equiparlo en anillo; Fluix usa extracción 6.0. Grave Key no activa pasivas de combate. Rocky usa sus efectos nativos, sin reflejo añadido. Se retiran Alshanex, su parche y FamiliarsLib. Configuración: 108 claves.
+
+§6§l[MIGRACIÓN YUNG’S 1.24.4]§r
+§7Botín escalonado en 29 cofres propios de YUNG’s: libros permitidos de nivel I y materiales de Iron’s por exploración. Overrides vanilla intactos. Compatibilidades huérfanas de Alex retiradas en EquipmentBalance 1.24.4, MobBalance 1.5.1 y WildlifeRepopulation 1.6.1. TerraBlender sincronizado. Registro: 36 entradas de loot.

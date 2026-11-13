@@ -949,20 +949,20 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.24.3.jar"
-hash = "9d057712bdc682bc04588de72ee7d083c49aa5e9589aa459a1d21c8d88731d58"
+file = "mods/TheOptimizer-EquipmentBalance-1.24.4.jar"
+hash = "a7e01f28ffa05ab4914c4bf17b256bf71528f52fe40b13e62bdfad2115ae081a"
 
 [[files]]
-file = "mods/TheOptimizer-MobBalance-1.5.0.jar"
-hash = "b147e6c182d5c5f2857609cf44d45c784262317264b07b2eba55436fb3924a07"
+file = "mods/TheOptimizer-MobBalance-1.5.1.jar"
+hash = "596dee054b12d8486449581a45d905f32c9824158c545600b265f55de4247796"
 
 [[files]]
 file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
 hash = "fc6ad3184c928b11d422a370504385bf0f79b82e24f5d9e13303ed7a3d8eac15"
 
 [[files]]
-file = "mods/TheOptimizer-WildlifeRepopulation-1.6.0.jar"
-hash = "270fd64e9bb221c0b26cb90a725c765d86063865818c9901269b069d36d19add"
+file = "mods/TheOptimizer-WildlifeRepopulation-1.6.1.jar"
+hash = "c1fa649903efbdfc2a96298fe980fac009671511054098cdc98784a1417e2672"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -1545,6 +1545,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "cbc4a42265c7235d95f596f4d03819d868e002c2b175f2f6bd30420416a7cef2"
 metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip"
+hash = "d62c3a844c8b50692cd4ba384ca0c770520081517707d9b0c6a4c1ec7f978ee1"
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"

@@ -1,16 +1,16 @@
 {
   "actualizado": "2026-11-13",
   "pack": {
-    "version": "1.24.3",
-    "entradas": 360,
-    "metafiles": 103,
-    "jars_locales": 17
+    "version": "1.24.4",
+    "entradas": 366,
+    "metafiles": 110,
+    "jars_locales": 15
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.24.3",
-    "jar": "TheOptimizer-EquipmentBalance-1.24.3.jar",
-    "pruebas": 1606
+    "version": "1.24.4",
+    "jar": "TheOptimizer-EquipmentBalance-1.24.4.jar",
+    "pruebas": 1604
   },
   "config": {
     "unified_harvest_speed": 6.0,

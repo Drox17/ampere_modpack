@@ -160,7 +160,7 @@ if ($SkipTests) {
     }
 
     if ($salidaPruebas -match 'VERIFICACION EXITOSA') {
-        $num = [regex]::Match($salidaPruebas, '(\d+) comprobaciones')
+        $num = [regex]::Match($salidaPruebas, 'VERIFICACION EXITOSA[^\r\n]*?: (\d+) comprobaciones')
         Add-Check 'tests.modulo' $true ("{0} comprobaciones" -f $(if ($num.Success) { $num.Groups[1].Value } else { '?' }))
     } elseif ($salidaPruebas.Trim()) {
         $primera = (($salidaPruebas.Trim() -split "`n")[0]).Trim()
@@ -185,8 +185,8 @@ $policyTexto = if (Test-Path $policy) { [IO.File]::ReadAllText($policy) } else {
 $linajeOk = ($policyTexto -match 'cursium_') -and ($policyTexto -match 'netherite_mage_') -and ($policyTexto -match 'cataclysmFamily')
 Add-Check 'C2.linaje-netherita' $linajeOk ($(if ($linajeOk) { 'ignitium/cursium/monstrous/mage presentes' } else { 'falta alguna familia en EquipmentPolicy' }))
 
-$mageOk = ($policyTexto -match 'alexs_caves_spellbooks') -and ($policyTexto -match 'isMageRobe')
-Add-Check 'C3.tunicas-pagan' $mageOk ($(if ($mageOk) { 'irons + alexs_caves en rol mago' } else { 'falta namespace de tunas' }))
+$mageOk = ($policyTexto -match 'irons_spellbooks') -and ($policyTexto -match 'isMageRobe')
+Add-Check 'C3.tunicas-pagan' $mageOk ($(if ($mageOk) { 'irons_spellbooks en rol mago' } else { 'falta namespace de tunas' }))
 
 # --- 6. publicacion viva ----------------------------------------------------
 $versionLocal = (Get-Content (Join-Path $repo 'version.txt') -Raw).Trim()
@@ -212,9 +212,16 @@ if (Test-Path $lootRuta) {
         $base = if ($e.base -eq 'server') { $srv } else { $repo }
         $archivo = Join-Path $base $e.archivo
         if (-not (Test-Path $archivo)) { $malasLoot++; continue }
-        $contenido = (tar -xOf $archivo $e.entrada 2>$null | Out-String)
-        $sha = [System.Security.Cryptography.SHA256]::Create()
-        $calculado = (($sha.ComputeHash([Text.Encoding]::UTF8.GetBytes($contenido)) | ForEach-Object { $_.ToString('x2') }) -join '')
+        $zip = [IO.Compression.ZipFile]::OpenRead($archivo)
+        try {
+            $entrada = $zip.GetEntry($e.entrada)
+            if ($null -eq $entrada) { $malasLoot++; continue }
+            $flujo = $entrada.Open()
+            try {
+                $sha = [System.Security.Cryptography.SHA256]::Create()
+                $calculado = (($sha.ComputeHash($flujo) | ForEach-Object { $_.ToString('x2') }) -join '')
+            } finally { $flujo.Dispose() }
+        } finally { $zip.Dispose() }
         if ($calculado -ne $e.sha256) { $malasLoot++ }
     }
     Add-Check 'loot.registro' ($malasLoot -eq 0) ("{0}/{1} tablas sin cambios" -f ($totalLoot - $malasLoot), $totalLoot)

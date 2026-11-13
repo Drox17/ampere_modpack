@@ -1,105 +1,67 @@
-# LOOT.md — Registro de loot tables del pack
+# Botín activo — migración YUNG’s 1.24.4
 
-> Regla de oro: **si una tabla no aparece aquí, el pack NO la modifica.** El registro contiene
-> solo lo tocado y guarda el hash de cada entrada en `loot.json`. Si un hash cambia, alguien
-> modificó esa tabla: hay que revisarla y actualizar `loot.json` en el mismo commit.
+Registro: **36 entradas SHA-256** en loot.json (27 anteriores y 9 nuevas: cuatro tablas, cuatro modifiers y su registro global). AdventureLoot 1.2.0 conserva byte por byte los overrides vanilla de cofres, mobs y cobre. Se añade al pack distribuido, al servidor y a las carpetas activas de PrismLauncher.
 
-## Resumen
+Los modifiers usan irons_spellbooks:append_loot, condiciones forge:loot_table_id y un registro replace=false. No reemplazan tablas de YUNG’s ni sus objetos ambientales. Los niveles son disjuntos; la esencia adicional se limita a Better Nether Fortresses.
 
-| Fuente | Tablas tocadas | Tipo | Para qué |
-|---|---|---|---|
-| `TheOptimizer_AdventureLoot.zip` | 4 cofres vanilla (dungeon, pirámide, templo, minas) | override | Inyectar **Irrompibilidad I, Botín I y Eficiencia I** (P5: solo esos tres encantamientos existen y solo en botín) |
-| `TheOptimizer_AdventureLoot.zip` | `entities/wither_skeleton` | override | Tabla reescrita (incluye cráneo) — **intención exacta pendiente de documentar** |
-| `TheOptimizer_AdventureLoot.zip` | 3 cofres de Iron's (pyromancer_supplies, mountain_tower, ice_spider_den) | override | Tintas y materiales mágicos por exploración (P10) |
-| `TheOptimizer_AdventureLoot.zip` | `additional_generic/good/treasure_loot` + 3 loot modifiers | loot_modifier | Inyección en cofres de Iron's sin reemplazar sus tablas base |
-| `TheOptimizer_LootFixes.zip` | `expatternprovider:ex_emc_interface` | corrección | La tabla del mod apunta a un item que no existe; el datapack la sustituye por el item real (`ex_emc_interface_part`) |
-| `TheOptimizer_LootFixes.zip` | `kaleidoscope_chinesefood:doll_0..5` | corrección | Las muñecas ya no existen como item: tabla vacía para cortar el error de parseo |
+| Nivel | Libro permitido, probabilidad | Recompensa arcana, probabilidad | Pesos de materiales |
+|---|---:|---:|---|
+| 1 | 35% | 65% | common_ink 6, uncommon_ink 3, arcane_essence 4, scroll 2 |
+| 2 | 60% | 85% | uncommon_ink 6, rare_ink 3, blank_rune 3, scroll 4 |
+| 3 | 80% | 100% | rare_ink 10, epic_ink 4, legendary_ink 1, blank_rune 5, scroll 4 |
 
-Total registrado: **25 entradas** (9 overrides vanilla —4 cofres, esqueleto del Wither, blaze, creeper, enderman y shulker—, 6 overrides de mods, 3 loot modifiers, 7 correcciones en datapack).
+Cada pool realiza una tirada; los tres libros tienen igual peso y siempre nivel I: Irrompibilidad, Botín, Eficiencia. Ninguna entrada nueva genera otros encantamientos o botellas de XP. Los pergaminos usan randomize_spell con calidad máxima 0.35/0.55/0.7. Las fortalezas tienen además 50% de una esencia cinder_essence. Legendary ink tiene peso 1 de 24, aproximadamente 4.17% por tirada del tercer nivel.
 
-## Detalle
+## Delegaciones y ausencias verificadas
 
-### Vanilla (5 overrides)
+Better Mineshafts no tiene tablas propias de cofres: SmallTunnel usa BuiltInLootTables.f_78759_, minecraft:chests/abandoned_mineshaft. Ya lo cubren el override y el modifier arcano existentes; no se duplica la inyección. YUNG’s Extras usa BuiltInLootTables.f_276662_, archaeology/desert_well; no es un cofre y no se altera. Cave Biomes no incluye tablas propias de cofres ni referencias a BuiltInLootTables en este JAR. La integración Cataclysm/fortalezas tampoco añade tablas propias. Better Strongholds conserva sus tablas y la integración previa.
 
-| Tabla | Qué se inyecta |
-|---|---|
-| `minecraft:chests/simple_dungeon` | Eficiencia, Botín, Irrompibilidad (nivel 1) |
-| `minecraft:chests/desert_pyramid` | ídem |
-| `minecraft:chests/jungle_temple` | ídem |
-| `minecraft:chests/abandoned_mineshaft` | ídem |
-| `minecraft:entities/wither_skeleton` | tabla reescrita (hueso, carbón, cráneo) |
+No declarados ni instalados, por decisión del usuario: Better Jungle Temples, Better Caves, Bridges y Traveler’s Titles. No se simula cobertura para ellos. TerraBlender 3.0.1.11 ya estaba declarado y se sincroniza porque Cave Biomes lo necesita.
 
-Estas cuatro tablas de cofre son las **únicas vías** de conseguir los tres encantamientos
-looteables, y por eso su hash es crítico: si se rompen, desaparece el bucle de botín del pack.
+## Rutas exactas de los 29 cofres
 
-### Iron's Spellbooks (9 entradas)
+### Nivel 1
 
-- **3 loot modifiers** (`chest_loot/vanilla_generic`, `compat_good`, `compat_treasure`): añaden
-  contenido a cofres existentes sin pisar la tabla del mod.
-- **3 tablas nuevas** (`additional_generic_loot`, `additional_good_loot`,
-  `additional_treasure_loot`): el contenido que inyectan esos modifiers.
-- **3 cofres de estructura** (`pyromancer_supplies`, `mountain_tower`, `ice_spider_den/dungeon`):
-  overrides con tintas (`good_ink`, `blank_rune`, `scroll`) y esencias.
+- `betterdungeons:skeleton_dungeon/chests/common`
+- `betterdungeons:small_dungeon/chests/loot_piles`
+- `betterdungeons:small_nether_dungeon/chests/common`
+- `betterdungeons:spider_dungeon/chests/egg_room`
+- `betterdungeons:zombie_dungeon/chests/common`
+- `betterwitchhuts:chests/hut_0`
 
-### Drops de bloque (7)
+### Nivel 2
 
-`expatternprovider:ex_emc_interface` y `kaleidoscope_chinesefood:doll_0..5`. Son tablas de
-bloque, no de botín: garantizan que el bloque suelte lo que debe.
+- `betterdeserttemples:chests/food_storage`
+- `betterdeserttemples:chests/lab`
+- `betterdeserttemples:chests/library`
+- `betterdeserttemples:chests/pharaoh_hidden`
+- `betterdeserttemples:chests/pot`
+- `betterdeserttemples:chests/statue`
+- `betterdeserttemples:chests/storage`
+- `betterdeserttemples:chests/tomb`
+- `betterdeserttemples:chests/tomb_pharaoh`
+- `betterdeserttemples:chests/wardrobe`
+- `betterdungeons:skeleton_dungeon/chests/middle`
+- `betterdungeons:zombie_dungeon/chests/special`
+- `betterdungeons:zombie_dungeon/chests/tombstone`
 
-## Mods con loot **sin tocar**
+### Nivel 3
 
-Todo lo demás. Ejemplos de mods con tablas propias que el pack deja intactas: `alexsmobs`,
-`alexscaves`, `cataclysm`, `create`, `kaleidoscope_*`, `lootr`, `bountiful`, `simpletomb`,
-`irons_spellbooks` (fuera de las 9 entradas de arriba). Alshanex Familiars fue retirado localmente en el pack 1.24.3, sin modificar tablas registradas. Si el pack quisiera
-tocarlas, tendrían que aparecer en `loot.json`.
+- `betterfortresses:chests/beacon`
+- `betterfortresses:chests/extra`
+- `betterfortresses:chests/hall`
+- `betterfortresses:chests/keep`
+- `betterfortresses:chests/obsidian`
+- `betterfortresses:chests/puzzle`
+- `betterfortresses:chests/quarters`
+- `betterfortresses:chests/storage`
+- `betterfortresses:chests/worship`
+- `betteroceanmonuments:chests/upper_side_chamber`
 
-## Cómo se revisa
+## Verificación
 
-1. `.\verificar_estado.ps1` incluye el check **`loot.registro`**: recalcula el SHA-256 de cada
-   entrada registrada y avisa si alguna cambió.
-2. Si sale `FAIL loot.registro`, alguien editó una tabla. Abre el archivo indicado, revisa el
-   cambio y, si es intención, actualiza `loot.json` (regenerar hashes) en el mismo commit.
-3. Para añadir una tabla nueva al registro: incluirla en `loot.json` con `base` (`repo` o
-   `server`), `archivo`, `entrada`, `tipo`, `objetivo` y `sha256`.
+python -B -m botin_magia_aventura.probar valida preservación de overrides, separación de niveles y libros permitidos. verificar_estado.ps1 valida los hashes exactos del registro. Los IDs de tintas, runas, pergaminos y esencias se contrastaron con el registro real de Iron’s 3.16.3.
 
-## Limitaciones conocidas
+### Delegación adicional de fortaleza
 
-- No se guarda una copia de la tabla vanilla original: el hash protege la versión del pack, no
-  permite ver el diff contra vanilla. Para eso haría falta una copia de referencia.
-- `entities/wither_skeleton` está registrada pero su intención no está escrita; conviene
-  documentarla cuando se revise.
-- El registro cubre datapacks y jars propios; si un mod del pack cambia sus tablas al
-  actualizarse, el hash no lo detecta (no lo controlamos nosotros).
-
-
-### Correcciones de tablas de mods (`TheOptimizer_LootFixes.zip`)
-
-Estas siete tablas se envían en un **datapack**, no en el jar: un datapack tiene prioridad sobre los
-recursos de los mods, y desde el jar perdían la prioridad y no servían de nada (verificado en log).
-El zip se despliega al mundo del servidor y además viaja en el pack (`moonlight-global-datapacks/`),
-así que también aplica en partidas individuales del cliente.
-
-| Tabla del mod | Problema (bug del mod) | Corrección del pack |
-|---|---|---|
-| `expatternprovider:blocks/ex_emc_interface` | Referencia `expatternprovider:ex_emc_interface` como item, pero el item real es `…_emc_interface_part` | Dropea `…_emc_interface_part` |
-| `kaleidoscope_chinesefood:blocks/doll_0..5` | Las muñecas no existen como item en 1.1.16 | Tabla vacía (sin drop) para cortar el error |
-
-### Bugs upstream que NO se corrigen (documentados)
-
-| Tabla de Iron's | Error | Efecto |
-|---|---|---|
-| `chests/citadel/citadel_tomes` | `Unknown type 'minecraft:set_written_book_pages'` (función que no existe en 1.20.1) | La tabla no carga: el cofre `citadel_tomes` y el pool 8 de `citadel_bookshelf` quedan sin botín |
-| `chests/catacombs/crypt_loot` | `Missing name, expected to find a string` en `LootTableReference` | La tabla no carga: los cofres de catacumbas quedan sin botín |
-
-No se tocan porque son del mod y decidir qué botín deberían dar es una decisión de diseño, no una
-corrección mecánica. Si se quiere arreglar, la vía es reescribir ambas tablas en este mismo datapack
-con contenido coherente (tintas, runas, pergaminos).
-
-## Drops deterministas (1.18.0)
-
-Las tablas de blaze, creeper, enderman y shulker se reescriben para garantizar un mínimo de **1** recurso,
-y el carbón del esqueleto del Wither pasa a **1-2** (antes −1 a 1). El cráneo se mantiene al **15 %**.
-
-## Cobre fijo
-
-| `minecraft:blocks/copper_ore` / `deepslate_copper_ore` | Bloque vanilla | `raw_copper` **1 fijo** (antes 2–5) con Fortuna y `explosion_decay` | Cero RNG cotidiano |
+`minecraft:chests/nether_bridge` recibe el nivel 3 y esencia igual que los cofres propios de Better Fortresses, sin reemplazar su tabla original. Son 29 tablas propias y una delegación vanilla (30 IDs en condiciones). El inventario de archivos y hashes de JAR está en [LOOT_SOURCE_AUDIT.md](LOOT_SOURCE_AUDIT.md). Se retiraron también cuatro definiciones inactivas de intercambios de Goblin Traders que aún conservaban botellas de XP; no se altera ningún override vanilla.

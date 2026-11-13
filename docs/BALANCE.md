@@ -435,3 +435,9 @@ La suite incluye una JVM de Forge aislada con Cataclysm/Curios reales: comprueba
 Alcance: esta versión implementa los ítems y reglas enumerados en la petición. H3 (otras familias físicas externas) y los poderes/costes nativos restantes de H6 no reciben un rediseño adicional; siguen documentados en el backlog. No se afirma haber armonizado todos los poderes de todos los mods.
 
 Resultado de la suite 1.24.3: 1606 comprobaciones JVM, incluidas 100 de compatibilidad sobre Forge real, además de 59 descriptores/firmas de enlace contrastados con los JAR.
+
+## Migración YUNG’s 1.24.4
+
+Se retiran referencias activas a Alex’s Mobs/Caves, su extensión de Spellbooks y Caves Cookery. EquipmentBalance 1.24.4 conserva las reglas vanilla y excluye las compatibilidades eliminadas; MobBalance 1.5.1 ya no emite el tag de cocodrilos; WildlifeRepopulation 1.6.1 elimina exclusiones de biomas y entidades ausentes, sin alterar las constantes 55/45. Sus pruebas se alinean con ese balance vigente (antes conservaban expectativas de 1.4.0). Se eliminan rutas antiguas de despliegue bajo gestion de PrismLauncher.
+
+AdventureLoot 1.2.0 preserva los overrides activos y usa fuentes JSON versionables, evitando regenerar desde el instalador antiguo que contenía botellas de XP. Cobertura, tasas, ausencias y hashes: docs/LOOT.md y loot.json. Sin publicación remota automática en esta operación.
