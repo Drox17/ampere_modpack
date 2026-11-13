@@ -66,6 +66,14 @@ Minecraft colorea en verde los valores base y en azul los modificadores positivo
 
 Validación: compilación contra los JAR instalados y 1268 comprobaciones JVM (70 armaduras, 667 hambre, 44 HUD y 487 tooltips), incluidas ambas vistas, unidades, valores configurables, atributos ajenos, estilos y teclas Shift reales. EquipmentConfig/default_cfg conservan sus 90 claves. La inspección visual en el cliente queda pendiente.
 
+### 1.2.4 Valores del equipo vestido (EquipmentBalance 1.24.1)
+
+Corrige la vista Shift de 1.24.0: el contador mostraba las piezas vestidas pero las cifras eran una vista previa de cuatro piezas. Ahora EquipmentTooltips toma una instantánea de las ranuras de armadura, el atributo real de armadura, la luz local y EquipmentPolicy.colossalAbsorption. La pieza bajo el cursor nunca se añade al cálculo. El título incluye 0/4 si no se viste ninguna pieza correspondiente; sin jugador, se indica que no hay equipo actual disponible.
+
+EquipmentTooltipCards recibe esa instantánea: cuero 3/4 muestra caída −20 % (4/4, −35 %), los roles ligeros usan sus escalas actuales, la suerte de oro requiere cuatro piezas y el coste de las túnicas suma solo las vestidas. El linaje mixto escala fuego/marchitamiento y firmeza; la inmunidad no se anuncia con piezas insuficientes. Coloso usa la combinación real de diamante/netherita, Ignitium y Monstrous; Cursium no aporta peso pesado. Los costes de ataque se componen multiplicativamente. La brecha muestra la armadura actual que quedaría al activarse; el coste por oscuridad responde a la luz presente.
+
+El cálculo de agotamiento por impacto pasa a ArmorBalanceRules.impactExhaustion, compartido por evento y tarjeta con los mismos valores y orden de operaciones. La reparación sigue siendo una propiedad del objeto consultado. Se conserva la vista breve y no se cambia el balance. Suite: 1294 comprobaciones JVM (513 de tooltips), con regresiones para 0–4 piezas, la captura sin casco, conjuntos mixtos, luz, túnicas y ausencia de jugador. Configuración: 90 claves, sin cambios.
+
 ### 1.3 Herramientas (estado actual, pendiente de rediseño)
 
 Velocidad de minado unificada 6.0 para todos los tiers. Extras actuales: madera +7 %

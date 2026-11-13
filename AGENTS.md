@@ -33,7 +33,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 
 **Reglas derivadas que ya han causado errores:**
 - **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×1.5 a artrópodos").
-- **Detalles avanzados con Shift** (1.24.0): resumen de rol y costes al pasar el cursor; mantener **Shift** muestra cifras y condiciones. Usar segundos, corazones y muslitos en vez de ticks o fórmulas técnicas.
+- **Detalles avanzados con Shift** (1.24.1): resumen de rol y costes al pasar el cursor; mantener **Shift** muestra cifras y condiciones del equipo vestido actualmente, nunca un conjunto completo hipotético. Usar segundos, corazones y muslitos en vez de ticks o fórmulas técnicas.
 - **Nada de prosa con números**: los valores salen del código y se muestran en el tooltip.
 - **No proponer sistemas que usen XP** como moneda ni escalar mecánicas con niveles (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
@@ -143,10 +143,13 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-13 | corrección 1.23.2 | 15/16 antes del commit; 781 comprobaciones JVM, 90 claves, 27 tablas de loot | eliminado Args$1 del HUD; git.limpio temporal hasta commit; Pages SKIP por DNS |
 | 2026-11-13 | tooltips 1.23.3 | 15/16 antes del commit; 781 comprobaciones JVM previas y orden de encabezados verificado en bytecode | corregidas estadísticas antes del encabezado y piezas externas sin título; git.limpio temporal; inspección visual en cliente pendiente |
 | 2026-11-13 | publicación 1.24.0 | 15/16 antes del commit; 1268 comprobaciones JVM, 90 claves y 27 tablas sin cambios | solo git.limpio temporal; Pages SKIP por DNS; resumen/Shift y unidades familiares; publicación autorizada en ambos repositorios |
+| 2026-11-13 | corrección local 1.24.1 | 15/16 antes del commit; 1294 comprobaciones JVM, 90 claves y 27 tablas sin cambios | solo git.limpio temporal; Pages SKIP por DNS; Shift calcula el equipo vestido en lugar del máximo hipotético |
 
 **Tooltips 1.23.3**: en armaduras, el encabezado Ampere y el rol se añaden antes de las reglas numéricas. Las piezas físicas externas sin rol conocido reciben un encabezado genérico con el nombre traducido del ítem. Todas las líneas de detalle usan la misma sangría de viñeta; los detalles largos de Monstrous y linaje Nether se separan en líneas temáticas. No se modifican valores ni atributos nativos.
 
 **Tooltips 1.24.0**: sustituye el bloque siempre expandido por resumen y detalles con Shift. Las botas de netherita tienen cinco líneas de resumen, con sus costes visibles. Los números proceden de config o constantes compartidas con la lógica; segundos, corazones y comida sustituyen ticks y fórmulas. Los atributos se reconocen por claves, conservando estilos y atributos ajenos; alcance traducido para es_mx/es_es. Suite: 1268 comprobaciones JVM, 90 claves. La escala de caída del cuero se documenta como 5/12/20/35 %, coincidiendo con la lógica ya existente; no cambia el balance.
+
+**Corrección 1.24.1**: Shift usa solo las piezas vestidas y la armadura real del jugador. Cuero 3/4 muestra caída −20 % y 4/4 −35 %. Coloso, fuego/marchitamiento, firmeza, penalización de ataque, coste de comida y daño por oscuridad usan el conjunto mixto actual y la luz presente. Pasar el cursor por una pieza no simula equiparla; sin jugador no se inventan valores. 1294 comprobaciones JVM, incluidas 513 de tooltips; sin cambios de balance ni claves nuevas.
 
 **Corrección de arranque 1.23.2**: los adaptadores de comida usan `@Redirect` con tipos nativos. No introducir `@ModifyArgs` ni `Args` en este HUD: en el cliente Forge/ModLauncher provocó `NoClassDefFoundError: org.spongepowered.asm.synthetic.args.Args$1` durante la carga. La suite comprueba esta regresión y ejecuta el adaptador real con dobles del renderer, sin Mixin en el classpath de prueba.
 

@@ -953,8 +953,8 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.24.0.jar"
-hash = "f35f3053ed1aa69be30f12cc4ae4f355bbe81cfc92bb72a095684a5614cb49db"
+file = "mods/TheOptimizer-EquipmentBalance-1.24.1.jar"
+hash = "8d8a3cba58b4384375bac872fbbc97fdcec13b2c9a580508cf9703ef83613f61"
 
 [[files]]
 file = "mods/TheOptimizer-FamiliarsTagFix-1.0.0.jar"
