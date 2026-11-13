@@ -74,7 +74,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 
 **Brecha**: 2 impactos de combate aceptados dentro de 30 ticks reducen la armadura efectiva a la mitad en el segundo impacto. Ventana móvil; las fuentes ambientales y la inanición no cuentan. Cursium conserva la exención por pieza; mezclarlo con una pieza pesada vuelve a permitir brecha.
 
-**Feedback de hambre (EquipmentBalance 1.23.1)**: a ≤6 puntos de comida se muestran los sprites vanilla de Hambre y un temblor de −1 a +1 píxel, cada 4 ticks; a ≤2, cada 2 ticks. Gruñido local de Sniffer cada 160 ticks con 1–6 puntos, cada 80 ticks con 1–2 (volumen 0.20, tono 0.55). Comer por encima del umbral reinicia el temporizador; creativo/espectador/muerto quedan excluidos. Solo cambia el feedback, sin aplicar efectos ni alterar saturación. STARVE a cero conserva el latido y la supresión de animación de daño de 1.23.0. Se sustituye el aviso anterior de cruce 8→7.
+**Feedback de hambre (EquipmentBalance 1.23.2)**: a ≤6 puntos de comida se muestran los sprites vanilla de Hambre y un temblor de −1 a +1 píxel, cada 4 ticks; a ≤2, cada 2 ticks. Gruñido local de Sniffer cada 160 ticks con 1–6 puntos, cada 80 ticks con 1–2 (volumen 0.20, tono 0.55). Comer por encima del umbral reinicia el temporizador; creativo/espectador/muerto quedan excluidos. Solo cambia el feedback, sin aplicar efectos ni alterar saturación. STARVE a cero conserva el latido y la supresión de animación de daño de 1.23.0. Se sustituye el aviso anterior de cruce 8→7.
 
 **Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %) · `R2` anti-mago (oro, S4).
 
@@ -140,6 +140,9 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-11 | `7068456` | 1.11.0: hojas sin desgaste (cierra T1) | ninguna |
 | 2026-11-13 | pendiente de commit | EquipmentBalance 1.23.0: 15/16; 75 pruebas JVM, 86 claves, 27 tablas de loot | solo git.limpio (cambios locales para prueba); Pages SKIP por DNS; sin push |
 | 2026-11-13 | publicación 1.23.1 | 15/16 antes del commit; 737 comprobaciones JVM, 90 claves, 27 tablas de loot | git.limpio temporal hasta commit; Pages SKIP por DNS; push autorizado en ambos repositorios |
+| 2026-11-13 | corrección 1.23.2 | 15/16 antes del commit; 781 comprobaciones JVM, 90 claves, 27 tablas de loot | eliminado Args$1 del HUD; git.limpio temporal hasta commit; Pages SKIP por DNS |
+
+**Corrección de arranque 1.23.2**: los adaptadores de comida usan `@Redirect` con tipos nativos. No introducir `@ModifyArgs` ni `Args` en este HUD: en el cliente Forge/ModLauncher provocó `NoClassDefFoundError: org.spongepowered.asm.synthetic.args.Args$1` durante la carga. La suite comprueba esta regresión y ejecuta el adaptador real con dobles del renderer, sin Mixin en el classpath de prueba.
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 

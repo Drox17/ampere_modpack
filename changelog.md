@@ -1,11 +1,11 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.23.3§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.23.4§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[EQUIPMENTBALANCE 1.23.1]
+§6§l[EQUIPMENTBALANCE 1.23.2]
 -----------------------------------
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
@@ -160,11 +160,12 @@
 §7- §a27/27§r tablas de loot con hash (`loot.json`).
 §7- §a17/17§r pruebas de `balance_equipamiento`; §a16/16§r de `balance_mobs`.
 §7- §f52§r claves de configuración de equipo; §f363§r entradas de pack (103 metafiles Modrinth + 20 jars locales).
-§7- Cliente y servidor con los mismos jars (`EquipmentBalance 1.23.1`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`).
+§7- Cliente y servidor con los mismos jars (`EquipmentBalance 1.23.2`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`).
 
 -----------------------------------
 §6§l  HISTORIAL DE VERSIONES
 -----------------------------------
+§7[1.23.4] EquipmentBalance 1.23.2: corrige el crash de arranque Args$1 del HUD; conserva el aviso continuo de hambre, sonidos y STARVE.
 §7[1.23.3] EquipmentBalance 1.23.1: señal continua de hambre a ≤3 muslitos; sprites y temblor vanilla con ForgeGui, gruñido periódico local, STARVE intacto.
 §7[1.23.2] Este changelog reescrito: estado vigente vanilla vs Ampere.
 §7[1.23.1] Oro a 160 de durabilidad en la config (el merge conservaba 300).

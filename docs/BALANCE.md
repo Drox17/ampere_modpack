@@ -30,19 +30,25 @@ Las penalizaciones de ataque usan modificadores Forge `MULTIPLY_TOTAL` por slot,
 
 La inmunidad a fuego y marchitamiento requiere cuatro piezas del linaje; la inmunidad al efecto impide también aplicarlo. Se sustituye la antigua debilidad por golpes <8 por la debilidad ambiental solicitada en esta revisión. La reparación y el coste de agotamiento existentes se conservan salvo la exención de Cursium.
 
-### 1.2.1 Aviso continuo de hambre (EquipmentBalance 1.23.1)
+### 1.2.1 Aviso continuo de hambre (EquipmentBalance 1.23.2)
 
 Se sustituye el aviso puntual 8→7. Con `low_hunger_warning_food = 6` o menos, el HUD usa los sprites vanilla de `MobEffects.HUNGER` de `icons.png`, sin aplicar el efecto. El fondo U=16 pasa a U=133, el icono lleno U=52 a U=88 y el medio U=61 a U=97 (V=27, tamaño 9×9). Si el efecto real ya seleccionó esos sprites, no se desplazan otra vez.
 
 El desplazamiento vertical conserva el rango vanilla de −1 a +1 píxel, cada `low_hunger_jitter_interval_ticks = 4`. Al llegar a `low_hunger_critical_food = 2`, `low_hunger_critical_interval_multiplier = 0.5` acorta la cadencia a 2 ticks. El offset se calcula por tick y posición del icono; permanece estable entre frames, incluso con saturación positiva. Al superar el umbral se conserva íntegro el render vanilla.
 
-Forge 47.4.28 utiliza `ForgeGui.renderFood(int,int,GuiGraphics)`, no `Gui` para este overlay. `ForgeGuiMixin` captura la base `height - rightHeight` antes del incremento nativo y ajusta solamente los argumentos de los tres blits existentes. Conserva el orden de render, `rightHeight`, el perfilador y la pila/estado de render. `GuiMixin` mantiene oculta la XP y adapta únicamente los sprites de comida del método vanilla `m_280173_` como fallback. Ninguna ruta cancela ni reemplaza el render completo.
+Forge 47.4.28 utiliza `ForgeGui.renderFood(int,int,GuiGraphics)`, no `Gui` para este overlay. `ForgeGuiMixin` captura la base `height - rightHeight` antes del incremento nativo y intercepta con `@Redirect` los tres blits existentes y los remite a un adaptador con parámetros nativos, que dibuja exactamente una vez por llamada. Conserva el orden de render, `rightHeight`, el perfilador y la pila/estado de render. `GuiMixin` mantiene oculta la XP y adapta únicamente los sprites de comida del método vanilla `m_280173_` como fallback. Ninguna ruta cancela ni reemplaza el render completo.
 
 `LocalPlayerMixin` ejecuta el temporizador en `m_8119_` (tick), con el sonido nativo `SNIFFER_IDLE`, volumen `low_hunger_growl_volume = 0.20` y tono `low_hunger_growl_pitch = 0.55`. Se repite cada `low_hunger_growl_interval_ticks = 160` ticks mientras haya 1–6 puntos; a 1–2, cada 80. El temporizador se reinicia al superar el umbral, llegar a cero, cambiar de mundo/jugador, morir, entrar en creativo/espectador o desactivar el aviso. No depende de FPS ni de la activación del escudo de hambre. `low_hunger_warning` permite desactivarlo.
 
 STARVE conserva exactamente el handler, el tipo de sonido y la cancelación de animación de 1.23.0. El nuevo gruñido no suena a cero. Ningún aviso modifica FoodData, agotamiento, esprint ni efectos de poción.
 
-Todos los umbrales nuevos viven en EquipmentConfig y default_cfg, con paridad exacta de 90 claves; se retiran las cuatro claves del aviso anterior y tres declaraciones obsoletas del rechazo de Wither que no tenían consumidores ni formaban parte de la configuración distribuida. Verificación: 737 comprobaciones JVM sobre reglas reales (70 de armaduras, 667 de hambre), 59 firmas de dependencias y contratos de targets de Gui/ForgeGui/LocalPlayer. La inspección visual y sonora completa queda pendiente de la prueba en juego.
+Todos los umbrales nuevos viven en EquipmentConfig y default_cfg, con paridad exacta de 90 claves; se retiran las cuatro claves del aviso anterior y tres declaraciones obsoletas del rechazo de Wither que no tenían consumidores ni formaban parte de la configuración distribuida. Verificación: 781 comprobaciones JVM (70 de armaduras, 667 de hambre y 44 de enlace/dibujo del HUD), 59 firmas de dependencias y contratos de targets de Gui/ForgeGui/LocalPlayer. La prueba del adaptador usa dobles mínimos de Minecraft y un classpath sin Mixin; esos dobles nunca se empaquetan en el mod. La inspección visual y sonora completa queda pendiente de la prueba en juego.
+
+#### Corrección de arranque 1.23.2
+
+El cliente 1.23.1 falló durante la inicialización con `NoClassDefFoundError: org.spongepowered.asm.synthetic.args.Args$1`. El debug.log mostró que Mixin generó esa clase para el descriptor del blit al aplicar nuestro GuiMixin; después Forge/ModLauncher no pudo resolverla. La traza de Create era una consecuencia de la carga del HUD, no evidencia para retirar Create u Oculus.
+
+Se sustituyen `@ModifyArgs` y el parámetro `Args` de ambos adaptadores por `@Redirect` y parámetros nativos de GuiGraphics/ResourceLocation/primitivos. Las pruebas previas de reglas y firmas no cubrían este fallo del cargador; ahora se rechazan todas las referencias a Args o ModifyArgs del mod compilado y se prueba que el helper enlaza sin Mixin y conserva exactamente un blit. STARVE, el temporizador de gruñidos, las reglas visuales y EquipmentConfig conservan idéntico bytecode respecto a 1.23.1. Esto valida la corrección de la causa concreta; el arranque completo del pack requiere confirmación en cliente.
 
 ### 1.3 Herramientas (estado actual, pendiente de rediseño)
 
