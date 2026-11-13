@@ -1557,7 +1557,7 @@ Cada referencia Gxxxx enlaza con sus propiedades completas en §7. Todos los IDs
 
 - Descripción nativa del JAR: configurationtool.configmodeconfigurationtool.configmode.locking
 
-- Descripción nativa del JAR: 
+- Descripción nativa del JAR:
 
 - Descripción nativa del JAR: Sneak + Right Click in the air to change modes. Right click a drawer to toggle the option.
 
@@ -1569,7 +1569,7 @@ Cada referencia Gxxxx enlaza con sus propiedades completas en §7. Todos los IDs
 
 - Descripción nativa del JAR: linkingtool.controller???
 
-- Descripción nativa del JAR: 
+- Descripción nativa del JAR:
 
 - Descripción nativa del JAR: Links a drawer to a controller
 
@@ -117732,8 +117732,8 @@ public class PlayerMixin {
                     cir.setReturnValue((Object)(!(self.m_6844_(EquipmentSlot.HEAD).m_41720_() instanceof IDisableHat) ? 1 : 0));
                     break;
                 }
-                case JACKET: 
-                case LEFT_SLEEVE: 
+                case JACKET:
+                case LEFT_SLEEVE:
                 case RIGHT_SLEEVE: {
                     IDisableJacket chestplate;
                     Item item = self.m_6844_(EquipmentSlot.CHEST).m_41720_();
@@ -117741,7 +117741,7 @@ public class PlayerMixin {
                     cir.setReturnValue((Object)false);
                     break;
                 }
-                case LEFT_PANTS_LEG: 
+                case LEFT_PANTS_LEG:
                 case RIGHT_PANTS_LEG: {
                     IDisableJacket boots;
                     IDisableJacket leggings;
