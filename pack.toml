@@ -1,12 +1,12 @@
 name = "Ampere Better Survival"
 author = "Metabodiru"
-version = "1.23.5"
+version = "1.24.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c2d35539007032b6315565e401603927bf8f8a905eb7ff7c1250bbd96880bafc"
+hash = "8beadd4de18edfcba559da6bbc53e9f7e0467097594a4a41526390d9c8b6c75a"
 
 [versions]
 forge = "47.4.28"

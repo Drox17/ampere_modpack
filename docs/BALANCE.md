@@ -56,6 +56,16 @@ Se corrige que `appendArmorRules` añadía viñetas antes del encabezado Ampere.
 
 Los detalles largos de Monstrous y del linaje se dividen por tema. La reparación no se repite en el mismo bloque. Valores, clasificaciones, colores y atributos nativos se conservan. Compilación y suite de 781 comprobaciones verificadas; la geometría final depende de la fuente y escala del cliente y requiere inspección visual en juego.
 
+### 1.2.3 Resumen y detalles con Shift (EquipmentBalance 1.24.0)
+
+Las tarjetas de armaduras y herramientas muestran un resumen de beneficios y costes sin Shift. Mantener cualquiera de las dos teclas Shift sustituye ese resumen por cifras y condiciones; soltarla lo restaura. El coste no se oculta en la vista breve. Las botas de netherita pasan a cinco líneas, más encabezado y aviso de Shift; los atributos básicos de Minecraft se conservan.
+
+El jugador lee segundos, corazones y muslitos: 30 ticks se presentan como 1,5 s y 10 puntos de daño como 5 corazones. El ejemplo de Coloso distingue el daño previo a otros efectos. El agotamiento se explica como comida equivalente consumida de la reserva, no como pérdida inmediata de iconos. Los datos salen de EquipmentConfig, ArmorBalanceRules y EquipmentValues; las constantes compartidas sustituyen literales equivalentes en la lógica, sin cambios de balance. Se corrige la documentación del cuero a su reducción real preexistente de 5/12/20/35 %.
+
+Minecraft colorea en verde los valores base y en azul los modificadores positivos. Las filas nativas no tenían la misma sangría y Forge solo incluía nombres ingleses de alcance. TooltipComponents reconoce componentes y claves de atributos en vez de buscar texto o el formato decimal de +1: uniforma la sangría y preserva colores y anotaciones ajenas. Solo se omiten filas cuyo atributo pertenece íntegramente a TheOptimizer y ya está explicado en la tarjeta. Se añaden traducciones de alcance para es_mx y es_es. El evento se ejecuta solo en cliente y no añade Mixins ni altera el HUD.
+
+Validación: compilación contra los JAR instalados y 1268 comprobaciones JVM (70 armaduras, 667 hambre, 44 HUD y 487 tooltips), incluidas ambas vistas, unidades, valores configurables, atributos ajenos, estilos y teclas Shift reales. EquipmentConfig/default_cfg conservan sus 90 claves. La inspección visual en el cliente queda pendiente.
+
 ### 1.3 Herramientas (estado actual, pendiente de rediseño)
 
 Velocidad de minado unificada 6.0 para todos los tiers. Extras actuales: madera +7 %

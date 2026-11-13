@@ -33,7 +33,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 
 **Reglas derivadas que ya han causado errores:**
 - **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×1.5 a artrópodos").
-- **Detalles avanzados con Shift**: Si se quiere ver información detallada o mecánicas complejas de un ítem, se usa la tecla **Shift** sobre el ítem con el cursor (mecánica por implementar).
+- **Detalles avanzados con Shift** (1.24.0): resumen de rol y costes al pasar el cursor; mantener **Shift** muestra cifras y condiciones. Usar segundos, corazones y muslitos en vez de ticks o fórmulas técnicas.
 - **Nada de prosa con números**: los valores salen del código y se muestran en el tooltip.
 - **No proponer sistemas que usen XP** como moneda ni escalar mecánicas con niveles (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
@@ -59,7 +59,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 **Sets vanilla (S), EquipmentBalance 1.23.0** — físicos: 16 armadura (2/5/6/3), túnicas: 10 (1/3/4/2), Cursium: 12 (2/4/4/2). Dureza 0 en toda armadura:
 | ID | Set | Rol | Coste |
 |---|---|---|---|
-| S1 | Cuero | Explorador: caída −7/15/25/40 % | sin defensa extra |
+| S1 | Cuero | Explorador: caída −5/12/20/35 % | sin defensa extra |
 | S2 | Cota de malla | Escaramuzador: proyectiles −5/10/18/30 %, velocidad +4/8/12/16 % | sin ayuda vs explosiones |
 | S3 | Hierro | Infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 % | — |
 | S4 | Oro | Arcano: magia −4/8/15/25 %, +1 Suerte, piglins | — |
@@ -142,8 +142,11 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-13 | publicación 1.23.1 | 15/16 antes del commit; 737 comprobaciones JVM, 90 claves, 27 tablas de loot | git.limpio temporal hasta commit; Pages SKIP por DNS; push autorizado en ambos repositorios |
 | 2026-11-13 | corrección 1.23.2 | 15/16 antes del commit; 781 comprobaciones JVM, 90 claves, 27 tablas de loot | eliminado Args$1 del HUD; git.limpio temporal hasta commit; Pages SKIP por DNS |
 | 2026-11-13 | tooltips 1.23.3 | 15/16 antes del commit; 781 comprobaciones JVM previas y orden de encabezados verificado en bytecode | corregidas estadísticas antes del encabezado y piezas externas sin título; git.limpio temporal; inspección visual en cliente pendiente |
+| 2026-11-13 | publicación 1.24.0 | 15/16 antes del commit; 1268 comprobaciones JVM, 90 claves y 27 tablas sin cambios | solo git.limpio temporal; Pages SKIP por DNS; resumen/Shift y unidades familiares; publicación autorizada en ambos repositorios |
 
 **Tooltips 1.23.3**: en armaduras, el encabezado Ampere y el rol se añaden antes de las reglas numéricas. Las piezas físicas externas sin rol conocido reciben un encabezado genérico con el nombre traducido del ítem. Todas las líneas de detalle usan la misma sangría de viñeta; los detalles largos de Monstrous y linaje Nether se separan en líneas temáticas. No se modifican valores ni atributos nativos.
+
+**Tooltips 1.24.0**: sustituye el bloque siempre expandido por resumen y detalles con Shift. Las botas de netherita tienen cinco líneas de resumen, con sus costes visibles. Los números proceden de config o constantes compartidas con la lógica; segundos, corazones y comida sustituyen ticks y fórmulas. Los atributos se reconocen por claves, conservando estilos y atributos ajenos; alcance traducido para es_mx/es_es. Suite: 1268 comprobaciones JVM, 90 claves. La escala de caída del cuero se documenta como 5/12/20/35 %, coincidiendo con la lógica ya existente; no cambia el balance.
 
 **Corrección de arranque 1.23.2**: los adaptadores de comida usan `@Redirect` con tipos nativos. No introducir `@ModifyArgs` ni `Args` en este HUD: en el cliente Forge/ModLauncher provocó `NoClassDefFoundError: org.spongepowered.asm.synthetic.args.Args$1` durante la carga. La suite comprueba esta regresión y ejecuta el adaptador real con dobles del renderer, sin Mixin en el classpath de prueba.
 

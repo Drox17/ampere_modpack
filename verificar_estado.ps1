@@ -172,7 +172,11 @@ if ($SkipTests) {
 
 # --- 5. invariantes de contenido (C1, C2, C3) -------------------------------
 $txtClase = ''
-if ($hashRepo) { $txtClase = (tar -xOf $jarRepo 'theoptimizer/equipment/EquipmentEvents.class' 2>$null | Out-String) }
+if ($hashRepo) {
+    foreach ($claseTooltip in @('EquipmentEvents', 'EquipmentTooltipCards', 'EquipmentTooltipCompat', 'EquipmentTooltips')) {
+        $txtClase += (tar -xOf $jarRepo ('theoptimizer/equipment/' + $claseTooltip + '.class') 2>$null | Out-String)
+    }
+}
 $nombresEncantamiento = $txtClase -match 'Pesadilla|Castigo|Lealtad III|Empalamiento'
 Add-Check 'C1.sin-encantamientos' (-not $nombresEncantamiento) ($(if ($nombresEncantamiento) { 'tooltip nombra un encantamiento' } else { 'tooltips solo describen efectos' }))
 

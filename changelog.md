@@ -1,18 +1,19 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.23.5§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.0§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[EQUIPMENTBALANCE 1.23.3]
+§6§l[EQUIPMENTBALANCE 1.24.0]
 -----------------------------------
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
-§cEnjambre: §f2 impactos de combate en 30 ticks§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
-§aMonstrous duplica Coloso; su casco resta §f10 %§r de movimiento y §f30 %§r de ataque, compuesto con las otras piezas. Ignitium aporta la mitad de Coloso y prende al atacante cuerpo a cuerpo §f3 s§r (recarga §f40 ticks§r). Cursium no tiene Coloso, brecha ni penalización de ataque.
+§cEnjambre: §f2 impactos de combate en 1,5 s§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
+§aMonstrous duplica Coloso; su casco resta §f10 %§r de movimiento y §f30 %§r de ataque, compuesto con las otras piezas. Ignitium aporta la mitad de Coloso y prende al atacante cuerpo a cuerpo §f3 s§r (recarga §f2 s§r). Cursium no tiene Coloso, brecha ni penalización de ataque.
 §aEl linaje completo gana inmunidad a fuego y marchitamiento y §f25 %§r de firmeza; paga daño §f+10 %§r con luz ambiental §f<8§r y reparación §f25 %§r.
 §aHambre baja: con §f3 muslitos o menos§r, iconos vanilla verdosos y temblor. Gruñido suave cada §f8 s§r; con §f1 muslito o menos§r, cada §f4 s§r y temblor más frecuente. Comer reinicia el aviso. A cero, la inanición conserva el latido sin sacudón de cámara.
+§aTooltips: resumen breve de rol y costes; mantén §fShift§r para ver cifras, condiciones y ejemplos. Tiempos en segundos, daño en corazones y consumo equivalente de comida en muslitos. Se alinean los atributos y se traduce el alcance, conservando los colores nativos.
 §7Esta revisión sustituye las cifras anteriores de armadura, dureza y golpes fuertes/débiles de la sección [2]. Pendiente validación visual y sonora en juego.
 
 -----------------------------------
@@ -53,7 +54,7 @@
 §a- Pérdida al morir: §f10 %§r de durabilidad, también sobre las piezas de 15.
 
 §e§l> ROLES DE SET§r
-§7- §fCuero§r: caída −7/15/25/40 % (1/2/3/4 piezas), paso fluido sobre hojas.
+§7- §fCuero§r: caída −5/12/20/35 % (1/2/3/4 piezas), paso fluido sobre hojas.
 §7- §fCota§r: proyectiles −5/10/18/30 % y velocidad +4/8/12/16 %.
 §7- §fHierro§r: empuje −5/10/18/30 %, explosiones −4/8/15/25 %; sin dureza adicional.
 §7- §fOro§r: magia −4/8/15/25 %, Suerte +1, piglins pacificados.
@@ -160,11 +161,12 @@
 §7- §a27/27§r tablas de loot con hash (`loot.json`).
 §7- §a17/17§r pruebas de `balance_equipamiento`; §a16/16§r de `balance_mobs`.
 §7- §f52§r claves de configuración de equipo; §f363§r entradas de pack (103 metafiles Modrinth + 20 jars locales).
-§7- Cliente y servidor con los mismos jars (`EquipmentBalance 1.23.3`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`).
+§7- Distribución de cliente y servidor con los mismos jars (`EquipmentBalance 1.24.0`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`); el cliente recibe esta versión al actualizar el pack.
 
 -----------------------------------
 §6§l  HISTORIAL DE VERSIONES
 -----------------------------------
+§7[1.24.0] EquipmentBalance 1.24.0: resumen y detalles con Shift; netherita compacta, segundos/corazones/comida, atributos alineados y alcance traducido. 1268 comprobaciones JVM. Balance intacto; documentación del cuero ajustada al código existente.
 §7[1.23.5] EquipmentBalance 1.23.3: corrige el orden de encabezados y estadísticas de armadura; añade encabezado a piezas externas sin rol y divide líneas largas. Balance intacto.
 §7[1.23.4] EquipmentBalance 1.23.2: corrige el crash de arranque Args$1 del HUD; conserva el aviso continuo de hambre, sonidos y STARVE.
 §7[1.23.3] EquipmentBalance 1.23.1: señal continua de hambre a ≤3 muslitos; sprites y temblor vanilla con ForgeGui, gruñido periódico local, STARVE intacto.
