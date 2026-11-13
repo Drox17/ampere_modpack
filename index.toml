@@ -1271,11 +1271,6 @@ hash = "18e1fe3b829cdc0487aeb81dfbac11fa45aa81a348196bfd83ccc4b925a24b5e"
 metafile = true
 
 [[files]]
-file = "mods/kaleidoscope-doll.pw.toml"
-hash = "d2562e214a605ada9b356d0ab24e4a9f931332b834ae58b42224ea14488c765d"
-metafile = true
-
-[[files]]
 file = "mods/kaleidoscope-end.pw.toml"
 hash = "42a3c7f5ec6f1b98172566100bc99ee69f4f5339a30ce18bf6fe480fb3ccbfe6"
 metafile = true
