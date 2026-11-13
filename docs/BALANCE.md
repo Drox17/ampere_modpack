@@ -50,6 +50,12 @@ El cliente 1.23.1 falló durante la inicialización con `NoClassDefFoundError: o
 
 Se sustituyen `@ModifyArgs` y el parámetro `Args` de ambos adaptadores por `@Redirect` y parámetros nativos de GuiGraphics/ResourceLocation/primitivos. Las pruebas previas de reglas y firmas no cubrían este fallo del cargador; ahora se rechazan todas las referencias a Args o ModifyArgs del mod compilado y se prueba que el helper enlaza sin Mixin y conserva exactamente un blit. STARVE, el temporizador de gruñidos, las reglas visuales y EquipmentConfig conservan idéntico bytecode respecto a 1.23.1. Esto valida la corrección de la causa concreta; el arranque completo del pack requiere confirmación en cliente.
 
+### 1.2.2 Orden y alineamiento de tooltips (EquipmentBalance 1.23.3)
+
+Se corrige que `appendArmorRules` añadía viñetas antes del encabezado Ampere. Ahora se construye primero el bloque de rol, con su línea en blanco y encabezado, y después se añaden las reglas numéricas mediante `addLine`, con la misma sangría para todas las viñetas. Las piezas físicas externas normalizadas que no tienen rol específico reciben un encabezado genérico con el nombre traducido del ítem; no quedan estadísticas huérfanas pegadas a los atributos vanilla.
+
+Los detalles largos de Monstrous y del linaje se dividen por tema. La reparación no se repite en el mismo bloque. Valores, clasificaciones, colores y atributos nativos se conservan. Compilación y suite de 781 comprobaciones verificadas; la geometría final depende de la fuente y escala del cliente y requiere inspección visual en juego.
+
 ### 1.3 Herramientas (estado actual, pendiente de rediseño)
 
 Velocidad de minado unificada 6.0 para todos los tiers. Extras actuales: madera +7 %

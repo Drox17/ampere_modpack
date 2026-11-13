@@ -141,6 +141,9 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-13 | pendiente de commit | EquipmentBalance 1.23.0: 15/16; 75 pruebas JVM, 86 claves, 27 tablas de loot | solo git.limpio (cambios locales para prueba); Pages SKIP por DNS; sin push |
 | 2026-11-13 | publicación 1.23.1 | 15/16 antes del commit; 737 comprobaciones JVM, 90 claves, 27 tablas de loot | git.limpio temporal hasta commit; Pages SKIP por DNS; push autorizado en ambos repositorios |
 | 2026-11-13 | corrección 1.23.2 | 15/16 antes del commit; 781 comprobaciones JVM, 90 claves, 27 tablas de loot | eliminado Args$1 del HUD; git.limpio temporal hasta commit; Pages SKIP por DNS |
+| 2026-11-13 | tooltips 1.23.3 | 15/16 antes del commit; 781 comprobaciones JVM previas y orden de encabezados verificado en bytecode | corregidas estadísticas antes del encabezado y piezas externas sin título; git.limpio temporal; inspección visual en cliente pendiente |
+
+**Tooltips 1.23.3**: en armaduras, el encabezado Ampere y el rol se añaden antes de las reglas numéricas. Las piezas físicas externas sin rol conocido reciben un encabezado genérico con el nombre traducido del ítem. Todas las líneas de detalle usan la misma sangría de viñeta; los detalles largos de Monstrous y linaje Nether se separan en líneas temáticas. No se modifican valores ni atributos nativos.
 
 **Corrección de arranque 1.23.2**: los adaptadores de comida usan `@Redirect` con tipos nativos. No introducir `@ModifyArgs` ni `Args` en este HUD: en el cliente Forge/ModLauncher provocó `NoClassDefFoundError: org.spongepowered.asm.synthetic.args.Args$1` durante la carga. La suite comprueba esta regresión y ejecuta el adaptador real con dobles del renderer, sin Mixin en el classpath de prueba.
 
