@@ -5,6 +5,17 @@
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
+§6§l[EQUIPMENTBALANCE 1.23.0 — PRUEBA LOCAL]
+-----------------------------------
+§aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
+§aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
+§cEnjambre: §f2 impactos de combate en 30 ticks§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
+§aMonstrous duplica Coloso; su casco resta §f10 %§r de movimiento y §f30 %§r de ataque, compuesto con las otras piezas. Ignitium aporta la mitad de Coloso y prende al atacante cuerpo a cuerpo §f3 s§r (recarga §f40 ticks§r). Cursium no tiene Coloso, brecha ni penalización de ataque.
+§aEl linaje completo gana inmunidad a fuego y marchitamiento y §f25 %§r de firmeza; paga daño §f+10 %§r con luz ambiental §f<8§r y reparación §f25 %§r.
+§aLa inanición usa latido grave sin sacudón de cámara. Aviso suave al bajar de §f8§r de comida, con recarga de §f100 ticks§r.
+§7Esta revisión sustituye las cifras anteriores de armadura, dureza y golpes fuertes/débiles de la sección [2]. Pendiente prueba en juego; sin publicar.
+
+-----------------------------------
 §6§l[GUIA] CÓMO LEERLO
 -----------------------------------
 §7Cada bloque tiene dos columnas de texto: §8vanilla§r y §aAmpere§r. Si algo no aparece aquí, no está en el pack.
@@ -36,18 +47,18 @@
 §8- Reparación de yunque: 25 % por material. Todo encantable.
 
 §e§l> COLUMNA AMPERE§r
-§a- Sets de §f15§r (cuero, cota, oro, hierro): durabilidad §funificada§r §f165 / 240 / 225 / 195§r por pieza (§f825§r el set).
-§a- Sets de §f20§r (diamante, netherita): durabilidad de élite intacta.
+§a- Sets base (cuero, cota, oro, hierro): durabilidad §funificada§r §f165 / 240 / 225 / 195§r por pieza (§f825§r el set); armadura §f16§r.
+§a- Sets de diamante y netherita: durabilidad de élite intacta; armadura §f16§r, dureza §f0§r.
 §a- Reparación: §f100 %§r en tiers base (madera, piedra, cuero, cota, oro, hierro) y §f25 %§r en élite (diamante, netherita).
 §a- Pérdida al morir: §f10 %§r de durabilidad, también sobre las piezas de 15.
 
 §e§l> ROLES DE SET§r
 §7- §fCuero§r: caída −7/15/25/40 % (1/2/3/4 piezas), paso fluido sobre hojas.
 §7- §fCota§r: proyectiles −5/10/18/30 % y velocidad +4/8/12/16 %.
-§7- §fHierro§r: empuje −5/10/18/30 %, explosiones −4/8/15/25 %, dureza +0.5 por pieza.
+§7- §fHierro§r: empuje −5/10/18/30 %, explosiones −4/8/15/25 %; sin dureza adicional.
 §7- §fOro§r: magia −4/8/15/25 %, Suerte +1, piglins pacificados.
-§7- §fDiamante§r: golpes ≥8 −6/12/19/25 %; a cambio, §c+5 %§r de daño recibido en golpes <8, agotamiento y reparación 25 %.
-§7- §fNetherita§r: fuego −5/12/20/35 %, wither −10/20/35/50 %, golpes ≥8 −4/8/13/18 %; a cambio, §c+10 %§r en golpes <8, agotamiento y reparación 25 %.
+§7- §fDiamante§r: Coloso sobre 10 de daño; a cambio ataque −15 %, brecha, agotamiento y reparación 25 %.
+§7- §fNetherita§r: Coloso y herencia térmica; a cambio ataque −20 %, brecha, daño +10 % con luz <8, agotamiento y reparación 25 %.
 §7- §fTortuga§r: respiración acuática y minado submarino.
 §7- §fLinaje netherita§r (ignitium, cursium, monstrous_helm, netherite_mage): hereda el set de netherita completo.
 §7- §fTúnicas de mago§r: −5 % de daño cuerpo a cuerpo por pieza (máximo −20 %).
@@ -149,7 +160,7 @@
 §7- §a27/27§r tablas de loot con hash (`loot.json`).
 §7- §a17/17§r pruebas de `balance_equipamiento`; §a16/16§r de `balance_mobs`.
 §7- §f52§r claves de configuración de equipo; §f363§r entradas de pack (103 metafiles Modrinth + 20 jars locales).
-§7- Cliente y servidor con los mismos jars (`EquipmentBalance 1.22.0`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`).
+§7- Cliente y servidor con los mismos jars (`EquipmentBalance 1.23.0`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`).
 
 -----------------------------------
 §6§l  HISTORIAL DE VERSIONES

@@ -1,6 +1,6 @@
 # Progresión de equipamiento: auditoría horizontal vs vertical
 
-> Estado real del código en 1.20.1 (módulo `balance_equipamiento`, 1.12.0).
+> Auditoría histórica de 1.12.0–1.15.0. La revisión vigente de armaduras es EquipmentBalance 1.23.0: ver §8 y docs/BALANCE.md; las tablas históricas inferiores no son valores actuales.
 > Este documento responde a una pregunta: **¿queda margen de mejora entre el grupo de
 > armas/herramientas y el grupo de armaduras?** Sí, y está cuantificado abajo.
 
@@ -151,3 +151,7 @@ Nota de diseño aceptada: las armaduras de diamante y netherita son **de jefe**,
 ineficiencia contra hordas viene del agotamiento, no de frenar al jugador. La cota de malla conserva
 su identidad de escaramuzador (velocidad sin coste de hambre) y el hierro la de infantería (dureza + resistencias).
 
+
+## 8. Revisión horizontal aplicada en EquipmentBalance 1.23.0
+
+Se sustituyen los techos de 15/20 y la dureza por 16 puntos físicos, 10 de túnica y 12 de Cursium, todos con dureza 0. Diamante/netherita amortiguan la mitad del excedente sobre 10 de daño, pero pagan velocidad de ataque y una brecha que reduce la armadura efectiva a la mitad ante dos impactos en 30 ticks. Se conserva el agotamiento pesado y la reparación parcial. Monstrous amplifica Coloso y paga movimiento/ataque; Ignitium cambia amortiguación por fuego reactivo; Cursium conserva movilidad con menor armadura y sin Coloso. El linaje completo recibe inmunidad a fuego/wither y firmeza 25 %, con debilidad en luz ambiental <8 y reparación 25 %. Esta decisión explícita reemplaza H5/H6 y las cifras de las tablas históricas superiores. Detalles de mezclas, escalado por pieza y pruebas en docs/BALANCE.md.

@@ -56,19 +56,25 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 
 ## 3. Estado implementado (IDs estables)
 
-**Sets vanilla (S)** — 15 armadura los cuatro primeros, 20 los dos últimos:
+**Sets vanilla (S), EquipmentBalance 1.23.0** — físicos: 16 armadura (2/5/6/3), túnicas: 10 (1/3/4/2), Cursium: 12 (2/4/4/2). Dureza 0 en toda armadura:
 | ID | Set | Rol | Coste |
 |---|---|---|---|
 | S1 | Cuero | Explorador: caída −7/15/25/40 % | sin defensa extra |
 | S2 | Cota de malla | Escaramuzador: proyectiles −5/10/18/30 %, velocidad +4/8/12/16 % | sin ayuda vs explosiones |
-| S3 | Hierro | Infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 %, dureza +0.5/pieza | — |
+| S3 | Hierro | Infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 % | — |
 | S4 | Oro | Arcano: magia −4/8/15/25 %, +1 Suerte, piglins | — |
-| S5 | Diamante | Élite: golpes ≥8 −6/12/19/25 % | **+5 % daño <8**, agotamiento, rep. 25 % |
-| S6 | Netherita | Nether: fuego −5/12/20/35 %, wither −10/20/35/50 %, golpes ≥8 −4/8/13/18 % | **+10 % daño <8**, agotamiento, rep. 25 % |
+| S5 | Diamante | Coloso: absorbe 50 % del excedente sobre 10 de daño a 4 piezas | ataque −15 %, brecha de enjambre, agotamiento, rep. 25 % |
+| S6 | Netherita | Coloso como diamante; fuego/wither −25 % por pieza (inmunidad completa), repulsión −25 % con linaje completo | ataque −20 %, brecha, daño +10 % con luz ambiental <8 (proporcional a piezas), agotamiento, rep. 25 % |
 | S7 | Tortuga | Escafandra: respiración + minar bajo el agua | — |
 
 **Linaje netherita (L)** — todo lo forjado sobre `minecraft:netherite_*` hereda S6:
-`L1` ignitium · `L2` cursium · `L3` monstrous_helm · `L4` netherite_mage. Fuera: `bone_reptile`, `sturdy_boots`.
+`L1` ignitium · `L2` cursium · `L3` monstrous_helm · `L4` netherite_mage. Fuera del linaje: `bone_reptile`, `sturdy_boots` (sus atributos físicos de Cataclysm sí se normalizan).
+
+**Variantes 1.23.0**: Monstrous (casco) duplica la amortiguación combinada, hasta 100 % del excedente, y añade movimiento −10 % y ataque −30 % por casco (se compone con las demás piezas pesadas). Ignitium aporta la mitad de amortiguación y prende al atacante cuerpo a cuerpo durante 3 s, con recarga de 40 ticks por jugador. Cursium no aporta Coloso, brecha ni coste de ataque.
+
+**Brecha**: 2 impactos de combate aceptados dentro de 30 ticks reducen la armadura efectiva a la mitad en el segundo impacto. Ventana móvil; las fuentes ambientales y la inanición no cuentan. Cursium conserva la exención por pieza; mezclarlo con una pieza pesada vuelve a permitir brecha.
+
+**Feedback de hambre**: STARVE usa un latido grave y omite la animación de daño del cliente (sin alterar el daño real). Aviso sonoro al cruzar de ≥8 a <8 de comida, con recarga de 100 ticks; no se repite mientras siga baja.
 
 **Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %) · `R2` anti-mago (oro, S4).
 
@@ -92,9 +98,9 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 ## 4. Invariantes (si falla una, es bug)
 
 1. **C1** Ningún tooltip nombra encantamientos.
-2. **C2** Todo set del linaje L hereda fuego/wither + debilidad <8 + reparación 25 %.
+2. **C2** Todo set del linaje L hereda fuego/wither, repulsión, debilidad con luz ambiental <8 y reparación 25 %. Los efectos defensivos escalan por pieza; la inmunidad requiere el linaje completo.
 3. **C3** Toda armadura con `spell_power` paga coste de daño cuerpo a cuerpo.
-4. **C4** Los sets S1–S4 no ganan armadura extra (15).
+4. **C4** Paridad horizontal: sets físicos 16 (2/5/6/3), túnicas 10 y Cursium 12; dureza 0, también en atributos externos. Sustituye el techo anterior de 15/20 por decisión explícita de la 1.23.0.
 5. **C5** Todo poder tiene coste visible en el tooltip (P2).
 6. **C6** Los números del tooltip son los del código.
 
@@ -107,15 +113,15 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 - **1 sola llamada.** No abras fuentes, jars ni configs si el resumen dice `9/9` o más.
 - Si hay `FAIL`, el script imprime `id · esperado · real`: con eso basta para reportar.
 - Opciones útiles: `.\verificar_estado.ps1 -Json` para salida máquina; `-SkipTests` si no quieres esperar `probar.py`.
-- El estado esperado vive en `estado.json` (versiones, conteos, 26 claves de config, IDs).
+- El estado esperado vive en `estado.json` (versiones, conteos, 86 claves de config, IDs).
 
 **B. Mapa de Rutas (Dónde programar sin explorar)**
 | Tarea / Componente | Directorio / Comando exacto |
 |---|---|
-| **Lógica Java, Mixins y Eventos** | `src/main/java/` (Ej: `balance_equipamiento`, `balance_mobs`) |
+| **Lógica Java, Mixins y Eventos** | `C:\Users\Metabodiru\Desktop\TheOptimizerMods\balance_equipamiento\theoptimizer\equipment\` (MobBalance: módulo vecino `balance_mobs`) |
 | **Loot Tables y Recetas** | `datapacks/TheOptimizer_AdventureLoot/data/` |
 | **Búsqueda de Tags (Scripts)** | Usa `python scripts/find_tags.py` |
-| **Compilación silenciosa** | Usa `python scripts/compile_quiet.py` antes de testear |
+| **Compilación silenciosa** | Desde `TheOptimizerMods`, usa `python scripts/compile_quiet.py` antes de testear |
 | **Gestión de Mods** | Vía `packwiz` (modifica `packwiz.json` o usa comandos CLI, no subas `.jar` al repo) |
 
 **C. Post-Operación (Regla de Limpieza)**
@@ -132,6 +138,7 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-11 | `ccc36b6` | 13/13 tras 1.7.0 (yunque en EquipmentBalance, MiningXP retirado) | orbes de XP vuelven a vanilla hasta la siguiente pasada |
 | 2026-11-11 | `0211a6a` | 1.8.0: orbes de XP apagados; estados D1.1-D1.5 corregidos | ninguna |
 | 2026-11-11 | `7068456` | 1.11.0: hojas sin desgaste (cierra T1) | ninguna |
+| 2026-11-13 | pendiente de commit | EquipmentBalance 1.23.0: 15/16; 75 pruebas JVM, 86 claves, 27 tablas de loot | solo git.limpio (cambios locales para prueba); Pages SKIP por DNS; sin push |
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 

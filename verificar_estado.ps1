@@ -12,7 +12,7 @@ param(
 $ErrorActionPreference = 'Continue'
 $repo = if ($PSScriptRoot) { $PSScriptRoot } else { (Get-Location).Path }
 $srv = 'C:\Users\Metabodiru\Desktop\servidor-theoptimizer'
-$py = 'C:\Users\Metabodiru\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python.exe'
+$py = 'C:\Users\Metabodiru\AppData\Local\Programs\DeepSeek Harness\resources\runtime\primary-runtime\dependencies\python\python.exe'
 $modsSrc = 'C:\Users\Metabodiru\Desktop\TheOptimizerMods'
 
 $estado = $null
@@ -191,7 +191,7 @@ try {
     $resp = Invoke-WebRequest 'https://drox17.github.io/ampere_modpack/version.txt' -UseBasicParsing -TimeoutSec 10
     $versionPages = ($resp.Content).Trim()
 } catch {
-    Add-Check 'pages.version' $true ('no comprobable: ' + $_.Exception.Message) -Skip
+    Add-Check 'pages.version' $true ('no comprobable: ' + $_.Exception.Message) -Skip $true
 }
 if ($versionPages) {
     Add-Check 'pages.version' ($versionPages -eq $versionLocal) ("pages={0} repo={1}" -f $versionPages, $versionLocal)

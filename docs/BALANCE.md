@@ -5,34 +5,34 @@
 
 ## 1. Números de referencia
 
-### 1.1 Reducciones por set (escalan 1p/2p/3p/4p)
+### 1.1 Armaduras 1.23.0: Coloso vs. Enjambre
 
-| Set | Eje | 1 | 2 | 3 | 4 |
-|---|---|---|---|---|---|
-| Cuero | caída | 7 % | 15 % | 25 % | 40 % |
-| Malla | proyectiles | 5 % | 10 % | 18 % | 30 % |
-| Malla | velocidad | +4 % | +8 % | +12 % | +16 % |
-| Hierro | empuje | 5 % | 10 % | 18 % | 30 % |
-| Hierro | explosiones | 4 % | 8 % | 15 % | 25 % |
-| Oro | magia/pociones | 4 % | 8 % | 15 % | 25 % |
-| Diamante | golpes ≥8 | 6 % | 12 % | 19 % | 25 % |
-| Netherita | fuego/lava | 5 % | 12 % | 20 % | 35 % |
-| Netherita | wither | 10 % | 20 % | 35 % | 50 % |
-| Netherita | golpes ≥8 | 4 % | 8 % | 13 % | 18 % |
+Esta revisión sustituye el escalado pasivo de 15/20 puntos y dureza. Todos los sets físicos vanilla y Cataclysm comparten 16 (casco 2, peto 5, grebas 6, botas 3). Las túnicas de Iron's/Alex's Caves y cualquier armadura detectada con `spell_power` usan 10 (1/3/4/2); Cursium usa 12 (2/4/4/2). La dureza es 0 para todo ArmorItem, eliminada también de los modificadores externos sin borrar sus atributos mágicos.
 
-Umbral de "golpe fuerte": `HEAVY_HIT_THRESHOLD = 8.0`.
-Debilidad de sets pesados: diamante +5 % y netherita +10 % de daño recibido por golpes <8
-(escalado por pieza: `/4`).
+Coloso aplica `D - max(0, D - umbral) × absorción` sobre el daño bruto del impacto, antes de armadura y escudo de hambre; las reducciones de otros roles se componen como factores sin cambiar la clasificación del golpe. Umbral 10 y absorción 50 % con cuatro piezas de diamante/netherita. Cada pieza aporta una cuarta parte, incluidos sets mixtos; Ignitium aporta la mitad. Monstrous duplica el coeficiente combinado hasta 100 % del excedente. Ejemplo de daño entrante 20: normal 15, Ignitium completo 17.5, Monstrous con tres piezas de netherita 10, Cursium 20, antes de las demás defensas.
 
-### 1.2 Costes por eje
+Brecha usa una ventana móvil de 30 ticks: el segundo impacto de combate aceptado reduce a la mitad la armadura efectiva usada por CombatRules. No altera permanentemente el atributo, no cambia el HUD y no multiplica directamente el daño. Los impactos antiguos caducan individualmente. Inanición, fuego y caídas no activan brecha; proyectiles y explosiones sí. Cursium queda fuera del cómputo pesado; una mezcla con piezas pesadas sí puede abrir brecha.
 
-| Coste | Dónde | Valor |
+### 1.2 Roles y costes
+
+Los roles ligeros conservan sus reducciones de caída/proyectiles/magia/explosiones y velocidad de malla. El hierro pierde su dureza adicional.
+
+| Familia | Rol | Coste |
 |---|---|---|
-| Agotamiento por golpe pesado | diamante / netherita | base 0.5 / 0.6 + 3 % del daño × piezas |
-| Daño recibido de golpes débiles | diamante / netherita | +5 % / +10 % a 4 piezas |
-| Dureza de armadura | hierro / diamante / netherita | 0.5 / 2.0 / 3.0 por pieza |
-| Daño cuerpo a cuerpo | túnicas (rol mago) | −5 % por pieza, máx −20 % |
-| Reparación | baratos / caros | 100 % / 25 % por unidad |
+| Diamante | Coloso 50 % del excedente | ataque −15 % con set, brecha, agotamiento, reparación 25 % |
+| Netherita y linaje | Coloso; fuego/wither −25 % por pieza; repulsión −6.25 % por pieza | ataque −20 % con set, brecha, daño +10 % con luz ambiental <8 a cuatro piezas, agotamiento, reparación 25 % |
+| Monstrous (casco) | Coloso combinado ×2 | movimiento −10 % y ataque −30 % por casco; se combina multiplicativamente con los costes de otras piezas |
+| Ignitium | Coloso reducido a la mitad; fuego reactivo de 3 s | mismo coste pesado; contraataque solo cuerpo a cuerpo, recarga global de 40 ticks por jugador |
+| Cursium | herencia térmica, movilidad de ataque | armadura 12; sin Coloso, brecha ni agotamiento cinético; conserva debilidad por luz baja y reparación 25 % |
+| Túnicas | hechizos; netherite_mage conserva linaje pesado | armadura 10 y daño cuerpo a cuerpo −5 % por pieza |
+
+Las penalizaciones de ataque usan modificadores Forge `MULTIPLY_TOTAL` por slot, visibles en rojo. Para diamante/netherita, cada pieza usa la raíz cuarta del factor del set: cuatro piezas componen exactamente −15 %/−20 %, también sobre el enfriamiento real del arma. Monstrous es un casco único: su −30 % se añade al coste de las otras piezas, no constituye un set de cuatro piezas ficticio.
+
+La inmunidad a fuego y marchitamiento requiere cuatro piezas del linaje; la inmunidad al efecto impide también aplicarlo. Se sustituye la antigua debilidad por golpes <8 por la debilidad ambiental solicitada en esta revisión. La reparación y el coste de agotamiento existentes se conservan salvo la exención de Cursium.
+
+STARVE conserva su daño de servidor. El paquete vanilla de daño transporta el tipo: en cliente se sustituye su animación/sonido por un latido suave, sin cambiar la respuesta a ataques. Al cruzar el mínimo del escudo de hambre (8 a 7 de comida) se reproduce otro aviso con recarga de 100 ticks. El aviso es por ticks, independiente de los FPS, y no se repite mientras la reserva siga baja. Se usa la alternativa sonora solicitada; GuiMixin sigue ocultando XP sin añadir un render incompatible con ForgeGui.
+
+Todos los umbrales nuevos viven en EquipmentConfig y default_cfg; los tooltips consultan las mismas reglas. Verificación: 75 comprobaciones JVM sobre clases del JAR real, 53 firmas contra dependencias instaladas y 86 defaults/config sincronizados. La respuesta visual/sonora y compatibilidad completa de mods quedan sujetas a prueba en juego.
 
 ### 1.3 Herramientas (estado actual, pendiente de rediseño)
 
@@ -312,14 +312,13 @@ antes de entrar al rol mago.
 
 ## 4. Procedimiento de publicación
 
-1. Editar fuente en `gestion/.../balance_equipamiento`.
-2. `python -m gestion.herramientas.reparaciones.balance_equipamiento.instalar` (desde la instancia).
-3. `python -m gestion.herramientas.reparaciones.balance_equipamiento.probar` → `VERIFICACION EXITOSA`.
-4. En el repo: `packwiz refresh` (o commit; el hook lo hace) y `.\validar.ps1`.
-5. Si cambió comportamiento visible: ampliar `changelog.md` y regenerar `version.txt`
-   (`MD5(changelog.md)` primeros 8 en minúsculas).
-6. `git commit` + `git push`; comprobar que Pages sirve el `version.txt` nuevo.
-7. Nunca copiar jars a la instancia de Prism: los baja el updater.
+1. Editar fuentes en `C:\Users\Metabodiru\Desktop\TheOptimizerMods\balance_equipamiento`.
+2. Desde TheOptimizerMods: `python scripts/compile_quiet.py`, luego `python -m balance_equipamiento.instalar`.
+3. `python -m balance_equipamiento.probar` → `VERIFICACION EXITOSA` sobre el artefacto recién desplegado.
+4. Actualizar estado.json, AGENTS.md y changelog.md; `version.txt` = primeros 8 caracteres de MD5(changelog.md).
+5. En AmpereRepo: `packwiz refresh`, luego `.\verificar_estado.ps1`. Los cambios sin commit y Pages sin publicar son esperables mientras se prueba localmente; no ocultarlos como checks OK.
+6. En esta sesión 1.23.0: dejar cambios locales y **no hacer git push** hasta la prueba en juego del usuario.
+7. El instalador despliega al servidor y AmpereRepo; no recrear la instancia eliminada de PrismLauncher. Las bibliotecas/JDK de Prism conservadas se usan solo para compilar/verificar.
 
 ## 5. Por qué estas reglas (para no re-litigarlas)
 
