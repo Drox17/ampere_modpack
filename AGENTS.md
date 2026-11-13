@@ -14,11 +14,11 @@ vanilla con mods. Si una propuesta contradice estos trece puntos, está mal.
 | P2 | **Todo poder tiene coste explícito** | Agotamiento, daño recibido, daño de arma, reparación cara | Que exista un set "gratis" |
 | P3 | **XP completamente erradicada** | No hay orbes de experiencia, mesa de encantamientos ni Mending. El yunque no cobra niveles y la barra de XP está oculta del HUD. | Que se usen los niveles para medir progresión, dar stats o desbloquear cosas |
 | P4 | **Mesa de encantamientos decorativa** | Interacción cancelada; es un bloque de decoración | Que se pueda usar "con suerte" |
-| P5 | **Encantamientos eliminados del juego** | Solo **Irrompibilidad I y Eficiencia I** aparecen en cofres de mina/mazmorra/templo y se combinan en yunque | Que existan libros de otros encantamientos |
+| P5 | **Encantamientos eliminados del juego** | Solo **Irrompibilidad I, Botín I y Eficiencia I** aparecen en cofres de mina/mazmorra/templo y se combinan en yunque | Que existan libros de otros encantamientos |
 | P6 | **Velocidad de minado unificada a hierro (6.0)** | Ninguna herramienta es más rápida por tier; la diferencia es el rol | Que el diamante mine más rápido |
 | P7 | **Ninguna pieza opaca a otra** | Cada material debe ser la mejor opción en al menos una actividad | Que todas sirvan para todo |
 | P8 | **Spawns adulterados a propósito** | Reparto 55/45 vanilla-mods, cap de criaturas 16 (config `creature_spawn_cap`), nigromante 18→2, fauna vanilla con respawn cíclico | Que sea "spawn vanilla" |
-| P9 | **Yunque reworkeado** | 0 niveles de XP, sin "demasiado caro", reparación por familia (100 % baratos / 25 % caros), forja de tridentes | Que sea el yunque vanilla |
+| P9 | **Yunque reworkeado** | 0 niveles de XP, sin "demasiado caro", reparación por familia (100 % básicos / 25 % diamante / 50 % netherita y linaje), forja de tridentes | Que sea el yunque vanilla |
 | P10 | **Iron's Spellbooks looteable** | Las tintas y materiales mágicos entran por cofres (datapack `TheOptimizer_AdventureLoot`), porque en vanilla una granja de mobs es más eficiente | Que se hayan añadido recetas nuevas para tintas |
 | P11 | **Se buscan sugerencias** | Cualquier mecánica propuesta se evalúa contra P1-P10 y, si encaja, se implementa | Que la filosofía esté cerrada: el diseño está abierto a ideas |
 | P12 | **Juego tradicional primero** | Las recompensas salen de explorar, combatir, construir y coleccionar | Que la automatización o el AFK sean la vía óptima |
@@ -32,16 +32,16 @@ vanilla con mods. Si una propuesta contradice estos trece puntos, está mal.
 Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se rediseña** antes de implementarse.
 
 **Reglas derivadas que ya han causado errores:**
-- **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×1.5 a artrópodos").
-- **Detalles avanzados con Shift** (1.24.1): resumen de rol y costes al pasar el cursor; mantener **Shift** muestra cifras y condiciones del equipo vestido actualmente, nunca un conjunto completo hipotético. Usar segundos, corazones y muslitos en vez de ticks o fórmulas técnicas.
+- **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×2 a artrópodos").
+- **Detalles avanzados con Shift** (1.24.2): resumen de rol y costes al pasar el cursor; mantener **Shift** muestra cifras y condiciones del equipo vestido actualmente, nunca un conjunto completo hipotético. Usar segundos, corazones y muslitos en vez de ticks o fórmulas técnicas.
 - **Nada de prosa con números**: los valores salen del código y se muestran en el tooltip.
 - **No proponer sistemas que usen XP** como moneda ni escalar mecánicas con niveles (P3).
 - **No proponer "subir de tier" como recompensa** sin coste (P1/P2).
 - **Cofre del End: estrella del Nether y solo materiales** (rechaza armas, herramientas, armaduras y contenedores; el tooltip lo avisa).
-- **Pasivas de recolección en todo `DiggerItem`** (pico, pala, hacha, azada), no solo el pico. Madera=Hojas Gratis, Piedra=+15% en menas, Hierro=Minado 3x3, Oro=Auto-Fundición, Diamante=Toque de Seda oculto, Netherita=Fortuna III. *(Esta mecánica está abierta a ajustes coherentes que no violen otros puntos del balance)*.
+- **Pasivas de recolección en todo `DiggerItem`** (pico, pala, hacha, azada), no solo el pico. Madera=Hojas Gratis, Piedra=+20% en piedra/menas y cantera sin desgaste, Hierro=Minado 3x3 (agachado=1x1), Oro=Auto-Fundición, Diamante=Toque de Seda oculto, Netherita=Fortuna III. *(Esta mecánica está abierta a ajustes coherentes que no violen otros puntos del balance)*.
 - **Durabilidad 1.22.0**: armaduras de 15 puntos a 165/240/225/195 (825 el set); herramientas de tiers a 80→160→300→160→1561→2031.
 - **Movimiento ÷5** (`movement_exhaustion_factor = 0.2`): correr 0.02/m, salto 0.01, salto corriendo 0.04. Combate intacto.
-- **La piedra de afilar solo extrae Irrompibilidad y Eficiencia**; los innatos del material nunca son libros.
+- **La piedra de afilar solo extrae Irrompibilidad, Botín y Eficiencia**; los innatos del material nunca son libros.
 - **Equipo de spawn: no se dropea** (armadura/armas generadas e invocaciones); el que entrega el jugador sí.
 - **Encantamientos innatos: solo para jugadores** (la Lealtad del tridente no vuelve a los mobs).
 - **Drops cotidianos con mínimo 1, sin RNG de granja** (vara de blaze, pólvora, perla, caparazón, carbón del wither skeleton).
@@ -59,12 +59,12 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 **Sets vanilla (S), EquipmentBalance 1.23.0** — físicos: 16 armadura (2/5/6/3), túnicas: 10 (1/3/4/2), Cursium: 12 (2/4/4/2). Dureza 0 en toda armadura:
 | ID | Set | Rol | Coste |
 |---|---|---|---|
-| S1 | Cuero | Explorador: caída −5/12/20/35 % | sin defensa extra |
-| S2 | Cota de malla | Escaramuzador: proyectiles −5/10/18/30 %, velocidad +4/8/12/16 % | sin ayuda vs explosiones |
-| S3 | Hierro | Infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 % | — |
+| S1 | Cuero | Explorador: caída −5/12/20/35 %; cuero completo: proyectil +30 %, carga de ballesta ×2 y perforación | no aporta Coloso |
+| S2 | Cota de malla | Espeleólogo: proyectiles −5/10/18/30 %, velocidad +4/8/12/16 % | sin ayuda vs explosiones |
+| S3 | Hierro | Constructor/infantería: empuje −5/10/18/30 %, explosiones −4/8/15/25 %; ≥2 piezas: alcance de bloques +0.5 | no aporta Coloso |
 | S4 | Oro | Arcano: magia −4/8/15/25 %, +1 Suerte, piglins | — |
 | S5 | Diamante | Coloso: absorbe 50 % del excedente sobre 10 de daño a 4 piezas | ataque −15 %, brecha de enjambre, agotamiento, rep. 25 % |
-| S6 | Netherita | Coloso como diamante; fuego/wither −25 % por pieza (inmunidad completa), repulsión −25 % con linaje completo | ataque −20 %, brecha, daño +10 % con luz ambiental <8 (proporcional a piezas), agotamiento, rep. 25 % |
+| S6 | Netherita | Coloso como diamante; fuego/wither −25 % por pieza (inmunidad completa), repulsión −25 % con linaje completo | ataque −20 %, brecha, daño +10 % con luz ambiental <8 (proporcional a piezas), agotamiento solo de combate, rep. 50 % |
 | S7 | Tortuga | Escafandra: respiración + minar bajo el agua | — |
 
 **Linaje netherita (L)** — todo lo forjado sobre `minecraft:netherite_*` hereda S6:
@@ -79,17 +79,17 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 **Roles (R)**: `R1` mago (túnicas `irons_spellbooks` + `alexs_caves_spellbooks`, −5 % daño cuerpo a cuerpo por pieza, máx −20 %) · `R2` anti-mago (oro, S4).
 
 **Herramientas/armas (T)**: rediseño unificando extracción a 6.0.
-*   **Madera:** Daño x1.5 a artrópodos. Hojas no gastan durabilidad. +25% vel en madera/cultivos y sueltan polvo de hueso.
-*   **Piedra:** Empuje I, Lentitud I al golpear, interrumpe casters/creepers. +15% vel en menas y piedra.
-*   **Hierro:** Barrido III y alcance +0.5 (armas). Minado 3x3 y doble durabilidad (DiggerItem). 100% rep por lingote.
-*   **Oro:** Castigo III, pacifica piglins, +1 Suerte. Auto-fundición en DiggerItem. 100% rep por lingote. Daño/durabilidad = Hierro.
-*   **Diamante:** 15% chance de crítico, alcance +1.0. Toque de seda oculto en herramientas. 25% rep por diamante.
-*   **Netherita:** Lentitud II al golpear, +15% daño vs armadura. Fortuna III oculta. 25% rep por lingote.
+*   **Madera:** Daño x2 configurable a artrópodos; reparación 100% por tablón. Hojas no gastan durabilidad. +25% vel en madera/cultivos y sueltan polvo de hueso.
+*   **Piedra:** Empuje I y lentitud al golpear; cancela preparación de conjuros, bebida y mechas. +20% en menas/piedra; roca común de cantera sin desgaste. Espada sin penalización de ataque. Reparación 100% por material de piedra vanilla.
+*   **Hierro:** Barrido III y alcance +0.5 (armas). Minado 3x3, agachado 1x1 y mitad del desgaste medio (DiggerItem). Hacha rompe escudo durante 5 s: +15% daño si esprinta, cuesta 1 agotamiento y 1 durabilidad extra por activación. 100% rep por lingote.
+*   **Oro:** Bono directo a no-muertos equivalente al nivel configurado (sin depender de NBT), única tregua de piglins, +1 Suerte. Auto-fundición en DiggerItem. 100% rep por lingote. Daño base de hierro, durabilidad 160; azada de daño 1.
+*   **Diamante:** 15% de crítico, alcance +1.0; daño −15% contra objetivos con armadura ≥8. Toque de seda oculto en herramientas. 25% rep por diamante.
+*   **Netherita:** +15% daño vs armadura; sin lentitud ni tregua de piglins. Fortuna III oculta. 50% rep por lingote; equipo de material netherita admite fragmentos al 15%. Ignitium/Cursium conservan sus minerales propios, al 50%.
 
 **Matriz familia ↔ counter (1.19.0):**
 | Familia | Mecánica | Counter |
 |---|---|---|
-| Arañas | Esquiva 25 % (mitad de daño) | **Madera** (precisión + ×1.5) |
+| Arañas | Esquiva 25 % (mitad de daño) | **Madera** (precisión + ×2) |
 | No-muertos | Horda: +25 % empuje y 1.5 de agotamiento con 3+ zombis | **Hierro** (área) · **Oro** (Castigo III) |
 | Esqueletos/ saqueadores | Lentitud I 1 s a más de 8 bloques | **Cota de malla ≥2 piezas** |
 | Enderman/Shulker | Teletransporte | **Diamante** (anclaje 3 s) |
@@ -98,7 +98,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 ## 4. Invariantes (si falla una, es bug)
 
 1. **C1** Ningún tooltip nombra encantamientos.
-2. **C2** Todo set del linaje L hereda fuego/wither, repulsión, debilidad con luz ambiental <8 y reparación 25 %. Los efectos defensivos escalan por pieza; la inmunidad requiere el linaje completo.
+2. **C2** Todo set del linaje L hereda fuego/wither, repulsión, debilidad con luz ambiental <8 y reparación 50 % desde 1.24.2. Los efectos defensivos escalan por pieza; la inmunidad requiere el linaje completo.
 3. **C3** Toda armadura con `spell_power` paga coste de daño cuerpo a cuerpo.
 4. **C4** Paridad horizontal: sets físicos 16 (2/5/6/3), túnicas 10 y Cursium 12; dureza 0, también en atributos externos. Sustituye el techo anterior de 15/20 por decisión explícita de la 1.23.0.
 5. **C5** Todo poder tiene coste visible en el tooltip (P2).
@@ -113,7 +113,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 - **1 sola llamada.** No abras fuentes, jars ni configs si el resumen dice `9/9` o más.
 - Si hay `FAIL`, el script imprime `id · esperado · real`: con eso basta para reportar.
 - Opciones útiles: `.\verificar_estado.ps1 -Json` para salida máquina; `-SkipTests` si no quieres esperar `probar.py`.
-- El estado esperado vive en `estado.json` (versiones, conteos, 90 claves de config, IDs).
+- El estado esperado vive en `estado.json` (versiones, conteos, 104 claves de config, IDs).
 
 **B. Mapa de Rutas (Dónde programar sin explorar)**
 | Tarea / Componente | Directorio / Comando exacto |
@@ -144,6 +144,7 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 | 2026-11-13 | tooltips 1.23.3 | 15/16 antes del commit; 781 comprobaciones JVM previas y orden de encabezados verificado en bytecode | corregidas estadísticas antes del encabezado y piezas externas sin título; git.limpio temporal; inspección visual en cliente pendiente |
 | 2026-11-13 | publicación 1.24.0 | 15/16 antes del commit; 1268 comprobaciones JVM, 90 claves y 27 tablas sin cambios | solo git.limpio temporal; Pages SKIP por DNS; resumen/Shift y unidades familiares; publicación autorizada en ambos repositorios |
 | 2026-11-13 | corrección local 1.24.1 | 15/16 antes del commit; 1294 comprobaciones JVM, 90 claves y 27 tablas sin cambios | solo git.limpio temporal; Pages SKIP por DNS; Shift calcula el equipo vestido en lugar del máximo hipotético |
+| 2026-11-13 | armonización 1.24.2 | 15/16 antes del commit; 1506 comprobaciones JVM, 104 claves y 27 tablas sin cambios | solo git.limpio temporal; Pages SKIP por DNS; corregidas rutas Forge y seis arquetipos; verificación visual en juego pendiente |
 
 **Tooltips 1.23.3**: en armaduras, el encabezado Ampere y el rol se añaden antes de las reglas numéricas. Las piezas físicas externas sin rol conocido reciben un encabezado genérico con el nombre traducido del ítem. Todas las líneas de detalle usan la misma sangría de viñeta; los detalles largos de Monstrous y linaje Nether se separan en líneas temáticas. No se modifican valores ni atributos nativos.
 
@@ -152,6 +153,8 @@ Al terminar una operación de desarrollo o añadir/quitar mods, **debes actualiz
 **Corrección 1.24.1**: Shift usa solo las piezas vestidas y la armadura real del jugador. Cuero 3/4 muestra caída −20 % y 4/4 −35 %. Coloso, fuego/marchitamiento, firmeza, penalización de ataque, coste de comida y daño por oscuridad usan el conjunto mixto actual y la luz presente. Pasar el cursor por una pieza no simula equiparla; sin jugador no se inventan valores. 1294 comprobaciones JVM, incluidas 513 de tooltips; sin cambios de balance ni claves nuevas.
 
 **Corrección de arranque 1.23.2**: los adaptadores de comida usan `@Redirect` con tipos nativos. No introducir `@ModifyArgs` ni `Args` en este HUD: en el cliente Forge/ModLauncher provocó `NoClassDefFoundError: org.spongepowered.asm.synthetic.args.Args$1` durante la carga. La suite comprueba esta regresión y ejecuta el adaptador real con dobles del renderer, sin Mixin en el classpath de prueba.
+
+**Armonización 1.24.2**: conserva tarjetas y estado vestido, HUD sin Args y armaduras 16/10/12. Corrige reparación por familia/sentinela, oro directo sin duplicar NBT, desgaste por tag de hojas y cantera exacta, agachado 1x1, cancelación de warmup y señal de conjuro, costes cinéticos solo por entidad/proyectil no ambiental, hacha de hierro rompeguardias, alcance de obra, oro exclusivo para piglins, penalización ofensiva de diamante y mantenimiento netherita. Compatibilidad: solo notas de mecánicas propias; no borra texto de terceros. Contenedores: equipo, caña, tijeras, bundles, capacidades de inventario y bloques de almacenamiento. Configuración de pack/servidor/instancia: 104 claves. Suite: 1506 comprobaciones JVM; prueba visual en juego pendiente.
 
 ## 7. Memoria profunda (léela solo si vas a diseñar, no en `/sync`)
 

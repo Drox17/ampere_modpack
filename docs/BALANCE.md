@@ -3,6 +3,29 @@
 > Se lee **solo al diseñar** (cambiar reglas, añadir sets, revisar números). Para `/sync`
 > usa `verificar_estado.ps1` + `estado.json`. Este archivo explica el porqué y el backlog.
 
+## Estado vigente: EquipmentBalance 1.24.2
+
+Esta revisión prevalece sobre los registros históricos 1.23.x/1.24.0/1.24.1 de abajo. No cambia la paridad 16/10/12 ni Coloso/Enjambre. Conserva la instantánea del equipo vestido y el HUD sin clases sintéticas Args.
+
+| Arquetipo | Recolección | Combate y coste |
+|---|---|---|
+| Explorador: cuero/madera | hojas por tag sin desgaste; madera/cultivos +25%; vegetación 10% polvo de hueso | madera ×2 a artrópodos; baja durabilidad 80. Cuero completo da proyectil +30%, carga de ballesta ×2 y perforación de un objetivo extra; no aporta Coloso |
+| Espeleólogo: malla/piedra | +20% en piedra/menas; cantera común sin desgaste; las menas sí consumen | control por piedra: sin penalización de velocidad en espada; cancela la preparación del conjuro y su señal, no solo el uso de ítems. Reserva 160 fuera de cantera |
+| Constructor/infantería: hierro | área 3 por 3 por defecto, agachado un bloque; medio desgaste; ≥2 armaduras +0.5 alcance de bloques | hacha desactiva escudo 5 s; si esprinta, daño +15%. Cada activación cuesta 1 agotamiento y 1 durabilidad fija extra; no se divide por la pasiva de hierro |
+| Alquimista/diplomático: oro | autofundición, suerte, reparación 100%; azada de daño 1 | único material que da tregua de piglins. Bonus directo a no-muertos: nivel configurado por 2.5 de daño; completa, sin duplicar, el bono ya presente en NBT real. Durabilidad 160 |
+| Cazador: diamante | extracción intacta y doble velocidad en pizarra/obsidiana | conserva críticos y alcance; pierde 15% del daño ofensivo contra armadura ≥8. Reparación 25% |
+| Conquistador: netherita | más recursos y doble velocidad en escombros | +15% contra objetivos con armadura; no ralentiza ni da tregua. Reparación 50% por lingote. Material netherita (incluido Monstrous) admite fragmento al 15%; Ignitium/Cursium mantienen sus materiales al 50% |
+
+La cantera gratuita reconoce solo minecraft:stone, cobblestone, deepslate, cobbled_deepslate, tuff, andesite, diorite, granite y netherrack. No añade recompensas automáticas ni reglas que cancelen construcción/redstone. El desgaste de hojas usa #minecraft:leaves para picos, hachas, palas, azadas, espadas y tijeras. LeafDurabilityMixin envuelve la llamada virtual desde ItemStack.m_41686_ a Item.m_6813_; MiningDurability mantiene un ámbito por stack y try/finally. El ItemStackMixin anula solo el desgaste dentro del ámbito: no omite el minado ni los overrides.
+
+El agotamiento cinético requiere entidad/proyectil y excluye caída, magia ambiental, fuego y marchitamiento. STARVE, señales de hambre y curación conservan su comportamiento previo. El rompeguardias se resuelve en LivingAttackEvent, antes del bloqueo; su multiplicador de daño se consume en el LivingHurtEvent del mismo DamageSource. Se aplica recarga al escudo y se impide reiniciarlo durante esa ventana. Las reglas numéricas compartidas están en EquipmentCombatRules.
+
+Se eliminan afirmaciones de materiales y armaduras externas, AE2 y pico de acero negro, y el borrado por coincidencias textuales del anillo. Solo quedan decoración de mesa, amatista, contraataque propio del peto rocoso y restricción de cofre del End. El filtro inspecciona el stack y capacidades de inventario; reconoce cañas, tijeras, bundles y almacenamiento de bloques. Las capacidades temporales del bloque de prueba se invalidan y el resultado se cachea de forma sincronizada.
+
+Reparación: madera admite el ingrediente de tablones vanilla y piedra el de materiales vanilla (adoquín/pizarra empedrada (cobbled_deepslate)/piedra negra); ambos restauran 100%. Cero en la política significa fallback, nunca se muestra como 0% ni se inventa 25% para tridentes. Los ítems especiales tienen tarjetas. El retorno del tridente depende de que no lleve impulso acuático. Tortuga se cuenta como 1/1; la pasiva de almas solo se anuncia en botas vanilla de netherita. Sinergia de cuero y alcance de hierro muestran su valor actual, incluido cero si no se cumplen las piezas.
+
+Validación: 1506 comprobaciones JVM (70 armadura, 667 hambre, 44 HUD, 513 tarjetas y 212 armonización), además de contratos de firmas/bytecode reales. Las pruebas de minado ejecutan el Redirect y el ModifyVariable de producción con dobles aislados, incluidos overrides de DiggerItem/SwordItem, ámbitos anidados/errores y hojas de mods por tag. No equivalen a un arranque completo de Forge: sigue pendiente la prueba visual y de combate en juego. Configuración: 104 claves en Java/default_cfg/pack/servidor/instancia/estado.
+
 ## 1. Números de referencia
 
 ### 1.1 Armaduras 1.23.0: Coloso vs. Enjambre
@@ -74,15 +97,9 @@ EquipmentTooltipCards recibe esa instantánea: cuero 3/4 muestra caída −20 % 
 
 El cálculo de agotamiento por impacto pasa a ArmorBalanceRules.impactExhaustion, compartido por evento y tarjeta con los mismos valores y orden de operaciones. La reparación sigue siendo una propiedad del objeto consultado. Se conserva la vista breve y no se cambia el balance. Suite: 1294 comprobaciones JVM (513 de tooltips), con regresiones para 0–4 piezas, la captura sin casco, conjuntos mixtos, luz, túnicas y ausencia de jugador. Configuración: 90 claves, sin cambios.
 
-### 1.3 Herramientas (estado actual, pendiente de rediseño)
+### 1.3 Herramientas: referencia actual
 
-Velocidad de minado unificada 6.0 para todos los tiers. Extras actuales: madera +7 %
-movimiento y +0.35 vel. ataque (armas), piedra +25 % resist. empuje y +0.5 empuje (armas),
-hierro +0.5 alcance y +1 armadura con arma, oro +1 Suerte, diamante +1.0 alcance y toque de
-seda, netherita +1.0 alcance y más botín.
-
-**Problema conocido**: una herramienta no debería dar movimiento ni armadura (es eje de
-armadura). Ver backlog T1.
+La referencia vigente es la tabla 1.24.2 al inicio y docs/EQUIPAMIENTO.md. No hay movimiento +7% de madera ni armadura +1 por empuñar hierro. La velocidad base de DiggerItem vanilla es 6.0; los nichos por bloque se aplican después. Las herramientas de netherita no ralentizan y el oro es el único diplomático con piglins.
 
 ### 1.4 Hostiles no jefes (1.20.1, atributos base)
 

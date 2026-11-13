@@ -1,17 +1,19 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.24.1§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.2§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f363§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[EQUIPMENTBALANCE 1.24.1]
+§6§l[EQUIPMENTBALANCE 1.24.2]
 -----------------------------------
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
 §cEnjambre: §f2 impactos de combate en 1,5 s§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
 §aMonstrous duplica Coloso; su casco resta §f10 %§r de movimiento y §f30 %§r de ataque, compuesto con las otras piezas. Ignitium aporta la mitad de Coloso y prende al atacante cuerpo a cuerpo §f3 s§r (recarga §f2 s§r). Cursium no tiene Coloso, brecha ni penalización de ataque.
-§aEl linaje completo gana inmunidad a fuego y marchitamiento y §f25 %§r de firmeza; paga daño §f+10 %§r con luz ambiental §f<8§r y reparación §f25 %§r.
+§aEl linaje completo gana inmunidad a fuego y marchitamiento y §f25 %§r de firmeza; paga daño §f+10 %§r con luz ambiental §f<8§r y reparación §f50 %§r.
+§aArquetipos 1.24.2: madera §f×2§r contra artrópodos; piedra §f+20 %§r y cantera gratuita; hierro §f3×3 / agachado 1×1§r y rompeguardias con coste; oro contra no-muertos y tregua exclusiva; diamante §f−15 %§r frente a armadura ≥8; netherita sin lentitud, reparación §f50 %§r y fragmentos §f15 %§r en material netherita.
+§aCorrecciones: hojas por tag sin desgaste real, conjuros cancelados, reparación básica §f100 %§r, sin porcentajes de reparación ficticios ni prosa especulativa sobre mods externos. Tarjetas de ítems especiales y tortuga §f1/1§r.
 §aHambre baja: con §f3 muslitos o menos§r, iconos vanilla verdosos y temblor. Gruñido suave cada §f8 s§r; con §f1 muslito o menos§r, cada §f4 s§r y temblor más frecuente. Comer reinicia el aviso. A cero, la inanición conserva el latido sin sacudón de cámara.
 §aTooltips: resumen breve de rol y costes; mantén §fShift§r para ver cifras, condiciones y ejemplos del §fequipo que llevas puesto§r. Cuero: §f3 piezas, −20 %§r de daño de caída; §f4 piezas, −35 %§r. Tiempos en segundos, daño en corazones y consumo equivalente de comida en muslitos. Atributos alineados y alcance traducido.
 §7Esta revisión sustituye las cifras anteriores de armadura, dureza y golpes fuertes/débiles de la sección [2]. Pendiente validación visual y sonora en juego.
@@ -27,7 +29,7 @@
 -----------------------------------
 §aP1§r Progresión horizontal (roles) + vertical (tier) §fcon coste§r.
 §aP2§r Todo poder tiene coste explícito: agotamiento, daño recibido, reparación cara.
-§aP3§r La XP §fno§r tiene función económica: los niveles solo marcan progreso.
+§aP3§r La XP está §ferradicada§r: sin orbes, costes ni progresión por niveles.
 §aP4§r Mesa de encantamientos §fdecorativa§r (interacción cancelada).
 §aP5§r Solo existen §f3§r encantamientos looteables: Irrompibilidad I, Botín I, Eficiencia I.
 §aP6§r Velocidad de minado §funificada a 6.0§r para todas las herramientas.
@@ -50,16 +52,16 @@
 §e§l> COLUMNA AMPERE§r
 §a- Sets base (cuero, cota, oro, hierro): durabilidad §funificada§r §f165 / 240 / 225 / 195§r por pieza (§f825§r el set); armadura §f16§r.
 §a- Sets de diamante y netherita: durabilidad de élite intacta; armadura §f16§r, dureza §f0§r.
-§a- Reparación: §f100 %§r en tiers base (madera, piedra, cuero, cota, oro, hierro) y §f25 %§r en élite (diamante, netherita).
+§a- Reparación: §f100 %§r en tiers base (madera, piedra, cuero, cota, oro, hierro) ; diamante §f25 %§r y netherita/linaje §f50 %§r.
 §a- Pérdida al morir: §f10 %§r de durabilidad, también sobre las piezas de 15.
 
 §e§l> ROLES DE SET§r
 §7- §fCuero§r: caída −5/12/20/35 % (1/2/3/4 piezas), paso fluido sobre hojas.
 §7- §fCota§r: proyectiles −5/10/18/30 % y velocidad +4/8/12/16 %.
-§7- §fHierro§r: empuje −5/10/18/30 %, explosiones −4/8/15/25 %; sin dureza adicional.
+§7- §fHierro§r: empuje −5/10/18/30 %, explosiones −4/8/15/25 %; ≥2 piezas añaden alcance de bloques +0.5.
 §7- §fOro§r: magia −4/8/15/25 %, Suerte +1, piglins pacificados.
-§7- §fDiamante§r: Coloso sobre 10 de daño; a cambio ataque −15 %, brecha, agotamiento y reparación 25 %.
-§7- §fNetherita§r: Coloso y herencia térmica; a cambio ataque −20 %, brecha, daño +10 % con luz <8, agotamiento y reparación 25 %.
+§7- §fDiamante§r: Coloso sobre 10 de daño; a cambio ataque −15 %, brecha, agotamiento de combate y reparación 25 %.
+§7- §fNetherita§r: Coloso y herencia térmica; a cambio ataque −20 %, brecha, daño +10 % con luz <8, agotamiento de combate y reparación 50 %.
 §7- §fTortuga§r: respiración acuática y minado submarino.
 §7- §fLinaje netherita§r (ignitium, cursium, monstrous_helm, netherite_mage): hereda el set de netherita completo.
 §7- §fTúnicas de mago§r: −5 % de daño cuerpo a cuerpo por pieza (máximo −20 %).
@@ -75,17 +77,17 @@
 §e§l> COLUMNA AMPERE§r
 §a- Durabilidad: madera §f80§r · piedra §f160§r · hierro §f300§r · oro §f160§r (frágil) · diamante §f1561§r · netherita §f2031§r.
 §a- Velocidad de minado: §f6.0§r para todos los tiers. El tier solo abre bloques, da aguante y el innato.
-§a- Espada: daño §f4 / 5 / 6 / 5 / 7 / 8§r y velocidad §f1.95 / 1.4 / 1.6 / 2.0 / 1.6 / 1.5§r.
+§a- Espada: daño §f4 / 5 / 6 / 6 / 7 / 8§r y velocidad §f1.95 / 1.6 / 1.6 / 2.0 / 1.6 / 1.5§r.
 
 §e§l> PASIVAS INNATAS (aplican a todo §fDiggerItem§r: pico, pala, hacha y azada)§r
-§7- §fMadera§r: +25 % en madera, hojas y cultivos · hojas sin desgaste · §a10 % de abono§r al romper vegetales · armas: ×1.5 contra artrópodos y +0.5 de empuje.
-§7- §fPiedra§r: +15 % en menas, piedra y pizarra · armas: aturdimiento 0.4 s (cancela mechas, pociones y conjuros) y +1.0 de empuje.
-§7- §fHierro§r: §aToque de Seda§r innato · armas: barrido al 75 % y alcance +0.5.
-§7- §fOro§r: §aAuto-Fundición§r (menas crudas → lingotes, arena → cristal, arcilla → ladrillo, troncos → carbón vegetal) · Suerte +1 · nivel de minado de hierro · armas: Castigo III (+7.5 contra no-muertos) y piglins.
-§7- §fDiamante§r: §aÁrea 3×3§r · alcance +1.0 · armas: 15 % crítico ×1.5 y anclaje dimensional 3 s · ×2 velocidad en pizarra profunda y obsidiana.
-§7- §fNetherita§r: §aFortuna III§r · alcance +1.0 · ×2 velocidad en escombros ancestrales · armas: Lentitud II y +15 % contra blindados · piglins.
-§c- El área 3×3 cuesta §f1 + 4§r de durabilidad (5 por uso), solo rompe periféricos con dureza §f> 0§r y §f≤§r la del bloque central, y §cexcluye§r los bloques del tag §fminecraft:needs_diamond_tool§r.
-§c- Un arma no aplica las pasivas de recolección de su material (las pasivas de herramienta son solo para herramientas).
+§7- §fMadera§r: +25 % en madera/cultivos, hojas por tag sin desgaste, 10 % de polvo de hueso al romper vegetación; armas ×2 a artrópodos y +0.5 de empuje. Durabilidad 80, reparación 100 %.
+§7- §fPiedra§r: +20 % en piedra/menas; cantera común sin desgaste, las menas sí gastan. Control de enemigos e interrupción real de preparación de conjuros. Espada sin penalización de ataque; reparación 100 %.
+§7- §fHierro§r: área 3×3; agachado, un bloque. Mitad del desgaste medio por bloque; alcance +0.5 y espada con barrido. Hacha rompe escudo 5 s; al esprintar, daño +15 %; coste 1 agotamiento y 1 durabilidad extra.
+§7- §fOro§r: autofundición eficiente, Suerte +1 y extracción de hierro. Bono directo +7.5 a no-muertos con nivel 3, sin depender de NBT. Único diplomático con piglins; azada de daño 1; durabilidad 160.
+§7- §fDiamante§r: extracción intacta, alcance +1, críticos 15 % ×1.5; daño −15 % frente a armadura ≥8. Pico ×2 en pizarra/obsidiana. El anclaje a Enderman/Shulker de 3 s procede de MobBalance.
+§7- §fNetherita§r: más recursos, alcance +1, pico ×2 en escombros; armas +15 % contra armadura, sin lentitud ni tregua. Reparación 50 % por lingote y 15 % por fragmento en material netherita.
+§c- El área consume desgaste por cada bloque; respeta eficiencia, dureza, bloques protegidos y entidades de bloque. Agacharse evita el área.
+§7- Las hachas comparten combate y recolección; las espadas no reciben el trabajo en área/autofundición de DiggerItem.
 
 -----------------------------------
 §6§l[4] COMBATE Y MOBS
@@ -94,7 +96,7 @@
 §aAmpere§r:
 §7- Vida ajustada: esqueleto/stray §f12§r · araña §f14§r · phantom §f10§r · bruja §f20§r.
 §7- Armadura real: Ravager §f10§r · Elder Guardian §f8§r · Piglin Brute §f8§r · Guardian §f4§r · Vindicator §f4§r · Zoglin §f4§r.
-§7- Familias y counters: arañas esquivan 25 % (mitad de daño) → §fMadera§r las ignora y pega ×1.5; hordas de 3+ zombis empujan +25 % y cobran 1.5 de agotamiento → §fHierro§r (área) y §fOro§r (Castigo) responden; esqueletos y saqueadores aplican Lentitud I a más de 8 bloques → §fCota§r con 2+ piezas lo evita; Enderman y Shulker se teletransportan → §fDiamante§r los ancla 3 s; creeper, bruja y evocador se interrumpen con §fPiedra§r.
+§7- Familias y counters: arañas esquivan 25 % (mitad de daño) → §fMadera§r las ignora y pega ×2; hordas de 3+ zombis empujan +25 % y cobran 1.5 de agotamiento → §fHierro§r (área) y §fOro§r (Castigo) responden; esqueletos y saqueadores aplican Lentitud I a más de 8 bloques → §fCota§r con 2+ piezas lo evita; Enderman y Shulker se teletransportan → §fDiamante§r los ancla 3 s; creeper, bruja y evocador se interrumpen con §fPiedra§r.
 §7- Lealtad del tridente: solo vuelve a jugadores; los mobs no la recuperan.
 §7- Equipo de spawn: la armadura/arma generada al aparecer §fno se dropea§r; la que entrega el jugador sí.
 §7- Jefes: respuestas reactivas (no prohibiciones): el Wither no escapa ni se ahoga, el agua se evapora, el Warden pierde agro, las explosiones tienen tope, los raiders sueltan botín y el monumento conserva prismarine.
@@ -116,10 +118,10 @@
 -----------------------------------
 §8Vanilla§r: XP como moneda, mesa de encantamientos, 30+ encantamientos, Mending, yunque que cobra niveles y muela que extrae cualquier encantamiento.
 §aAmpere§r:
-§7- La XP existe pero §fno compra nada§r: ni mesa, ni yunque, ni reparaciones. Sin orbes en el suelo.
+§7- La XP no tiene función ni progresión: sin orbes, cobros de niveles ni reparación por experiencia.
 §7- Mesa de encantamientos §fdecorativa§r; los libros solo salen de cofres de mina/mazmorra/templo con §fIrrompibilidad I§r, §fBotín I§r y §fEficiencia I§r.
 §7- Sin Mending. La durabilidad se gestiona reparando.
-§7- Yunque: §f0 niveles§r, sin "demasiado caro", reparación por familia (100 % base, 25 % élite) y forja de tridentes.
+§7- Yunque: §f0 niveles§r, sin "demasiado caro", reparación por familia (100 % base, 25 % diamante, 50 % netherita y linaje) y forja de tridentes.
 §7- Muela: solo extrae los §f3§r looteables; los innatos del material (Seda, Fortuna, Castigo, Lealtad…) §fnunca§r se convierten en libros y no cobran XP.
 §7- Encantamientos innatos: ligados al material (Seda=hierro, Fortuna=netherita, Castigo=oro, Filo Arrasador=hierro, Suerte=oro…) y solo para jugadores.
 
@@ -161,11 +163,12 @@
 §7- §a27/27§r tablas de loot con hash (`loot.json`).
 §7- §a17/17§r pruebas de `balance_equipamiento`; §a16/16§r de `balance_mobs`.
 §7- §f52§r claves de configuración de equipo; §f363§r entradas de pack (103 metafiles Modrinth + 20 jars locales).
-§7- Distribución de cliente y servidor con los mismos jars (`EquipmentBalance 1.24.1`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`); el cliente recibe esta versión al actualizar el pack.
+§7- Distribución de cliente y servidor con los mismos jars (`EquipmentBalance 1.24.2`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`); el cliente recibe esta versión al actualizar el pack.
 
 -----------------------------------
 §6§l  HISTORIAL DE VERSIONES
 -----------------------------------
+§7[1.24.2] Armonización de seis arquetipos y correcciones de ejecución Forge. 104 claves sincronizadas, 1506 comprobaciones JVM; conserva Shift real y HUD sin Args.
 §7[1.24.1] EquipmentBalance 1.24.1: Shift calcula las cifras del equipo vestido, incluidos conjuntos mixtos y luz actual. Corrige el máximo de cuatro piezas mostrado con equipo incompleto. 1294 comprobaciones JVM; balance intacto.
 §7[1.24.0] EquipmentBalance 1.24.0: resumen y detalles con Shift; netherita compacta, segundos/corazones/comida, atributos alineados y alcance traducido. 1268 comprobaciones JVM. Balance intacto; documentación del cuero ajustada al código existente.
 §7[1.23.5] EquipmentBalance 1.23.3: corrige el orden de encabezados y estadísticas de armadura; añade encabezado a piezas externas sin rol y divide líneas largas. Balance intacto.
