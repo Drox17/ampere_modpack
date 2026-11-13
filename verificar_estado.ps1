@@ -135,7 +135,7 @@ if ($SkipTests) {
     $interpretes = New-Object System.Collections.Generic.List[string]
     if (Test-Path $py) { $interpretes.Add($py) }
     $cmdPython = Get-Command python -ErrorAction SilentlyContinue
-    if ($cmdPython -and $cmdPython.Source -and $cmdPython.Source -notmatch 'WindowsApps') { $interpretes.Add($cmdPython.Source) }
+    if ($cmdPython -and $cmdPython.Source) { $interpretes.Add($cmdPython.Source) }
 
     $salidaPruebas = ''
     foreach ($interprete in $interpretes) {
