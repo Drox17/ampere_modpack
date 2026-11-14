@@ -11,3 +11,8 @@ hash = "7a1810467de4e383ac8876bab2176c9f32465cc13ff7c598877ce3c1339b9a698b6beff8
 [update.modrinth]
 mod-id = "9wv7LuMc"
 version = "YbO8SNFq"
+
+[option]
+optional = true
+default = true
+description = "Animaciones suaves en la interfaz y botones."

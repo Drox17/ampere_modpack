@@ -11,3 +11,8 @@ hash = "fe83669162df1b24702f3f2356273db57bf7baca1ada2a5d269ec4354eb99ad768338f3c
 [update.modrinth]
 mod-id = "fM515JnW"
 version = "YOYpWGZg"
+
+[option]
+optional = true
+default = true
+description = "Sonidos ambientales dinamicos segun bioma, hora y clima."

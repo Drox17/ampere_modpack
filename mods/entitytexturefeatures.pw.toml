@@ -11,3 +11,8 @@ hash = "db929c8ec04b1a2d0aa7156d70483c252a77dadeef565e5fb51ab00b0975e2e71a1ea924
 [update.modrinth]
 mod-id = "BVzZfTc1"
 version = "LKunXpGS"
+
+[option]
+optional = true
+default = true
+description = "Texturas animadas y variantes visuales para mobs (ETF)."

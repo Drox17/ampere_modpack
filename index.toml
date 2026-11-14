@@ -857,26 +857,6 @@ file = "config/presencefootsteps/userconfig.json"
 hash = "6cffea1c20852a079342429a0f223fcc45993a51596c4736e0fe1910c3fcba52"
 
 [[files]]
-file = "config/punchy/punchy_config.json"
-hash = "c6daf1caa1da7ec29697ed9e2faecdcc60ef4343d66ffe062510ef775e213d08"
-
-[[files]]
-file = "config/punchy/triggerable-keybindings.json"
-hash = "26e469428d2122965f26f8d0147c662ef93506d1aeafe41961c01332d6f6a4d4"
-
-[[files]]
-file = "config/punchy_moves/camera.json"
-hash = "6c7c6423db73edce7846be29f8d69fe8432b2fc842e018b1820f81e73ba25c2f"
-
-[[files]]
-file = "config/punchy_moves/tutorial_seen_v1"
-hash = "47a8dea66db04a6f2a18b6e27ef53a56f2122c0733e67f3908f1485fe1d4547f"
-
-[[files]]
-file = "config/punchy_moves/update.json"
-hash = "4f8dbf1d77dcc2879ea7392217801ce0e0a2509c9105ff4362184ff6e0b8b12b"
-
-[[files]]
 file = "config/resourceful-config-web.json"
 hash = "1a1874cc67e9aba891c9ecdda6f65a6523cec2c0363a0ff4fb90c68f4ee68bf4"
 
@@ -989,7 +969,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "d2465361aab788febe2b319413d169a28a7a8de84a7cc1da77e5489884917ea3"
+hash = "502a053bc278c90cae86811acf63c300b55393b169a44fc10b7a6b4adc8e6f67"
 metafile = true
 
 [[files]]
@@ -1082,7 +1062,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "b09ce6e18e017ece251c3b45ec6c0746a7956dcf3715b1d120c963209d2f625a"
+hash = "044faf00b46d21d99335d90a0eec423228385091cefef133efb5efb4e96e4bce"
 metafile = true
 
 [[files]]
@@ -1102,7 +1082,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiccrosshair.pw.toml"
-hash = "94d369eafd7a6107f990eee7a3b746d0b20374b63083b2e76a0cec9efecda592"
+hash = "8cd634b1cea853f7856aa04f86164738e7c1d0d7b1b08be03a489eb09d57bd75"
 metafile = true
 
 [[files]]
@@ -1112,17 +1092,17 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "6cde78abac12b491d29a16033b90b70e8304f4f5f9726d2c80ad776256054a6c"
+hash = "bf146a112e26ca32c36b86bebf6bf8f90088bc8f92bb8cddfbed0796ee63dd30"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "e17e6114a5d7ba9b8821239e4e7fa5788dd0794a336a83576883c85f5a474463"
+hash = "64d267441916f0d28b20953c1fccd17d19de69f32b4c1103bfd1924f624bf7e4"
 metafile = true
 
 [[files]]
 file = "mods/equipment-compare.pw.toml"
-hash = "817b393c48091dd022e7b53700453ed27b3335b95d003184add59d9e89e930a9"
+hash = "73d2a8b2a0258d45f13439f7b1a5e945b43fba075e0e0817fb04298edb2cba09"
 metafile = true
 
 [[files]]
@@ -1206,7 +1186,7 @@ metafile = true
 
 [[files]]
 file = "mods/highlight.pw.toml"
-hash = "bfe8e8ef61657bfc608211ceec3ba076813b6b534b31ab05c51d52fdbdaf6833"
+hash = "6724d0d333d4c5f27e544fb47d0245ac5d4217971116a4e98d0c62b01f78d427"
 metafile = true
 
 [[files]]
@@ -1226,7 +1206,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-ui.pw.toml"
-hash = "db67b75db18d2ce8bebe92b72f5d5a3f64de4077edfd4439e8f633517c6f53c1"
+hash = "fef1d55e6cc5f5129e4a8bbb055a18ad01ac37b6094e5e88d66574c24f9e208f"
 metafile = true
 
 [[files]]
@@ -1383,12 +1363,12 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
+hash = "5885b754cb7b61bf8a55d01fae854a283fa702451df73d01c7e6052ee4a65ee1"
 metafile = true
 
 [[files]]
 file = "mods/particular-reforged.pw.toml"
-hash = "c82be790d21c8abc73ca802321b5bf6a115d62d718e2e6a883c81951bf6a5d9d"
+hash = "aeebe98625af7af391a12c90ee9e21f0b70d820eef2b68363a8335fdbef011de"
 metafile = true
 
 [[files]]
@@ -1409,16 +1389,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "ea8571ba9dc8e74bad5e4257d50e9bb80d02be8f3d5de7fe3dede969e26fa15c"
-metafile = true
-
-[[files]]
-file = "mods/punchy-fpa.pw.toml"
-hash = "ed94d498e80a45f90b1aa6ee5a52f87b9277db3a4466cdea4367a3a240a0d595"
-metafile = true
-
-[[files]]
-file = "mods/punchymoves.pw.toml"
-hash = "ff32d65f0cb06c20074b1142442e687230956bee788b2c62c580f09d939ceb80"
 metafile = true
 
 [[files]]
@@ -1492,7 +1462,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-titles.pw.toml"
-hash = "16e2c84951ba32efac8703ccb7b36631b70cb514d402fa8fb4f89031f2a63a58"
+hash = "fde66801b3ffdcf07e31913a2a0f2ea75c4c950d3aab99b493ae042788141ceb"
 metafile = true
 
 [[files]]

@@ -11,3 +11,8 @@ hash = "b5bcba3d91a5f278b18030160b9d74e6e8f3f0773d9de76ebef9646f4d60e57657930ab3
 [update.modrinth]
 mod-id = "CYSUVOdj"
 version = "x1lxEKIp"
+
+[option]
+optional = true
+default = true
+description = "Comparacion visual frente al equipamiento actual."

@@ -11,3 +11,8 @@ hash = "baa15a8269a30bdb5eea53b761fd466225b27ff57890343af69a12cc70e1335f57f41257
 [update.modrinth]
 mod-id = "ETlrkaYF"
 version = "goWapNEn"
+
+[option]
+optional = true
+default = true
+description = "Pantalla completa sin bordes para cambiar de ventana rapido."

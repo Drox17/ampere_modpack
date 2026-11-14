@@ -11,3 +11,8 @@ hash = "7cafbfc39305f3e384468db674e350118950201ba4d22b66ed95516a335aaad04765ae1e
 [update.modrinth]
 mod-id = "JtifUr64"
 version = "oUSK4sOQ"
+
+[option]
+optional = true
+default = true
+description = "Titulos visuales al entrar a biomas o dimensiones."

@@ -11,3 +11,8 @@ hash = "caef975883a15f7ec34010bce5bc81d4eea16f31204c04eb378ac5488a8d5874b0ffc2c3
 [update.modrinth]
 mod-id = "4I1XuqiY"
 version = "mQR6L8Qe"
+
+[option]
+optional = true
+default = true
+description = "Modelos 3D personalizados para mobs (EMF)."

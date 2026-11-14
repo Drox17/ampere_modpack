@@ -11,3 +11,8 @@ hash = "570964ca53b106aa47a9c1997f048d39fe621dcecfccb676f1349c4f5aa9df6623ab855b
 [update.modrinth]
 mod-id = "ZcR9weSm"
 version = "zK3mtR2I"
+
+[option]
+optional = true
+default = true
+description = "Mira dinamica que cambia segun la herramienta o accion."
