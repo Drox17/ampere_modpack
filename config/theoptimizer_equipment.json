@@ -132,5 +132,12 @@
   "bone_reptile_attack_penalty": 0.04,
   "cataclysm_skill_exhaustion": 1.5,
   "cataclysm_skill_wear": 2,
-  "ignitium_elytra_repair_ingots": 2
+  "ignitium_elytra_repair_ingots": 2,
+  "enable_luck_mechanics": true,
+  "luck_effective_cap": 4,
+  "luck_mining_nugget_chance_per_luck": 0.1,
+  "luck_mining_nuggets_min": 1,
+  "luck_mining_nuggets_max": 2,
+  "luck_bonemeal_bonus_per_luck": 0.025,
+  "luck_minor_chest_nuggets_cap": 3
 }

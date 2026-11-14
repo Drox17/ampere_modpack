@@ -898,7 +898,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "f7a94eae270b4949f44ab89d5c08c9bd7fe6601933c831cd8d3128a1f3980574"
+hash = "447eb1f5745af01f7f5f0bcb8ab2f6237fe5a4fc7fa5e46e6e64b29416869c07"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -933,8 +933,8 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.24.9.jar"
-hash = "180c7a617b2ab0b63ff5086742e5d517dac8786d7b1b10110fd7f5a2017a300b"
+file = "mods/TheOptimizer-EquipmentBalance-1.25.0.jar"
+hash = "6ed127dbca528cae597c4115873a52cc2ba6164e81daed55a05477249c64f9ae"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.1.jar"
@@ -1532,7 +1532,7 @@ metafile = true
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip"
-hash = "b0854b4c49c9b2a281456ce73420194aaef48f65d031fed47b43f6b105ae9dd4"
+hash = "eec2f3b637b248c3fbf1420f87240446a7be2bbd3bfc9271ca4f781935f811d1"
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"

@@ -1,5 +1,13 @@
 # BALANCE.md — memoria profunda del sistema de sets
 
+## Revisión local 1.25.0 / AdventureLoot 1.7.0 (2026-11-14, sin publicar)
+
+Sistema de **Suerte (`minecraft:generic.luck`)** para Set Oro (`S4`) y `emerald_stoneplate_ring` junto a arquitectura de botín en **3 capas** ([matriz](LOOT_DETERMINISTA_MATRIZ.md), [LOOT.md](LOOT.md)):
+- **Capa 0 (Core 100 % determinista):** tintas, pergaminos fijos, runas, fragmentos, `diamondnugget` base, piezas únicas de Cataclysm/Iron's y máximo 1 libro nivel I inalterables por semilla y Suerte.
+- **Capa 1 (Suministros acotados por bioma):** `iron_nugget` y `create:andesite_alloy` en rangos `uniform(min, max)` por tier (`R1–R4`), más pool temático de `9` biomas con `"quality"` y `bonus_rolls` (`0.5` en `R2–R3/F2–F3`, `0.75` en `R4/F4`, cero `minecraft:empty`).
+- **Capa 2 (Fortuna `Luck >= 1` via `LootTableMixin`):** `Luck <= 0` mantiene conversión estricta a pepitas (`P5`); `Luck = 1` otorga puente `1–2` lingotes (`iron`/`gold`) o `1` esmeralda en `R4/F3/F4` (y cuota reducida en `R2/R3/F2`); `Luck >= 2` desbloquea tope de `R2–R4` (`2–3` lingotes / `1–2` esmeraldas), oportunidad de `1` diamante en `F3` y `1` diamante o `1` `netherite_scrap` garantizado en `F4`. Contenedores menores (`pot`/`cask`/`bookshelf`/`scroll_pouch` vía loot y `TradeWithVillagerEvent`) suman `+1..2` pepitas por punto hasta `luck_minor_chest_nuggets_cap = 3`.
+- **Minería y vegetación con Suerte:** menas naturales sin Silk Touch añaden `+10 %/pt` (`luck_effective_cap = 4`) de `+1..2` pepitas afines; `PlacedBlockTracker` guarda en `SavedData` (`theoptimizer_placed_ores`) únicamente menas (`Tags.Blocks.ORES` / `*_ore`), nunca troncos. Cultivos maduros (`CropBlock.isMaxAge`) y hojas no persistentes suman `+2.5 %/pt` de polvo de hueso acumulable con Madera. `141` claves sincronizadas; `2.393` comprobaciones de equipo (`670` en Forge real) y `82.585` de botín (`81.252` en Forge real).
+
 ## Revisión local 1.24.8 / AdventureLoot 1.6.0 (2026-11-14, sin publicar)
 
 [Segunda iteración y evidencias](LOOT_SEGUNDA_ITERACION.md): destruir un generador mediante minería legítima entrega un fragmento; cuatro fabrican el catalizador arcano, alternativa al catalizador de jefe en 750 mB épica → 250 mB legendaria. Libros 61→18 tablas; aleación 79 ubicaciones con 4/6/8, excepciones conservadoras. 194 tablas, 131 claves sin cambios, 31.075 pruebas de botín y 2.062 de equipo. Integración de transportes y cliente pendiente. Las secciones inferiores conservan el historial anterior.

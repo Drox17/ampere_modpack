@@ -1,8 +1,14 @@
-# Botín determinista local — AdventureLoot 1.6.0 / EquipmentBalance 1.24.8
+# Botín en 3 capas — AdventureLoot 1.7.0 / EquipmentBalance 1.25.0
 
-Revisión 2026-11-14, desplegada localmente; sin commit, push ni publicación. Las probabilidades descritas en auditorías históricas ya no representan los cofres cubiertos.
+Revisión 2026-11-14, desplegada localmente; sin commit, push ni publicación. Sustituye el formato plano 1.6.0 en los `113` cofres activos (`R1–R4`, `F2–F4`) preservando el **núcleo mágico y único 100 % determinista**, mientras introduce variedad temática en suministros y un rol real para la **Suerte (`Luck >= 1`)**.
 
-## Segunda iteración
+## Arquitectura de 3 capas (194 tablas)
+
+1. **Capa 0 — Core determinista (inmune a semilla y Suerte):** `1` tirada, `0` `bonus_rolls`, cantidades exactas y NBT explícito en tintas (`common`/`uncommon`/`rare`), `scroll`, `blank_rune`, `ancient_knowledge_fragment`, `dead_king_phylactery_shard`, `mithril_scrap`, `diamondnugget`, coleccionables de Iron's/Cataclysm, discos, moldes y libro encantado nivel I permitido (`18` tablas). Tablas `r0_excluded`, `disabled_helper`, `lootr:chests/elytra` y `minecraft:chests/jungle_temple_dispenser` mantienen exclusivamente Capa 0 fija.
+2. **Capa 1 — Suministros y temática por bioma (`9` biomas):** `iron_nugget` (`R1: 3–6`, `R2: 6–10`, `R3: 8–12`, `R4: 10–15`) y `create:andesite_alloy` (`R2: 3–5`, `R3: 4–7`, `R4: 6–10`) en `uniform(min, max)`, más `1` pool temático por bioma (`mine`, `combat`, `desert`, `crypt`, `nether`, `ice`, `marine`, `library`, `end`) con consumibles de `Create`, `Kaleidoscope` e `Iron's`, `"quality"` para favorecer comida/ingredientes de gama alta con Suerte y `bonus_rolls` (`0.0` en `R1`, `0.5` en `R2/R3`, `0.75` en `R4/F4`). Prohibido `minecraft:empty`.
+3. **Capa 2 — Botín Íntegro de Fortuna (`Luck >= 1` en `EquipmentPolicy.sanitizeChestLoot`):** con `Luck <= 0` persiste la conversión estricta a pepitas (`P5`). Con `Luck = 1` se habilitan lingotes/gemas reducidos en `R2–R3` y puente de `1–2` lingotes (`iron`/`gold`) o `1` esmeralda en `R4/F3/F4` (`0` diamantes/chatarra). Con `Luck >= 2` se desbloquea el tope completo en `R2–R4` (`2–3` lingotes / `1–2` esmeraldas), probabilidad de `1` diamante en `F3` y `1` diamante o `1` `netherite_scrap` garantizado en `F4`. Contenedores menores/bolsas (`scroll_pouch` con `bonus_rolls: 1.0`, barriles, urnas y librerías) añaden `+1..2` pepitas de oro o esmeralda por punto (cap `3`).
+
+## Segunda iteración (fragmentos de spawner y proporciones conservadas)
 
 [Informe completo y archivos](LOOT_SEGUNDA_ITERACION.md): fragmentos al destruir generadores, 4 fragmentos → catalizador arcano, alternativa al catalizador de jefe en la misma receta de tinta. Libros en 18 tablas (antes 61); aleación en 79 tablas con cantidades fijas de 4/6/8 y límites para familias repetibles. 31.075 pruebas de botín y 2.062 de equipo; transportes reales y cliente pendientes.
 
