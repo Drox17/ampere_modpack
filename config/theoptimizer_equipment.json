@@ -116,5 +116,6 @@
   "ward_ring_damage_reduction": 0.25,
   "ward_ring_attack_speed_penalty": 0.05,
   "clamp_chest_scroll_rarity": true,
-  "sanitize_chest_loot": true
+  "sanitize_chest_loot": true,
+  "creeper_unstoppable_fuse": true
 }
