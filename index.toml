@@ -937,6 +937,10 @@ file = "config/wishfulrecipes.json"
 hash = "5177a1ed6c49eec3ad1fd4c5aafdbe44ff3e6e2a8442228714ec2745ece6f5a6"
 
 [[files]]
+file = "defaultconfigs/irons_spellbooks-server.toml"
+hash = "2296afed8b6abc2706cc5c40e2c8c53ea82a774040dcfba8847fcae3e5c46ba5"
+
+[[files]]
 file = "mods/FastLeafDecay-32.jar"
 hash = "ce48db06bfb5830c147969793771a8f8b5a5774b182543b906bc439efd4e9469"
 

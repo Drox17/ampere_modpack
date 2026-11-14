@@ -8,6 +8,7 @@
 !/mods/**
 !/resourcepacks/**
 !/config/**
+!/defaultconfigs/**
 !/moonlight-global-datapacks/**
 
 # 3. Exclusiones obligatorias dentro de config (archivos dinámicos de JEI/caché)

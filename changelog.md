@@ -1,7 +1,7 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.24.6§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f367§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.6§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f368§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
@@ -9,6 +9,7 @@
 -----------------------------------
 §aCofres sanitizados 1.24.6: §fcero§r equipamiento vanilla en cofres (salvo §felytra§r), máximo §f1 encantamiento vanilla§r permitido nivel I por cofre, y §fcero§r lingotes, bloques o minerales enteros (todo mineral salvo carbón/carbón vegetal cae en §fpepitas§r con §fNuggets For All§r).
 §aRecetas Nuggets For All: §f16§r conversiones §f1 ↔ 9§r habilitadas en formato MC 1.20.1 (`nuggets_for_all:recipes`).
+§aIron's Spellbooks (`defaultconfigs/irons_spellbooks-server.toml`): §fscrollRecycleChance = 1.0§r (§f100 %§r de éxito al reciclar pergaminos en tinta).
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
 §cEnjambre: §f2 impactos de combate en 1,5 s§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
