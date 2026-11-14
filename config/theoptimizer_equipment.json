@@ -117,5 +117,17 @@
   "ward_ring_attack_speed_penalty": 0.05,
   "clamp_chest_scroll_rarity": true,
   "sanitize_chest_loot": true,
-  "creeper_unstoppable_fuse": true
+  "creeper_unstoppable_fuse": true,
+  "normalize_cataclysm_weapons": true,
+  "normalize_cataclysm_durability": true,
+  "cataclysm_boss_weapon_durability": 2031,
+  "cataclysm_boss_bow_durability": 576,
+  "cataclysm_boss_shield_durability": 840,
+  "cataclysm_relic_durability": 384,
+  "cataclysm_ignitium_elytra_durability": 592,
+  "cataclysm_curio_penalty": 0.05,
+  "bone_reptile_attack_penalty": 0.04,
+  "cataclysm_skill_exhaustion": 1.5,
+  "cataclysm_skill_wear": 2,
+  "ignitium_elytra_repair_ingots": 2
 }

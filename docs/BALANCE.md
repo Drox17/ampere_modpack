@@ -464,3 +464,50 @@ Sustituye los lingotes, diamantes y fragmentos enteros introducidos en `1.24.5` 
 - **Minerales en pepitas salvo carbón:** sustituye lingotes, bloques minerales, menas en bruto y gemas enteras por pepitas vanilla (`iron_nugget`, `gold_nugget`), `nuggets_for_all:*`, pepitas de Cataclysm o esencias de Iron's en todas las tablas y en ejecución (`coal`/`charcoal` intactos; `cmd_yung` recibe respaldo `2–5 diamondnugget`).
 - **Clave nueva (`1`, total `118`):** `sanitize_chest_loot = true`.
 - **Verificación:** `457` comprobaciones en `botin_magia_aventura.probar` y `1780` comprobaciones JVM en `balance_equipamiento.probar` (incluidas `263` reales sobre Forge/Cataclysm/Curios/Nuggets y `70` descriptores Mixin). Sin commit ni push automático.
+
+## Acotamiento de Create + AE2 a construcción y logística (`1.24.6`)
+
+Se ajusta **Create** para que funcione junto a **Applied Energistics 2** como motor de construcción y logística sin romper la economía de reparación ni el erradicado de XP (`P2`, `P3`, `P9`, `P12`, `P13`):
+
+- **Retiro de `Create Repair`:** eliminado del modpack, servidor e instancia local para que toda reparación siga pasando por el yunque de Ampere (`P9`).
+- **Cero hierro/oro AFK por lavado o rocas:** `splashing` de `gravel`, `red_sand` y `soul_sand` conserva pedernal, arcilla y cuarzo pero retira `iron_nugget` y `gold_nugget`; `crushing` de `crimsite`, `ochrum` y `tuff` (`y *_recycling`) queda en áridos/cobre/zinc sin hierro, oro ni `electrum_nugget`.
+- **Cero `create:experience_nugget` y tope `1:1` en menas de equipo:** deshabilitadas las recetas de bloque de experiencia y armaduras de caballo en triturado; purgados `create:experience_nugget` de todas las recetas `create:crushing`; `iron_ore`, `gold_ore`, `diamond_ore`, `emerald_ore` (y variantes `deepslate_*`) topadas a `1` mineral sin bonos aleatorios, y `nether_gold_ore`/`gilded_blackstone` fijados en `9 gold_nugget`.
+- **Puente Create ↔ AE2 y materiales de construcción (`theoptimizer:create_ae2/*`):** molido de `certus_quartz`/`fluix`, triturado de `sky_stone_block`, mezclado de `fluix_crystal`, prensado con `deploying` (`keepHeldItem: true`) de circuitos/silicio, y fabricación renovable de `tuff`, `calcite`, `crimsite`, `ochrum`, `veridium` y `asurine`.
+- **Escalado de pepitas por riesgo, `create:andesite_alloy` variable y purga de `cobweb`/basura (`AdventureLoot 1.4.0`):**
+  - Mezcla `(suministros, materiales/pepitas, temático)` escalada por riesgo manteniendo `P5` (solo pepitas, sin lingotes/gemas enteras): `R1` `15 %` (`75/15/10`), `R2/F2` `35 %` (`55/35/10`), `R3/F3` `50 %` (`40/50/10`) y `R4/F4` `65 %` (`25/65/10`), retirando `iron_nugget` de `pkg_thematic`.
+  - Inyección de `create:andesite_alloy` variable y creciente por riesgo en `pkg_thematic` (`1–3`), `pkg_mat_r1` (`1–2`), `pkg_mat_r23` (`2–5`), `pkg_mat_r4` (`4–8`), `mat_f2` (`2–4`), `mat_f3` (`4–7`) y `mat_f4_*` (`6–10`).
+  - Erradicación global de `minecraft:cobweb` en `sanitize_chest_table` sobre todas las tablas base de cofres/barriles/vasijas, override limpio de `irons_spellbooks:chests/filler_storage_loot` sin `cobweb` ni `rotten_flesh` (con suministros útiles y `1–3` `create:andesite_alloy`) e inclusión de `irons_spellbooks:chests/ice_spider_den/tower` en `r2_other`.
+- **Verificación (`botin_magia_aventura.probar`):** `861` comprobaciones pasadas sobre `TheOptimizer_AdventureLoot.zip` (`410` entradas en `loot.json`).
+
+## Pergaminos por riesgo, tintas mineras y catalizador de jefe (1.24.6 / AdventureLoot 1.4.0)
+
+Se restringe la aparición de pergaminos y se alinea la economía de tintas entre exploración, minería y jefes:
+
+- **Exclusividad y escalado de pergaminos (`irons_spellbooks:scroll`):** eliminados de todas las tablas base de cofres y de `magic_otros` / `magic_otros_nether`. Solo aparecen mediante los GLM `theoptimizer:scroll_tiers` en dungeons de YUNG’s (`better*`) y estructuras hostiles de Iron’s Spellbooks (tope de `4` hechizos por cofre en ejecución):
+  - `scrolls_r1` (`R1`): `1` tirada (`empty 650`, común `320` / `32%`, inusual `30` / `3%`, `0%` raro/épico).
+  - `scrolls_r23` (`R2/F2/R3`): `1–2` tiradas (`empty 450`, común `500` / `50%`, inusual `50` / `5%`, `0%` raro/épico).
+  - `scrolls_high` (`F3/R4/F4`): `4` tiradas (`empty 25`, común `42%`, inusual `18%`, raro `5%`, épico `10%` por tirada → `0.01%` de obtener los `4` hechizos épicos).
+  - **`RandomizeSpellFunctionMixin`:** impone en ejecución la rareza exacta por banda de calidad (`<=0.18` `COMMON`, `<=0.38` `UNCOMMON`, `<=0.52` `RARE`, `>0.52` `EPIC`) y veta `LEGENDARY` fuera de jefes cerrados. `EquipmentPolicy.sanitizeChestLoot` purga `minecraft:cobweb` y topa a `4` pergaminos por cofre.
+- **Tintas por riesgo:** `R1/R2/F2/R3` solo sueltan `common_ink` con aparición rara de `uncommon_ink` (`0` raras/épicas); los perfiles de alto riesgo (`F3`, `R4`, `F4`) añaden un pool garantizado de `1× irons_spellbooks:epic_ink` más mayoría de `uncommon_ink`, `rare_ink` y `epic_ink`.
+- **Catalizador de jefe y escalera minera en caldero:** registrado el ítem personalizado `theoptimizer_equipment:boss_catalyst` (*Catalizador Arcano de Jefe*, textura de `divine_soulshard` con brillo). Los `11` jefes cerrados lo sueltan (`1×`) además de su botín normal. El caldero alquímico mantiene la conversión `3:1` (`750 mB → 250 mB`) escalando con minería (`copper_ingot` → `uncommon_ink`, `iron_ingot` → `rare_ink`, `gold_ingot` → `epic_ink`) y exigiendo `#theoptimizer:boss_legendary_catalysts` (`theoptimizer_equipment:boss_catalyst`) para fabricar `legendary_ink`.
+- **Verificación:** `1945` comprobaciones JVM en `balance_equipamiento.probar` (`296` sobre Forge/Cataclysm/Curios/Nuggets reales y `78` descriptores Mixin) y `875` comprobaciones en `botin_magia_aventura.probar` (`416` entradas registradas en `loot.json`).
+
+## Sincronización integral de equipables de Cataclysm (1.24.6)
+
+Se alinea todo el catálogo equipable de `L_Ender's Cataclysm` (`CataclysmBalance` + 6 `@Pseudo` Mixins) con la progresión horizontal, agotamiento, durabilidad finita y yunque `0 XP` de Ampere (`P1`–`P13`, `C1`–`C6`):
+
+- **Armas cuerpo a cuerpo (18 ítems en `EventPriority.LOWEST`):** rango horizontal `6.0–8.0` daño total y `1.0–1.8` velocidad (`ceraunus` `8.0/1.0`, `soul_render` `8.0/1.1`, `brontes`/`infernal_forge`/`void_forge` `7.5/1.0`, `the_incinerator` `7.5/1.3`, `coral_bardiche` `7.5/1.1`, `astrape` `7.0/1.4`, `ancient_spear`/`gauntlet_*`/`the_annihilator`/`the_immolator` `6.5` en `1.4–1.6`, `meat_shredder` `6.0/1.7`, `tidal_claws` `6.0/1.8`, `coral_spear` `6.0/1.3`, `khopesh` `6.0/1.5`).
+  - `gauntlet_of_guard`, `gauntlet_of_bulwark` y `gauntlet_of_maelstrom` pierden armadura/dureza/firmeza oculta en mano (`0`).
+  - `the_annihilator` y `the_immolator` quedan topadas a `+15.0%` de `cataclysm:additional_critical_damage`.
+- **Herramientas duales y `Black Steel`:** `DiggerItemMixin` y `CataclysmBalance.isCataclysmTool` unifican la velocidad de minado a `6.0F` (`unified_harvest_speed`) para `brontes`, `infernal_forge`, `void_forge` y `black_steel_*`.
+- **Durabilidad finita real, reparación `0 XP` y desgaste/fatiga activa:**
+  - `CataclysmDurabilityMixin` revierte `isDamageable(ItemStack) -> false` en `Cataclysm_Tool_Item`, `Brontes`, `Infernal_forge`, `Void_forge`, `Ignitium_Armor`, `Cursium_Armor` e `Ignitium_Elytra_ChestPlate`; `ItemMixin` fija topes finitos (`2031` armas de jefe, `840` `bulwark_of_the_flame`, `576` arcos/lanzadores de jefe, `384` reliquias activas `sandstorm_in_a_bottle`/`void_core`, `592` `ignitium_elytra_chestplate`).
+  - `EquipmentEvents` aplica desgaste manual cuerpo a cuerpo (`m_41622_`) cuando las subclases de Cataclysm lo omiten, y `CataclysmArmorKeyMixin`, `CataclysmRightClickUseMixin`, `CataclysmForgeHammerMixin`, `CataclysmLeftClickMixin`, `LivingEntityMixin` (`releaseUsingItem`), `PlayerInteractEvent.RightClickItem` (`tidal_claws`) y `onUseItemTick` cobran agotamiento (`cataclysm_skill_exhaustion`) + desgaste (`cataclysm_skill_wear`).
+  - `IgnitiumElytraMixin` cobra `1` de desgaste cada `20` ticks de vuelo; `esElytra` aplica `elytra_flight_exhaustion`; reparación exclusiva con `2x ignitium_ingot` = `25%` a `0 XP` (sin `phantom_membrane` ni `1` solo lingote). Todo el resto de equipables de jefe/sub-jefe repara `50%` por material temático a `0 XP` (incluido `bulwark_of_the_flame` con `ignitium_ingot` en lugar de tablones).
+- **Curios y armaduras restantes (`C5`):**
+  - `belt_of_beginner`, `belt_of_monstrosity` y `sturdy_boots`: `-5%` velocidad de movimiento (`MULTIPLY_TOTAL`).
+  - `vitality_ankh`: `-5%` daño de ataque.
+  - `blazing_grips`, `chitin_claw`, `ring_of_grudged`, `sticky_gloves` y `unbreakable_skull`: `-5%` velocidad de ataque (`unbreakable_skull` además sin dureza oculta).
+  - `bone_reptile_helmet`, `bone_reptile_chestplate` y `bloom_stone_pauldrons`: `-4%` velocidad de ataque (`bone_reptile_attack_penalty`) + reparación temática a `0 XP`.
+- **Tooltips (`C6`) y Config (`131` claves totales, `+12`):** `CataclysmBalance.appendTooltip` muestra rol, costes y material de reparación; añadidas `12` claves configurables en `EquipmentConfig`, `instalar.py` y JSONs.
+- **Verificación:** `2062` comprobaciones JVM en `balance_equipamiento.probar` (incluidas `409` reales sobre Forge/Cataclysm/Curios y `97` descriptores Mixin).

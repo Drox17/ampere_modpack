@@ -898,7 +898,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "fcaf08b782da036504d1b3da18c88127aadcd642733e5fefdee801c9dfc73305"
+hash = "01d46f27a6798a012be96d1731973a327fca7bfb28cbcb8408e2d2d1f05caa7e"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -934,7 +934,7 @@ hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.24.6.jar"
-hash = "7fc0203b043353b1c9e314b1f91df74d3c4976ae5bb2c78e9d24c0f3031c6707"
+hash = "f4ddfdc6574cad1212cd02a7f436381b6274edcfb100669ecf1ac8babf48ecec"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.1.jar"
@@ -1041,8 +1041,8 @@ hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
-file = "mods/create-repair.pw.toml"
-hash = "7faffc1701600d8dc780a6d9345257efc809a64869cfbcb07e36f898f06d4c8b"
+file = "mods/create-jei-compat.pw.toml"
+hash = "241e2a0071b7e0e07dc4125e6aabe9c344c1fdd0196e1f09b4603360e367ae49"
 metafile = true
 
 [[files]]
@@ -1232,6 +1232,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "b38d43feb83d6b23059e2eab0d0fc04378564c538817d1e73339d32e5937bca9"
+metafile = true
+
+[[files]]
+file = "mods/jeioptimizer.pw.toml"
+hash = "5e8744b09ceebb15679ebda4cc19e3980de6280b30c6bbda9349ed5823ae0ae6"
 metafile = true
 
 [[files]]
@@ -1527,7 +1532,7 @@ metafile = true
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip"
-hash = "af64e2a7267a7899efabc0f382c1d1d9126a4bc2d71e52cf3e40c21c98716729"
+hash = "46f51e5f46431cbb445f5d338e3b87c5d48bd38f0a2925d230665c7e0bb56f8b"
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"

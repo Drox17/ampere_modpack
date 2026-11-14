@@ -1,7 +1,7 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.24.6§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f361§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.6§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f360§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
@@ -12,6 +12,10 @@
 §aIron's Spellbooks (`defaultconfigs/irons_spellbooks-server.toml`): §fscrollRecycleChance = 1.0§r (§f100 %§r de éxito al reciclar pergaminos en tinta).
 §aCreeper: §funa vez iniciada la explosión no frena§r por distancia ni línea de visión, salvo al ser golpeado por un arma de piedra (herramienta de aturdimiento).
 §aPackwiz OptionalMods: §f11§r mods visuales/audio de cliente configurados como opcionales (`[option] optional = true`); removida la suite §fPunchy!§r y §fPunchy! Moves§r.
+§aCreate + AE2 acotados (construcción/logística): §fCreate Repair§r retirado; lavado/triturado sin hierro/oro AFK ni `experience_nugget` (`P3`), menas de equipo topadas `1:1`, puente Create ↔ AE2 (`certus`, `fluix`, `sky_dust`, procesadores) y rocas de obra renovables (`tuff`, `calcite`, `crimsite`, `ochrum`, `veridium`, `asurine`).
+§aBotín por riesgo + purga de telarañas: §fpepitas escalan 15 % (R1) → 35 % (R2) → 50 % (R3) → 65 % (R4/F4)§r con §fcreate:andesite_alloy§r variable; eliminada §fminecraft:cobweb§r de todos los cofres/barriles/vasijas y limpiados barriles de relleno (§ffiller_storage_loot§r) de §fIron's Spellbooks§r.
+§aPergaminos, tintas y catalizador de jefe: §fhechizos exclusivos de YUNG's y estructuras hostiles de Iron's§r (alto riesgo asegura §f1 tinta épica§r y hasta §f4 hechizos§r, §f0.01 %§r los 4 épicos); tintas superiores minando (§fcopper/iron/gold§r en caldero) y §f11 jefes§r sueltan §fCatalizador Arcano de Jefe§r para tinta legendaria.
+§aEquipables de Cataclysm sincronizados: §f18 armas§r horizontalizadas (§f6.0–8.0 daño / 1.0–1.8 vel.§r), guanteletes sin armadura/dureza oculta, tope crítico §f+15 %§r (`Annihilator`/`Immolator`), herramientas a §f6.0§r minado, durabilidades finitas (§f2031/840/576/384/592§r) con desgaste y agotamiento por habilidad, Curios con coste explícito (§f-5 %§r), §fBone Reptile§r/§fBloom Stone§r con §f-4 % vel. ataque§r e §fIgnitium Elytra§r con planeo agotador y reparación §f2× ignitium_ingot§r a §f0 XP§r.
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
 §cEnjambre: §f2 impactos de combate en 1,5 s§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
