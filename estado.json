@@ -8,9 +8,9 @@
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.25.0",
-    "jar": "TheOptimizer-EquipmentBalance-1.25.0.jar",
-    "pruebas": 2393
+    "version": "1.25.1",
+    "jar": "TheOptimizer-EquipmentBalance-1.25.1.jar",
+    "pruebas": 2406
   },
   "config": {
     "unified_harvest_speed": 6.0,
