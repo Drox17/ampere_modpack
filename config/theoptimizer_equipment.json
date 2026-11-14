@@ -106,5 +106,15 @@
   "low_hunger_growl_volume": 0.2,
   "low_hunger_growl_pitch": 0.55,
   "gold_smite_level": 3,
-  "leaves_free_durability": true
+  "leaves_free_durability": true,
+  "normalize_irons_weapons": true,
+  "irons_weapon_repair_fraction": 0.25,
+  "heavy_armor_spell_containment": true,
+  "heavy_armor_spell_mana_multiplier": 2.0,
+  "heavy_armor_spell_block_pieces": 3,
+  "nerf_ward_rings": true,
+  "ward_ring_damage_reduction": 0.25,
+  "ward_ring_attack_speed_penalty": 0.05,
+  "clamp_chest_scroll_rarity": true,
+  "sanitize_chest_loot": true
 }

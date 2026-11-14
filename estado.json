@@ -1,16 +1,16 @@
 {
   "actualizado": "2026-11-13",
   "pack": {
-    "version": "1.24.4",
-    "entradas": 366,
-    "metafiles": 110,
+    "version": "1.24.6",
+    "entradas": 367,
+    "metafiles": 111,
     "jars_locales": 15
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.24.4",
-    "jar": "TheOptimizer-EquipmentBalance-1.24.4.jar",
-    "pruebas": 1604
+    "version": "1.24.6",
+    "jar": "TheOptimizer-EquipmentBalance-1.24.6.jar",
+    "pruebas": 1780
   },
   "config": {
     "unified_harvest_speed": 6.0,
@@ -74,6 +74,10 @@
     "stone_stun_ticks": 8,
     "diamond_crit_chance": 0.15,
     "diamond_crit_multiplier": 1.5,
+    "bone_reptile_armor_helmet": 3,
+    "bone_reptile_armor_chest": 6,
+    "bloom_stone_armor_chest": 6,
+    "emerald_ring_luck": 1.0,
     "physical_armor_helmet": 2,
     "physical_armor_chest": 5,
     "physical_armor_legs": 6,
@@ -117,10 +121,16 @@
     "low_hunger_growl_pitch": 0.55,
     "gold_smite_level": 3,
     "leaves_free_durability": true,
-    "bone_reptile_armor_helmet": 3,
-    "bone_reptile_armor_chest": 6,
-    "bloom_stone_armor_chest": 6,
-    "emerald_ring_luck": 1.0
+    "normalize_irons_weapons": true,
+    "irons_weapon_repair_fraction": 0.25,
+    "heavy_armor_spell_containment": true,
+    "heavy_armor_spell_mana_multiplier": 2.0,
+    "heavy_armor_spell_block_pieces": 3,
+    "nerf_ward_rings": true,
+    "ward_ring_damage_reduction": 0.25,
+    "ward_ring_attack_speed_penalty": 0.05,
+    "clamp_chest_scroll_rarity": true,
+    "sanitize_chest_loot": true
   },
   "invariantes": [
     "C1",

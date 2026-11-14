@@ -1,12 +1,14 @@
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r
-§7Pack §f1.24.4§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f366§r entradas · verificador §f16 comprobaciones§r.
+§7Pack §f1.24.6§r · Minecraft §f1.20.1§r · Forge §f47.4.28§r · §f367§r entradas · verificador §f16 comprobaciones§r.
 §7Este archivo describe lo que está §fvigente§r hoy, contrastado con el Minecraft vanilla. El historial de versiones va al final.
 
 -----------------------------------
-§6§l[EQUIPMENTBALANCE 1.24.4]
+§6§l[EQUIPMENTBALANCE 1.24.6 & ADVENTURELOOT 1.4.0]
 -----------------------------------
+§aCofres sanitizados 1.24.6: §fcero§r equipamiento vanilla en cofres (salvo §felytra§r), máximo §f1 encantamiento vanilla§r permitido nivel I por cofre, y §fcero§r lingotes, bloques o minerales enteros (todo mineral salvo carbón/carbón vegetal cae en §fpepitas§r con §fNuggets For All§r).
+§aRecetas Nuggets For All: §f16§r conversiones §f1 ↔ 9§r habilitadas en formato MC 1.20.1 (`nuggets_for_all:recipes`).
 §aArmaduras físicas: §f16 puntos (2/5/6/3)§r. Túnicas: §f10§r. Cursium: §f12§r. Dureza: §f0§r en todos los materiales.
 §aColoso: absorbe §f50 %§r del excedente de cada golpe sobre §f10§r, proporcional a piezas pesadas.
 §cEnjambre: §f2 impactos de combate en 1,5 s§r reducen la armadura efectiva al §f50 %§r. Ataque: diamante §f−15 %§r y netherita §f−20 %§r con set completo.
@@ -31,7 +33,7 @@
 §aP2§r Todo poder tiene coste explícito: agotamiento, daño recibido, reparación cara.
 §aP3§r La XP está §ferradicada§r: sin orbes, costes ni progresión por niveles.
 §aP4§r Mesa de encantamientos §fdecorativa§r (interacción cancelada).
-§aP5§r Solo existen §f3§r encantamientos looteables: Irrompibilidad I, Botín I, Eficiencia I.
+§aP5§r Solo §f3§r encantamientos looteables nivel I (máx. §f1§r por cofre), §fcero§r equipo vanilla y minerales solo en §fpepitas§r salvo carbón.
 §aP6§r Velocidad de minado §funificada a 6.0§r para todas las herramientas.
 §aP7§r Ninguna pieza opaca a otra: cada material es el mejor en algo.
 §aP8§r Spawns adulterados a propósito: §f55/45§r vanilla-mods, tope de criaturas §f16§r.
@@ -119,7 +121,7 @@
 §8Vanilla§r: XP como moneda, mesa de encantamientos, 30+ encantamientos, Mending, yunque que cobra niveles y muela que extrae cualquier encantamiento.
 §aAmpere§r:
 §7- La XP no tiene función ni progresión: sin orbes, cobros de niveles ni reparación por experiencia.
-§7- Mesa de encantamientos §fdecorativa§r; los libros solo salen de cofres de mina/mazmorra/templo con §fIrrompibilidad I§r, §fBotín I§r y §fEficiencia I§r.
+§7- Mesa de encantamientos §fdecorativa§r; los libros solo salen de cofres de mina/mazmorra/templo (máximo §f1§r por cofre) con §fIrrompibilidad I§r, §fBotín I§r o §fEficiencia I§r.
 §7- Sin Mending. La durabilidad se gestiona reparando.
 §7- Yunque: §f0 niveles§r, sin "demasiado caro", reparación por familia (100 % base, 25 % diamante, 50 % netherita y linaje) y forja de tridentes.
 §7- Muela: solo extrae los §f3§r looteables; los innatos del material (Seda, Fortuna, Castigo, Lealtad…) §fnunca§r se convierten en libros y no cobran XP.
@@ -131,7 +133,7 @@
 §8Vanilla§r: cobre 2–5 crudos por mena, botín aleatorio, libros de encantamiento de mesa, tintas de Iron's solo por granja.
 §aAmpere§r:
 §7- Cobre: §f1 crudo fijo§r por mena (Fortuna sigue aplicando). Se acabó la inundación de inventario.
-§7- §f27§r tablas de loot tocadas: cofres vanilla e Iron's, entidades y menas de cobre.
+§7- §f228§r entradas de loot registradas (`AdventureLoot 1.4.0`): perfiles R0–R4 y F2–F4 en pepitas, §fcero§r equipo vanilla en cofres (salvo §felytra§r), máximo §f1§r encantamiento vanilla por cofre, §fcero§r lingotes/gemas enteras salvo carbón (`Nuggets For All`), §f0%§r tinta/pergaminos legendarios, caldero §f3:1§r y drops cerrados en 11 jefes.
 §7- Drops cotidianos deterministas con mínimo 1: vara de blaze §f1–2§r, pólvora §f1–2§r, perla de ender §f1§r, caparazón de shulker §f1§r, carbón de wither §f1–2§r, calavera §f15 %§r.
 §7- Tintas y materiales de Iron's entran por cofres, no por granja.
 §7- Cofre del End: solo materiales, gated por §festrella del Nether§r; rechaza armas, herramientas, armaduras y contenedores (el tooltip lo avisa).
@@ -160,14 +162,16 @@
 §6§l[10] VERIFICACIÓN
 -----------------------------------
 §7- §a16/16§r comprobaciones del pack (`verificar_estado.ps1`).
-§7- §a27/27§r tablas de loot con hash (`loot.json`).
-§7- §a17/17§r pruebas de `balance_equipamiento`; §a16/16§r de `balance_mobs`.
-§7- §f52§r claves de configuración de equipo; §f363§r entradas de pack (103 metafiles Modrinth + 20 jars locales).
-§7- Distribución de cliente y servidor con los mismos jars (`EquipmentBalance 1.24.2`, `MobBalance 1.5.0`, `WildlifeRepopulation 1.6.0`); el cliente recibe esta versión al actualizar el pack.
+§7- §a228/228§r entradas de loot con hash (`loot.json`).
+§7- §a1780§r comprobaciones JVM de `balance_equipamiento` (`263` Forge/Cataclysm/Curios/Nuggets reales, `70` descriptores Mixin), §a457§r de `botin_magia_aventura`; §a16/16§r de `balance_mobs`.
+§7- §f118§r claves de configuración de equipo; §f367§r entradas de pack (111 metafiles Modrinth + 15 jars locales).
+§7- Distribución de cliente y servidor con los mismos jars (`EquipmentBalance 1.24.6`, `MobBalance 1.5.1`, `WildlifeRepopulation 1.6.1`, `Nuggets For All 1.0.0`, `AdventureLoot 1.4.0`); el cliente recibe esta versión al actualizar el pack.
 
 -----------------------------------
 §6§l  HISTORIAL DE VERSIONES
 -----------------------------------
+§7[1.24.6] Cofres sanitizados (`AdventureLoot 1.4.0`, 228 entradas + `LootTableMixin` en `EquipmentBalance 1.24.6`): cero equipamiento vanilla (salvo `elytra`), máximo 1 encantamiento vanilla permitido nivel I por cofre, cero lingotes/minerales completos salvo carbón (añadido `Nuggets For All` + 16 recetas MC 1.20.1), `scroll_pouch`/`filler_storage_loot` ≤0.65. 118 claves, 1780 comprobaciones JVM + 457 de botín.
+§7[1.24.5] Botín por riesgo R0–R4/F2–F4 (AdventureLoot 1.3.0, 111 entradas), caldero 3:1, 0% legendario en cofres, 11 jefes cerrados, 11 armas Iron's normalizadas, contención en armadura pesada y anillos protectores −25%/−5%. 117 claves, 1699 comprobaciones JVM.
 §7[1.24.2] Armonización de seis arquetipos y correcciones de ejecución Forge. 104 claves sincronizadas, 1506 comprobaciones JVM; conserva Shift real y HUD sin Args.
 §7[1.24.1] EquipmentBalance 1.24.1: Shift calcula las cifras del equipo vestido, incluidos conjuntos mixtos y luz actual. Corrige el máximo de cuatro piezas mostrado con equipo incompleto. 1294 comprobaciones JVM; balance intacto.
 §7[1.24.0] EquipmentBalance 1.24.0: resumen y detalles con Shift; netherita compacta, segundos/corazones/comida, atributos alineados y alcance traducido. 1268 comprobaciones JVM. Balance intacto; documentación del cuero ajustada al código existente.
@@ -215,3 +219,9 @@
 
 §6§l[MIGRACIÓN YUNG’S 1.24.4]§r
 §7Botín escalonado en 29 cofres propios de YUNG’s: libros permitidos de nivel I y materiales de Iron’s por exploración. Overrides vanilla intactos. Compatibilidades huérfanas de Alex retiradas en EquipmentBalance 1.24.4, MobBalance 1.5.1 y WildlifeRepopulation 1.6.1. TerraBlender sincronizado. Registro: 36 entradas de loot.
+
+§6§l[BOTÍN Y CONTENCIÓN MÁGICA 1.24.5]§r
+§7AdventureLoot 1.3.0 (111 entradas): caldero 3:1 (750→250 mB) con #theoptimizer:boss_legendary_catalysts, cofres y RandomizeSpell al 0% legendario, aldeas R0 sin magia, perfiles R1–R4/F2–F4 (F4 culminación 97% rare / 3% epic) y 11 jefes cerrados. EquipmentBalance 1.24.5: 11 armas de Iron's normalizadas (flamberges 0 armadura), contención mágica en armadura pesada (1–2 ×2 maná, 3+ bloquea), anillos protectores −25% daño elemental / −5% vel. ataque. 117 claves; 1699 comprobaciones JVM + 141 de botín.
+
+§6§l[COFRES SIN EQUIPO VANILLA Y PEPITAS 1.24.6]§r
+§7Se añade Nuggets For All (`nuggets_for_all-1.0.0-forge-1.20.1.jar`) con 16 recetas 1.20.1 en AdventureLoot 1.4.0 (228 entradas en loot.json, 457 comprobaciones). Ningún cofre otorga equipo vanilla (salvo `elytra`), cada cofre limita a ≤1 encantamiento vanilla permitido nivel I y todos los minerales/lingotes caen en pepitas excepto carbón. EquipmentBalance 1.24.6 añade `LootTableMixin` (`sanitize_chest_loot = true`, 118 claves; 1780 comprobaciones JVM).

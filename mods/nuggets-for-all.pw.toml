@@ -1,0 +1,13 @@
+name = "Nuggets For All"
+filename = "nuggets_for_all-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wMBsm3EI/versions/uTMy1bKW/nuggets_for_all-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "544916e2422380106486e20e2a7d511d8d8336d379179206dea5c04413efdcadb6af33f036e8e642fd6805de1ba8e6e88b6bc6847d5568e85edcae74f430f11f"
+
+[update]
+[update.modrinth]
+mod-id = "wMBsm3EI"
+version = "uTMy1bKW"

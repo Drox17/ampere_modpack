@@ -1,6 +1,6 @@
-# Equipamiento 1.24.2: arquetipos y mantenimiento
+# Equipamiento 1.24.6: arquetipos, compatibilidad mágica y sanitización de cofres
 
-La configuración activa contiene 104 claves; los tooltips calculan desde las mismas constantes/config y desde el equipo realmente vestido. Sin Shift: resumen y costes. Con Shift: cifras en segundos, corazones y comida equivalente; no se simula equipar el objeto bajo el cursor.
+La configuración activa contiene 118 claves; los tooltips calculan desde las mismas constantes/config y desde el equipo realmente vestido. Sin Shift: resumen y costes. Con Shift: cifras en segundos, corazones y comida equivalente; no se simula equipar el objeto bajo el cursor.
 
 ## Armaduras
 
@@ -49,6 +49,25 @@ Tridente: el cambio de daño por humedad es cuerpo a cuerpo; con impulso acuáti
 
 El cofre del End rechaza equipo, cañas, tijeras, bundles/sacos, inventarios portátiles por capacidad y bloques de almacenamiento. Solo guarda materiales/recursos/consumibles compatibles. No se añaden afirmaciones sobre poderes de materiales de otros mods ni se borran sus líneas por texto.
 
+## Horizontalización de Iron's Spellbooks (1.24.5)
+
+- **Armas cuerpo a cuerpo (11 normalizadas en `EventPriority.LOWEST`):** purga modificadores previos de daño/velocidad/armadura y fija atributos totales (base de jugador `1.0` daño y `4.0` velocidad), tarjetas en español y reparación en yunque del `25%` por material a `0 XP`:
+  - `irons_spellbooks:amethyst_rapier`: `5.5` daño · `2.1` vel · `minecraft:amethyst_shard`
+  - `irons_spellbooks:misery`: `6.0` daño · `1.8` vel · `irons_spellbooks:weapon_parts`
+  - `irons_spellbooks:magehunter`: `6.0` daño · `1.6` vel (conserva `+15%` resistencia mágica) · `irons_spellbooks:arcane_ingot`
+  - `irons_spellbooks:spellbreaker`: `6.5` daño · `1.6` vel (conserva `+15%` reducción de enfriamiento) · `minecraft:diamond`
+  - `irons_spellbooks:keeper_flamberge`: `6.5` daño · `1.3` vel · **`0` armadura** (purgada) · `irons_spellbooks:cinder_essence`
+  - `irons_spellbooks:legionnaire_flamberge`: `7.0` daño · `1.4` vel · **`0` armadura** (purgada) · `irons_spellbooks:cinder_essence`
+  - `irons_spellbooks:claymore`: `7.0` daño · `1.3` vel · `minecraft:iron_ingot`
+  - `irons_spellbooks:decrepit_scythe`: `7.0` daño · `1.4` vel · `irons_spellbooks:blood_vial`
+  - `irons_spellbooks:hellrazor`: `7.5` daño · `1.3` vel · `irons_spellbooks:cinder_essence`
+  - `irons_spellbooks:twilight_gale`: `7.5` daño · `1.3` vel · `irons_spellbooks:weapon_parts`
+  - `irons_spellbooks:boreal_blade`: `7.5` daño · `1.1` vel · `irons_spellbooks:icy_fang`
+- **Contención mágica por armadura física pesada (`SpellPreCastEvent` / `SpellOnCastEvent`):** aplica a `IRON`, `DIAMOND`, `NETHERITE` y piezas físicas de `cataclysm:*` (excluye cuero, malla, oro, tortuga y túnicas de `irons_spellbooks`). Con `1–2` piezas, el coste de maná se duplica (`×2.0` / `+100%`); con `3+` piezas se bloquea el lanzamiento de conjuros.
+- **Anillos protectores elementales (`fireward_ring`, `frostward_ring`, `poisonward_ring`):** inmunidades al `100%` desactivadas vía Mixin (`ServerPlayerEventsMixin`, `FrostwardRingMixin`, `PoisonwardRingMixin`); reducen `-25%` del daño de su elemento en `LivingHurtEvent`, aplican `-5%` de velocidad de ataque en ranura Curios `ring` y muestran su coste visible en el tooltip.
+- **Jefes y pergaminos:** `EquipmentEvents` otorga el drop cerrado de tinta sin multiplicador de Botín y exigiendo jugador activo (`8` jefes `1 legendary_ink`; `3` jefes `2 epic_ink`), mientras `RandomizeSpellFunctionMixin` degrada pergaminos `LEGENDARY` a `EPIC`.
+- **Sanitización de cofres en ejecución (`1.24.6`, `sanitize_chest_loot = true`):** `LootTableMixin` (`LootTable.m_230922_`) invoca `EquipmentPolicy.sanitizeChestLoot` tras los GLMs para eliminar cualquier equipamiento vanilla restante (armas, herramientas, armaduras, arcos, ballestas, escudos, tridentes, cañas, tijeras, mecheros y armaduras de caballo; `minecraft:elytra` preservada) y botellas de XP, convertir lingotes/bloques/minerales completos en pepitas vanilla / `nuggets_for_all:*` / pepitas de Cataclysm / esencias de Iron's (conservando `coal`/`charcoal`), y limitar cada cofre a como máximo `1` encantamiento vanilla permitido de nivel I (`unbreaking`, `looting`, `efficiency`).
+
 ## Validación
 
-1506 comprobaciones JVM: 212 nuevas de armonización y las 1294 anteriores. Incluye minado con overrides reales de los adaptadores de producción, cero desgaste por tag, cantera limitada, agachado, daño de oro sin NBT, penalización de diamante, reparación sin centinelas visibles, retorno de tridente y especiales. Los targets se contrastan con los JAR instalados; no se introducen Args. Prueba completa en juego pendiente.
+1780 comprobaciones JVM (`-Xverify:all`): `70` armadura, `667` hambre, `44` enlace/render HUD, `524` tooltips, `212` armonización y `263` compatibilidad externa con Forge/Cataclysm/Curios/Nuggets For All reales (más `70` descriptores Mixin y `118` claves de config sincronizadas). Los targets se contrastan con los JAR instalados; no se introducen Args. Prueba completa en juego pendiente.

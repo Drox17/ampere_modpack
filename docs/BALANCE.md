@@ -3,9 +3,9 @@
 > Se lee **solo al diseñar** (cambiar reglas, añadir sets, revisar números). Para `/sync`
 > usa `verificar_estado.ps1` + `estado.json`. Este archivo explica el porqué y el backlog.
 
-## Estado vigente: EquipmentBalance 1.24.2
+## Estado vigente: EquipmentBalance 1.24.2 (sanitización de cofres 1.24.6 / AdventureLoot 1.4.0)
 
-Esta revisión prevalece sobre los registros históricos 1.23.x/1.24.0/1.24.1 de abajo. No cambia la paridad 16/10/12 ni Coloso/Enjambre. Conserva la instantánea del equipo vestido y el HUD sin clases sintéticas Args.
+Esta revisión prevalece sobre los registros históricos 1.23.x/1.24.0/1.24.1 de abajo. No cambia la paridad 16/10/12 ni Coloso/Enjambre. Conserva la instantánea del equipo vestido y el HUD sin clases sintéticas Args. La política vigente de cofres, pepitas (`Nuggets For All`) y límites mágicos está en las secciones `1.24.5` y `1.24.6` al final y en [docs/LOOT.md](LOOT.md).
 
 | Arquetipo | Recolección | Combate y coste |
 |---|---|---|
@@ -441,3 +441,26 @@ Resultado de la suite 1.24.3: 1606 comprobaciones JVM, incluidas 100 de compatib
 Se retiran referencias activas a Alex’s Mobs/Caves, su extensión de Spellbooks y Caves Cookery. EquipmentBalance 1.24.4 conserva las reglas vanilla y excluye las compatibilidades eliminadas; MobBalance 1.5.1 ya no emite el tag de cocodrilos; WildlifeRepopulation 1.6.1 elimina exclusiones de biomas y entidades ausentes, sin alterar las constantes 55/45. Sus pruebas se alinean con ese balance vigente (antes conservaban expectativas de 1.4.0). Se eliminan rutas antiguas de despliegue bajo gestion de PrismLauncher.
 
 AdventureLoot 1.2.0 preserva los overrides activos y usa fuentes JSON versionables, evitando regenerar desde el instalador antiguo que contenía botellas de XP. Cobertura, tasas, ausencias y hashes: docs/LOOT.md y loot.json. Sin publicación remota automática en esta operación.
+
+## Botín y contención mágica — EquipmentBalance 1.24.5 / AdventureLoot 1.3.0 (2026-11-13)
+
+Se integra la propuesta revisada de botín por perfiles de riesgo (`AdventureLoot 1.3.0`, `111` entradas en `loot.json`) junto con la horizontalización y contención mágica de `irons_spellbooks` (`EquipmentBalance 1.24.5`, `117` claves de config).
+
+- **Armas cuerpo a cuerpo de `irons_spellbooks` (11 ítems en `EventPriority.LOWEST`):** purga modificadores previos de daño, velocidad y armadura e impone valores totales exactos (con base de jugador `1.0` daño y `4.0` velocidad), tarjeta de rol en español y reparación del `25%` por material a `0 XP`:
+  - `amethyst_rapier` `5.5 / 2.1` (`amethyst_shard`), `misery` `6.0 / 1.8` (`weapon_parts`), `magehunter` `6.0 / 1.6` (conserva `+15%` resistencia mágica; `arcane_ingot`), `spellbreaker` `6.5 / 1.6` (conserva `+15%` reducción de enfriamiento; `diamond`), `keeper_flamberge` `6.5 / 1.3` (`0` armadura purgada; `cinder_essence`), `legionnaire_flamberge` `7.0 / 1.4` (`0` armadura purgada; `cinder_essence`), `claymore` `7.0 / 1.3` (`iron_ingot`), `decrepit_scythe` `7.0 / 1.4` (`blood_vial`), `hellrazor` `7.5 / 1.3` (`cinder_essence`), `twilight_gale` `7.5 / 1.3` (`weapon_parts`) y `boreal_blade` `7.5 / 1.1` (`icy_fang`).
+- **Contención mágica por armadura física pesada:** las piezas `IRON`, `DIAMOND`, `NETHERITE` y `cataclysm:*` (excluyendo cuero, malla, oro, tortuga y túnicas de `irons_spellbooks`) duplican el coste de maná (`×2.0` / `+100%`) con `1–2` piezas vestidas (`SpellOnCastEvent`) y bloquean el lanzamiento con `3+` piezas (`SpellPreCastEvent`).
+- **Anillos protectores elementales (`fireward_ring`, `frostward_ring`, `poisonward_ring`):** los Mixins (`ServerPlayerEventsMixin`, `FrostwardRingMixin`, `PoisonwardRingMixin`) desactivan las inmunidades totales; `LivingHurtEvent` aplica `-25%` de reducción elemental, `EquipmentCuriosEvents` aplica `-5%` de velocidad de ataque en ranura Curios `ring` y el tooltip expone ambos efectos y costes (`C5`).
+- **Exclusividad legendaria y lista cerrada de jefes:** el caldero convierte tintas en proporción `3:1` (`750 mB → 250 mB`) exigiendo `#theoptimizer:boss_legendary_catalysts` para `legendary_ink`; todos los cofres y `RandomizeSpellFunctionMixin` mantienen `0%` tintas/pergaminos legendarios; `EquipmentEvents` otorga sin escalar por Botín y con participación de jugador activo `1 legendary_ink` (`ignis`, `the_leviathan`, `ender_guardian`, `maledictus`, `scylla`, `ender_dragon`, `wither`, `dead_king`) o `2 epic_ink` (`netherite_monstrosity`, `the_harbinger`, `ancient_remnant`).
+- **Claves nuevas de config (9, total 117):** `normalize_irons_weapons`, `irons_weapon_repair_fraction`, `heavy_armor_spell_containment`, `heavy_armor_spell_mana_multiplier`, `heavy_armor_spell_block_pieces`, `nerf_ward_rings`, `ward_ring_damage_reduction`, `ward_ring_attack_speed_penalty`, `clamp_chest_scroll_rarity`.
+- **Verificación:** `141` comprobaciones en `botin_magia_aventura.probar` y `1699` comprobaciones JVM en `balance_equipamiento.probar` (incluidas `182` reales sobre Forge/Cataclysm/Curios y `62` firmas Mixin). Sin commit ni push automático.
+
+## Botín en pepitas, cero equipo vanilla y límite de encantamientos — EquipmentBalance 1.24.6 / AdventureLoot 1.4.0 (2026-11-13)
+
+Sustituye los lingotes, diamantes y fragmentos enteros introducidos en `1.24.5` (`mat_f*`, `pkg_mat_*`) y sella todas las tablas de cofres del pack (`AdventureLoot 1.4.0`, `228` entradas en `loot.json`, + `EquipmentBalance 1.24.6`, `118` claves de config):
+
+- **`Nuggets For All` (`nuggets_for_all-1.0.0-forge-1.20.1.jar`, proyecto `wMBsm3EI`):** añadido al repo packwiz, servidor e instancia. Como el JAR original empaquetaba recetas con formato 1.21 (`data/nuggets_for_all/recipe/*.json` con `"id"`), `AdventureLoot 1.4.0` genera las `16` recetas MC `1.20.1` correctas en `data/nuggets_for_all/recipes/*.json` (`"item"`, uniformizando también `lapisnuggetr` a `1 ↔ 9`).
+- **Cero equipamiento vanilla en cofres:** elimina armas, herramientas, armaduras, arcos, ballestas, escudos, tridentes, cañas, tijeras, mecheros y armaduras de caballo de `minecraft:*` tanto en los JSON base de vanilla/mods como en ejecución (`LootTableMixin` -> `EquipmentPolicy.sanitizeChestLoot`); `minecraft:elytra` en `lootr:chests/elytra` queda preservada.
+- **Máximo 1 encantamiento vanilla por cofre:** elimina entradas `enchanted_book`, `enchant_randomly` y `enchant_with_levels` de tablas base (solo `theoptimizer:chests/book_*` aporta ≤`1` libro nivel I de `unbreaking`/`looting`/`efficiency`); `LootTableMixin` recorta duplicados y despoja encantamientos vanilla de ítems no-libro. Además, `scroll_pouch.json` y `filler_storage_loot.json` quedan limitados a `quality.max = 0.65`.
+- **Minerales en pepitas salvo carbón:** sustituye lingotes, bloques minerales, menas en bruto y gemas enteras por pepitas vanilla (`iron_nugget`, `gold_nugget`), `nuggets_for_all:*`, pepitas de Cataclysm o esencias de Iron's en todas las tablas y en ejecución (`coal`/`charcoal` intactos; `cmd_yung` recibe respaldo `2–5 diamondnugget`).
+- **Clave nueva (`1`, total `118`):** `sanitize_chest_loot = true`.
+- **Verificación:** `457` comprobaciones en `botin_magia_aventura.probar` y `1780` comprobaciones JVM en `balance_equipamiento.probar` (incluidas `263` reales sobre Forge/Cataclysm/Curios/Nuggets y `70` descriptores Mixin). Sin commit ni push automático.

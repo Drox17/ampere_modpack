@@ -204,6 +204,7 @@ if ($versionPages) {
 # --- 8. registro de loot tables ---------------------------------------------
 $lootRuta = Join-Path $repo 'loot.json'
 if (Test-Path $lootRuta) {
+    Add-Type -AssemblyName System.IO.Compression.FileSystem
     $loot = Get-Content $lootRuta -Raw -Encoding UTF8 | ConvertFrom-Json
     $totalLoot = 0
     $malasLoot = 0

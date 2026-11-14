@@ -918,7 +918,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "f2a20cc96c1aeac7ceeb1740513595ac435a6272232afe2fbc9cf579d3319d25"
+hash = "11eaabcfa34cc53fe62db51e808a3f470c799682892cb5210127ec54cdeb7a40"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -949,8 +949,8 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.24.4.jar"
-hash = "a7e01f28ffa05ab4914c4bf17b256bf71528f52fe40b13e62bdfad2115ae081a"
+file = "mods/TheOptimizer-EquipmentBalance-1.24.6.jar"
+hash = "73b0f32a4d2901b3db6f76ce89a6f4720e79576354270690b3247efbc4dbaf8e"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.1.jar"
@@ -1373,6 +1373,11 @@ file = "mods/notrample-1.20.1-1.0.1.jar"
 hash = "022acf970473176ba0134c49f4e6f36302b1faedcdde55bcfd7a9f40deb1447c"
 
 [[files]]
+file = "mods/nuggets-for-all.pw.toml"
+hash = "07830e76c79b80842ccdb1fb8bb5d60f11b6a1d060ebdd248a80c46d369c48b1"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
 metafile = true
@@ -1548,7 +1553,7 @@ metafile = true
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip"
-hash = "d62c3a844c8b50692cd4ba384ca0c770520081517707d9b0c6a4c1ec7f978ee1"
+hash = "af64e2a7267a7899efabc0f382c1d1d9126a4bc2d71e52cf3e40c21c98716729"
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"
