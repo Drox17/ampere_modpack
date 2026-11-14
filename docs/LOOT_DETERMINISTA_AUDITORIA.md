@@ -1,5 +1,7 @@
 # Auditoría y contrato de botín determinista (local, 2026-11-14)
 
+> Registro de la primera iteración (1.5.0/1.24.7). Para el estado actual consultar [segunda iteración](LOOT_SEGUNDA_ITERACION.md).
+
 ## Fase 1: evidencia antes de editar balance
 
 `TheOptimizerMods/botin_magia_aventura/audit_determinismo_antes.json` conserva las definiciones, fuentes, hashes, modificadores, objetos y referencias examinados. Se descubrieron 197 raíces por tipo CHЕST o ruta, 205 tablas alcanzables y cero referencias ausentes. La clasificación anterior dejaba fuera tablas de YUNG's Extras y Kaleidoscope Cookery (`chest/`, singular). Los perfiles añadían RNG sobre tablas base también aleatorias. `randomize_spell`, anillos aleatorios y mapas/cartas podían introducir propiedades variables; `sanitizeChestLoot` sorteaba 3–6 pepitas de un bloque. Los documentos 1.24.4 ya no describían el estado real.

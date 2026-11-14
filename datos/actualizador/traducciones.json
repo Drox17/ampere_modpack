@@ -1,0 +1,107 @@
+{
+  "link/infra/packwiz/installer/DownloadTask.class": [
+    "Failed to delete file",
+    "Invalid hash for ",
+    "Calculated: ",
+    "Expected:   ",
+    "Hash invalid!"
+  ],
+  "link/infra/packwiz/installer/Main.class": [
+    "Finished successfully!",
+    "Update process failed",
+    "A fatal error occurred: \n"
+  ],
+  "link/infra/packwiz/installer/UpdateManager.class": [
+    "Loading manifest file...",
+    "Failed to read local manifest file, try deleting ",
+    "Invalid local manifest file, try deleting ",
+    "Loading pack file...",
+    "Loading MultiMC pack file...",
+    "Checking local files...",
+    "Modpack is already up to date!",
+    "Failed to save local manifest file",
+    "Failed to process index file",
+    "Failed to parse pack.toml",
+    "Failed to download pack.toml",
+    "Modpack files are already up to date!",
+    "Failed to delete file removed from index",
+    "Deleted ",
+    " (removed from pack)",
+    "Comparing new files...",
+    "Index is empty!",
+    "Reconfigure optional mods?",
+    "Failed to download ",
+    " (wrong side)",
+    " (disabled)",
+    "Skipped ",
+    " already exists (validated)",
+    " already exists (cached)",
+    "Downloaded ",
+    "Failed to execute download task",
+    "Your index file hash is invalid! The pack developer should packwiz refresh on the pack again",
+    "Failed to parse index file",
+    "Failed to download index file",
+    "Validating existing files...",
+    "Resolving CurseForge metadata...",
+    "Update cancelled by user! Continuing to start game...",
+    "Update cancelled by user!"
+  ],
+  "link/infra/packwiz/installer/ui/cli/CLIHandler.class": [
+    "Failed to download modpack, the following errors were encountered:"
+  ],
+  "link/infra/packwiz/installer/ui/gui/ExceptionListWindow.class": [
+    "Failed file downloads",
+    "One or more errors were encountered while installing the modpack!",
+    "Select a file",
+    "Continue",
+    "Attempt to continue installing, excluding the failed downloads",
+    "Cancel launch",
+    "Stop launching the game",
+    "Ignore update",
+    "Start the game without attempting to update",
+    "Open missing mods",
+    "Open missing mods in your browser",
+    " errored",
+    "Report issue"
+  ],
+  "link/infra/packwiz/installer/ui/gui/GUIHandler.class": [
+    "Ampere Updater",
+    "This modpack has no optional mods!",
+    "Optional mods",
+    "Quit",
+    "Ignore",
+    "The installation was cancelled. Would you like to quit the game, or ignore the update and start the game?",
+    "Cancelled installation",
+    "<html>This modpack uses newer versions of the following:<br><ul>",
+    "Not found",
+    "New versions:<ul>",
+    "</ul><br>Would you like to update the versions, launch without updating, or cancel the launch?",
+    "Cancel",
+    "Continue anyways",
+    "Update",
+    "Updating MultiMC versions",
+    "Continue without installing",
+    "Continue without updating"
+  ],
+  "link/infra/packwiz/installer/ui/gui/InstallWindow.class": [
+    "Loading...",
+    "Optional mods...",
+    "Cancel",
+    "Continue",
+    "No optional mods",
+    "Continue ("
+  ],
+  "link/infra/packwiz/installer/ui/gui/OptionsSelectWindow$OptionTableModel.class": [
+    "Enabled",
+    "Mod name"
+  ],
+  "link/infra/packwiz/installer/ui/gui/OptionsSelectWindow.class": [
+    "Select optional mods...",
+    "Select an option...",
+    "OK",
+    "Cancel"
+  ],
+  "link/infra/packwiz/installer/ui/gui/AmpereTheme.class": [
+    "Ampere Updater"
+  ]
+}

@@ -1,6 +1,10 @@
-# Botín determinista local — AdventureLoot 1.5.0 / EquipmentBalance 1.24.7
+# Botín determinista local — AdventureLoot 1.6.0 / EquipmentBalance 1.24.8
 
 Revisión 2026-11-14, desplegada localmente; sin commit, push ni publicación. Las probabilidades descritas en auditorías históricas ya no representan los cofres cubiertos.
+
+## Segunda iteración
+
+[Informe completo y archivos](LOOT_SEGUNDA_ITERACION.md): fragmentos al destruir generadores, 4 fragmentos → catalizador arcano, alternativa al catalizador de jefe en la misma receta de tinta. Libros en 18 tablas (antes 61); aleación en 79 tablas con cantidades fijas de 4/6/8 y límites para familias repetibles. 31.075 pruebas de botín y 2.062 de equipo; transportes reales y cliente pendientes.
 
 ## Contrato y cobertura
 
@@ -16,7 +20,7 @@ Los cofres de aldeas no dan magia; despensas y barriles quedan en R0/R1. Agua y 
 
 ## Invariantes
 
-Cero equipo vanilla salvo élitros en `lootr:chests/elytra`. Cero lingotes/gemas/bloques minerales salvo carbón/carbón vegetal; recompensas en pepitas válidas. Máximo un libro vanilla nivel I permitido por cofre. Cero XP, tinta legendaria, catalizadores de jefe o pergaminos legendarios. Sin cambios a las recetas del caldero, Nuggets For All, Create/AE2, drops de mobs/jefes y bloques. `LootTableMixin` sigue activo; `EquipmentPolicy.sanitizeChestLoot` usa 3 pepitas fijas para un bloque de respaldo.
+Cero equipo vanilla salvo élitros en `lootr:chests/elytra`. Cero lingotes/gemas/bloques minerales salvo carbón/carbón vegetal; recompensas en pepitas válidas. Máximo un libro vanilla nivel I permitido por cofre. Cero XP, tinta legendaria, catalizadores de jefe o pergaminos legendarios. La proporción del caldero no cambia; su tag acepta también el catalizador arcano. Se añade su receta de fabricación; se conservan Nuggets For All, Create/AE2 y drops de mobs/jefes. La minería legítima de generadores añade el fragmento tras la retirada efectiva. `LootTableMixin` sigue activo; `EquipmentPolicy.sanitizeChestLoot` usa 3 pepitas fijas para un bloque de respaldo.
 
 ## Compatibilidad
 
@@ -28,6 +32,6 @@ Exclusiones comprobadas: `ae2:blocks/chests/meteorite` es drop de bloque; `magic
 
 Desde TheOptimizerMods: `python -B scripts/compile_quiet.py`, `python -B -m botin_magia_aventura.probar`, `python -B -m balance_equipamiento.probar`.
 
-Resultado botín: 1.833 checks estructurales/regresión, 208 recursos no-cofre idénticos y 29.006 comprobaciones de ejecución Forge (194 tablas × 32 semillas, suerte -5/0/+5, NBT, gestor efectivo y segunda sanitización). Total 30.839; variación de contenido final cero. Equipo: 2.062 JVM con 409 verificaciones de compatibilidad externa y 97 firmas/descriptores Mixin.
+Resultado histórico de 1.5.0: 1.833 checks estructurales/regresión, 208 recursos no-cofre idénticos y 29.006 comprobaciones de ejecución Forge (194 tablas × 32 semillas, suerte -5/0/+5, NBT, gestor efectivo y segunda sanitización). Total 30.839; variación de contenido final cero. Equipo: 2.062 JVM con 409 verificaciones de compatibilidad externa y 97 firmas/descriptores Mixin.
 
 El runner crea una copia temporal del servidor, mundo plano nuevo, puerto local efímero y mods reales. Nunca usa el mundo ampere. El log y la prueba JSON quedan en `TheOptimizerMods/datos/reparaciones/botin_determinista/`. La creación de chunks del mundo temporal no valida interacción de un cliente ni todas las variantes de estructuras. Comprobar manualmente un cofre nuevo por familia y Lootr multijugador; los cofres ya materializados no se regeneran.

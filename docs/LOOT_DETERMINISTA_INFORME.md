@@ -1,5 +1,7 @@
 # Entrega de rebalance determinista (2026-11-14)
 
+> Registro de la primera iteración (1.5.0/1.24.7). Para el estado actual consultar [segunda iteración](LOOT_SEGUNDA_ITERACION.md).
+
 ## A. Resumen de cambios
 
 Implementado y desplegado localmente AdventureLoot 1.5.0 y EquipmentBalance 1.24.7. Se conservó el trabajo de fuentes preexistente. El cambio Java funcional de esta misión es una sola conversión de bloques: 3 pepitas fijas en la salvaguarda de cofres. Los cambios anteriores de equipo, habilidades y jefes no se rediseñaron. El instalador estándar recompiló y renovó los artefactos y su registro de validación (1.24.6 -> 1.24.7). No hubo commit, push ni publicación.

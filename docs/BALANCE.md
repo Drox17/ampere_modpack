@@ -1,5 +1,9 @@
 # BALANCE.md — memoria profunda del sistema de sets
 
+## Revisión local 1.24.8 / AdventureLoot 1.6.0 (2026-11-14, sin publicar)
+
+[Segunda iteración y evidencias](LOOT_SEGUNDA_ITERACION.md): destruir un generador mediante minería legítima entrega un fragmento; cuatro fabrican el catalizador arcano, alternativa al catalizador de jefe en 750 mB épica → 250 mB legendaria. Libros 61→18 tablas; aleación 79 ubicaciones con 4/6/8, excepciones conservadoras. 194 tablas, 131 claves sin cambios, 31.075 pruebas de botín y 2.062 de equipo. Integración de transportes y cliente pendiente. Las secciones inferiores conservan el historial anterior.
+
 ## Revisión local 1.24.7 / AdventureLoot 1.5.0 (2026-11-14, sin publicar)
 
 El contrato vigente de cofres es determinista: ver [matriz completa](LOOT_DETERMINISTA_MATRIZ.md), [auditoría](LOOT_DETERMINISTA_AUDITORIA.md) y [LOOT.md](LOOT.md). Sustituye los pesos, rangos y probabilidades históricos de cofres descritos debajo. Los cambios locales de equipo anteriores a esta misión se conservan: esta revisión Java solo hace fija la conversión defensiva de bloques a pepitas. No modifica drops de jefes, entidades, pesca, arqueología ni recetas. 194 tablas con contenido independiente de semilla y suerte; 131 claves actuales de configuración (ninguna añadida aquí).

@@ -71,7 +71,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/food_storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: food_storage",
+      "objetivo": "Botín v1.6.0: food_storage",
       "sha256": "fa749ecd40871d416a4fa35d27764a6ef514587ea4f1ee99b3042e307892c12e"
     },
     {
@@ -79,31 +79,31 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/lab.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: lab",
-      "sha256": "51ee82abdb36541e67134bca3d3ee7f608ac5fe3c3efb46d7a95627230bb2872"
+      "objetivo": "Botín v1.6.0: lab",
+      "sha256": "b9012ce70db8374d78097233615e80c013a8371d509f6c8be0fd2de58324a915"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/library.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: library",
-      "sha256": "955f1aa6a4b1d85ddf17107cab5d2ab19fba37ed76a8692c655cd0033a7be233"
+      "objetivo": "Botín v1.6.0: library",
+      "sha256": "830deef8f5a4be3cfe9005a1c43d6bad527f2a6db222e112b4df6a646a752db7"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/pharaoh_hidden.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pharaoh_hidden",
-      "sha256": "fde02e4d29e22d7c96367d1067589e28467fc335441a6cab5e7484f3c98fe926"
+      "objetivo": "Botín v1.6.0: pharaoh_hidden",
+      "sha256": "1d3a4abfcc11058fa8f89e848b8d7862c77cd2a2052e5a26abfadbf2fde809fc"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/pot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pot",
+      "objetivo": "Botín v1.6.0: pot",
       "sha256": "fa749ecd40871d416a4fa35d27764a6ef514587ea4f1ee99b3042e307892c12e"
     },
     {
@@ -111,39 +111,39 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/statue.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: statue",
-      "sha256": "51ee82abdb36541e67134bca3d3ee7f608ac5fe3c3efb46d7a95627230bb2872"
+      "objetivo": "Botín v1.6.0: statue",
+      "sha256": "b9012ce70db8374d78097233615e80c013a8371d509f6c8be0fd2de58324a915"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: storage",
-      "sha256": "51ee82abdb36541e67134bca3d3ee7f608ac5fe3c3efb46d7a95627230bb2872"
+      "objetivo": "Botín v1.6.0: storage",
+      "sha256": "b9012ce70db8374d78097233615e80c013a8371d509f6c8be0fd2de58324a915"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/tomb.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: tomb",
-      "sha256": "51ee82abdb36541e67134bca3d3ee7f608ac5fe3c3efb46d7a95627230bb2872"
+      "objetivo": "Botín v1.6.0: tomb",
+      "sha256": "b9012ce70db8374d78097233615e80c013a8371d509f6c8be0fd2de58324a915"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/tomb_pharaoh.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: tomb_pharaoh",
-      "sha256": "45246688b5991507dd5b5ccf9d177fdeff5cd1fae78cc317e7e8338b254af532"
+      "objetivo": "Botín v1.6.0: tomb_pharaoh",
+      "sha256": "fb26fdf1ec2a4c1bae92363a49726fffb8bf7a9a546df479c378e0e8ce7b4df8"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdeserttemples/loot_tables/chests/wardrobe.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: wardrobe",
+      "objetivo": "Botín v1.6.0: wardrobe",
       "sha256": "fa749ecd40871d416a4fa35d27764a6ef514587ea4f1ee99b3042e307892c12e"
     },
     {
@@ -151,159 +151,159 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/skeleton_dungeon/chests/common.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: common",
-      "sha256": "2e18e8f8ec5d755c696fcd1cc81737c06c04e5fbb97789452c4a9fe1205afbba"
+      "objetivo": "Botín v1.6.0: common",
+      "sha256": "c466bcfdd711896d5f40e15bc7a8b3ff1f13546ae536000e11ed9b29a120c666"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/skeleton_dungeon/chests/middle.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: middle",
-      "sha256": "d441501db523b94f64df371ac2f3f711018a78fe9a0896c5c78f8883db3b9173"
+      "objetivo": "Botín v1.6.0: middle",
+      "sha256": "db610340d32f3eaaffe23814c9e29c00d2417dfabba0bb1228bb480bb6d7eaad"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/small_dungeon/chests/loot_piles.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: loot_piles",
-      "sha256": "2e18e8f8ec5d755c696fcd1cc81737c06c04e5fbb97789452c4a9fe1205afbba"
+      "objetivo": "Botín v1.6.0: loot_piles",
+      "sha256": "c466bcfdd711896d5f40e15bc7a8b3ff1f13546ae536000e11ed9b29a120c666"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/small_nether_dungeon/chests/common.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: common",
-      "sha256": "d9c60f8aa986e109ed2ca6faf5d1647a45254b62b3b7ab1fe12912dce9f04412"
+      "objetivo": "Botín v1.6.0: common",
+      "sha256": "1d2418229dc1a1bb8abecd7f597c4d6152897270c48671ec099543b347878892"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/spider_dungeon/chests/egg_room.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: egg_room",
-      "sha256": "2e18e8f8ec5d755c696fcd1cc81737c06c04e5fbb97789452c4a9fe1205afbba"
+      "objetivo": "Botín v1.6.0: egg_room",
+      "sha256": "c466bcfdd711896d5f40e15bc7a8b3ff1f13546ae536000e11ed9b29a120c666"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/zombie_dungeon/chests/common.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: common",
-      "sha256": "12ac5eac3babcfa3ce27f6bbce5dedd7cd02af76547fa7a5d70d6ca0f836dea5"
+      "objetivo": "Botín v1.6.0: common",
+      "sha256": "c9ed5aa2ce676c4351936c072b11941491d662a83d1a8d8e81711ebd018345c7"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/zombie_dungeon/chests/special.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: special",
-      "sha256": "8a821c902da688eb780fde59a3a2b37d80063e5c9cfd5976be6e09d6d0b77fa8"
+      "objetivo": "Botín v1.6.0: special",
+      "sha256": "ac7a2ce7733e919df82f99d53d74b8ea86a33c8015a4098d14d43134980d859e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterdungeons/loot_tables/zombie_dungeon/chests/tombstone.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: tombstone",
-      "sha256": "8a821c902da688eb780fde59a3a2b37d80063e5c9cfd5976be6e09d6d0b77fa8"
+      "objetivo": "Botín v1.6.0: tombstone",
+      "sha256": "b5b8c29d0cbbf47901b179449557522e0a79b1adbad3846a9be3f23d91a89336"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/beacon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: beacon",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: beacon",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/extra.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: extra",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: extra",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/hall.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: hall",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: hall",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/keep.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: keep",
-      "sha256": "a4c1ed92139288a60cd45758e19208e59dd784d9f93f9853b8f15acd8186e003"
+      "objetivo": "Botín v1.6.0: keep",
+      "sha256": "dfef8e1ac23b6c9ea1dabc9dcf4987fe029f9c95fa6e2bbe4688f8fcedbb6a24"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/obsidian.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: obsidian",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: obsidian",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/puzzle.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: puzzle",
-      "sha256": "a4c1ed92139288a60cd45758e19208e59dd784d9f93f9853b8f15acd8186e003"
+      "objetivo": "Botín v1.6.0: puzzle",
+      "sha256": "dfef8e1ac23b6c9ea1dabc9dcf4987fe029f9c95fa6e2bbe4688f8fcedbb6a24"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/quarters.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: quarters",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: quarters",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: storage",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: storage",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterfortresses/loot_tables/chests/worship.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: worship",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: worship",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betteroceanmonuments/loot_tables/chests/upper_side_chamber.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: upper_side_chamber",
-      "sha256": "4451b04e5a44dcb20d56c255ff43fae10a0b084abd453d459248ae15a20ea151"
+      "objetivo": "Botín v1.6.0: upper_side_chamber",
+      "sha256": "5cd1afabccc4a0b1a448ca90a2940a04aede6cdf253e71b8dc012f12ffbebe0c"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/armoury.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: armoury",
-      "sha256": "57739b0dc095bff65f539d581ea3b75a62ae50bcda9e61359b1c27aceac19a7c"
+      "objetivo": "Botín v1.6.0: armoury",
+      "sha256": "f5e1abf566b41117213166531fd60d2c150c1989258dedc918b048655f2cc4fd"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/cmd_yung.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: cmd_yung",
+      "objetivo": "Botín v1.6.0: cmd_yung",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -311,39 +311,39 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/common.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: common",
-      "sha256": "57739b0dc095bff65f539d581ea3b75a62ae50bcda9e61359b1c27aceac19a7c"
+      "objetivo": "Botín v1.6.0: common",
+      "sha256": "f5e1abf566b41117213166531fd60d2c150c1989258dedc918b048655f2cc4fd"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/crypt.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: crypt",
-      "sha256": "06c41f778fd4ad5fc1098186ef2df7fa298d15bcbf5780955666fe0434935db9"
+      "objetivo": "Botín v1.6.0: crypt",
+      "sha256": "eaf35b096152eef9cd644d2e583a58d169d0ff3ef429a483ed14fdbdce701f5d"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/grand_library.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: grand_library",
-      "sha256": "955f1aa6a4b1d85ddf17107cab5d2ab19fba37ed76a8692c655cd0033a7be233"
+      "objetivo": "Botín v1.6.0: grand_library",
+      "sha256": "830deef8f5a4be3cfe9005a1c43d6bad527f2a6db222e112b4df6a646a752db7"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/library_md.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: library_md",
-      "sha256": "955f1aa6a4b1d85ddf17107cab5d2ab19fba37ed76a8692c655cd0033a7be233"
+      "objetivo": "Botín v1.6.0: library_md",
+      "sha256": "830deef8f5a4be3cfe9005a1c43d6bad527f2a6db222e112b4df6a646a752db7"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/mess.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mess",
+      "objetivo": "Botín v1.6.0: mess",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -351,87 +351,87 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/prison_lg.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: prison_lg",
-      "sha256": "57739b0dc095bff65f539d581ea3b75a62ae50bcda9e61359b1c27aceac19a7c"
+      "objetivo": "Botín v1.6.0: prison_lg",
+      "sha256": "f5e1abf566b41117213166531fd60d2c150c1989258dedc918b048655f2cc4fd"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/trap.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: trap",
-      "sha256": "57739b0dc095bff65f539d581ea3b75a62ae50bcda9e61359b1c27aceac19a7c"
+      "objetivo": "Botín v1.6.0: trap",
+      "sha256": "f5e1abf566b41117213166531fd60d2c150c1989258dedc918b048655f2cc4fd"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterstrongholds/loot_tables/chests/treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: treasure",
-      "sha256": "4d7ce53e1058f617685b80cf52553c5b4792b1a990e2b5b26bb6a04927eedbfd"
+      "objetivo": "Botín v1.6.0: treasure",
+      "sha256": "3f160e3a0456cec8a4cb0e71e2608566b763b31d36a2835a1389cc2171bfe5bc"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/betterwitchhuts/loot_tables/chests/hut_0.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: hut_0",
-      "sha256": "22a78b80f2b2c463b50078487156d834ab1aab542dda5dcb337d600333b97ea3"
+      "objetivo": "Botín v1.6.0: hut_0",
+      "sha256": "c466bcfdd711896d5f40e15bc7a8b3ff1f13546ae536000e11ed9b29a120c666"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/cataclysm/loot_tables/chests/abandoned.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: abandoned",
-      "sha256": "cbd5eee03b2d0e324db1a3d240f05d004d04690286d410ad21b7affd81c2cd54"
+      "objetivo": "Botín v1.6.0: abandoned",
+      "sha256": "c466c52c3e30429f0a2633243b011899d03f963b9f832a9bcb5ae2a304dd9950"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/cataclysm/loot_tables/chests/abandoned_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: abandoned_treasure",
-      "sha256": "d685ae91b3e2f416ed64056896b760b13c7282b6eb740698d7c4940c2b04ab1f"
+      "objetivo": "Botín v1.6.0: abandoned_treasure",
+      "sha256": "ae0316d1dca720353f863758042ed2d9f2e34242fdbcf9d12dd61e7b0297ed35"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/cataclysm/loot_tables/chests/acropolis_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: acropolis_treasure",
-      "sha256": "7fce63832259304a3f2771b198aff5d62ad9227617023a34646416fd80eb35b3"
+      "objetivo": "Botín v1.6.0: acropolis_treasure",
+      "sha256": "20c55b32d80fec175cd5eded160abab785f60197eb155451c562200e1d42b790"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/cataclysm/loot_tables/chests/amethyst_nest_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: amethyst_nest_chest",
-      "sha256": "d177a0e740aee128430990000287af8319cbe4f54f3c61278589a26d3696b953"
+      "objetivo": "Botín v1.6.0: amethyst_nest_chest",
+      "sha256": "693153ecc182310126d419184403ce9b67fd8d6ae7f29648c2dad258c1896dde"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/cataclysm/loot_tables/chests/desert_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: desert_treasure",
-      "sha256": "35c3136fc42a5a13c4040fa86b516571e6e6f114dd97445dd6a7d9778f416664"
+      "objetivo": "Botín v1.6.0: desert_treasure",
+      "sha256": "e398b847e936074834708a860674cf118a4367bd38a7b88e1066246e920bf00f"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/cataclysm/loot_tables/chests/frosted_prison_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: frosted_prison_treasure",
-      "sha256": "3bea06ef451d9db3c2e5173655b3e6e0b101c61068b5c53b89f455e80d959d69"
+      "objetivo": "Botín v1.6.0: frosted_prison_treasure",
+      "sha256": "21bd3ea50819895b19f55c2ef209ae6264343796dcaf9cbe0b995f6d950cf883"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crafting/materials/experience_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: experience_block",
+      "objetivo": "Botín v1.6.0: experience_block",
       "sha256": "5d57ef6f84f69645ed6394214bdc90638e2c028f62d9e80900d82d57c58c76ad"
     },
     {
@@ -439,7 +439,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crafting/materials/experience_nugget_from_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: experience_nugget_from_block",
+      "objetivo": "Botín v1.6.0: experience_nugget_from_block",
       "sha256": "5d57ef6f84f69645ed6394214bdc90638e2c028f62d9e80900d82d57c58c76ad"
     },
     {
@@ -447,7 +447,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/aluminum_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: aluminum_ore",
+      "objetivo": "Botín v1.6.0: aluminum_ore",
       "sha256": "6817c2fed33d2d25e16e219230a7852083438fe0401e683d59e03dcca1ee9c44"
     },
     {
@@ -455,7 +455,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/coal_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: coal_ore",
+      "objetivo": "Botín v1.6.0: coal_ore",
       "sha256": "1db0893bd761693cacc1e514f21619082b7b2b50fd2b2b9d9d7664cde23f1cf3"
     },
     {
@@ -463,7 +463,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/aether/ambrosium_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ambrosium_ore",
+      "objetivo": "Botín v1.6.0: ambrosium_ore",
       "sha256": "51b39c9bbf423638a9c6f021ed48efaed3f4f5af3326afcc1caccddd736964c1"
     },
     {
@@ -471,7 +471,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/aether/zanite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: zanite_ore",
+      "objetivo": "Botín v1.6.0: zanite_ore",
       "sha256": "4e7aa41917caa99d58ca326e7371dc004b4a063e321b4e8f6641cd046aba4900"
     },
     {
@@ -479,7 +479,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/ametrine_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ametrine_ore",
+      "objetivo": "Botín v1.6.0: ametrine_ore",
       "sha256": "a1de65698822a3dbeda7f85147291904e37472b637de097110cc381dc5866723"
     },
     {
@@ -487,7 +487,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/anthracite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: anthracite_ore",
+      "objetivo": "Botín v1.6.0: anthracite_ore",
       "sha256": "9bf73b36d07bb9f0e53f6ce2b8715aafbb0ff596af1569f17b8cf5e00b9d56dd"
     },
     {
@@ -495,7 +495,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/blue_nether_gold_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: blue_nether_gold_ore",
+      "objetivo": "Botín v1.6.0: blue_nether_gold_ore",
       "sha256": "686cc9f5193de9bd1ae7132a5dddd6b4aee0a82b1ce8df9dd7adfbf4a7a8236b"
     },
     {
@@ -503,7 +503,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/blue_nether_quartz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: blue_nether_quartz_ore",
+      "objetivo": "Botín v1.6.0: blue_nether_quartz_ore",
       "sha256": "0f0052d1c5e60ff11ffb56829323af71fb4e4b21cb6eb5d437ec976c81ba3844"
     },
     {
@@ -511,7 +511,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/brimstone_nether_gold_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: brimstone_nether_gold_ore",
+      "objetivo": "Botín v1.6.0: brimstone_nether_gold_ore",
       "sha256": "295c65eb43fec1a15342df7244c117a8a3b79ce5b7af50f8d24ad2a60d25c7a4"
     },
     {
@@ -519,7 +519,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/brimstone_nether_quartz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: brimstone_nether_quartz_ore",
+      "objetivo": "Botín v1.6.0: brimstone_nether_quartz_ore",
       "sha256": "de4735ebd9f24aeb9eebc41fd44e8f302854608334f3abb27160818c9c796733"
     },
     {
@@ -527,7 +527,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/cryptic_redstone_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: cryptic_redstone_ore",
+      "objetivo": "Botín v1.6.0: cryptic_redstone_ore",
       "sha256": "edd5fd3dff5a6bff7e118ac8fd76a03444a73af1d0cdd94b02b2777e2a0186a1"
     },
     {
@@ -535,7 +535,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/emeraldite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: emeraldite_ore",
+      "objetivo": "Botín v1.6.0: emeraldite_ore",
       "sha256": "ab0098d0e8e7ab4be743959f9e6cf78b72606041d6b298e47c3300b63aae804e"
     },
     {
@@ -543,7 +543,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/lignite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: lignite_ore",
+      "objetivo": "Botín v1.6.0: lignite_ore",
       "sha256": "b726be16a580f82f6d5957b974d9646b04d37fc1ba3b5f0a2076a1ebc71c8f43"
     },
     {
@@ -551,7 +551,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/biomeswevegone/pervaded_netherrack.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: pervaded_netherrack",
+      "objetivo": "Botín v1.6.0: pervaded_netherrack",
       "sha256": "7b5127859eb3f84ce801e5c90204405aab9f4fcc48af4a71aafed0910e72c1e4"
     },
     {
@@ -559,7 +559,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_coal_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_coal_end",
+      "objetivo": "Botín v1.6.0: ore_coal_end",
       "sha256": "b99b35e3495e7ca8eeb352244cb12cf376eed3b4fce47bc4c25c7f3a85efb578"
     },
     {
@@ -567,7 +567,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_coal_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_coal_nether",
+      "objetivo": "Botín v1.6.0: ore_coal_nether",
       "sha256": "599df0cc7efa27c48a33e74b9f629fc80bc1323f340ca6ec3a892162e0a2f484"
     },
     {
@@ -575,7 +575,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_copper_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_copper_end",
+      "objetivo": "Botín v1.6.0: ore_copper_end",
       "sha256": "08d92e248772f1b84763c476c791e2e4dc28fa0714063f41fae59350be4d09a8"
     },
     {
@@ -583,7 +583,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_copper_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_copper_nether",
+      "objetivo": "Botín v1.6.0: ore_copper_nether",
       "sha256": "6f53834219702b0553cb603a3dd7174e8d88388c2c9cbb1f477e478d6e4e12fc"
     },
     {
@@ -591,7 +591,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_diamond_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_diamond_end",
+      "objetivo": "Botín v1.6.0: ore_diamond_end",
       "sha256": "23ce56a1ece7a2906f11b817d59e1b7b5b89eff3f347c22a4c57e77590f12eb9"
     },
     {
@@ -599,7 +599,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_diamond_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_diamond_nether",
+      "objetivo": "Botín v1.6.0: ore_diamond_nether",
       "sha256": "39dc13d8454730a31158d327ae194793ad141ac0d496a26f9d44c075e487f915"
     },
     {
@@ -607,7 +607,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_emerald_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_emerald_end",
+      "objetivo": "Botín v1.6.0: ore_emerald_end",
       "sha256": "64b120b02adfa9e196bb7bb05046b3f29e0375ca25482d25e73de942f0a93201"
     },
     {
@@ -615,7 +615,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_emerald_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_emerald_nether",
+      "objetivo": "Botín v1.6.0: ore_emerald_nether",
       "sha256": "3007f21be2bbdaab35f002a280346454bc791dd56a9b8718f05c8f54ae1d76d7"
     },
     {
@@ -623,7 +623,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_ender_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_ender_end",
+      "objetivo": "Botín v1.6.0: ore_ender_end",
       "sha256": "43a162d84c504927db194c585788a28db30276c8091fb3369572a82f9cd3df84"
     },
     {
@@ -631,7 +631,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_ghast_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_ghast_nether",
+      "objetivo": "Botín v1.6.0: ore_ghast_nether",
       "sha256": "805ddd6296df3a162be74f3777b6d1e41cd000e2e8bf9b4a230687683e20031f"
     },
     {
@@ -639,7 +639,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_iron_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_iron_nether",
+      "objetivo": "Botín v1.6.0: ore_iron_nether",
       "sha256": "00bd145973179ea3f3b9399818d5371a2efe1f7895756e983b3bedbe05b12226"
     },
     {
@@ -647,7 +647,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_lapis_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_lapis_end",
+      "objetivo": "Botín v1.6.0: ore_lapis_end",
       "sha256": "05fe530c677c64e378c4629738921b900724d6b586d1f57e922110a53066701a"
     },
     {
@@ -655,7 +655,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_lapis_nether.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_lapis_nether",
+      "objetivo": "Botín v1.6.0: ore_lapis_nether",
       "sha256": "1fcd01cc321cd2afec146406d7668fff18d03fccdcc970b006eccfd21121930f"
     },
     {
@@ -663,7 +663,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/elementaryores/ore_redstone_end.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ore_redstone_end",
+      "objetivo": "Botín v1.6.0: ore_redstone_end",
       "sha256": "87b69f0dde450e3eb4c3a008a427f0c12acfaad03aa1217fca42a0d92423e016"
     },
     {
@@ -671,7 +671,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/alexandrite_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: alexandrite_end_ore",
+      "objetivo": "Botín v1.6.0: alexandrite_end_ore",
       "sha256": "25e3e2790f58347d4421da8b594f206c29908095cb74634b9f8a99b03d32425f"
     },
     {
@@ -679,7 +679,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/alexandrite_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: alexandrite_nether_ore",
+      "objetivo": "Botín v1.6.0: alexandrite_nether_ore",
       "sha256": "dc4aaa8e04d3fc86f37c6246eae7e9cf7d783602400f0d460677dd76fe593c73"
     },
     {
@@ -687,7 +687,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/alexandrite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: alexandrite_ore",
+      "objetivo": "Botín v1.6.0: alexandrite_ore",
       "sha256": "eeb7a1a744b2341c2044c6ebd5c7bfebc93c422039982b8f2db4d75737146602"
     },
     {
@@ -695,7 +695,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/ammolite_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ammolite_end_ore",
+      "objetivo": "Botín v1.6.0: ammolite_end_ore",
       "sha256": "13bf6171afa8385d8f14eaffb13939e6bbd02c139a7b8c753940f2e9201e6b15"
     },
     {
@@ -703,7 +703,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/ammolite_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ammolite_nether_ore",
+      "objetivo": "Botín v1.6.0: ammolite_nether_ore",
       "sha256": "6c8a6d7de205c403c4b1847c32781ee493a72e58a6a0d66b5bb00dab189bba8f"
     },
     {
@@ -711,7 +711,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/ammolite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ammolite_ore",
+      "objetivo": "Botín v1.6.0: ammolite_ore",
       "sha256": "1856758cd31e2f20f7c59e8bf6f46d9eea223c28229e4fe9cd427e4603b5d7fd"
     },
     {
@@ -719,7 +719,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/black_diamond_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: black_diamond_end_ore",
+      "objetivo": "Botín v1.6.0: black_diamond_end_ore",
       "sha256": "4e2db87fa8554997ae4d95072dd51effda95d44dfb7cd0ce01de9969fc21eec1"
     },
     {
@@ -727,7 +727,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/black_diamond_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: black_diamond_nether_ore",
+      "objetivo": "Botín v1.6.0: black_diamond_nether_ore",
       "sha256": "5d966b067d9606aa8e42d001636e4d7602fd622d88525723641b7afcf96a4713"
     },
     {
@@ -735,7 +735,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/black_diamond_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: black_diamond_ore",
+      "objetivo": "Botín v1.6.0: black_diamond_ore",
       "sha256": "ae289baeb289da8d6ee148ed6a47eb0ab07c2dc781a8d342eb9468949440a62e"
     },
     {
@@ -743,7 +743,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/carnelian_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: carnelian_end_ore",
+      "objetivo": "Botín v1.6.0: carnelian_end_ore",
       "sha256": "25c5195f7ea0dd7bebdca20ae8e4e5b1460ffef90637ad298a7b40a6496ac875"
     },
     {
@@ -751,7 +751,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/carnelian_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: carnelian_nether_ore",
+      "objetivo": "Botín v1.6.0: carnelian_nether_ore",
       "sha256": "112a2a5482fb36a206b3c9848f880ba05c53b6e35133790d81ba13555ceeff0f"
     },
     {
@@ -759,7 +759,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/carnelian_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: carnelian_ore",
+      "objetivo": "Botín v1.6.0: carnelian_ore",
       "sha256": "366ecc7576c8aaf9641ba14f3c6c95f573b14a8770b39e42546ff35a140a0ae0"
     },
     {
@@ -767,7 +767,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/citrine_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: citrine_end_ore",
+      "objetivo": "Botín v1.6.0: citrine_end_ore",
       "sha256": "fbfe0ba030eb22a4c71c7cb0c2f94ba524d86b8a9f3391b0edf633787a6e25d6"
     },
     {
@@ -775,7 +775,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/citrine_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: citrine_nether_ore",
+      "objetivo": "Botín v1.6.0: citrine_nether_ore",
       "sha256": "5b1100d32825d2ff5f81c252b60a1163fbebd4fb01d57fc651a847520c245c92"
     },
     {
@@ -783,7 +783,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/citrine_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: citrine_ore",
+      "objetivo": "Botín v1.6.0: citrine_ore",
       "sha256": "a83935125e1dbe2b75e0f96a257fb2b68ba730de4a65d82a45fd05afd9a55a71"
     },
     {
@@ -791,7 +791,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_alexandrite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_alexandrite_ore",
+      "objetivo": "Botín v1.6.0: deepslate_alexandrite_ore",
       "sha256": "7eacf0bacbdea732aa44a5516098aeb19d1e0bfd20043bfd612a19546aaa2f96"
     },
     {
@@ -799,7 +799,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_ammolite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_ammolite_ore",
+      "objetivo": "Botín v1.6.0: deepslate_ammolite_ore",
       "sha256": "660d4d42809a37f9b81293a00a2ad4d3212009771099993b67ded9aaa9d924ef"
     },
     {
@@ -807,7 +807,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_black_diamond_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_black_diamond_ore",
+      "objetivo": "Botín v1.6.0: deepslate_black_diamond_ore",
       "sha256": "bbfa7f73ee2da233a20f3dbf13e57e923ceb5443a484c49672bb0e1537d2876e"
     },
     {
@@ -815,7 +815,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_carnelian_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_carnelian_ore",
+      "objetivo": "Botín v1.6.0: deepslate_carnelian_ore",
       "sha256": "cb357b4edfa5da9ac22bc45d21dd899f014792c7ec7a6e41276c29f50dd91dfa"
     },
     {
@@ -823,7 +823,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_citrine_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_citrine_ore",
+      "objetivo": "Botín v1.6.0: deepslate_citrine_ore",
       "sha256": "2e97a4bd2309eb8a54dfc9b78bfe267a5b3f3d8fda90db04226886eb767ef940"
     },
     {
@@ -831,7 +831,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_heliodor_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_heliodor_ore",
+      "objetivo": "Botín v1.6.0: deepslate_heliodor_ore",
       "sha256": "aab749a68387422784a1db500f8c309c9f2890225f9f355e614a24ebddcba473"
     },
     {
@@ -839,7 +839,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_iolite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_iolite_ore",
+      "objetivo": "Botín v1.6.0: deepslate_iolite_ore",
       "sha256": "e35bc081fbe3207acca649e21a946be80339cba8f4791d417e1b08842abccf6e"
     },
     {
@@ -847,7 +847,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_kyanite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_kyanite_ore",
+      "objetivo": "Botín v1.6.0: deepslate_kyanite_ore",
       "sha256": "93a8e93c7a2140859ca263a89424fc914892f08978af203a1fe7daf9829447b9"
     },
     {
@@ -855,7 +855,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_moldavite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_moldavite_ore",
+      "objetivo": "Botín v1.6.0: deepslate_moldavite_ore",
       "sha256": "7d5a2b4296e9e2ab8bf7c08a4c527cbbb42170903163109efc94d6a57feecf37"
     },
     {
@@ -863,7 +863,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_peridot_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_peridot_ore",
+      "objetivo": "Botín v1.6.0: deepslate_peridot_ore",
       "sha256": "8d2b85b45072c394b4def50142cb714cc5e7391d491dc182e70d5f88a1644314"
     },
     {
@@ -871,7 +871,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_rose_quartz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_rose_quartz_ore",
+      "objetivo": "Botín v1.6.0: deepslate_rose_quartz_ore",
       "sha256": "6137d3adb546ab3262da3da19a2eae90aff79713e891ec8261d8c9f08bad9a84"
     },
     {
@@ -879,7 +879,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_ruby_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_ruby_ore",
+      "objetivo": "Botín v1.6.0: deepslate_ruby_ore",
       "sha256": "253c90cd2634228a08bfa49892d3600b8df9302c3f24ef86a00e58643126cac3"
     },
     {
@@ -887,7 +887,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_sapphire_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_sapphire_ore",
+      "objetivo": "Botín v1.6.0: deepslate_sapphire_ore",
       "sha256": "aa8120d36a194377c6ed50e83f78145eef248742290875be2d291b35f6f9b849"
     },
     {
@@ -895,7 +895,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_topaz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_topaz_ore",
+      "objetivo": "Botín v1.6.0: deepslate_topaz_ore",
       "sha256": "d1531b12a19450c5355f997c7762c992d08c85bb24755dee9a057e4ed7fc7763"
     },
     {
@@ -903,7 +903,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_turquoise_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_turquoise_ore",
+      "objetivo": "Botín v1.6.0: deepslate_turquoise_ore",
       "sha256": "6dab4a3388e17b182f3af6268409b24d72d31f91894f48ba92d85f2073d4c2bc"
     },
     {
@@ -911,7 +911,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/deepslate_white_diamond_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_white_diamond_ore",
+      "objetivo": "Botín v1.6.0: deepslate_white_diamond_ore",
       "sha256": "17826d339ccd3af9232bd3a3e121f566fd8a452beeecc5339992d4437f578571"
     },
     {
@@ -919,7 +919,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/heliodor_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: heliodor_end_ore",
+      "objetivo": "Botín v1.6.0: heliodor_end_ore",
       "sha256": "d47e56de26babdd4f1dad10419a094b1ee776d7fa53ab5abccaaedf072fa265e"
     },
     {
@@ -927,7 +927,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/heliodor_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: heliodor_nether_ore",
+      "objetivo": "Botín v1.6.0: heliodor_nether_ore",
       "sha256": "42767e00659555d0b3cfaf90769f25136b211be67120104eb4a9da22e21dfbb8"
     },
     {
@@ -935,7 +935,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/heliodor_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: heliodor_ore",
+      "objetivo": "Botín v1.6.0: heliodor_ore",
       "sha256": "97987267d650eec97cc710f4ad9c761fb572ec0ae61ed2d2bc0f61537e7ac21b"
     },
     {
@@ -943,7 +943,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/iolite_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: iolite_end_ore",
+      "objetivo": "Botín v1.6.0: iolite_end_ore",
       "sha256": "d0c7016f5907f4021d43bf49581ac6667b0a574486ca64d674edd92c7d325ac8"
     },
     {
@@ -951,7 +951,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/iolite_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: iolite_nether_ore",
+      "objetivo": "Botín v1.6.0: iolite_nether_ore",
       "sha256": "6a0a78cd15b330a99ece33bc27db8929661007be188e6ab9740122949cdd55c6"
     },
     {
@@ -959,7 +959,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/iolite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: iolite_ore",
+      "objetivo": "Botín v1.6.0: iolite_ore",
       "sha256": "85957cc55a236c5944e3745295f531dc2858d1899fbd9ea9c9c5e63f34489bd8"
     },
     {
@@ -967,7 +967,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/kyanite_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: kyanite_end_ore",
+      "objetivo": "Botín v1.6.0: kyanite_end_ore",
       "sha256": "ea30f14bf4e6074d3ad8dc6f27225f1c21e79d876886bb31538a9bf07e84943c"
     },
     {
@@ -975,7 +975,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/kyanite_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: kyanite_nether_ore",
+      "objetivo": "Botín v1.6.0: kyanite_nether_ore",
       "sha256": "cf8edda9111681f3793624a82368799b1711a7431072077cae3c7d3957f2e7d6"
     },
     {
@@ -983,7 +983,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/kyanite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: kyanite_ore",
+      "objetivo": "Botín v1.6.0: kyanite_ore",
       "sha256": "fa6597d77f6b46f7ce9cf038e3e6a94ee0e7d94b04c0db533f9d8ec8a3e425c5"
     },
     {
@@ -991,7 +991,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/moldavite_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: moldavite_end_ore",
+      "objetivo": "Botín v1.6.0: moldavite_end_ore",
       "sha256": "bfd814556712e902fe001f3affbb3dcd2acce47ffd700fa48a872fc97663b61e"
     },
     {
@@ -999,7 +999,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/moldavite_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: moldavite_nether_ore",
+      "objetivo": "Botín v1.6.0: moldavite_nether_ore",
       "sha256": "f427d6603b96d5d2ae7c23357d6c1fdac6575c9244e95a93f27d3f6462cfe9a1"
     },
     {
@@ -1007,7 +1007,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/moldavite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: moldavite_ore",
+      "objetivo": "Botín v1.6.0: moldavite_ore",
       "sha256": "831af2173606a7409b7ce76377e04f5f86cf6372378ef3caacb04007ac2261b5"
     },
     {
@@ -1015,7 +1015,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/peridot_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: peridot_end_ore",
+      "objetivo": "Botín v1.6.0: peridot_end_ore",
       "sha256": "5b3cc359f3a8cc16338f3e7bc302bf86ffcfd998e184c5409099d933c6bb2b19"
     },
     {
@@ -1023,7 +1023,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/peridot_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: peridot_nether_ore",
+      "objetivo": "Botín v1.6.0: peridot_nether_ore",
       "sha256": "cb10b3ba3cfb9259b3c37180a878e440b23c80c872d0eb3e752895f8f55ef677"
     },
     {
@@ -1031,7 +1031,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/peridot_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: peridot_ore",
+      "objetivo": "Botín v1.6.0: peridot_ore",
       "sha256": "f1837c592b87daca0f776e137165158250df190084afacf8cf3e247dbe986b6f"
     },
     {
@@ -1039,7 +1039,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/rose_quartz_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: rose_quartz_end_ore",
+      "objetivo": "Botín v1.6.0: rose_quartz_end_ore",
       "sha256": "cc57e513f0b3042fb40d39f6a8e3a331f2f56861cb1a4dc0ca9f46e2d8fa1ae7"
     },
     {
@@ -1047,7 +1047,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/rose_quartz_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: rose_quartz_nether_ore",
+      "objetivo": "Botín v1.6.0: rose_quartz_nether_ore",
       "sha256": "bcf0d2a60e18a42c215372f1ed07cf2bfb883e230b9a2101c4062e2e30b40a4d"
     },
     {
@@ -1055,7 +1055,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/rose_quartz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: rose_quartz_ore",
+      "objetivo": "Botín v1.6.0: rose_quartz_ore",
       "sha256": "76649d75ffc0bd154657e5b626b4b79ec70c03d6e731f678f92d983afa49f926"
     },
     {
@@ -1063,7 +1063,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/ruby_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ruby_end_ore",
+      "objetivo": "Botín v1.6.0: ruby_end_ore",
       "sha256": "d51dae5e6b3ba17c71d73d2dc4a77f84f6e5992f9c2bdc1efc37389858a7c2d9"
     },
     {
@@ -1071,7 +1071,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/ruby_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ruby_nether_ore",
+      "objetivo": "Botín v1.6.0: ruby_nether_ore",
       "sha256": "c450f8e4947335c42282640207d888949829bf70bec53d5ab2a957de09634cb8"
     },
     {
@@ -1079,7 +1079,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/ruby_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ruby_ore",
+      "objetivo": "Botín v1.6.0: ruby_ore",
       "sha256": "84e456cb87c9cc3a5975f94720ffe3f1a0344e1945d8ceb3ff178993e9f76d28"
     },
     {
@@ -1087,7 +1087,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/sapphire_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: sapphire_end_ore",
+      "objetivo": "Botín v1.6.0: sapphire_end_ore",
       "sha256": "f4a023417ff7cf1d6e0bde64a107a6ed3e07cb76b36f55862049c570f8f46e9e"
     },
     {
@@ -1095,7 +1095,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/sapphire_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: sapphire_nether_ore",
+      "objetivo": "Botín v1.6.0: sapphire_nether_ore",
       "sha256": "92827c79cdb88c671a24eb1fb5db4e67343869c2a80c0b5f596b349bd0fd6c10"
     },
     {
@@ -1103,7 +1103,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/sapphire_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: sapphire_ore",
+      "objetivo": "Botín v1.6.0: sapphire_ore",
       "sha256": "6c4b55682087f6584c7cb62bbac143b95e8bf1b89427144ca9ae84737e67db2e"
     },
     {
@@ -1111,7 +1111,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/topaz_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: topaz_end_ore",
+      "objetivo": "Botín v1.6.0: topaz_end_ore",
       "sha256": "001d0e8838ceae422c64c1f5367ca53a0bc7e50e53db72343a804c39d8f99a2d"
     },
     {
@@ -1119,7 +1119,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/topaz_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: topaz_nether_ore",
+      "objetivo": "Botín v1.6.0: topaz_nether_ore",
       "sha256": "7fb2bb7b5379cdfcf2ed8d843a1d7e070013087af5d02dda20d4f8879ba5046c"
     },
     {
@@ -1127,7 +1127,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/topaz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: topaz_ore",
+      "objetivo": "Botín v1.6.0: topaz_ore",
       "sha256": "c2a0d62ede6e929c7165393c6ee28e81d15d016dc3cf4937286fbfe307272fb3"
     },
     {
@@ -1135,7 +1135,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/turquoise_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: turquoise_end_ore",
+      "objetivo": "Botín v1.6.0: turquoise_end_ore",
       "sha256": "4ef69502456988349c3f2567451f1c1ddb022ff66df8c2c4d15d874d26e2c751"
     },
     {
@@ -1143,7 +1143,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/turquoise_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: turquoise_nether_ore",
+      "objetivo": "Botín v1.6.0: turquoise_nether_ore",
       "sha256": "453fe794b110f0d0aa491ee71f28d846b1ce842f4dc5a02625e20d2b376ddc92"
     },
     {
@@ -1151,7 +1151,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/turquoise_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: turquoise_ore",
+      "objetivo": "Botín v1.6.0: turquoise_ore",
       "sha256": "8706b8b2c26bfa614db4ff83158e32e2c3e540e9dd823c6a6dd91a82455c94ca"
     },
     {
@@ -1159,7 +1159,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/white_diamond_end_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: white_diamond_end_ore",
+      "objetivo": "Botín v1.6.0: white_diamond_end_ore",
       "sha256": "88b8674ac9479632170b8881ae3318d17cf81e1dd4c7e8a073c0b905ef404ae4"
     },
     {
@@ -1167,7 +1167,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/white_diamond_nether_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: white_diamond_nether_ore",
+      "objetivo": "Botín v1.6.0: white_diamond_nether_ore",
       "sha256": "2ac770afda8bc81081635273f8d55304fd4103b6e54c135f1eed24c08e2896a8"
     },
     {
@@ -1175,7 +1175,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/silentgems/white_diamond_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: white_diamond_ore",
+      "objetivo": "Botín v1.6.0: white_diamond_ore",
       "sha256": "a64abd1b4f5923377de1223c8a35b0ea2a3d3f862a418902d7d6af1dfc0aa75a"
     },
     {
@@ -1183,7 +1183,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/thermal/apatite_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: apatite_ore",
+      "objetivo": "Botín v1.6.0: apatite_ore",
       "sha256": "2358d9154077543928a1b52f4a76befbb4a5b8f94f13764cbe6822f45233bd93"
     },
     {
@@ -1191,7 +1191,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/thermal/cinnabar_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: cinnabar_ore",
+      "objetivo": "Botín v1.6.0: cinnabar_ore",
       "sha256": "4ea772d9b4bfc779437b89e155f835f630bec19a30dd548074f83b4127366566"
     },
     {
@@ -1199,7 +1199,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/thermal/niter_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: niter_ore",
+      "objetivo": "Botín v1.6.0: niter_ore",
       "sha256": "7a8f0b236369cf1dff75f19ace66baa54b9d079cd18c7046eb7576ea8f935565"
     },
     {
@@ -1207,7 +1207,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/compat/thermal/sulfur_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: sulfur_ore",
+      "objetivo": "Botín v1.6.0: sulfur_ore",
       "sha256": "2ac3de8948a48262d9d70d934aedaf3a12786877caca8fca902b7af752873a3b"
     },
     {
@@ -1215,7 +1215,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/copper_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: copper_ore",
+      "objetivo": "Botín v1.6.0: copper_ore",
       "sha256": "dc8edc708776764ba33ce6c03ccc4e514d14cd108018a8c5dd4aea92bafda10d"
     },
     {
@@ -1223,7 +1223,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/crimsite.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: crimsite",
+      "objetivo": "Botín v1.6.0: crimsite",
       "sha256": "69bb1e95f04bc072f60237473a127a43524a2ed5c4196201fdbae50080e15d6f"
     },
     {
@@ -1231,7 +1231,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/crimsite_recycling.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: crimsite_recycling",
+      "objetivo": "Botín v1.6.0: crimsite_recycling",
       "sha256": "d4ee45ce5f4cea05e8c3bb71351897e1ac45afabb04926fbe938f3095ce70c2b"
     },
     {
@@ -1239,7 +1239,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_coal_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_coal_ore",
+      "objetivo": "Botín v1.6.0: deepslate_coal_ore",
       "sha256": "d7fcff128a3c608209ec7812f361669162ae59790662e92eea976c1a2b5c790d"
     },
     {
@@ -1247,7 +1247,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_copper_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_copper_ore",
+      "objetivo": "Botín v1.6.0: deepslate_copper_ore",
       "sha256": "8402424cc39469a82f077d92c1add05cc23cc55154416b7770e8977b717af1fd"
     },
     {
@@ -1255,7 +1255,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_diamond_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_diamond_ore",
+      "objetivo": "Botín v1.6.0: deepslate_diamond_ore",
       "sha256": "3f9f6e108be812ee6fc435ace0d1cf304aae6c862e5a748c4714b855c6a3052a"
     },
     {
@@ -1263,7 +1263,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_emerald_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_emerald_ore",
+      "objetivo": "Botín v1.6.0: deepslate_emerald_ore",
       "sha256": "7bfb86e085cd5f520f7dd8d13666bc9d67219016662bc1951190f81ba2a5e80a"
     },
     {
@@ -1271,7 +1271,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_gold_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_gold_ore",
+      "objetivo": "Botín v1.6.0: deepslate_gold_ore",
       "sha256": "cd6c583ac93f9bd68f8fb23ee94267001ade13a74a0afc68bb1cc495986e8ec2"
     },
     {
@@ -1279,7 +1279,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_iron_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_iron_ore",
+      "objetivo": "Botín v1.6.0: deepslate_iron_ore",
       "sha256": "c449179e26fbb27024cd9af178ada710c68e84cc14fd0924b6e9b41bdd76a77d"
     },
     {
@@ -1287,7 +1287,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_lapis_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_lapis_ore",
+      "objetivo": "Botín v1.6.0: deepslate_lapis_ore",
       "sha256": "0dec3bf153e7d1f1d263b0835bfc361e91dbad2238d282c8857c7627f9bc9230"
     },
     {
@@ -1295,7 +1295,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_redstone_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_redstone_ore",
+      "objetivo": "Botín v1.6.0: deepslate_redstone_ore",
       "sha256": "ddc8b1ef3ad480cfb9821253c0c4a951a36ad8a6336c2c8a1994572d1a0e3812"
     },
     {
@@ -1303,7 +1303,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/deepslate_zinc_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deepslate_zinc_ore",
+      "objetivo": "Botín v1.6.0: deepslate_zinc_ore",
       "sha256": "4b05615f5b8fdeb17643b2918bd83682ff1633bbae4364a0638ebf01545ecfcf"
     },
     {
@@ -1311,7 +1311,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/diamond_horse_armor.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: diamond_horse_armor",
+      "objetivo": "Botín v1.6.0: diamond_horse_armor",
       "sha256": "0e06884b1eb8f3da2c30e7de7c9db73ac53a6ab052a53db91d80b46c45970377"
     },
     {
@@ -1319,7 +1319,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/diamond_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: diamond_ore",
+      "objetivo": "Botín v1.6.0: diamond_ore",
       "sha256": "f43c1a659b6a3b5e031274ac1072b2a2521c104b9db032041f408cadc42684b8"
     },
     {
@@ -1327,7 +1327,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/emerald_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: emerald_ore",
+      "objetivo": "Botín v1.6.0: emerald_ore",
       "sha256": "982a07b741810a89231e576c154a1150e41499f992ed8935072a9b92a322e333"
     },
     {
@@ -1335,7 +1335,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/gilded_blackstone.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: gilded_blackstone",
+      "objetivo": "Botín v1.6.0: gilded_blackstone",
       "sha256": "9a32148cf694e96aedb87591e9f79dbeafa5be9ff7cb1431889c907aad389271"
     },
     {
@@ -1343,7 +1343,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/gold_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: gold_ore",
+      "objetivo": "Botín v1.6.0: gold_ore",
       "sha256": "bc5e7537170ea6557f4f9842e8000be56c554bc7af6544fb5286c8326824a63f"
     },
     {
@@ -1351,7 +1351,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/golden_horse_armor.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: golden_horse_armor",
+      "objetivo": "Botín v1.6.0: golden_horse_armor",
       "sha256": "48fe730dc3864669c21db1b9a3a961f7b504377e716ae8b581f279c7fb36aea6"
     },
     {
@@ -1359,7 +1359,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/iron_horse_armor.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: iron_horse_armor",
+      "objetivo": "Botín v1.6.0: iron_horse_armor",
       "sha256": "5b08d1b8433c0b5262f381f0231875bede13259b033191293e4fca069bf02501"
     },
     {
@@ -1367,7 +1367,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/iron_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: iron_ore",
+      "objetivo": "Botín v1.6.0: iron_ore",
       "sha256": "81666e34110ec43bb1d952103a1b944c04903dd1e2d7a286ef3e8cb1d02df00f"
     },
     {
@@ -1375,7 +1375,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/lapis_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: lapis_ore",
+      "objetivo": "Botín v1.6.0: lapis_ore",
       "sha256": "89f6c641ecc3dd893b1b7cfec1d7b6d7899fd4fa78d422ce93ea399dffdcd777"
     },
     {
@@ -1383,7 +1383,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/lead_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: lead_ore",
+      "objetivo": "Botín v1.6.0: lead_ore",
       "sha256": "9bc3bcc0a8a9c7563fb04f5a718c2733465f4abdfdf531a2c5b3fb26598b6166"
     },
     {
@@ -1391,7 +1391,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/nether_gold_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: nether_gold_ore",
+      "objetivo": "Botín v1.6.0: nether_gold_ore",
       "sha256": "3f94a7b558b444dd079970bb8d5b2348dd64c525a4aec2acfdd8960e7b2bcc0a"
     },
     {
@@ -1399,7 +1399,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/nether_quartz_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: nether_quartz_ore",
+      "objetivo": "Botín v1.6.0: nether_quartz_ore",
       "sha256": "8e95757aeb6559eb924b5abb9e857bb17d60b681464ed117963c247b857b0f33"
     },
     {
@@ -1407,7 +1407,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/nickel_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: nickel_ore",
+      "objetivo": "Botín v1.6.0: nickel_ore",
       "sha256": "829d782906dd463e52b929c0d360287d5f0bba4ab9d0e29aa9dd1b381654cfd7"
     },
     {
@@ -1415,7 +1415,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/ochrum.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ochrum",
+      "objetivo": "Botín v1.6.0: ochrum",
       "sha256": "3ca2d54391f226c94209f17e73f53dd9fbe65abdda089b3c09b4d7ff861f532a"
     },
     {
@@ -1423,7 +1423,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/ochrum_recycling.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: ochrum_recycling",
+      "objetivo": "Botín v1.6.0: ochrum_recycling",
       "sha256": "199f78114681a5d679a686799a60ae29a561b5c97a5f6da33af1d9ff7153131a"
     },
     {
@@ -1431,7 +1431,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/osmium_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: osmium_ore",
+      "objetivo": "Botín v1.6.0: osmium_ore",
       "sha256": "9061b1d9992d165c3ee2579dd5387451e05bdc5d259f484e26b2520acc47ac36"
     },
     {
@@ -1439,7 +1439,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/platinum_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: platinum_ore",
+      "objetivo": "Botín v1.6.0: platinum_ore",
       "sha256": "536e911aca4e4182c6834cdee26b635015e14fbd0b9824d6135d8893f1b1b614"
     },
     {
@@ -1447,7 +1447,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/quicksilver_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: quicksilver_ore",
+      "objetivo": "Botín v1.6.0: quicksilver_ore",
       "sha256": "da0c30c837d7256363a22f554e74eef34fac01b81b6aa47c1292a54a59711c79"
     },
     {
@@ -1455,7 +1455,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_aluminum.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_aluminum",
+      "objetivo": "Botín v1.6.0: raw_aluminum",
       "sha256": "261b48f1a26ab62669aad9f3d4759514ae55b3cdbb238455096c9a88b929c2f7"
     },
     {
@@ -1463,7 +1463,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_aluminum_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_aluminum_block",
+      "objetivo": "Botín v1.6.0: raw_aluminum_block",
       "sha256": "92ef22f61ae42d7cf34292be8c6d4fd0a286e696f695fc020be0ab3ec2af9fdd"
     },
     {
@@ -1471,7 +1471,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_copper.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_copper",
+      "objetivo": "Botín v1.6.0: raw_copper",
       "sha256": "e9cf3f2b39726be57a4b59cd4029a5c2480cbd56eb615ae60bbbe07d9f9c9b23"
     },
     {
@@ -1479,7 +1479,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_copper_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_copper_block",
+      "objetivo": "Botín v1.6.0: raw_copper_block",
       "sha256": "27227f2ac7fd0a5729dd4bd6916991019ba9ecc4d15d7d607a575203a62681b7"
     },
     {
@@ -1487,7 +1487,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_gold.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_gold",
+      "objetivo": "Botín v1.6.0: raw_gold",
       "sha256": "f64ead1998703477c7f184f77d95f081d0c87929b02371d4f658e64845d692e0"
     },
     {
@@ -1495,7 +1495,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_gold_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_gold_block",
+      "objetivo": "Botín v1.6.0: raw_gold_block",
       "sha256": "0336e9e82cd36424502275753762a249ef9810c36133aeb6741ec29d9a44b15d"
     },
     {
@@ -1503,7 +1503,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_iron.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_iron",
+      "objetivo": "Botín v1.6.0: raw_iron",
       "sha256": "87dd759250c3fc1cd4c0a83bc1d3ea6dcb6d4c12b5f4e4f09a4ac2f6ee2f9444"
     },
     {
@@ -1511,7 +1511,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_iron_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_iron_block",
+      "objetivo": "Botín v1.6.0: raw_iron_block",
       "sha256": "48e5f5766b792a34d096a65404bdb643d1b9c1a19c59afdc1d9a1953389ab2a1"
     },
     {
@@ -1519,7 +1519,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_lead.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_lead",
+      "objetivo": "Botín v1.6.0: raw_lead",
       "sha256": "c4da10ece6b0aa872b643557301f31fe61b24cd495e3ce1a105b7a85b4cb67fe"
     },
     {
@@ -1527,7 +1527,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_lead_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_lead_block",
+      "objetivo": "Botín v1.6.0: raw_lead_block",
       "sha256": "3ef8f5de648b649242e56132e324a3193fad0f65ec0bfdd9f033295130709c04"
     },
     {
@@ -1535,7 +1535,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_nickel.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_nickel",
+      "objetivo": "Botín v1.6.0: raw_nickel",
       "sha256": "137141a877d92937dc669f0a11d6b4d8d997509efa88de45d04e09e2f8c71abf"
     },
     {
@@ -1543,7 +1543,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_nickel_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_nickel_block",
+      "objetivo": "Botín v1.6.0: raw_nickel_block",
       "sha256": "9048ff0ae7835adfff0976cfa6251421ebca83dc5c56a687b1815e48a1036137"
     },
     {
@@ -1551,7 +1551,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_osmium.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_osmium",
+      "objetivo": "Botín v1.6.0: raw_osmium",
       "sha256": "ee22f4281cfd93a8d1a13401f9bb7fcdd92201e810122655f09b5025a119f9eb"
     },
     {
@@ -1559,7 +1559,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_osmium_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_osmium_block",
+      "objetivo": "Botín v1.6.0: raw_osmium_block",
       "sha256": "fdd7f982d0b26f8e745adb4677962a5e500bd49a580fe1f1c433e63e48810a1d"
     },
     {
@@ -1567,7 +1567,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_platinum.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_platinum",
+      "objetivo": "Botín v1.6.0: raw_platinum",
       "sha256": "db8a30fc4c2791ec90c8b5f77ef85a61429ee808a76519132710728f1bf5390f"
     },
     {
@@ -1575,7 +1575,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_platinum_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_platinum_block",
+      "objetivo": "Botín v1.6.0: raw_platinum_block",
       "sha256": "e2461b6f0deabaa20dcee6f75c07c5cf459134c18efadd609d6c29f5f91a858a"
     },
     {
@@ -1583,7 +1583,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_quicksilver.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_quicksilver",
+      "objetivo": "Botín v1.6.0: raw_quicksilver",
       "sha256": "a300032254b2cadbb22363f56a1a2fb28f7ae66e176f79829d31a001c7700d05"
     },
     {
@@ -1591,7 +1591,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_quicksilver_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_quicksilver_block",
+      "objetivo": "Botín v1.6.0: raw_quicksilver_block",
       "sha256": "3c6dfe5bb2d6d00b5a02b293bc90b4c1af87bebfdcf6eec7359a4bfad922d459"
     },
     {
@@ -1599,7 +1599,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_silver.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_silver",
+      "objetivo": "Botín v1.6.0: raw_silver",
       "sha256": "bdf9e0ed869c79210eb7d0c5515175ba0a1cf49c7edf4e86eccb2d178609d040"
     },
     {
@@ -1607,7 +1607,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_silver_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_silver_block",
+      "objetivo": "Botín v1.6.0: raw_silver_block",
       "sha256": "c0abc522047212be1a87d9f874567c51e28020626490a1533f8e41d5b2ae5d62"
     },
     {
@@ -1615,7 +1615,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_tin.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_tin",
+      "objetivo": "Botín v1.6.0: raw_tin",
       "sha256": "029f867880469d63099c94500fee577e814b5e2e8333b890e01dd4f38ee9ab32"
     },
     {
@@ -1623,7 +1623,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_tin_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_tin_block",
+      "objetivo": "Botín v1.6.0: raw_tin_block",
       "sha256": "6860c18c8734a54d56a248eeca3802de74b1ed1a27d6a6bfbc8963e628402706"
     },
     {
@@ -1631,7 +1631,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_uranium.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_uranium",
+      "objetivo": "Botín v1.6.0: raw_uranium",
       "sha256": "0c8e84fbee62904f4df4ffed2cea10effed49eb306bc49bd9485ebe327ef7250"
     },
     {
@@ -1639,7 +1639,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_uranium_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_uranium_block",
+      "objetivo": "Botín v1.6.0: raw_uranium_block",
       "sha256": "450eaee461a2532fcbff727b8eff5ee19c2f178c08843b33e123d52f8d64ca58"
     },
     {
@@ -1647,7 +1647,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_zinc.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_zinc",
+      "objetivo": "Botín v1.6.0: raw_zinc",
       "sha256": "2cdafabe178b289cedd3132e31704f54cea4078bb08315a24bbc70dd4d7f68e8"
     },
     {
@@ -1655,7 +1655,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/raw_zinc_block.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: raw_zinc_block",
+      "objetivo": "Botín v1.6.0: raw_zinc_block",
       "sha256": "e92caddc349a7f13b68e0d1b85253ddb344cda84492f1f7f61ca11c450676d0d"
     },
     {
@@ -1663,7 +1663,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/redstone_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: redstone_ore",
+      "objetivo": "Botín v1.6.0: redstone_ore",
       "sha256": "2e878134691d75bfa1f97c942ea36f0be84908069ecd5003da3535d97da0e6b0"
     },
     {
@@ -1671,7 +1671,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/silver_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: silver_ore",
+      "objetivo": "Botín v1.6.0: silver_ore",
       "sha256": "423d618d56540421541f1b916d82d4ad4c9438053ccd289cfb2f5f8ff3b4ae2a"
     },
     {
@@ -1679,7 +1679,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/tin_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: tin_ore",
+      "objetivo": "Botín v1.6.0: tin_ore",
       "sha256": "c8dba25b5a224b666aee9a0c162e65058d53990ea8459e31ec2ce92a2bb59c50"
     },
     {
@@ -1687,7 +1687,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/tuff.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: tuff",
+      "objetivo": "Botín v1.6.0: tuff",
       "sha256": "f48dfc0213bdc5e7ecf12fbf7b7d66ec21e328d5124782cddba773be34578196"
     },
     {
@@ -1695,7 +1695,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/tuff_recycling.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: tuff_recycling",
+      "objetivo": "Botín v1.6.0: tuff_recycling",
       "sha256": "0c42cec05dfb4300f680a7ea3a271a78337c66f21dab60f0bd2814f8d79ddc43"
     },
     {
@@ -1703,7 +1703,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/uranium_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: uranium_ore",
+      "objetivo": "Botín v1.6.0: uranium_ore",
       "sha256": "aa07615299acfb8569f5ad4508decc7d6b0d9dab9d0f33d4dd4721e065023972"
     },
     {
@@ -1711,7 +1711,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/crushing/zinc_ore.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: zinc_ore",
+      "objetivo": "Botín v1.6.0: zinc_ore",
       "sha256": "bf57a5699f89ab34df21db7f91629c59cf040bef0dd8608ed764d50b9bb1c473"
     },
     {
@@ -1719,7 +1719,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/splashing/gravel.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: gravel",
+      "objetivo": "Botín v1.6.0: gravel",
       "sha256": "ebc7ce2db9c11bf9631dc3692d26a444793bd2d39d219170095535bbd5056ddc"
     },
     {
@@ -1727,7 +1727,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/splashing/red_sand.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: red_sand",
+      "objetivo": "Botín v1.6.0: red_sand",
       "sha256": "d76eb9540eda86bf636311793629e31ac9729378d0c9de760d6fb561cd2c3451"
     },
     {
@@ -1735,7 +1735,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/create/recipes/splashing/soul_sand.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: soul_sand",
+      "objetivo": "Botín v1.6.0: soul_sand",
       "sha256": "cf676e914cb5caf6500295208e0692d4374c063148f75a2b5e931bd505f9d9a4"
     },
     {
@@ -1743,7 +1743,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/forge/loot_modifiers/global_loot_modifiers.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: global_loot_modifiers",
+      "objetivo": "Botín v1.6.0: global_loot_modifiers",
       "sha256": "26bfe32a9cfd700841860980530ca1b01d3f02966be36d273398cb49d5f64df0"
     },
     {
@@ -1751,7 +1751,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/ancient_city_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: ancient_city_modifier",
+      "objetivo": "Botín v1.6.0: ancient_city_modifier",
       "sha256": "c69dc7ebfb2a95f7e78345324011b86db3e79e5a374293b1a8f01acee780b2c6"
     },
     {
@@ -1759,7 +1759,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/compat_generic_loot_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: compat_generic_loot_modifier",
+      "objetivo": "Botín v1.6.0: compat_generic_loot_modifier",
       "sha256": "b3b8e87dce128d67ff634dba0da839f832c779beacd88a85be6ab96b2d097f55"
     },
     {
@@ -1767,7 +1767,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/compat_good_loot_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: compat_good_loot_modifier",
+      "objetivo": "Botín v1.6.0: compat_good_loot_modifier",
       "sha256": "d128f78c4d0d0ddc1b00e188149effce37bc6b256ee2bc37cfdbdaac3b839df6"
     },
     {
@@ -1775,7 +1775,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/compat_treasure_loot_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: compat_treasure_loot_modifier",
+      "objetivo": "Botín v1.6.0: compat_treasure_loot_modifier",
       "sha256": "4325d4b16e39b5ff676aa53486a82603dd64869d310c4e4ee2d5c04ffe3a1db5"
     },
     {
@@ -1783,7 +1783,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/end_city_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: end_city_modifier",
+      "objetivo": "Botín v1.6.0: end_city_modifier",
       "sha256": "05e5865de379ea058c4575884937306412f32d8d905b06bf4a638bad6c9494d4"
     },
     {
@@ -1791,7 +1791,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/nether_loot_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: nether_loot_modifier",
+      "objetivo": "Botín v1.6.0: nether_loot_modifier",
       "sha256": "7ed7adc9096887d76915fd3fba0616d200e73ba551682292b2f025a0f1969aa9"
     },
     {
@@ -1799,7 +1799,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/stronghold_library_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: stronghold_library_modifier",
+      "objetivo": "Botín v1.6.0: stronghold_library_modifier",
       "sha256": "e370e66e8383b83d0c9d36082456d63eb2473a7e68cbba9f2ad80b43a6503103"
     },
     {
@@ -1807,7 +1807,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: vanilla_generic_loot_modifier",
+      "objetivo": "Botín v1.6.0: vanilla_generic_loot_modifier",
       "sha256": "b3b8e87dce128d67ff634dba0da839f832c779beacd88a85be6ab96b2d097f55"
     },
     {
@@ -1815,7 +1815,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_ancient_city_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_ancient_city_loot",
+      "objetivo": "Botín v1.6.0: additional_ancient_city_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1823,7 +1823,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_end_city_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_end_city_loot",
+      "objetivo": "Botín v1.6.0: additional_end_city_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1831,7 +1831,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_generic_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_generic_loot",
+      "objetivo": "Botín v1.6.0: additional_generic_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1839,7 +1839,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_good_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_good_loot",
+      "objetivo": "Botín v1.6.0: additional_good_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1847,7 +1847,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_library_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_library_loot",
+      "objetivo": "Botín v1.6.0: additional_library_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1855,7 +1855,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_nether_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_nether_loot",
+      "objetivo": "Botín v1.6.0: additional_nether_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1863,7 +1863,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/additional_treasure_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_treasure_loot",
+      "objetivo": "Botín v1.6.0: additional_treasure_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -1871,23 +1871,23 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/battleground/burial_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: burial_loot",
-      "sha256": "2809abcbb7a634ddc4c9db16c7bb29f2c9b53f7b62ab34646e56aa5448aaa31e"
+      "objetivo": "Botín v1.6.0: burial_loot",
+      "sha256": "b007e4ac216c0d6568edb9f098e375ef2a331639ade9a8836c0a8d0c4a4cbf99"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/battleground/piglin_camp.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: piglin_camp",
-      "sha256": "49ad7ced10912a828d44a592043af6728471e260c7108c599a2ca5f056217fb6"
+      "objetivo": "Botín v1.6.0: piglin_camp",
+      "sha256": "eef8a18f65631f566c4da926aa762aa5cbe87407e886368f4dbdae198fd96a62"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/bookshelf_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bookshelf_loot",
+      "objetivo": "Botín v1.6.0: bookshelf_loot",
       "sha256": "69c713a7be4a8ea09455d5939a3ea51ac085f29a31bf59d97b07bae111f5839a"
     },
     {
@@ -1895,47 +1895,47 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/armory_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: armory_loot",
-      "sha256": "5c4697ee91e30ed4d6d4905c00e2b5cc1a4259d891b6c85bcf6105311b5ecf56"
+      "objetivo": "Botín v1.6.0: armory_loot",
+      "sha256": "8c7236ec317c3b4c7e0242f4114dcdb9188b0b31ac6fd8fe849a3095a2ca27b8"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/coffin_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: coffin_loot",
-      "sha256": "88cf1fc4eba20ff05e02bd01a962e7abbe7635e9d780e4da183f5e2a0b3477fa"
+      "objetivo": "Botín v1.6.0: coffin_loot",
+      "sha256": "c1ca1e45f3458632b0d14ea13923ed13dc5c585c88a97c9ef1655c33c8b0cbbc"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/crypt_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: crypt_loot",
-      "sha256": "9c452b5c9a65e86b52ebb694527f0049e5fa8cc70439d4811693e50c0e942636"
+      "objetivo": "Botín v1.6.0: crypt_loot",
+      "sha256": "1eb43f0995e476deb06f8fa97bd62ea68c5468a187bb933a4b8001689189b0d5"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/dead_king_vault.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: dead_king_vault",
-      "sha256": "2155a1871c64589351d37cca9c1a82df09aba6b952f10da270145c5f4eef3c4d"
+      "objetivo": "Botín v1.6.0: dead_king_vault",
+      "sha256": "f16073cc3c0d07629fa62814346ab620772f0e384b9921236407c0fc51d52f95"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/hidden_trough_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: hidden_trough_treasure",
-      "sha256": "a4f6bd96d34d1d5d826c33e763ba06efaf3fda7261234619e3ad24c759978e16"
+      "objetivo": "Botín v1.6.0: hidden_trough_treasure",
+      "sha256": "a35315f4873b02866b8affc691418014cd89fb374e9317ae3a6ea68e280a1e50"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/pot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pot",
+      "objetivo": "Botín v1.6.0: pot",
       "sha256": "9a67df09c81491ff4614586d8b2a3cab8bd4360d6be4a8cddcef9bdc6398c5f1"
     },
     {
@@ -1943,23 +1943,23 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/wall_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: wall_loot",
-      "sha256": "4a0eac2c32aa748417e385a9371725c3863ef702e6117ec87e022b04bc1a51ca"
+      "objetivo": "Botín v1.6.0: wall_loot",
+      "sha256": "868a5fd1e46e885561473f40472443993322c3f98d3ad2f66a5d814311144649"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/citadel_bookshelf.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: citadel_bookshelf",
-      "sha256": "79b7569b0eabd1fe77432e11bf2cdb90efdb44cb6f4d2647e14b5e738fee0830"
+      "objetivo": "Botín v1.6.0: citadel_bookshelf",
+      "sha256": "356f39fd180bcdcfbf48b94487b035f76b4c718ea41207eead6909d866ea9ccf"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/citadel_tomes.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: citadel_tomes",
+      "objetivo": "Botín v1.6.0: citadel_tomes",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -1967,23 +1967,23 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/citadel_vault.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: citadel_vault",
-      "sha256": "9d6dcf2af72b4777ee7809a90429ad67b33a117b417cc3e4d844f71cb81cb33f"
+      "objetivo": "Botín v1.6.0: citadel_vault",
+      "sha256": "470046de31cfe1174aa6e62496c30611e480354943230dbb82572d6626e339dd"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/rampart_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: rampart_chest",
-      "sha256": "a3da8640545268f1be396f182a9207629946e42e5c32aa5fc9893bcecadff37e"
+      "objetivo": "Botín v1.6.0: rampart_chest",
+      "sha256": "61cf79835e5ea84cbfcbc4b36bea0a64488dddcd2e1248d899321c297176a63d"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/rampart_supplies.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: rampart_supplies",
+      "objetivo": "Botín v1.6.0: rampart_supplies",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -1991,15 +1991,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/spawner_reward.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: spawner_reward",
-      "sha256": "2d641c8ea8089ed893ed517cd463087680507e24d4b8022a5dcd7b81e341edfd"
+      "objetivo": "Botín v1.6.0: spawner_reward",
+      "sha256": "e428ed2db81fe1c95d75e85214c09a736b63f71f23746803c457fbaa5031f769"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/component_storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: component_storage",
+      "objetivo": "Botín v1.6.0: component_storage",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2007,15 +2007,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/evoker_fort.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: evoker_fort",
-      "sha256": "360dd5cb5af448efcc1a220364c16d0d4ad2529db0af58c1203902a79611117a"
+      "objetivo": "Botín v1.6.0: evoker_fort",
+      "sha256": "c0aaa80c3216c5c90f326cce0e5f0be4e17c4ad4d414064a17bb6e8413ae15aa"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/evoker_fort/guard_tower.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: guard_tower",
+      "objetivo": "Botín v1.6.0: guard_tower",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -2023,7 +2023,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/filler_storage_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: filler_storage_loot",
+      "objetivo": "Botín v1.6.0: filler_storage_loot",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2031,15 +2031,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/generic_magic_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: generic_magic_treasure",
-      "sha256": "9f84c727d320fb877eac8a82aa37c8557afb6675c065cbfd4245ddbfea70cb9a"
+      "objetivo": "Botín v1.6.0: generic_magic_treasure",
+      "sha256": "87aa5e9cd05d868eae27a9706ca4c0d33520a2d82fa7b8da627d6885aacf4fde"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/ice_spider_den/basement.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: basement",
+      "objetivo": "Botín v1.6.0: basement",
       "sha256": "44971af1864d915355d4e2595d628c50f7a35f52a65ea820e7542ddd8658e6e0"
     },
     {
@@ -2047,7 +2047,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/ice_spider_den/cask.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: cask",
+      "objetivo": "Botín v1.6.0: cask",
       "sha256": "44971af1864d915355d4e2595d628c50f7a35f52a65ea820e7542ddd8658e6e0"
     },
     {
@@ -2055,15 +2055,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/ice_spider_den/dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: dungeon",
-      "sha256": "23a1a3024a70623ddccc91b43f30052efda7196bcf725923c134b515dd04abb9"
+      "objetivo": "Botín v1.6.0: dungeon",
+      "sha256": "ee0be343ccef057707f193b2b90f024195c1aa49105a5b197b033174e8cfe826"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/ice_spider_den/pot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pot",
+      "objetivo": "Botín v1.6.0: pot",
       "sha256": "44971af1864d915355d4e2595d628c50f7a35f52a65ea820e7542ddd8658e6e0"
     },
     {
@@ -2071,31 +2071,31 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/ice_spider_den/spawner_reward.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: spawner_reward",
-      "sha256": "2f7cb74bb661429aecd66e2de38b997b39efa8eebab7d1276b7be4c777823cff"
+      "objetivo": "Botín v1.6.0: spawner_reward",
+      "sha256": "322ca7c13c0f86e539726f2e589ef5717d41f52a41fb423b96bef2f0ec0699cc"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/ice_spider_den/tower.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: tower",
-      "sha256": "91d6ae84df66e256135b6905d88ccd58de36841c9ab9ae35ef5d39a2f070dd57"
+      "objetivo": "Botín v1.6.0: tower",
+      "sha256": "005d28283ea0927b5a2f1559705b3129bbb3177b1453b16deac7300a6f11cab3"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/impaled_icebreaker/captain_quarters.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: captain_quarters",
-      "sha256": "39656d6c505ebd36ebac99176d77676fad275662f096169d2fc45d4e0814e8c7"
+      "objetivo": "Botín v1.6.0: captain_quarters",
+      "sha256": "62f0b80efb1a6510055f2a00c7ce1e2d35c60375298ea25bfe33e94818dde0b2"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/impaled_icebreaker/food_barrel.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: food_barrel",
+      "objetivo": "Botín v1.6.0: food_barrel",
       "sha256": "719aaa995bf837fd2d9ecb1aecbf740f1c973ea695eed6b14cce7a9429c4476b"
     },
     {
@@ -2103,15 +2103,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/magic_bookshelf_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: magic_bookshelf_loot",
-      "sha256": "bf98df760f4d32b7d91e64e5a490430987e764e39c3d1f9ba270ab78f931fe69"
+      "objetivo": "Botín v1.6.0: magic_bookshelf_loot",
+      "sha256": "2a8c83e991d21a27c4133c69c22bf2dfcb3d1f39f32a2365c2e952a7e48a6154"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/mangrove_hut.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mangrove_hut",
+      "objetivo": "Botín v1.6.0: mangrove_hut",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -2119,7 +2119,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/mangrove_hut/hidden_potion_storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: hidden_potion_storage",
+      "objetivo": "Botín v1.6.0: hidden_potion_storage",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -2127,7 +2127,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/mangrove_hut/potion_ingredient_storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: potion_ingredient_storage",
+      "objetivo": "Botín v1.6.0: potion_ingredient_storage",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -2135,7 +2135,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/mountain_tower/ice_barrel.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: ice_barrel",
+      "objetivo": "Botín v1.6.0: ice_barrel",
       "sha256": "44971af1864d915355d4e2595d628c50f7a35f52a65ea820e7542ddd8658e6e0"
     },
     {
@@ -2143,15 +2143,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/mountain_tower/mountain_tower.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mountain_tower",
-      "sha256": "4c637026a500cbb0f09bc50ace266c2bb309814c2f83f54f2c71c19af46726ce"
+      "objetivo": "Botín v1.6.0: mountain_tower",
+      "sha256": "e03d9e526533a144a10d6c25bc2f28b986b035b96debb34caf18075ff2e2d769"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/priest_house.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: priest_house",
+      "objetivo": "Botín v1.6.0: priest_house",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2159,15 +2159,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/burnt_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: burnt_chest",
-      "sha256": "4cc000f62e81698a24cce7f9b21d97bc63dbacf04c9aa79bfe49a72a92da67cc"
+      "objetivo": "Botín v1.6.0: burnt_chest",
+      "sha256": "d7c82c905b525c9cb4ae787b1992404b546c30d6859f39e35f122cf1ae1d76f1"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/fire_ale_cask.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: fire_ale_cask",
+      "objetivo": "Botín v1.6.0: fire_ale_cask",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -2175,7 +2175,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/fire_ale_trove.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: fire_ale_trove",
+      "objetivo": "Botín v1.6.0: fire_ale_trove",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -2183,7 +2183,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/old_cask.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: old_cask",
+      "objetivo": "Botín v1.6.0: old_cask",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -2191,7 +2191,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/pot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pot",
+      "objetivo": "Botín v1.6.0: pot",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -2199,7 +2199,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/pyromancer_basic_storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pyromancer_basic_storage",
+      "objetivo": "Botín v1.6.0: pyromancer_basic_storage",
       "sha256": "77baf0a066ddc30756b4b6172be75a8a077dab627abbcde2a3382f4a261d14d2"
     },
     {
@@ -2207,15 +2207,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/pyromancer_supplies.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pyromancer_supplies",
-      "sha256": "be513a3dc457c3db847982d4201edc2471f6963611848acf01843b657b397822"
+      "objetivo": "Botín v1.6.0: pyromancer_supplies",
+      "sha256": "b1d109ec31a42062402f88fe12fa29bc4aaf6effc13c87a7c50edc9b231f489e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/sewer_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: sewer_loot",
+      "objetivo": "Botín v1.6.0: sewer_loot",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2223,7 +2223,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/trial_chambers/additional_ominous_spawner_consumable_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_ominous_spawner_consumable_loot",
+      "objetivo": "Botín v1.6.0: additional_ominous_spawner_consumable_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -2231,7 +2231,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/trial_chambers/additional_ominous_vault_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_ominous_vault_loot",
+      "objetivo": "Botín v1.6.0: additional_ominous_vault_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -2239,7 +2239,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/trial_chambers/additional_regular_spawner_consumable_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_regular_spawner_consumable_loot",
+      "objetivo": "Botín v1.6.0: additional_regular_spawner_consumable_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -2247,7 +2247,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/trial_chambers/additional_regular_vault_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_regular_vault_loot",
+      "objetivo": "Botín v1.6.0: additional_regular_vault_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -2255,7 +2255,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/trial_chambers/additional_trial_chest_loot.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: additional_trial_chest_loot",
+      "objetivo": "Botín v1.6.0: additional_trial_chest_loot",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -2263,7 +2263,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/trial_chambers/pot_replacement.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pot_replacement",
+      "objetivo": "Botín v1.6.0: pot_replacement",
       "sha256": "e415cd5f20c3669507c8eec0a8a6ef34f1fb6fb46a7fd4064f0a004db32a52e7"
     },
     {
@@ -2271,7 +2271,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/chests/wheat.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: wheat",
+      "objetivo": "Botín v1.6.0: wheat",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2279,7 +2279,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/entities/dead_king.json",
       "tipo": "override_entity",
-      "objetivo": "Botín v1.5.0: dead_king",
+      "objetivo": "Botín v1.6.0: dead_king",
       "sha256": "7fe8772c2717e8c81e84565ee2053d94ded70831ba04e1e077a10b2212d3b1a7"
     },
     {
@@ -2287,7 +2287,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/magic_items/great_ink.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: great_ink",
+      "objetivo": "Botín v1.6.0: great_ink",
       "sha256": "16a514f1b11c0dca758b4f39349239853c3f5a63bda7d49d7c190c7e54e77675"
     },
     {
@@ -2295,7 +2295,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/magic_items/reward_ink.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: reward_ink",
+      "objetivo": "Botín v1.6.0: reward_ink",
       "sha256": "8becb16ddb41d10c137f9c42a200b0d8d27ec5d426e3718f71d32513ddbea9ed"
     },
     {
@@ -2303,7 +2303,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/loot_tables/magic_items/scroll_pouch.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: scroll_pouch",
+      "objetivo": "Botín v1.6.0: scroll_pouch",
       "sha256": "15109d04d6b85b04127a4673740ee0d17908f78c72f58a861c8290d186e1064b"
     },
     {
@@ -2311,7 +2311,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/recipes/alchemist_cauldron/brew_epic_ink.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: brew_epic_ink",
+      "objetivo": "Botín v1.6.0: brew_epic_ink",
       "sha256": "52471d21faa2e6fc3bdb0a5a6bb2c97993d3d6064314a937494a52ff86394f41"
     },
     {
@@ -2319,7 +2319,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/recipes/alchemist_cauldron/brew_legendary_ink.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: brew_legendary_ink",
+      "objetivo": "Botín v1.6.0: brew_legendary_ink",
       "sha256": "e0de6bf98c10aa789ad464581a701cec0568ba0097325ea435350b9f088cb230"
     },
     {
@@ -2327,7 +2327,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/recipes/alchemist_cauldron/brew_rare_ink.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: brew_rare_ink",
+      "objetivo": "Botín v1.6.0: brew_rare_ink",
       "sha256": "60f1f2471540c9f525aaa8a414eb3514b53b2974cfcda287c7a67ff3473c6734"
     },
     {
@@ -2335,7 +2335,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/recipes/alchemist_cauldron/brew_uncommon_ink.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: brew_uncommon_ink",
+      "objetivo": "Botín v1.6.0: brew_uncommon_ink",
       "sha256": "7854a1b4b9abecb3d7ace1e187cd8c9921c189b3d143ddb8a08c6d3f58622172"
     },
     {
@@ -2343,7 +2343,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/irons_spellbooks/recipes/emerald_stoneplate_ring.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: emerald_stoneplate_ring",
+      "objetivo": "Botín v1.6.0: emerald_stoneplate_ring",
       "sha256": "42b5edfb10566cba94a8e82dda592fc15c27645aaa13b6b9fbadaaa8ff6e3f0f"
     },
     {
@@ -2351,7 +2351,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/kaleidoscope_cookery/loot_tables/chest/village_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_chest",
+      "objetivo": "Botín v1.6.0: village_chest",
       "sha256": "129ad47c455514f9e868b721753e4862bcd15238277e6f05403d6eacafeee423"
     },
     {
@@ -2359,7 +2359,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/kaleidoscope_cookery/loot_tables/chest/village_hide_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_hide_chest",
+      "objetivo": "Botín v1.6.0: village_hide_chest",
       "sha256": "2baf050fc8f94b6763ed4dc0d231c1dc0410855b546af8a8d9ecff04e9c37434"
     },
     {
@@ -2367,7 +2367,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/kaleidoscope_nether/loot_modifiers/chests/bastion_hoglin_stable.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: bastion_hoglin_stable",
+      "objetivo": "Botín v1.6.0: bastion_hoglin_stable",
       "sha256": "bd6e1a9d056937bc1bf0150021ad8ffcd775dd16292b18588e2d3ad4f5bead7c"
     },
     {
@@ -2375,7 +2375,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/kaleidoscope_nether/loot_modifiers/chests/bastion_treasure.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: bastion_treasure",
+      "objetivo": "Botín v1.6.0: bastion_treasure",
       "sha256": "d6916c0e9f307b2bf99abdeee9156c2c9335434c31486b4ed208b14642fa6762"
     },
     {
@@ -2383,7 +2383,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/kaleidoscope_nether/loot_tables/chests/bastion_hoglin_stable.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bastion_hoglin_stable",
+      "objetivo": "Botín v1.6.0: bastion_hoglin_stable",
       "sha256": "64205382a38cd0dc05437e4259c5ac84e320fd717ae1f4578c00b09c2d1a3308"
     },
     {
@@ -2391,7 +2391,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/kaleidoscope_nether/loot_tables/chests/bastion_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bastion_treasure",
+      "objetivo": "Botín v1.6.0: bastion_treasure",
       "sha256": "3b4de1491f9dbbf9e28c71517c61c4347f2e8634ca5fffaca8f0df160c4dfce7"
     },
     {
@@ -2399,7 +2399,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/lootr/loot_tables/chests/elytra.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: elytra",
+      "objetivo": "Botín v1.6.0: elytra",
       "sha256": "8fc803e9ee7fb98399f493c9a88d9db3634ef26d818e22d31fbb699162146c67"
     },
     {
@@ -2407,7 +2407,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/blocks/copper_ore.json",
       "tipo": "override_block",
-      "objetivo": "Botín v1.5.0: copper_ore",
+      "objetivo": "Botín v1.6.0: copper_ore",
       "sha256": "271c37d155285cbae1d32a7a285c5cf74d248087306caa5cd72b23d85074395c"
     },
     {
@@ -2415,7 +2415,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/blocks/deepslate_copper_ore.json",
       "tipo": "override_block",
-      "objetivo": "Botín v1.5.0: deepslate_copper_ore",
+      "objetivo": "Botín v1.6.0: deepslate_copper_ore",
       "sha256": "271c37d155285cbae1d32a7a285c5cf74d248087306caa5cd72b23d85074395c"
     },
     {
@@ -2423,23 +2423,23 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/abandoned_mineshaft.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: abandoned_mineshaft",
-      "sha256": "33e590d9e4467e2c14b31377536842b3894185e8e520e6f6cb4b1a0631bc9400"
+      "objetivo": "Botín v1.6.0: abandoned_mineshaft",
+      "sha256": "7a65cf862661508319135a912f2769df07a92d64de1e363da7b5aa133ec9486a"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/ancient_city.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: ancient_city",
-      "sha256": "7bbe738e6413415177c7c8885dd798d4ae4b97772ab4cd107f3938cd01f9a823"
+      "objetivo": "Botín v1.6.0: ancient_city",
+      "sha256": "121957f7f296a0d7de4ecaf1c809c9e7c254b2697a869cbcbee4eea8ced56fb1"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/ancient_city_ice_box.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: ancient_city_ice_box",
+      "objetivo": "Botín v1.6.0: ancient_city_ice_box",
       "sha256": "44971af1864d915355d4e2595d628c50f7a35f52a65ea820e7542ddd8658e6e0"
     },
     {
@@ -2447,39 +2447,39 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/bastion_bridge.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bastion_bridge",
-      "sha256": "68b12c2d80457a2facfc1051c71cfca481d64efd197bea04dd13f513e3417f53"
+      "objetivo": "Botín v1.6.0: bastion_bridge",
+      "sha256": "99f200d92f8ffb5499c31a6db0120521eba3c38642ebc309d440e784bbcbb032"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/bastion_hoglin_stable.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bastion_hoglin_stable",
-      "sha256": "68b12c2d80457a2facfc1051c71cfca481d64efd197bea04dd13f513e3417f53"
+      "objetivo": "Botín v1.6.0: bastion_hoglin_stable",
+      "sha256": "99f200d92f8ffb5499c31a6db0120521eba3c38642ebc309d440e784bbcbb032"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/bastion_other.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bastion_other",
-      "sha256": "0e863a401a5607783ba4f3353ee99e52e68afa2bddc8a7f11127da6cea43b5a5"
+      "objetivo": "Botín v1.6.0: bastion_other",
+      "sha256": "5da228b342ad0acca90aa3e17ddc64385157563d6109bd982c954e7f24a2b4e2"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/bastion_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: bastion_treasure",
-      "sha256": "accf294d885491f492cad6431260ebf4cb1b49a306a89c74f693fcc738bd7d07"
+      "objetivo": "Botín v1.6.0: bastion_treasure",
+      "sha256": "9d546b8e70e6803ec4e326c9f4c4854be539fe898fcb7f9a026d1e8a6f99851a"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/buried_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: buried_treasure",
+      "objetivo": "Botín v1.6.0: buried_treasure",
       "sha256": "42501d5fe4031514501e729ffe07dfa38a54cec099baae96f96316c02b1bf2cd"
     },
     {
@@ -2487,23 +2487,23 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/desert_pyramid.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: desert_pyramid",
-      "sha256": "3b83a5bb839fcf7b7c78acde8abc6b29674b425c4ff12fc735710580563a605a"
+      "objetivo": "Botín v1.6.0: desert_pyramid",
+      "sha256": "4ec2ad97c53eae3513b6a2251841db9b4487c6f65a5cd8750090ed64ef4dc0f5"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/end_city_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: end_city_treasure",
-      "sha256": "f5be59dd4cd92967737a2c2d27b3ea157b5a15f1a115af47c7c17ecdd69f47f3"
+      "objetivo": "Botín v1.6.0: end_city_treasure",
+      "sha256": "1c8fe802531598438b430a52e0913f86dce4dfa62b2f8d53455dd2ef4e99ef2e"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/igloo_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: igloo_chest",
+      "objetivo": "Botín v1.6.0: igloo_chest",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2511,15 +2511,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/jungle_temple.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: jungle_temple",
-      "sha256": "21deefa28548616cb86e9867d129382639310371f63c15889c6fd1963fa8e5ca"
+      "objetivo": "Botín v1.6.0: jungle_temple",
+      "sha256": "ce8df11984c2d8b6cbc70d6c120d5af9f301e9e3b215b1c75f0703dc7fc543fb"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/jungle_temple_dispenser.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: jungle_temple_dispenser",
+      "objetivo": "Botín v1.6.0: jungle_temple_dispenser",
       "sha256": "60c390e27d9754d2a1cf3e70d56b96a4739a391922ed89da7bb3f5987733dd71"
     },
     {
@@ -2527,23 +2527,23 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/nether_bridge.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: nether_bridge",
-      "sha256": "7647c9dc1f2370d57fd55b03797202e3c546f0b3236b406c4d444d8510737e73"
+      "objetivo": "Botín v1.6.0: nether_bridge",
+      "sha256": "afa8b7a1c9c522c682a28ce70409bf82297607333fb346c6e75a4b4533f53cee"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/pillager_outpost.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pillager_outpost",
-      "sha256": "e502105348d44ca9a38420b11158d5ddfc1bc8662b530d67ec29f84069c1d3a1"
+      "objetivo": "Botín v1.6.0: pillager_outpost",
+      "sha256": "1ec5537e578bd80b1e3ca3ee5a29b0637c309e691ea87b259000284b62ad9e86"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/ruined_portal.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: ruined_portal",
+      "objetivo": "Botín v1.6.0: ruined_portal",
       "sha256": "f83dd094f9a8d96ee53939174f045106418dd3902ff95ac926e7dbe4b9b5c603"
     },
     {
@@ -2551,7 +2551,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/shipwreck_map.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: shipwreck_map",
+      "objetivo": "Botín v1.6.0: shipwreck_map",
       "sha256": "ad292c7cfffc188d67325ee397552e2b0681a5ddbe3366998927deea46ab8300"
     },
     {
@@ -2559,7 +2559,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/shipwreck_supply.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: shipwreck_supply",
+      "objetivo": "Botín v1.6.0: shipwreck_supply",
       "sha256": "ad292c7cfffc188d67325ee397552e2b0681a5ddbe3366998927deea46ab8300"
     },
     {
@@ -2567,7 +2567,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/shipwreck_treasure.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: shipwreck_treasure",
+      "objetivo": "Botín v1.6.0: shipwreck_treasure",
       "sha256": "ad292c7cfffc188d67325ee397552e2b0681a5ddbe3366998927deea46ab8300"
     },
     {
@@ -2575,15 +2575,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/simple_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: simple_dungeon",
-      "sha256": "e41a83dbdd2d95b12598e55933de054da0e9bc690624db728faed3041e29a4a6"
+      "objetivo": "Botín v1.6.0: simple_dungeon",
+      "sha256": "38c40ce2b95d4aa6ccd25cdbe5bb372ef8f4591fc012413e5527a8aa484286e8"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/spawn_bonus_chest.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: spawn_bonus_chest",
+      "objetivo": "Botín v1.6.0: spawn_bonus_chest",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2591,39 +2591,39 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/stronghold_corridor.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: stronghold_corridor",
-      "sha256": "d828425022a80e6dd50be36ea12b9013df9f101578848ff02df7f3d47f55e461"
+      "objetivo": "Botín v1.6.0: stronghold_corridor",
+      "sha256": "0741ce1326415104b7572a2944c2cae373ee86c7a68b422a2050a49ab31e01eb"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/stronghold_crossing.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: stronghold_crossing",
-      "sha256": "68c2544e38374fddaf79a70ba8a3167375982d182b0b9f3bde15bf92b4e347f2"
+      "objetivo": "Botín v1.6.0: stronghold_crossing",
+      "sha256": "a2443b1d313f67be854e5e3321e0c1a1ef415d3c4ac6fd86feec21ad88b38d6a"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/stronghold_library.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: stronghold_library",
-      "sha256": "d349b2b46950a9cfc0b6959e0d016551b5eb52b1b1be172d6ad2b4288e4a1bd5"
+      "objetivo": "Botín v1.6.0: stronghold_library",
+      "sha256": "8fcda323670003399bb82940fd68a7f8b75ba76947f0110803bfc91ce6985ca9"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/underwater_ruin_big.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: underwater_ruin_big",
-      "sha256": "60d507b2bc2e5435f61deb5e6a26c6d14aa12acbd591d37b37e44bed37e2738d"
+      "objetivo": "Botín v1.6.0: underwater_ruin_big",
+      "sha256": "7a65cf862661508319135a912f2769df07a92d64de1e363da7b5aa133ec9486a"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/underwater_ruin_small.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: underwater_ruin_small",
+      "objetivo": "Botín v1.6.0: underwater_ruin_small",
       "sha256": "f83dd094f9a8d96ee53939174f045106418dd3902ff95ac926e7dbe4b9b5c603"
     },
     {
@@ -2631,7 +2631,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_armorer.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_armorer",
+      "objetivo": "Botín v1.6.0: village_armorer",
       "sha256": "51647b3caeeceea8de4ec25884eb8f310eff0dd0c55f0ea2885e04778dc4acb3"
     },
     {
@@ -2639,7 +2639,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_butcher.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_butcher",
+      "objetivo": "Botín v1.6.0: village_butcher",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2647,7 +2647,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_cartographer.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_cartographer",
+      "objetivo": "Botín v1.6.0: village_cartographer",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2655,7 +2655,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_desert_house.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_desert_house",
+      "objetivo": "Botín v1.6.0: village_desert_house",
       "sha256": "3230dd600b0ba0277854c8935bac8805fe64a841cd8027b037f340f69343a0b5"
     },
     {
@@ -2663,7 +2663,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_fisher.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_fisher",
+      "objetivo": "Botín v1.6.0: village_fisher",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2671,7 +2671,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_fletcher.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_fletcher",
+      "objetivo": "Botín v1.6.0: village_fletcher",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2679,7 +2679,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_mason.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_mason",
+      "objetivo": "Botín v1.6.0: village_mason",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2687,7 +2687,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_plains_house.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_plains_house",
+      "objetivo": "Botín v1.6.0: village_plains_house",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2695,7 +2695,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_savanna_house.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_savanna_house",
+      "objetivo": "Botín v1.6.0: village_savanna_house",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2703,7 +2703,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_shepherd.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_shepherd",
+      "objetivo": "Botín v1.6.0: village_shepherd",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2711,7 +2711,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_snowy_house.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_snowy_house",
+      "objetivo": "Botín v1.6.0: village_snowy_house",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2719,7 +2719,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_taiga_house.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_taiga_house",
+      "objetivo": "Botín v1.6.0: village_taiga_house",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2727,7 +2727,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_tannery.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_tannery",
+      "objetivo": "Botín v1.6.0: village_tannery",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2735,7 +2735,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_temple.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_temple",
+      "objetivo": "Botín v1.6.0: village_temple",
       "sha256": "ed462a6124544868283d0e6d1aa3192e3dd65bed6eae306c541476310fed8fe1"
     },
     {
@@ -2743,7 +2743,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_toolsmith.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_toolsmith",
+      "objetivo": "Botín v1.6.0: village_toolsmith",
       "sha256": "51647b3caeeceea8de4ec25884eb8f310eff0dd0c55f0ea2885e04778dc4acb3"
     },
     {
@@ -2751,7 +2751,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/village/village_weaponsmith.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: village_weaponsmith",
+      "objetivo": "Botín v1.6.0: village_weaponsmith",
       "sha256": "51647b3caeeceea8de4ec25884eb8f310eff0dd0c55f0ea2885e04778dc4acb3"
     },
     {
@@ -2759,15 +2759,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/chests/woodland_mansion.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: woodland_mansion",
-      "sha256": "96eda1c4362f72dd29e287fe8a78b6a1c4fab8331c40e66f16d716b1deafdb62"
+      "objetivo": "Botín v1.6.0: woodland_mansion",
+      "sha256": "e751707a215cf8d35aec340b12f42d7a18bf941f8f357e53694908a3d2b738e8"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/entities/blaze.json",
       "tipo": "override_entity",
-      "objetivo": "Botín v1.5.0: blaze",
+      "objetivo": "Botín v1.6.0: blaze",
       "sha256": "2b3d1e7a13469959daa8bffcaba9f92fbd1df79529ec6d822201952e38ef63dd"
     },
     {
@@ -2775,7 +2775,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/entities/creeper.json",
       "tipo": "override_entity",
-      "objetivo": "Botín v1.5.0: creeper",
+      "objetivo": "Botín v1.6.0: creeper",
       "sha256": "fe1dcfc1a19963bb3fb864ea9222a0b70c3b057db9e0b4f473e8484a1753fe2c"
     },
     {
@@ -2783,7 +2783,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/entities/enderman.json",
       "tipo": "override_entity",
-      "objetivo": "Botín v1.5.0: enderman",
+      "objetivo": "Botín v1.6.0: enderman",
       "sha256": "9c10dc4094b3ed6262944e0b78775e79efb571a7e27c7962fa693bdccb19812e"
     },
     {
@@ -2791,7 +2791,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/entities/shulker.json",
       "tipo": "override_entity",
-      "objetivo": "Botín v1.5.0: shulker",
+      "objetivo": "Botín v1.6.0: shulker",
       "sha256": "26e0682bd51c2651c9ab9861504510220795eadfcea5a6432bde32ccfbbd7082"
     },
     {
@@ -2799,7 +2799,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/minecraft/loot_tables/entities/wither_skeleton.json",
       "tipo": "override_entity",
-      "objetivo": "Botín v1.5.0: wither_skeleton",
+      "objetivo": "Botín v1.6.0: wither_skeleton",
       "sha256": "2d75538c67ac366f1f0882ef197267f2a38e80c5dd3faf5c94ca1bc615c8b3ca"
     },
     {
@@ -2807,7 +2807,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/amethystnuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: amethystnuggetr",
+      "objetivo": "Botín v1.6.0: amethystnuggetr",
       "sha256": "79dab4b4e94ced48c5bb639066bb2a593967aa67c41ca0c3b2955f9c3b34dded"
     },
     {
@@ -2815,7 +2815,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/amethystr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: amethystr",
+      "objetivo": "Botín v1.6.0: amethystr",
       "sha256": "2c2e43d989104dca0a569674a09a7bf1c46c2b21ce277afe1d419a8e8baab27a"
     },
     {
@@ -2823,7 +2823,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/chickennuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: chickennuggetr",
+      "objetivo": "Botín v1.6.0: chickennuggetr",
       "sha256": "aab1abbacf613dcbbccfd6c8748294e8326756a7fcd7224eacef1273c8c46e2f"
     },
     {
@@ -2831,7 +2831,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/chickenr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: chickenr",
+      "objetivo": "Botín v1.6.0: chickenr",
       "sha256": "769f550f64451cdc98016fd06f638f523cc7ff122eafe83eda31371d2eee7e0c"
     },
     {
@@ -2839,7 +2839,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/copperingotr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: copperingotr",
+      "objetivo": "Botín v1.6.0: copperingotr",
       "sha256": "670305e6cb051d8c19d56f39b299d1534bc0f5e98b68134bb627a6a275f40da3"
     },
     {
@@ -2847,7 +2847,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/coppernuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: coppernuggetr",
+      "objetivo": "Botín v1.6.0: coppernuggetr",
       "sha256": "4105afb96556dd39f5ba41fda894df5f7d6190e4fedfea5ff8ea99eff3e55f3b"
     },
     {
@@ -2855,7 +2855,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/diamondnuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: diamondnuggetr",
+      "objetivo": "Botín v1.6.0: diamondnuggetr",
       "sha256": "2b24d5c54197b94d32f54830f5106607f987554dc385974de96c8e8cea3502a5"
     },
     {
@@ -2863,7 +2863,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/diamondr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: diamondr",
+      "objetivo": "Botín v1.6.0: diamondr",
       "sha256": "be7b2fba8ff6d65b9422a903ae5ab7b3abc77d8d41280d87addfd37d8271ca71"
     },
     {
@@ -2871,7 +2871,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/emeraldnuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: emeraldnuggetr",
+      "objetivo": "Botín v1.6.0: emeraldnuggetr",
       "sha256": "0827f7ed3c07f6bccfedf589bf57a473c1e602ac6d9b9e700e26998c12eac8ad"
     },
     {
@@ -2879,7 +2879,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/emeraldr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: emeraldr",
+      "objetivo": "Botín v1.6.0: emeraldr",
       "sha256": "415df44183bcbef4a71b43b3bd19d3781b69db353c988870b6b11470b502b933"
     },
     {
@@ -2887,7 +2887,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/lapisnuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: lapisnuggetr",
+      "objetivo": "Botín v1.6.0: lapisnuggetr",
       "sha256": "dad7727de16f7b644f19a03bb3f5415d2c21e4dea603d2fc0e6c5b06fa045499"
     },
     {
@@ -2895,7 +2895,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/lapisr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: lapisr",
+      "objetivo": "Botín v1.6.0: lapisr",
       "sha256": "fe2ae85c9b9358997402d6715d05d0bdf2dd5a7cf904eb247e305be25ecee01a"
     },
     {
@@ -2903,7 +2903,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/nethernuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: nethernuggetr",
+      "objetivo": "Botín v1.6.0: nethernuggetr",
       "sha256": "708d055a554469abbf18b72016ec8d9f014eee273b5b004ae0a66a94b5ffe5df"
     },
     {
@@ -2911,7 +2911,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/netherr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: netherr",
+      "objetivo": "Botín v1.6.0: netherr",
       "sha256": "26e54e5f511ab6527df66fecfb3f3a63d42242c72aa504dad682090b720feaf2"
     },
     {
@@ -2919,7 +2919,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/quartznuggetr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: quartznuggetr",
+      "objetivo": "Botín v1.6.0: quartznuggetr",
       "sha256": "632a5aed6796dd0a3942b1e7261c62103b63f29d990929104f746eee95532c6b"
     },
     {
@@ -2927,7 +2927,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/nuggets_for_all/recipes/quartzr.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: quartzr",
+      "objetivo": "Botín v1.6.0: quartzr",
       "sha256": "03c26305fbbbafcb6faebc93286451b7296e5a1d3291af0d6442b2f3f3ff4358"
     },
     {
@@ -2935,7 +2935,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/ribbits/loot_tables/chests/fisherman_main.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: fisherman_main",
+      "objetivo": "Botín v1.6.0: fisherman_main",
       "sha256": "7d9fe1292b8a1c9e1d90cdd71e7291bbc55116524b7c489b23dc2cb05cfcb76b"
     },
     {
@@ -2943,7 +2943,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/ribbits/loot_tables/chests/fisherman_storage.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: fisherman_storage",
+      "objetivo": "Botín v1.6.0: fisherman_storage",
       "sha256": "7d9fe1292b8a1c9e1d90cdd71e7291bbc55116524b7c489b23dc2cb05cfcb76b"
     },
     {
@@ -2951,7 +2951,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/ribbits/loot_tables/chests/gardener.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: gardener",
+      "objetivo": "Botín v1.6.0: gardener",
       "sha256": "2928f5de492daf8c1263d198aaa6dcc6d8c7c8b8a3e4863f5c82eaf341c0d2c8"
     },
     {
@@ -2959,7 +2959,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/ribbits/loot_tables/chests/merchant.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: merchant",
+      "objetivo": "Botín v1.6.0: merchant",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2967,7 +2967,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/ribbits/loot_tables/chests/nitwit.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: nitwit",
+      "objetivo": "Botín v1.6.0: nitwit",
       "sha256": "2928f5de492daf8c1263d198aaa6dcc6d8c7c8b8a3e4863f5c82eaf341c0d2c8"
     },
     {
@@ -2975,7 +2975,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/ribbits/loot_tables/chests/sorcerer.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: sorcerer",
+      "objetivo": "Botín v1.6.0: sorcerer",
       "sha256": "5c13afeda5fd3a3d60768888e2f0800397129e318fbbfd93d23582d41e0275e1"
     },
     {
@@ -2983,7 +2983,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_f2_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_f2_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f2_dungeon",
       "sha256": "e5c67ed93de4682a17657f0f5c5ed112c1c5e3aebd4c17a7d9a2745336a4445e"
     },
     {
@@ -2991,7 +2991,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_f3_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_f3_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f3_dungeon",
       "sha256": "f9ddf6ce57c66db7587ff990ee5cff9283328acba56fd1af46212123dbde7ea9"
     },
     {
@@ -2999,7 +2999,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_f4_culm_nether_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_f4_culm_nether_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f4_culm_nether_dungeon",
       "sha256": "257ae8943bc9de759f8c391c3f5d4f28e82ec4aa478dc045ec58919afac92b41"
     },
     {
@@ -3007,7 +3007,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_f4_culm_nether_end_nobook.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_f4_culm_nether_end_nobook",
+      "objetivo": "Botín v1.6.0: profile_f4_culm_nether_end_nobook",
       "sha256": "750bb942bdbec414b1bf2354a7468a2e1d002068a4fd6c53aaabb725a3cefc1b"
     },
     {
@@ -3015,7 +3015,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_f4_culm_overworld_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_f4_culm_overworld_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f4_culm_overworld_dungeon",
       "sha256": "55d45b2db48c9cad2dea121f6391f1bf0859c235f8748c7fb1ec4a10a6b805d6"
     },
     {
@@ -3023,7 +3023,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_f4_provisional_overworld.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_f4_provisional_overworld",
+      "objetivo": "Botín v1.6.0: profile_f4_provisional_overworld",
       "sha256": "f79cdfd214fbe6a1cc8931a3a59693ed3355646068ceb65c49e7498326b9355d"
     },
     {
@@ -3031,7 +3031,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r1.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r1",
+      "objetivo": "Botín v1.6.0: profile_r1",
       "sha256": "0ce6888e7af14454bc52d92190fec876cf8f9396da7578af9664ae336983202e"
     },
     {
@@ -3039,7 +3039,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r1_marine.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r1_marine",
+      "objetivo": "Botín v1.6.0: profile_r1_marine",
       "sha256": "8aa0b72cbb0822323b9112be1354afa88359b8f5d042a3d6adf0d99ed1b4949e"
     },
     {
@@ -3047,7 +3047,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r2_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r2_dungeon",
+      "objetivo": "Botín v1.6.0: profile_r2_dungeon",
       "sha256": "7c78657f00fc1bd1c7138515a51d09658b5063e4a30a88f1d9a28616faace5c6"
     },
     {
@@ -3055,7 +3055,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r2_other.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r2_other",
+      "objetivo": "Botín v1.6.0: profile_r2_other",
       "sha256": "1266438cfaa86d6d40eaaa7d19cd75521d5e21325c709e30ea0008616e293d1f"
     },
     {
@@ -3063,7 +3063,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r3_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r3_dungeon",
+      "objetivo": "Botín v1.6.0: profile_r3_dungeon",
       "sha256": "5310e38010c3600292f4ec8326c035057805b69882740614bfe4acf349e8754c"
     },
     {
@@ -3071,7 +3071,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r3_nether.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r3_nether",
+      "objetivo": "Botín v1.6.0: profile_r3_nether",
       "sha256": "d78e4af6638c3aaefc32b54a57964cbbbab83a836b187e2b508d8374764304b6"
     },
     {
@@ -3079,7 +3079,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r3_other.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r3_other",
+      "objetivo": "Botín v1.6.0: profile_r3_other",
       "sha256": "e933662e8d6a15ab31e198588eb9c92e3eb524e4d6d72d8b9faedc19652f1343"
     },
     {
@@ -3087,7 +3087,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r4_dungeon.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: profile_r4_dungeon",
+      "objetivo": "Botín v1.6.0: profile_r4_dungeon",
       "sha256": "7f97f1dfef0f27df8c3d8645a9d27d1aae952558ca83174b388c544abf392517"
     },
     {
@@ -3095,7 +3095,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/scrolls_high.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: scrolls_high",
+      "objetivo": "Botín v1.6.0: scrolls_high",
       "sha256": "1d9d153031c244bd928de14a8b6c2249e57981c8ae075a70dc2e71b0fabafb0b"
     },
     {
@@ -3103,7 +3103,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/scrolls_r1.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: scrolls_r1",
+      "objetivo": "Botín v1.6.0: scrolls_r1",
       "sha256": "c60f1464075b153b6f7e36d91ef84d04ad36460202965a8bcc1112860b3968a2"
     },
     {
@@ -3111,7 +3111,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/scrolls_r23.json",
       "tipo": "glm",
-      "objetivo": "Botín v1.5.0: scrolls_r23",
+      "objetivo": "Botín v1.6.0: scrolls_r23",
       "sha256": "6428f7ca2f632d34cd8a59ee26066c2910de03402bdf873c4efbef4ba1f56250"
     },
     {
@@ -3119,7 +3119,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/book_f2.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: book_f2",
+      "objetivo": "Botín v1.6.0: book_f2",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3127,7 +3127,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/book_f3.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: book_f3",
+      "objetivo": "Botín v1.6.0: book_f3",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3135,7 +3135,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/book_f4.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: book_f4",
+      "objetivo": "Botín v1.6.0: book_f4",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3143,7 +3143,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/book_r2.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: book_r2",
+      "objetivo": "Botín v1.6.0: book_r2",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3151,7 +3151,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/book_r3.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: book_r3",
+      "objetivo": "Botín v1.6.0: book_r3",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3159,7 +3159,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/book_r4.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: book_r4",
+      "objetivo": "Botín v1.6.0: book_r4",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3167,7 +3167,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/magic_otros.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: magic_otros",
+      "objetivo": "Botín v1.6.0: magic_otros",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3175,7 +3175,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/magic_otros_nether.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: magic_otros_nether",
+      "objetivo": "Botín v1.6.0: magic_otros_nether",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3183,7 +3183,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/mat_f2.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mat_f2",
+      "objetivo": "Botín v1.6.0: mat_f2",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3191,7 +3191,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/mat_f3.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mat_f3",
+      "objetivo": "Botín v1.6.0: mat_f3",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3199,7 +3199,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/mat_f4_nether_end.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mat_f4_nether_end",
+      "objetivo": "Botín v1.6.0: mat_f4_nether_end",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3207,7 +3207,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/mat_f4_overworld.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: mat_f4_overworld",
+      "objetivo": "Botín v1.6.0: mat_f4_overworld",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3215,7 +3215,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/pkg_marine_bonus.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pkg_marine_bonus",
+      "objetivo": "Botín v1.6.0: pkg_marine_bonus",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3223,7 +3223,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/pkg_mat_r1.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pkg_mat_r1",
+      "objetivo": "Botín v1.6.0: pkg_mat_r1",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3231,7 +3231,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/pkg_mat_r23.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pkg_mat_r23",
+      "objetivo": "Botín v1.6.0: pkg_mat_r23",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3239,7 +3239,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/pkg_mat_r4.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pkg_mat_r4",
+      "objetivo": "Botín v1.6.0: pkg_mat_r4",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3247,7 +3247,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/pkg_supply.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pkg_supply",
+      "objetivo": "Botín v1.6.0: pkg_supply",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3255,7 +3255,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/pkg_thematic.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: pkg_thematic",
+      "objetivo": "Botín v1.6.0: pkg_thematic",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3263,7 +3263,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_f2_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_f2_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f2_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3271,7 +3271,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_f3_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_f3_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f3_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3279,7 +3279,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_f4_culm_nether_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_f4_culm_nether_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f4_culm_nether_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3287,7 +3287,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_f4_culm_nether_end_nobook.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_f4_culm_nether_end_nobook",
+      "objetivo": "Botín v1.6.0: profile_f4_culm_nether_end_nobook",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3295,7 +3295,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_f4_culm_overworld_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_f4_culm_overworld_dungeon",
+      "objetivo": "Botín v1.6.0: profile_f4_culm_overworld_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3303,7 +3303,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_f4_provisional_overworld.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_f4_provisional_overworld",
+      "objetivo": "Botín v1.6.0: profile_f4_provisional_overworld",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3311,7 +3311,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r1.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r1",
+      "objetivo": "Botín v1.6.0: profile_r1",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3319,7 +3319,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r1_marine.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r1_marine",
+      "objetivo": "Botín v1.6.0: profile_r1_marine",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3327,7 +3327,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r2_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r2_dungeon",
+      "objetivo": "Botín v1.6.0: profile_r2_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3335,7 +3335,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r2_other.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r2_other",
+      "objetivo": "Botín v1.6.0: profile_r2_other",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3343,7 +3343,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r3_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r3_dungeon",
+      "objetivo": "Botín v1.6.0: profile_r3_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3351,7 +3351,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r3_nether.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r3_nether",
+      "objetivo": "Botín v1.6.0: profile_r3_nether",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3359,7 +3359,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r3_other.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r3_other",
+      "objetivo": "Botín v1.6.0: profile_r3_other",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3367,7 +3367,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/profile_r4_dungeon.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: profile_r4_dungeon",
+      "objetivo": "Botín v1.6.0: profile_r4_dungeon",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3375,7 +3375,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/scrolls_high.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: scrolls_high",
+      "objetivo": "Botín v1.6.0: scrolls_high",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3383,7 +3383,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/scrolls_r1.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: scrolls_r1",
+      "objetivo": "Botín v1.6.0: scrolls_r1",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3391,7 +3391,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/loot_tables/chests/scrolls_r23.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: scrolls_r23",
+      "objetivo": "Botín v1.6.0: scrolls_r23",
       "sha256": "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
     },
     {
@@ -3399,7 +3399,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/compacting_calcite.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: compacting_calcite",
+      "objetivo": "Botín v1.6.0: compacting_calcite",
       "sha256": "9d4c6b54dca9aca16bd01ab826f28e021d437efb27a68512face2d77d0a3dc7d"
     },
     {
@@ -3407,7 +3407,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/compacting_tuff.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: compacting_tuff",
+      "objetivo": "Botín v1.6.0: compacting_tuff",
       "sha256": "31655a09c93b587257349a6a05cec3d7ac29cf68d28842b55c7a729b89174dad"
     },
     {
@@ -3415,7 +3415,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/crushing_sky_stone.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: crushing_sky_stone",
+      "objetivo": "Botín v1.6.0: crushing_sky_stone",
       "sha256": "9865149dc2ca4f6f101e558175dad3385529b1c78ea239f407b1e2530e261579"
     },
     {
@@ -3423,7 +3423,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/deploying_printed_calculation.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deploying_printed_calculation",
+      "objetivo": "Botín v1.6.0: deploying_printed_calculation",
       "sha256": "6fa85d50d7f234c3e61682f5f8f257d64d592d9ba7f7e00613319bf6e67d3a63"
     },
     {
@@ -3431,7 +3431,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/deploying_printed_engineering.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deploying_printed_engineering",
+      "objetivo": "Botín v1.6.0: deploying_printed_engineering",
       "sha256": "41e8327f4dbc2f8e552fe1a47424f2c34b64410cc3be6b920ca616148cde51be"
     },
     {
@@ -3439,7 +3439,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/deploying_printed_logic.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deploying_printed_logic",
+      "objetivo": "Botín v1.6.0: deploying_printed_logic",
       "sha256": "c6af3dc41c36e1c3d078d4a751ba1c4c657b5118028523e6db280d865847c801"
     },
     {
@@ -3447,7 +3447,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/deploying_printed_silicon.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: deploying_printed_silicon",
+      "objetivo": "Botín v1.6.0: deploying_printed_silicon",
       "sha256": "16bc112c22df10617186415bc9cfbe8738cebbd3f105b62d64f1de53de666a18"
     },
     {
@@ -3455,7 +3455,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/milling_certus_quartz.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: milling_certus_quartz",
+      "objetivo": "Botín v1.6.0: milling_certus_quartz",
       "sha256": "8b5acc23febccbf10d6d58ceb9f4a832ccdde74a440e0652c0113c8f3ef9237b"
     },
     {
@@ -3463,7 +3463,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/milling_fluix_crystal.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: milling_fluix_crystal",
+      "objetivo": "Botín v1.6.0: milling_fluix_crystal",
       "sha256": "f1ef1f45c18c07ba989473c9fbde8e74b07c7cd0414620a23d20b439bc628412"
     },
     {
@@ -3471,7 +3471,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/mixing_asurine.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: mixing_asurine",
+      "objetivo": "Botín v1.6.0: mixing_asurine",
       "sha256": "31b5ca181b6d1bc96aabf99089fcfbb7917c0f21f474babab1917b401ac88e6e"
     },
     {
@@ -3479,7 +3479,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/mixing_crimsite.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: mixing_crimsite",
+      "objetivo": "Botín v1.6.0: mixing_crimsite",
       "sha256": "433c944f92d9747f60bfda3ed343a392e96e050476676b555954335d2005976f"
     },
     {
@@ -3487,7 +3487,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/mixing_fluix_crystal.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: mixing_fluix_crystal",
+      "objetivo": "Botín v1.6.0: mixing_fluix_crystal",
       "sha256": "797a5347e620ad619ccba5f9368ed6ee29dd80408227c15c7e29327145e68c3d"
     },
     {
@@ -3495,7 +3495,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/mixing_ochrum.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: mixing_ochrum",
+      "objetivo": "Botín v1.6.0: mixing_ochrum",
       "sha256": "e2109441590fd239a944a4b28f609940f76134f92ada1a5f476fc819f06b9d99"
     },
     {
@@ -3503,7 +3503,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/recipes/create_ae2/mixing_veridium.json",
       "tipo": "receta",
-      "objetivo": "Botín v1.5.0: mixing_veridium",
+      "objetivo": "Botín v1.6.0: mixing_veridium",
       "sha256": "33a2d9e61a787c1babd26cba5d3735fc7f864abd3002902eefcd56b2ac319566"
     },
     {
@@ -3511,15 +3511,15 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/theoptimizer/tags/items/boss_legendary_catalysts.json",
       "tipo": "tag",
-      "objetivo": "Botín v1.5.0: boss_legendary_catalysts",
-      "sha256": "d4f461b80b38f3ff779a5eb6372b78874b270c17c6a00d3d557dbbf04d31c7ce"
+      "objetivo": "Botín v1.6.0: boss_legendary_catalysts",
+      "sha256": "cf4243e587216cf9a68f3d4ebc5e3ef0ec32c3e9040b2d6bbdd83d8e4696dcc3"
     },
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/yungsextras/loot_tables/desert/chillzone.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: chillzone",
+      "objetivo": "Botín v1.6.0: chillzone",
       "sha256": "3230dd600b0ba0277854c8935bac8805fe64a841cd8027b037f340f69343a0b5"
     },
     {
@@ -3527,7 +3527,7 @@
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/yungsextras/loot_tables/desert/ruins.json",
       "tipo": "loot_table",
-      "objetivo": "Botín v1.5.0: ruins",
+      "objetivo": "Botín v1.6.0: ruins",
       "sha256": "fa749ecd40871d416a4fa35d27764a6ef514587ea4f1ee99b3042e307892c12e"
     }
   ]
