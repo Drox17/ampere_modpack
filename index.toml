@@ -898,7 +898,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "01d46f27a6798a012be96d1731973a327fca7bfb28cbcb8408e2d2d1f05caa7e"
+hash = "f7a94eae270b4949f44ab89d5c08c9bd7fe6601933c831cd8d3128a1f3980574"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -933,8 +933,8 @@ file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
 hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.24.8.jar"
-hash = "e3a67a936b0e68924bce762dd50575eb39d639a74f7f664fb4acfb4ccb9bce0a"
+file = "mods/TheOptimizer-EquipmentBalance-1.24.9.jar"
+hash = "180c7a617b2ab0b63ff5086742e5d517dac8786d7b1b10110fd7f5a2017a300b"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.1.jar"

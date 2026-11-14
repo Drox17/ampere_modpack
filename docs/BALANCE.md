@@ -520,3 +520,16 @@ Se alinea todo el catálogo equipable de `L_Ender's Cataclysm` (`CataclysmBalanc
   - `bone_reptile_helmet`, `bone_reptile_chestplate` y `bloom_stone_pauldrons`: `-4%` velocidad de ataque (`bone_reptile_attack_penalty`) + reparación temática a `0 XP`.
 - **Tooltips (`C6`) y Config (`131` claves totales, `+12`):** `CataclysmBalance.appendTooltip` muestra rol, costes y material de reparación; añadidas `12` claves configurables en `EquipmentConfig`, `instalar.py` y JSONs.
 - **Verificación:** `2062` comprobaciones JVM en `balance_equipamiento.probar` (incluidas `409` reales sobre Forge/Cataclysm/Curios y `97` descriptores Mixin).
+
+## Horizontalidad de extracción en dos escalones — EquipmentBalance 1.24.9 (2026-11-14)
+
+Elimina el candado vertical de tiers de minado en el juego medio sin romper `P1`, `P2` ni `P7`:
+
+- **Escalón Rústico (`Tiers.WOOD`, `Tiers.STONE`):** `TiersMixin` fija `getLevel() = 2` (nivel Hierro) y `TierSortingRegistryMixin` permite extraer hasta `NEEDS_IRON_TOOL`, pero prohíbe estrictamente `BlockTags.NEEDS_DIAMOND_TOOL` y cualquier tag posterior en `TierSortingRegistry.getSortedTiers()` (`obsidian`, `crying_obsidian`, `ancient_debris`, `netherite_block`, etc.). Se mantiene intacta la regla de cantera exacta de la Piedra (desgaste `0` únicamente en rocas comunes listadas; las menas consumen durabilidad normal).
+- **Escalón Forjado (`IRON`, `GOLD`, `DIAMOND`, `NETHERITE`, `AE2 Fluix`):** `TiersMixin` y `TierSortingRegistryMixin` comparten nivel máximo `4` (equivale a Netherita; Fluix delega en `Tiers.IRON`, por lo que hereda el nivel `4` y `isForgedTier`) manteniendo la velocidad de extracción unificada en `6.0` (`P6`).
+- **Costes de poder en dureza extrema (`>= 30.0`, `extreme_hardness_threshold`):**
+  - **Sobrecoste `×4` en Hierro y Oro:** `MiningDurability.extremeWearMultiplier` + `LeafDurabilityMixin` + `ItemStackMixin` aplican consumo exacto de `4` puntos de durabilidad (`extreme_hardness_wear_multiplier`, anulando la reducción a la mitad del Hierro sobre bloques duros) al picar bloques con dureza base `>= 30.0`. Diamante y Netherita conservan consumo `1`.
+  - **Contención `3x3`/tala del Hierro:** `ToolInnatesEvents` (`EquipmentCombatRules.allowIronAreaBreak` y corte de troncos) impide el área `3x3` y la tala múltiple cuando el bloque central o adyacente supera `extreme_hardness_threshold`.
+  - **Excepción en Auto-Fundición de Oro:** `EquipmentPolicy.isAncientDebris` excluye `minecraft:ancient_debris` (bloque e ítem soltado) de la conversión automática para entregar el bloque crudo y no regalar `netherite_scrap` (`15%` reparación de netherita) a coste de oro.
+- **Tooltips (`C1`, `C5`, `C6`) y Config (`134` claves totales, `+3`):** `EquipmentTooltipCards` y `EquipmentTooltipCompat` reflejan el escalón rústico/forjado, sobrecoste `×4` desde `30` de dureza y excepción de escombros ancestrales leyendo directamente las claves configurables (`horizontal_harvest_tiers`, `extreme_hardness_threshold`, `extreme_hardness_wear_multiplier`), sin nombrar encantamientos.
+- **Verificación:** `2138` comprobaciones JVM en `balance_equipamiento.probar` (`466` sobre Forge/Cataclysm/Curios/AE2 reales y `97` descriptores Mixin).

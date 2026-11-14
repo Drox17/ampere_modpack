@@ -1,16 +1,16 @@
 {
   "actualizado": "2026-11-14",
   "pack": {
-    "version": "1.24.8",
+    "version": "1.24.9",
     "entradas": 362,
     "metafiles": 108,
     "jars_locales": 15
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.24.8",
-    "jar": "TheOptimizer-EquipmentBalance-1.24.8.jar",
-    "pruebas": 2062
+    "version": "1.24.9",
+    "jar": "TheOptimizer-EquipmentBalance-1.24.9.jar",
+    "pruebas": 2138
   },
   "config": {
     "unified_harvest_speed": 6.0,
@@ -20,6 +20,9 @@
     "iron_tool_durability": 300,
     "gold_armor_multiplier": 15,
     "gold_is_iron_tier": true,
+    "horizontal_harvest_tiers": true,
+    "extreme_hardness_threshold": 30.0,
+    "extreme_hardness_wear_multiplier": 4,
     "netherite_pacifies_piglins": false,
     "enable_mineral_set_bonuses": true,
     "enable_tool_attributes": true,
