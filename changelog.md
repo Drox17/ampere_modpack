@@ -1,3 +1,7 @@
+# 1.24.7 (local, sin publicar)
+
+AdventureLoot 1.5.0: recompensas de cofres fijas por ID (194 tablas). Identidad por estructura, suministro útil, objetos especiales preservados/repartidos y pergaminos con hechizo/nivel explícitos. Se eliminan RNG, agua/botellas vacías y duplicación de inyecciones en cofres. Invariantes de pepitas, libros, élitros y legendarios conservadas. Sin cambios a jefes, caldero ni recetas Create/AE2. EquipmentBalance fija la conversión defensiva de un bloque a tres pepitas. Pruebas: 30.839 botín y 2.062 JVM de equipo; validación visual in-game pendiente.
+
 §6§l===================================
 §e§l  THEOPTIMIZER — ESTADO VIGENTE
 §6§l===================================§r

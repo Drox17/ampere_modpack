@@ -1,9 +1,14 @@
 # BALANCE.md — memoria profunda del sistema de sets
 
+## Revisión local 1.24.7 / AdventureLoot 1.5.0 (2026-11-14, sin publicar)
+
+El contrato vigente de cofres es determinista: ver [matriz completa](LOOT_DETERMINISTA_MATRIZ.md), [auditoría](LOOT_DETERMINISTA_AUDITORIA.md) y [LOOT.md](LOOT.md). Sustituye los pesos, rangos y probabilidades históricos de cofres descritos debajo. Los cambios locales de equipo anteriores a esta misión se conservan: esta revisión Java solo hace fija la conversión defensiva de bloques a pepitas. No modifica drops de jefes, entidades, pesca, arqueología ni recetas. 194 tablas con contenido independiente de semilla y suerte; 131 claves actuales de configuración (ninguna añadida aquí).
+
+
 > Se lee **solo al diseñar** (cambiar reglas, añadir sets, revisar números). Para `/sync`
 > usa `verificar_estado.ps1` + `estado.json`. Este archivo explica el porqué y el backlog.
 
-## Estado vigente: EquipmentBalance 1.24.2 (sanitización de cofres 1.24.6 / AdventureLoot 1.4.0)
+## Referencia histórica: EquipmentBalance 1.24.2 (sanitización de cofres 1.24.6 / AdventureLoot 1.4.0)
 
 Esta revisión prevalece sobre los registros históricos 1.23.x/1.24.0/1.24.1 de abajo. No cambia la paridad 16/10/12 ni Coloso/Enjambre. Conserva la instantánea del equipo vestido y el HUD sin clases sintéticas Args. La política vigente de cofres, pepitas (`Nuggets For All`) y límites mágicos está en las secciones `1.24.5` y `1.24.6` al final y en [docs/LOOT.md](LOOT.md).
 
