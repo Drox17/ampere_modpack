@@ -140,5 +140,15 @@
   "luck_mining_nuggets_min": 1,
   "luck_mining_nuggets_max": 2,
   "luck_bonemeal_bonus_per_luck": 0.025,
-  "luck_minor_chest_nuggets_cap": 3
+  "luck_minor_chest_nuggets_cap": 3,
+  "balance_trading_economy": true,
+  "suppress_trade_xp_orbs": true,
+  "zombie_cure_major_reputation": 3,
+  "zombie_cure_minor_reputation": 0,
+  "zombie_cure_max_reputation": 6,
+  "trade_price_min_fraction": 0.65,
+  "merchant_restock_cooldown_ticks": 24000,
+  "luck_trade_discount_per_point": 0.06,
+  "luck_trade_bonus_nugget_chance_per_point": 0.1,
+  "luck_trade_bonus_min_emeralds": 4
 }

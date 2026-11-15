@@ -8,9 +8,9 @@
   },
   "mod": {
     "id": "theoptimizer_equipment",
-    "version": "1.25.1",
-    "jar": "TheOptimizer-EquipmentBalance-1.25.1.jar",
-    "pruebas": 2417
+    "version": "1.25.2",
+    "jar": "TheOptimizer-EquipmentBalance-1.25.2.jar",
+    "pruebas": 2457
   },
   "config": {
     "unified_harvest_speed": 6.0,
@@ -39,6 +39,7 @@
     "iron_axe_shield_disable_ticks": 100,
     "diamond_armored_target_threshold": 6.0,
     "diamond_armored_damage_penalty": 0.15,
+    "netherite_armored_target_threshold": 6.0,
     "netherite_armored_damage_bonus": 0.15,
     "iron_repair_fraction": 1.0,
     "basic_enchantability": 8,
@@ -154,7 +155,16 @@
     "luck_mining_nuggets_max": 2,
     "luck_bonemeal_bonus_per_luck": 0.025,
     "luck_minor_chest_nuggets_cap": 3,
-    "netherite_armored_target_threshold": 6.0
+    "balance_trading_economy": true,
+    "suppress_trade_xp_orbs": true,
+    "zombie_cure_major_reputation": 3,
+    "zombie_cure_minor_reputation": 0,
+    "zombie_cure_max_reputation": 6,
+    "trade_price_min_fraction": 0.65,
+    "merchant_restock_cooldown_ticks": 24000,
+    "luck_trade_discount_per_point": 0.06,
+    "luck_trade_bonus_nugget_chance_per_point": 0.1,
+    "luck_trade_bonus_min_emeralds": 4
   },
   "invariantes": [
     "C1",
