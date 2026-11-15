@@ -1,0 +1,13 @@
+name = "Puddles & Floods"
+filename = "puddleflood-1.1.6+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xeRVd78z/versions/X0qp4Bt5/puddleflood-1.1.6%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "78787f6c3adf7cf9a48af1a374763b5ecd7ed8e9af72c07c852f9afa2177ac16de071344f375c02f19dcf47f0d4bb0191b469dde6af091b9bf35f7b774cb7ca7"
+
+[update]
+[update.modrinth]
+mod-id = "xeRVd78z"
+version = "X0qp4Bt5"

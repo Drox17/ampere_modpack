@@ -1,0 +1,13 @@
+name = "BeautClouds - Sodium Compat!"
+filename = "§rBeautClouds §b1.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Pdv4gfVS/versions/l13IVBcW/%C2%A7rBeautClouds%20%C2%A7b1.1.zip"
+hash-format = "sha512"
+hash = "adc61c468a4235b36a4dbf4df1a445e243d8ca8309d90132d8ca34922dc7ca95d691d63f4d145a5d7594b675b849212464c9b7ee66e34b714989db0a1b1c63cd"
+
+[update]
+[update.modrinth]
+mod-id = "Pdv4gfVS"
+version = "l13IVBcW"

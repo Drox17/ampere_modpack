@@ -1,0 +1,18 @@
+name = "ATMOSPHERICS"
+filename = "atmospherics-2.6.8-mc-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ft2cYBpB/versions/Yakx2hFh/atmospherics-2.6.8-mc-1.20.1.jar"
+hash-format = "sha512"
+hash = "380325397160640930ae57cf158dc64cef681fb04587d87b3e3e66cf813cbc8f01f74928801fd60fbcbf6097f9c96d0339fa64de2115917648200e4d392c2145"
+
+[update]
+[update.modrinth]
+mod-id = "ft2cYBpB"
+version = "Yakx2hFh"
+
+[option]
+optional = true
+default = true
+description = "Niebla, cielo, nubes y estrellas dinamicas por bioma solo cliente."

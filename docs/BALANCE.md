@@ -189,13 +189,12 @@ Regla P12/P13: el recurso base de un mob común no depende de RNG de granja. Tab
 | Enderman | **1** perla | +0-1 |
 | Shulker | **1** caparazón | — |
 
-### 1.8 Cofre del End (1.18.0)
+### 1.8 Cofre del End y cajas de Shulker
 
-- **Receta**: 8 obsidiana + **Estrella del Nether** en el centro (antes ojo de ender).
-- **Restricción**: rechaza armas, herramientas, armaduras, escudos, tridentes, arcos/ballestas y cajas de
-  shulker. Solo admite materiales, recursos y consumibles. Se aplica en `Slot.mayPlace`, así que cubre clic,
-  shift-clic y arrastre.
-- **Tooltip**: muestra la restricción (Invariante 5).
+- **Cofre del End — Receta**: 8 obsidiana + **Estrella del Nether** en el centro (antes ojo de ender).
+- **Cofre del End — Restricción**: rechaza armas, herramientas, armaduras, escudos, tridentes, arcos/ballestas y contenedores (incluidas las cajas de shulker y almacenamiento portátil). Solo admite materiales, recursos y consumibles (`Slot.mayPlace`, cubre clic, shift-clic y arrastre).
+- **Cajas de Shulker — Anti-anidamiento**: rechazan tanto en GUI (`ShulkerBoxSlot`) como por inserción externa (`ShulkerBoxBlockEntity`, tolvas/tuberías) cualquier ítem que pueda guardar otros objetos dentro (cajas de shulker, fardos/bundles, cofre del End, cajas de herramientas de Create, cajones de Functional Storage, tarjetero de LaserIO, celdas portátiles y de almacenamiento AE2/ExtendedAE, bolsas/cestas/cajas de regalo de Kaleidoscope, capacidades `ITEM_HANDLER` y bloques con inventario empacado en `BlockEntityTag`).
+- **Tooltip**: el Cofre del End muestra su restricción (Invariante 5).
 
 
 ### 1.9 Identidades tácticas: familias de mobs y counters (1.19.0)
@@ -365,7 +364,7 @@ universal. **No implementar sin sesión de prueba**: rompe el endgame si falla.
 | D1.2 | Reparación simple de arco, ballesta, escudo, caña y tijeras al 100 % | **hecho en 1.3.0** |
 | D1.3 | Tridente y elytra con tradeoff propio | **hecho: tridente 1.4.0, elytra 1.5.0** |
 | D1.4 | **Eliminar la XP** del pack | **hecho en 1.8.0** (yunque 1.7.0, MiningXP retirado, orbes apagados) |
-| D1.5 | Rol del beacon | **hecho en 1.6.0**: área de paz (radio 30, todo el eje Y) + escudo de hambre dentro del área |
+| D1.5 | Rol del beacon | **revertido a vanilla** (retiradas la pacificación de área y el escudo de hambre en área de beacon) |
 | D1.6 | Alquimia/pociones como eje de soporte | diseñar |
 
 ### S1. Sueltas
@@ -426,8 +425,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, la propuesta se r
 - La XP no vale nada y no hay orbes: las granjas de XP y los spawners de XP pierden su razón.
 - Mending fuera: no hay reparación infinita; el equipo se mantiene con materiales (100 % baratos, 25 % caros).
 - Tintas y materiales mágicos por cofre: explorar rinde más que una granja de mobs.
-- Beacon que pacifica su área: menos presión para iluminar/farmear el perímetro de la base.
-- La comida como recurso de combate (escudo de hambre) y el agotamiento de los sets pesados: el AFK no cura.
+- El agotamiento de los sets pesados y la ausencia de orbes de curación gratuita: el AFK no cura.
 - Elytra consumible y con coste: el transporte infinito deja de existir.
 
 **Candidatos pendientes de revisar con el mismo criterio:** spawners de un solo uso, granjas de hierro

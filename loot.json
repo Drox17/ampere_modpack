@@ -1,7 +1,7 @@
 {
   "actualizado": "2026-11-14",
   "nota": "Loot tables tocadas por el pack. Si cambia un sha256, revisar y actualizar este archivo en el mismo commit.",
-  "total": 468,
+  "total": 466,
   "entradas": [
     {
       "base": "server",
@@ -72,7 +72,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/food_storage.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: food_storage",
-      "sha256": "db29da4272f087c0c71dab4f8321995cedf39722d84d87c7f82294d5cf01d98a"
+      "sha256": "b34754df54786d34a5f56c743d7730e16fdd64241adff329a751c4555f0482eb"
     },
     {
       "base": "repo",
@@ -80,7 +80,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/lab.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: lab",
-      "sha256": "86489d1f727916a9671d4c580dc0746d40911598d99a80ccbdae547d587fe3f5"
+      "sha256": "9c59d6c4a4f3551b2a21109c6283c9986fedb792d01be642227a4bfb19c52f63"
     },
     {
       "base": "repo",
@@ -96,7 +96,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/pharaoh_hidden.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: pharaoh_hidden",
-      "sha256": "fdb31493d0907b80ef18a26bbe98b2c15d0062a1694795a227e8faa8048a1591"
+      "sha256": "1dcd1964e10c6c433bdf8b41b5c4764f539b78af1e09a33a48d2e1a4e7a57d8e"
     },
     {
       "base": "repo",
@@ -104,7 +104,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/pot.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: pot",
-      "sha256": "db29da4272f087c0c71dab4f8321995cedf39722d84d87c7f82294d5cf01d98a"
+      "sha256": "b34754df54786d34a5f56c743d7730e16fdd64241adff329a751c4555f0482eb"
     },
     {
       "base": "repo",
@@ -112,7 +112,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/statue.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: statue",
-      "sha256": "86489d1f727916a9671d4c580dc0746d40911598d99a80ccbdae547d587fe3f5"
+      "sha256": "9c59d6c4a4f3551b2a21109c6283c9986fedb792d01be642227a4bfb19c52f63"
     },
     {
       "base": "repo",
@@ -120,7 +120,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/storage.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: storage",
-      "sha256": "db29da4272f087c0c71dab4f8321995cedf39722d84d87c7f82294d5cf01d98a"
+      "sha256": "b34754df54786d34a5f56c743d7730e16fdd64241adff329a751c4555f0482eb"
     },
     {
       "base": "repo",
@@ -128,7 +128,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/tomb.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: tomb",
-      "sha256": "86489d1f727916a9671d4c580dc0746d40911598d99a80ccbdae547d587fe3f5"
+      "sha256": "9c59d6c4a4f3551b2a21109c6283c9986fedb792d01be642227a4bfb19c52f63"
     },
     {
       "base": "repo",
@@ -136,7 +136,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/tomb_pharaoh.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: tomb_pharaoh",
-      "sha256": "9f6cba76ea36e8ac10677d825d22955392c60735d071431b9a7d4523b3d21d0e"
+      "sha256": "b902c430be3df96ec4b542a44fc3af7e68b317adc9767e8d8dc89238935996f7"
     },
     {
       "base": "repo",
@@ -144,7 +144,7 @@
       "entrada": "data/betterdeserttemples/loot_tables/chests/wardrobe.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: wardrobe",
-      "sha256": "db29da4272f087c0c71dab4f8321995cedf39722d84d87c7f82294d5cf01d98a"
+      "sha256": "b34754df54786d34a5f56c743d7730e16fdd64241adff329a751c4555f0482eb"
     },
     {
       "base": "repo",
@@ -381,6 +381,38 @@
     {
       "base": "repo",
       "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
+      "entrada": "data/bosses_of_mass_destruction/loot_tables/chests/gauntlet.json",
+      "tipo": "loot_table",
+      "objetivo": "Botín v1.9.0: gauntlet",
+      "sha256": "7acf04d7051c69903e6d4f0b4c450fc10cdcf68abccd071bd0880c0d32828ff1"
+    },
+    {
+      "base": "repo",
+      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
+      "entrada": "data/bosses_of_mass_destruction/loot_tables/chests/lich_tower.json",
+      "tipo": "loot_table",
+      "objetivo": "Botín v1.9.0: lich_tower",
+      "sha256": "3c68ed946b51e470ec2755f7c36c4339aa78229c7f5668c12efb3ed1dca8483f"
+    },
+    {
+      "base": "repo",
+      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
+      "entrada": "data/bosses_of_mass_destruction/loot_tables/chests/obsidilith.json",
+      "tipo": "loot_table",
+      "objetivo": "Botín v1.9.0: obsidilith",
+      "sha256": "897fb8d394e3ee0c318c72e3c58a1c7a2913fb7d5bdf379c5a1a8b4048f579f2"
+    },
+    {
+      "base": "repo",
+      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
+      "entrada": "data/bosses_of_mass_destruction/loot_tables/entities/lich.json",
+      "tipo": "override_entity",
+      "objetivo": "Botín v1.9.0: lich",
+      "sha256": "bbdb8ae1f48a61189f90ceb95859a0933c54721e8de3b9beb572ee079e9bdc92"
+    },
+    {
+      "base": "repo",
+      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
       "entrada": "data/bountiful/bounty_pools/bountiful/_all_objs.json",
       "tipo": "bounty_pool",
       "objetivo": "Botín v1.9.0: _all_objs",
@@ -464,7 +496,7 @@
       "entrada": "data/bountiful/bounty_pools/bountiful/fletcher_rews.json",
       "tipo": "bounty_pool",
       "objetivo": "Botín v1.9.0: fletcher_rews",
-      "sha256": "335100c612ac5b15e259af957d99d4b8fd5edde09f2bb1f57fb7b619f748f2f2"
+      "sha256": "12ac488452b8ce04e8e09b12171ab8cd9c0b2b60b0f7e269140ba8bef76ea551"
     },
     {
       "base": "repo",
@@ -497,54 +529,6 @@
       "tipo": "bounty_pool",
       "objetivo": "Botín v1.9.0: toolsmith_rews",
       "sha256": "f82894aadc9a29c169f88cd03e4aef290e0598799c86a9dd4b1d7bb7a6216a56"
-    },
-    {
-      "base": "repo",
-      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
-      "entrada": "data/cataclysm/loot_tables/chests/abandoned.json",
-      "tipo": "loot_table",
-      "objetivo": "Botín v1.9.0: abandoned",
-      "sha256": "ae24b366d43c983a9f6403f4d19abedc208a861a6a12a5e58975a4c9fd70e60a"
-    },
-    {
-      "base": "repo",
-      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
-      "entrada": "data/cataclysm/loot_tables/chests/abandoned_treasure.json",
-      "tipo": "loot_table",
-      "objetivo": "Botín v1.9.0: abandoned_treasure",
-      "sha256": "6b9e0ea129b941bc68e0f1aa27f361d18881ff22666668630b7d1a987eddcd2b"
-    },
-    {
-      "base": "repo",
-      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
-      "entrada": "data/cataclysm/loot_tables/chests/acropolis_treasure.json",
-      "tipo": "loot_table",
-      "objetivo": "Botín v1.9.0: acropolis_treasure",
-      "sha256": "4582c20df257b47ab475326410755303f10b7b04ff77bd5451fb80f8ec064c9b"
-    },
-    {
-      "base": "repo",
-      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
-      "entrada": "data/cataclysm/loot_tables/chests/amethyst_nest_chest.json",
-      "tipo": "loot_table",
-      "objetivo": "Botín v1.9.0: amethyst_nest_chest",
-      "sha256": "78df17e5c7c4e58f0eb0b9fcf165700b024c919efc5c167862295a3eeaf1213b"
-    },
-    {
-      "base": "repo",
-      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
-      "entrada": "data/cataclysm/loot_tables/chests/desert_treasure.json",
-      "tipo": "loot_table",
-      "objetivo": "Botín v1.9.0: desert_treasure",
-      "sha256": "ba3a03fdc402534a9e7199cb77681a30314438f01f9439a6cd843a5298ca53ea"
-    },
-    {
-      "base": "repo",
-      "archivo": "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip",
-      "entrada": "data/cataclysm/loot_tables/chests/frosted_prison_treasure.json",
-      "tipo": "loot_table",
-      "objetivo": "Botín v1.9.0: frosted_prison_treasure",
-      "sha256": "d5a49a5bb43fbe81014496ef8997f7d548fc2263ee45a4995ffcca9c9fa6389c"
     },
     {
       "base": "repo",
@@ -2608,7 +2592,7 @@
       "entrada": "data/minecraft/loot_tables/chests/desert_pyramid.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: desert_pyramid",
-      "sha256": "11fcaae1a155cbb2a6ed55ccd248812fb8093e291cdbf525af2bfe79c6b8862a"
+      "sha256": "bc0f3e7ceeb560a407b48a9d68167f99c2cffe432f0e0caec79e7d3a90a359a0"
     },
     {
       "base": "repo",
@@ -2952,7 +2936,7 @@
       "entrada": "data/minecraft/loot_tables/gameplay/hero_of_the_village/fletcher_gift.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: fletcher_gift",
-      "sha256": "6b8ac83ee2563c3da1a6f6c6c77f8ed4971f5a74d258e821322ceb3bba0e30eb"
+      "sha256": "2d3c393cfbd4b9e5f15e4742f65fff68f3056ec8163a2ad495449630165aba31"
     },
     {
       "base": "repo",
@@ -3240,7 +3224,7 @@
       "entrada": "data/theoptimizer/loot_modifiers/chest_loot/profile_r2_multi.json",
       "tipo": "glm",
       "objetivo": "Botín v1.9.0: profile_r2_multi",
-      "sha256": "18901c94fbd5905c1fc95f266232a822ec97e4d06c44abe3dc7009cf5574b26a"
+      "sha256": "84affec17620240a3b0a42ab9ecbce8a77efa16f40d76ab9f0c2aec8c2a13f5a"
     },
     {
       "base": "repo",
@@ -3752,7 +3736,7 @@
       "entrada": "data/yungsextras/loot_tables/desert/ruins.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.9.0: ruins",
-      "sha256": "db29da4272f087c0c71dab4f8321995cedf39722d84d87c7f82294d5cf01d98a"
+      "sha256": "b34754df54786d34a5f56c743d7730e16fdd64241adff329a751c4555f0482eb"
     }
   ]
 }

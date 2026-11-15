@@ -898,7 +898,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "4d95255c6b3d83df47c66b78fbbe5e2d29628119f0f6e226754aea9b2f351545"
+hash = "b03cf2675210cda133ab26a1a64a8396aa03447dc1ec6132fea2d3102761603b"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -934,7 +934,7 @@ hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
 
 [[files]]
 file = "mods/TheOptimizer-EquipmentBalance-1.25.2.jar"
-hash = "1959919252cff8e20b69260f45d3516fe89ab289639859042ff9e0e815181403"
+hash = "d959ec870b4f172a7de3dc62d7c431d95ce5799ddb4d7bcf6f6a1419db183b34"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.1.jar"
@@ -983,6 +983,11 @@ hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true
 
 [[files]]
+file = "mods/atmospherics.pw.toml"
+hash = "e480f8338d0a116eb0ae108dbdaab6d4df6f7ad7bff7f09fd3062cb7cac6acc4"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "92eef137f9ea740673053ec3604ddf3ed197f22fdf5e5da35c8364f88ad31650"
 metafile = true
@@ -1003,6 +1008,11 @@ hash = "2fab4aa0fa311ac057de40a1c761a87e105552414566fcd14b4efe654f64867c"
 metafile = true
 
 [[files]]
+file = "mods/bosses-of-mass-destruction-forge.pw.toml"
+hash = "a748351943c09e8cb6e90e56b7419c9420d76072c822a2c8c7b0f7f6f636648c"
+metafile = true
+
+[[files]]
 file = "mods/bountiful.pw.toml"
 hash = "b317b19055dd6bb83ad65a3dc937fd69eb458e5cc265c023a7de0ac6d39bbef0"
 metafile = true
@@ -1012,8 +1022,8 @@ file = "mods/buildinggadgets2-1.0.8.jar"
 hash = "59efb399a4acdb69a01a970b1f1e3c5584495aabc726ff40857ab4aed9372c83"
 
 [[files]]
-file = "mods/cataclysm-x-yungs-better-nether-fortress.pw.toml"
-hash = "a17774a86eb81c3c71c6aa0eebffd60d037cae6c33d0ce1838e45b589edf265f"
+file = "mods/cerbons-api.pw.toml"
+hash = "b04f3690005952fb2f0d93b742a00d4b25547cbb4e2975aaca89fb0af58a9539"
 metafile = true
 
 [[files]]
@@ -1038,6 +1048,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
+metafile = true
+
+[[files]]
+file = "mods/cosy-critters.pw.toml"
+hash = "a87f9d66a62a47adf2df788da72bd63f33d05eeb5e147c5bb705d79e70dc6687"
 metafile = true
 
 [[files]]
@@ -1304,17 +1319,12 @@ hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
-file = "mods/l_enders-cataclysm.pw.toml"
-hash = "dfdd246954f9bcfbff66668558b17ba5b3e75a12ba6031c441750a472670fbd8"
-metafile = true
-
-[[files]]
 file = "mods/laserio-1.6.8.jar"
 hash = "f07fc6cb7f2aa28197e87ffc3a35062390259ad803d8996b08b13473c0af6790"
 
 [[files]]
-file = "mods/lionfish-api.pw.toml"
-hash = "f3b6b7cd660a91a34a4e18010c9eaacaeb7ff306cadfee14431fa25a15b041ec"
+file = "mods/lithosphere.pw.toml"
+hash = "4a2b992577d6f41f981f3d2e12b13a1a0d5a8d252fed3c325f8b9443dc8ba33e"
 metafile = true
 
 [[files]]
@@ -1397,6 +1407,11 @@ hash = "ea8571ba9dc8e74bad5e4257d50e9bb80d02be8f3d5de7fe3dede969e26fa15c"
 metafile = true
 
 [[files]]
+file = "mods/puddles-floods.pw.toml"
+hash = "6f8f460ad720b300409dc0e7a67535aa49f6b0fdaab3805a8db82c0d77b00da9"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "26569e19bf9fb02bf38c8870b65158912d2bc024a6d78af3647257c7f8fe50d1"
 metafile = true
@@ -1471,8 +1486,18 @@ hash = "fde66801b3ffdcf07e31913a2a0f2ea75c4c950d3aab99b493ae042788141ceb"
 metafile = true
 
 [[files]]
+file = "mods/true-ending.pw.toml"
+hash = "0bc775f6b740e9fa539e8237f49ce5265a15f16725fef1deeab7097ea6571099"
+metafile = true
+
+[[files]]
 file = "mods/useful-ribbits.pw.toml"
 hash = "60b305936627c52ae541f4c1b5d9b4334f63c3f3b41eb327dd791fb1bdbc2db3"
+metafile = true
+
+[[files]]
+file = "mods/wakes-reforged.pw.toml"
+hash = "cc50c8056eb1bcb31ad7d3e38d63afc48c1ff5fdb59843f2dd89a04a1d45d0e1"
 metafile = true
 
 [[files]]
@@ -1532,7 +1557,7 @@ metafile = true
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_AdventureLoot.zip"
-hash = "26734e7e8347ddc2d790a5d284bc51f9648012362fd8a41999e9ca5a07a908ce"
+hash = "7484a8b947ffc0bda2cfbc3281096c197c0130a54dcf7a727de4a17dadbc60bc"
 
 [[files]]
 file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"
@@ -1551,9 +1576,23 @@ file = "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip"
 hash = "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e"
 
 [[files]]
+file = "resourcepacks/Musgo 1.20.1.zip"
+hash = "9784ce7ed5c06e3add496e99d41d7f4790ef143c6d23b15ce633236152422c1d"
+
+[[files]]
 file = "resourcepacks/Stay_True_1.20.zip"
 hash = "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
 
 [[files]]
 file = "resourcepacks/TheOptimizer_ES_MX.zip"
 hash = "599fd97fccc7d34977d910fbe204a3e867a363fabac20ee25005f9304621eb08"
+
+[[files]]
+file = "resourcepacks/beautclouds.pw.toml"
+hash = "36c4158b197f4381f36e2886426d9ceeaa30cf72d63ad58c6c75a63051b2a488"
+metafile = true
+
+[[files]]
+file = "resourcepacks/bushy-pinkpetals-wildflowers-leaflitter.pw.toml"
+hash = "a904f912fd9988046f2732e36487885e4dc1d9ffbb12384baff2048bce182807"
+metafile = true

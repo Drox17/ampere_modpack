@@ -51,12 +51,6 @@
   "trident_dry_penalty": 0.15,
   "elytra_flight_exhaustion": 0.02,
   "elytra_repair_membranes": 4,
-  "hunger_shield": true,
-  "hunger_shield_absorb": 0.5,
-  "hunger_shield_min_food": 8,
-  "hunger_shield_exhaustion_per_damage": 2.0,
-  "beacon_pacify": true,
-  "beacon_pacify_radius": 30.0,
   "disable_experience_orbs": true,
   "grindstone_extraction": true,
   "wood_gather_bonus": 0.25,
@@ -150,5 +144,8 @@
   "merchant_restock_cooldown_ticks": 24000,
   "luck_trade_discount_per_point": 0.06,
   "luck_trade_bonus_nugget_chance_per_point": 0.1,
-  "luck_trade_bonus_min_emeralds": 4
+  "luck_trade_bonus_min_emeralds": 4,
+  "dimensional_bed_nightmare": true,
+  "dimensional_bed_nightmare_damage": 14.0,
+  "dimensional_bed_nightmare_ticks": 100
 }
