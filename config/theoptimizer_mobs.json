@@ -1,0 +1,10 @@
+{
+  "zombie_local_recovery": true,
+  "skeleton_local_recovery": true,
+  "stalled_ticks": 40,
+  "maneuver_ticks": 40,
+  "recovery_cooldown_ticks": 80,
+  "local_segment_blocks": 1.5,
+  "segment_evaluations_per_level_tick": 64,
+  "last_seen_memory_ticks": 100
+}

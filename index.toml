@@ -901,6 +901,10 @@ file = "config/theoptimizer_equipment.json"
 hash = "1c473814636c87fe49d263bb618fdd00e032d601058457968b4433f60b91f4d9"
 
 [[files]]
+file = "config/theoptimizer_mobs.json"
+hash = "079d8ff52d41ffaa78618e3381ec481c92c901ab381c43e4364e5c84df97c63d"
+
+[[files]]
 file = "config/theoptimizer_repopulation.json"
 hash = "cfd2a0c49ec43b4d98a6bf5c90610e9af0b63087a93ff8776f20a9e481fc9d7a"
 
@@ -937,8 +941,8 @@ file = "mods/TheOptimizer-EquipmentBalance-1.25.3.jar"
 hash = "de352b3b9c80645c099b2ba3229ef9359a4ef9e2d2ebb80a8da1733a4e3970f1"
 
 [[files]]
-file = "mods/TheOptimizer-MobBalance-1.5.2.jar"
-hash = "c0e9a465304818139c06f34f9e17ef12d29113cf855c675ffbe408947748279f"
+file = "mods/TheOptimizer-MobBalance-1.6.0.jar"
+hash = "49212d02d0561f3422db30fa4c9587c696ee1e743a9081369e22436e25ec09b8"
 
 [[files]]
 file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
@@ -1585,7 +1589,7 @@ hash = "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
 
 [[files]]
 file = "resourcepacks/TheOptimizer_ES_MX.zip"
-hash = "599fd97fccc7d34977d910fbe204a3e867a363fabac20ee25005f9304621eb08"
+hash = "c99f7589e411f6b65ccf3e7f3fce9da3dde3cf61fd1a9d06cddbbc2aceebe07b"
 
 [[files]]
 file = "resourcepacks/beautclouds.pw.toml"
