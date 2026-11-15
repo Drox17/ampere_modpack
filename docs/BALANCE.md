@@ -30,8 +30,8 @@ Esta revisión prevalece sobre los registros históricos 1.23.x/1.24.0/1.24.1 de
 | Espeleólogo: malla/piedra | +20% en piedra/menas; cantera común sin desgaste; las menas sí consumen | control por piedra: sin penalización de velocidad en espada; cancela la preparación del conjuro y su señal, no solo el uso de ítems. Reserva 160 fuera de cantera |
 | Constructor/infantería: hierro | área 3 por 3 por defecto, agachado un bloque; medio desgaste; ≥2 armaduras +0.5 alcance de bloques | hacha desactiva escudo 5 s; si esprinta, daño +15%. Cada activación cuesta 1 agotamiento y 1 durabilidad fija extra; no se divide por la pasiva de hierro |
 | Alquimista/diplomático: oro | autofundición, suerte, reparación 100%; azada de daño 1 | único material que da tregua de piglins. Bonus directo a no-muertos: nivel configurado por 2.5 de daño; completa, sin duplicar, el bono ya presente en NBT real. Durabilidad 160 |
-| Cazador: diamante | extracción intacta y doble velocidad en pizarra/obsidiana | conserva críticos y alcance; pierde 15% del daño ofensivo contra armadura ≥8. Reparación 25% |
-| Conquistador: netherita | más recursos y doble velocidad en escombros | +15% contra objetivos con armadura; no ralentiza ni da tregua. Reparación 50% por lingote. Material netherita (incluido Monstrous) admite fragmento al 15%; Ignitium/Cursium mantienen sus materiales al 50% |
+| Cazador: diamante | extracción intacta y doble velocidad en pizarra/obsidiana | conserva críticos y alcance; pierde 15% del daño ofensivo contra armadura ≥6. Reparación 25% |
+| Conquistador: netherita | más recursos y doble velocidad en escombros | +15% contra objetivos con armadura ≥6; no ralentiza ni da tregua. Reparación 50% por lingote. Material netherita (incluido Monstrous) admite fragmento al 15%; Ignitium/Cursium mantienen sus materiales al 50% |
 
 La cantera gratuita reconoce solo minecraft:stone, cobblestone, deepslate, cobbled_deepslate, tuff, andesite, diorite, granite y netherrack. No añade recompensas automáticas ni reglas que cancelen construcción/redstone. El desgaste de hojas usa #minecraft:leaves para picos, hachas, palas, azadas, espadas y tijeras. LeafDurabilityMixin envuelve la llamada virtual desde ItemStack.m_41686_ a Item.m_6813_; MiningDurability mantiene un ámbito por stack y try/finally. El ItemStackMixin anula solo el desgaste dentro del ámbito: no omite el minado ni los overrides.
 
@@ -51,7 +51,7 @@ Esta revisión sustituye el escalado pasivo de 15/20 puntos y dureza. Todos los 
 
 Coloso aplica `D - max(0, D - umbral) × absorción` sobre el daño bruto del impacto, antes de armadura y escudo de hambre; las reducciones de otros roles se componen como factores sin cambiar la clasificación del golpe. Umbral 10 y absorción 50 % con cuatro piezas de diamante/netherita. Cada pieza aporta una cuarta parte, incluidos sets mixtos; Ignitium aporta la mitad. Monstrous duplica el coeficiente combinado hasta 100 % del excedente. Ejemplo de daño entrante 20: normal 15, Ignitium completo 17.5, Monstrous con tres piezas de netherita 10, Cursium 20, antes de las demás defensas.
 
-Brecha usa una ventana móvil de 30 ticks: el segundo impacto de combate aceptado reduce a la mitad la armadura efectiva usada por CombatRules. No altera permanentemente el atributo, no cambia el HUD y no multiplica directamente el daño. Los impactos antiguos caducan individualmente. Inanición, fuego y caídas no activan brecha; proyectiles y explosiones sí. Cursium queda fuera del cómputo pesado; una mezcla con piezas pesadas sí puede abrir brecha.
+Brecha usa una ventana móvil de 30 ticks (con separación mínima de `2` ticks entre golpes registrados para evitar falsos disparos en ataques compuestos del mismo tick): el segundo impacto de combate aceptado reduce a la mitad la armadura efectiva usada por CombatRules. No altera permanentemente el atributo, no cambia el HUD y no multiplica directamente el daño. Los impactos antiguos caducan individualmente. Inanición, fuego y caídas no activan brecha; proyectiles y explosiones sí. Cursium queda fuera del cómputo pesado; una mezcla con piezas pesadas sí puede abrir brecha.
 
 ### 1.2 Roles y costes
 
@@ -168,11 +168,13 @@ El `+15 %` de la netherita contra enemigos con armadura necesita objetivos con a
 | Devastador | **10** |
 | Guardián anciano | **8** |
 | Piglin bruto | **8** |
-| Guardián | **4** |
-| Vindicador | **4** |
-| Zoglin | **4** |
+| Guardián | **6** *(4→6)* |
+| Vindicador | **6** *(4→6)* |
+| Zoglin | **6** *(4→6)* |
+| Wither | **6** *(4→6)* |
+| Esqueleto del Wither | **4** *(0→4)* |
 
-Se añaden por `EntityAttributeModificationEvent` (`MobBalanceEvents`), sumadas a la base 0 que tenían.
+Se añaden por `EntityAttributeModificationEvent` (`MobBalanceEvents`), alineadas con el umbral unificado `6.0` de Diamante/Netherita.
 
 ### 1.7 Drops cotidianos deterministas (1.18.0)
 
@@ -203,7 +205,7 @@ Todo se resuelve en eventos de daño/teletransporte: cero Goals y cero escaneos 
 | Familia | Mecánica del mob | Counter | Constantes |
 |---|---|---|---|
 | **Arañas** | 25 % de esquiva parcial (daño ×0.5 + salto lateral) contra armas que no sean de madera | **Madera**: ignora la esquiva y pega ×1.5 contra artrópodos | `SPIDER_DODGE_CHANCE=0.25`, `SPIDER_DODGE_REDUCTION=0.5` |
-| **No-muertos** | Con 3+ zombis en 4 bloques, el golpe empuja +25 % y añade 1.5 de agotamiento | **Hierro** (área) y **Oro** (Castigo III) los limpian sin pagar ese coste | `HORDE_MIN_ZOMBIES=3`, `HORDE_RADIUS=4`, `HORDE_EXHAUSTION=1.5` |
+| **No-muertos** | Con 3+ zombis en 4 bloques, el golpe empuja +25 % y añade 1.5 de agotamiento | **Hierro** (área) y **Oro** (Castigo II) reducen el agotamiento de horda a la mitad (`0.75`) | `HORDE_MIN_ZOMBIES=3`, `HORDE_RADIUS=4`, `HORDE_EXHAUSTION=1.5` |
 | **Esqueletos y saqueadores** | Proyectil a más de 8 bloques aplica Lentitud I 1 s | **Cota de malla con 2+ piezas**: inmune | `SUPPRESSION_DISTANCE_SQ=64`, `SUPPRESSION_TICKS=20`, `CHAIN_IMMUNITY_PIECES=2` |
 | **Enderman y Shulker** | Se teletransportan para huir | **Diamante**: anclaje dimensional 3 s; el teletransporte se cancela con partículas | `DIAMOND_ANCHOR_TICKS=60` |
 | **Creeper, bruja y evocador/ilusionista** | Mecha, poción o conjuro en curso | **Piedra**: interrumpe la mecha (`setSwellDir(-1)`), corta la bebida y aplica stun al conjurador | `stone_stun_ticks=8` |
@@ -309,9 +311,9 @@ La pérdida del 10 % al morir se aplica sobre estos valores.
 | **Madera** | Hojas sin desgaste · **10 % de abono** al romper vegetales | ×1.5 artrópodos · **empuje +0.5** · vel 1.95 |
 | **Piedra** | +15 % menas, piedra y pizarra | Aturdimiento 0.4 s · empuje +1.0 · **vel 1.4** |
 | **Hierro** | **Toque de Seda** innato | Barrido 75 % · alcance +0.5 · vel 1.6 |
-| **Oro** | **Auto-Fundición** + Suerte +1 · durabilidad **160** | Castigo III · **vel 2.0** (daño 5) |
+| **Oro** | **Auto-Fundición** + Suerte +1 · durabilidad **160** | Castigo II (+5.0 no-muertos) · **vel 2.0** (daño 5) |
 | **Diamante** | **Área 3×3** (coste 1 + 4 de durabilidad) · alcance +1.0 | Crítico 15 % ×1.5 · anclaje 3 s · vel 1.6 |
-| **Netherita** | **Fortuna III** · alcance +1.0 | Lentitud II · +15 % vs blindados · **vel 1.5** |
+| **Netherita** | **Fortuna III** · alcance +1.0 | Lentitud II · +15 % vs armadura ≥6 · **vel 1.5** |
 
 **Reglas del área 3×3:** el plano se calcula con la mirada del jugador; solo rompe periféricos con
 `0 < dureza <= dureza central`; **excluye** bloques del tag `minecraft:needs_diamond_tool`; no daña la
@@ -549,4 +551,10 @@ Conecta `minecraft:generic.luck` (`Equipamiento de Oro` S4 y `emerald_stoneplate
 - **Capas en cofres (`TheOptimizer_AdventureLoot` + `EquipmentPolicy.sanitizeChestLoot`):** Capa 0 (núcleo determinista, o `chance_rewards`/`choice_pools`/`disc_pool`/`book_pool` acotados en multi-contenedor) + Capa 1 (suministros con `quality` y `bonus_rolls`) + Capa 2 Fortuna: con `Luck <= 0` conversión estricta a pepitas (`P5`); con `Luck = 1` habilita lingotes/esmeraldas en `R2–R3` y puente `1–2` lingotes o `1` esmeralda en `R4/F3/F4`; con `Luck >= 2` tope de lingotes/esmeraldas, chance de `1` diamante en `F3` y `1` diamante/`netherite_scrap` garantizado en `F4`.
 - **Perfiles multi-contenedor (`1.25.1` / `1.8.0`):** añadidos `R2_MULTI`, `R3_MULTI` (`betterfortresses:chests/keep`) y `F3_MULTI` (`betterstrongholds:chests/treasure`) en `EquipmentCombatRules` con `fortuneRollChance` (`0.25`/`0.20`) y `FortuneQuota` reducida, además de rebajas a `R1` (`loot_piles`, `citadel_bookshelf`, `betterdeserttemples:storage`, `cataclysm:abandoned`), subida a `R2` de `evoker_fort/guard_tower`, `village_desert_house` sellado en `r0_excluded`, `disc_pool` al `20 %` (`≤1` disco) y `book_pool` `1:1:1` lvl 1 (`unbreaking`/`looting`/`efficiency`).
 - **Minería, cosechas y contenedores menores:** minería natural con `Luck >= 1` añade `+10 %/pt` de `1–2` pepitas afines (`PlacedBlockTracker` en `SavedData` acotado a `forge:ores`/`minecraft:ores`); cultivos maduros (`CropBlock.isMaxAge`) y hojas naturales añaden `+2.5 %/pt` de `bone_meal`; barriles/`scroll_pouch` (`TradeWithVillagerEvent` + `LootTableMixin`) añaden `+1..2` pepitas oro/esmeralda hasta cap `3`.
-- **Verificación:** `2406` comprobaciones en `balance_equipamiento.probar` (`670` sobre Forge/Cataclysm/Curios reales) y `77.629` en `botin_magia_aventura.probar` (`198` tablas × `32` semillas).
+- **Verificación:** `2417` comprobaciones en `balance_equipamiento.probar` (`673` sobre Forge/Cataclysm/Curios reales), `64` en `balance_mobs.probar` y `77.629` en `botin_magia_aventura.probar` (`198` tablas × `32` semillas).
+
+## Integración combate/mobs — EquipmentBalance 1.25.1 + MobBalance 1.5.1 (2026-11-14)
+
+- **Anti-Squishy (`MobBalanceEvents`):** `Skeleton` y `Stray` suben a `16.0` HP (`12→16`), `Spider` a `18.0` HP (`14→18`), `CaveSpider` a `15.0` HP (`12→15`) y `WitherSkeleton` a `24.0` HP + `4.0` armadura para asegurar mínimo `2` golpes frente a su arma counter.
+- **Umbral unificado de armadura (`6.0`) y compensación del `PiglinBrute`:** `Vindicator`, `Guardian`, `Zoglin` y `Wither` suben a `6.0` de armadura; `diamond_armored_target_threshold` baja a `6.0` y nace `netherite_armored_target_threshold = 6.0` (`EquipmentCombatRules.netheriteDamage`, expuesto en tooltip de Netherita, `142` claves totales). El `PiglinBrute` ajusta `ATTACK_DAMAGE` base a `5.0` (`−2.0`) para compensar el `+2` del hacha de oro normalizada (`13.0 Normal / 19.5 Hard`).
+- **Ajuste de Oro, Horda, Brecha y pasivas solo `Player`:** `gold_smite_level` pasa de `3` a `2` (`+5.0` a no-muertos); `TacticalMobReactions.presionDeHorda` reduce al `50 %` el agotamiento (`0.75`) si el jugador empuña espada/hacha de Hierro o Oro; `EquipmentEvents` (Madera, Piedra, Oro, Diamante, Netherita), `anclajeDeDiamante` y `esquivaDeAranas` exigen atacante `Player`; `ArmorBalanceRules.ImpactWindow` exige separación mínima de `2` ticks (`MIN_HIT_GAP_TICKS = 2`) para que golpes compuestos en el mismo tick (Guardian/ElderGuardian) no abran Brecha instantánea.

@@ -1920,7 +1920,7 @@
       "entrada": "data/irons_spellbooks/loot_tables/chests/catacombs/dead_king_vault.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.8.0: dead_king_vault",
-      "sha256": "f9f6ab485685e3654621dbc69ddec5f09011dc8fb788bb0b9f70754d52705f14"
+      "sha256": "b698e2360113399268594009686ba571f1e1d910d68e5e98527f306777b83f07"
     },
     {
       "base": "repo",
@@ -1968,7 +1968,7 @@
       "entrada": "data/irons_spellbooks/loot_tables/chests/citadel/citadel_vault.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.8.0: citadel_vault",
-      "sha256": "d7d359e580de38a8a32717d460b5d412a7a889e734164202c18516a3272964fc"
+      "sha256": "1c2ac3cc76c43404aa92da129f9c3c79bcb7d556c7b3dffc9ad4a1f8b793acef"
     },
     {
       "base": "repo",
@@ -2120,7 +2120,7 @@
       "entrada": "data/irons_spellbooks/loot_tables/chests/mangrove_hut/hidden_potion_storage.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.8.0: hidden_potion_storage",
-      "sha256": "8b791b64cfe49baeb36165d83c5efb26bf9111f4587e51b687f1c7d7ee73c04c"
+      "sha256": "68deb0b6b0b148b48fbd90741c593e0c75ee3cd5acfb063162c8f62f31ef47f5"
     },
     {
       "base": "repo",
@@ -2176,7 +2176,7 @@
       "entrada": "data/irons_spellbooks/loot_tables/chests/pyromancer_tower/fire_ale_trove.json",
       "tipo": "loot_table",
       "objetivo": "Botín v1.8.0: fire_ale_trove",
-      "sha256": "9b11fdf85b7c4efd2398dcadb3c1db9a188b39287f40e57aa672e47f8d3a5537"
+      "sha256": "a365772181b1b8ba01cad67d854956da338a737e95713221eefc793b939b3f3f"
     },
     {
       "base": "repo",

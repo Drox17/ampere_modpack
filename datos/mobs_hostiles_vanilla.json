@@ -117,10 +117,10 @@
         "attack_damage": 2.0
       },
       "pack": {
-        "max_health": 12.0
+        "max_health": 16.0
       },
       "efectivo": {
-        "max_health": 12.0,
+        "max_health": 16.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.25,
         "armor": 0.0,
@@ -128,7 +128,7 @@
         "follow_range": 16.0,
         "attack_damage": 2.0
       },
-      "nota": "Pack: 12 de vida (antes 20). Arquero; su cuerpo a cuerpo es flojo."
+      "nota": "Pack: 16 de vida (antes 20; evita 1-hit ante espada de oro). Arquero; su cuerpo a cuerpo es flojo."
     },
     {
       "mob": "Errante",
@@ -144,10 +144,10 @@
         "attack_damage": 2.0
       },
       "pack": {
-        "max_health": 12.0
+        "max_health": 16.0
       },
       "efectivo": {
-        "max_health": 12.0,
+        "max_health": 16.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.25,
         "armor": 0.0,
@@ -155,7 +155,7 @@
         "follow_range": 16.0,
         "attack_damage": 2.0
       },
-      "nota": "Pack: 12 de vida. Flechas de lentitud."
+      "nota": "Pack: 16 de vida (antes 20). Flechas de lentitud."
     },
     {
       "mob": "Esqueleto del Wither",
@@ -168,19 +168,22 @@
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
-        "attack_damage": 2.0
+        "attack_damage": 4.0
       },
-      "pack": {},
+      "pack": {
+        "max_health": 24.0,
+        "armor": 4.0
+      },
       "efectivo": {
-        "max_health": 20.0,
+        "max_health": 24.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.25,
-        "armor": 0.0,
+        "armor": 4.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
-        "attack_damage": 2.0
+        "attack_damage": 4.0
       },
-      "nota": "20 de vida; espada de piedra y efecto Wither."
+      "nota": "Pack: 24 de vida y 4 de armadura. En vanilla su ataque base en finalizeSpawn es 4.0 (+4.0 espada de piedra = 8.0 Normal / 12.0 Difícil) y aplica Wither."
     },
     {
       "mob": "Creeper",
@@ -221,10 +224,10 @@
         "attack_damage": 2.0
       },
       "pack": {
-        "max_health": 14.0
+        "max_health": 18.0
       },
       "efectivo": {
-        "max_health": 14.0,
+        "max_health": 18.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.3,
         "armor": 0.0,
@@ -232,7 +235,7 @@
         "follow_range": 16.0,
         "attack_damage": 2.0
       },
-      "nota": "Pack: 14 de vida (antes 16). Rápida y escala paredes."
+      "nota": "Pack: 18 de vida (antes 16; mínimo 2 golpes con hacha de madera). Rápida y escala paredes."
     },
     {
       "mob": "Arana de cueva",
@@ -247,9 +250,11 @@
         "follow_range": 16.0,
         "attack_damage": 2.0
       },
-      "pack": {},
+      "pack": {
+        "max_health": 15.0
+      },
       "efectivo": {
-        "max_health": 12.0,
+        "max_health": 15.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.3,
         "armor": 0.0,
@@ -257,7 +262,7 @@
         "follow_range": 16.0,
         "attack_damage": 2.0
       },
-      "nota": "12 de vida; aplica veneno."
+      "nota": "Pack: 15 de vida (antes 12; mínimo 2 golpes con madera); aplica veneno."
     },
     {
       "mob": "Lepisma",
@@ -468,17 +473,19 @@
         "follow_range": 12.0,
         "attack_damage": 5.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 6.0
+      },
       "efectivo": {
         "max_health": 24.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.35,
-        "armor": 0.0,
+        "armor": 6.0,
         "armor_toughness": 0.0,
         "follow_range": 12.0,
         "attack_damage": 5.0
       },
-      "nota": "24 de vida, 5 base; en Difícil su hacha pega ~19."
+      "nota": "Pack: armadura 6.0 (activa penalización de Diamante y perforación de Netherita). 24 de vida, 5 base."
     },
     {
       "mob": "Evocador",
@@ -543,17 +550,19 @@
         "follow_range": 32.0,
         "attack_damage": 12.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 10.0
+      },
       "efectivo": {
         "max_health": 100.0,
         "knockback_resistance": 0.75,
         "movement_speed": 0.3,
-        "armor": 0.0,
+        "armor": 10.0,
         "armor_toughness": 0.0,
         "follow_range": 32.0,
         "attack_damage": 12.0
       },
-      "nota": "100 de vida, 12 base y 0.75 de resistencia al empuje; montura de saqueadores."
+      "nota": "Pack: armadura 10.0. 100 de vida, 12 base y 0.75 de resistencia al empuje; montura de saqueadores."
     },
     {
       "mob": "Guardian",
@@ -568,17 +577,19 @@
         "follow_range": 16.0,
         "attack_damage": 6.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 6.0
+      },
       "efectivo": {
         "max_health": 30.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.5,
-        "armor": 0.0,
+        "armor": 6.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 6.0
       },
-      "nota": "30 de vida; rayo y seguimiento largo."
+      "nota": "Pack: armadura 6.0. 30 de vida; rayo y seguimiento largo."
     },
     {
       "mob": "Guardian anciano",
@@ -593,17 +604,19 @@
         "follow_range": 16.0,
         "attack_damage": 8.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 8.0
+      },
       "efectivo": {
         "max_health": 80.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.3,
-        "armor": 0.0,
+        "armor": 8.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 8.0
       },
-      "nota": "80 de vida; aplica fatiga de minería."
+      "nota": "Pack: armadura 8.0. 80 de vida; aplica fatiga de minería."
     },
     {
       "mob": "Shulker",
@@ -741,17 +754,19 @@
         "follow_range": 16.0,
         "attack_damage": 6.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 6.0
+      },
       "efectivo": {
         "max_health": 40.0,
         "knockback_resistance": 0.6,
         "movement_speed": 0.3,
-        "armor": 0.0,
+        "armor": 6.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 6.0
       },
-      "nota": "40 de vida; inmune al fuego y 0.6 de resistencia al empuje."
+      "nota": "Pack: armadura 6.0. 40 de vida; inmune al fuego y 0.6 de resistencia al empuje."
     },
     {
       "mob": "Piglin",
@@ -791,17 +806,20 @@
         "follow_range": 16.0,
         "attack_damage": 7.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 8.0,
+        "attack_damage": 5.0
+      },
       "efectivo": {
         "max_health": 50.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.35,
-        "armor": 0.0,
+        "armor": 8.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
-        "attack_damage": 7.0
+        "attack_damage": 5.0
       },
-      "nota": "50 de vida y 7 base; hacha y mucha resistencia."
+      "nota": "Pack: armadura 8.0 y ataque base 5.0 (antes 7.0; compensa el +2 del hacha de oro normalizada -> 13.0 Normal / 19.5 Difícil)."
     },
     {
       "mob": "Piglin zombificado",
@@ -843,7 +861,7 @@
       "grupo": "jefe",
       "vanilla": {
         "max_health": 500.0,
-        "knockback_resistance": 0.0,
+        "knockback_resistance": 1.0,
         "movement_speed": 0.3,
         "armor": 0.0,
         "armor_toughness": 0.0,
@@ -853,14 +871,14 @@
       "pack": {},
       "efectivo": {
         "max_health": 500.0,
-        "knockback_resistance": 0.0,
+        "knockback_resistance": 1.0,
         "movement_speed": 0.3,
         "armor": 0.0,
         "armor_toughness": 0.0,
         "follow_range": 16.0,
         "attack_damage": 30.0
       },
-      "nota": "500 de vida y 30 base; su resistencia al empuje real es 1.0 (inmune), no capturada por el extractor."
+      "nota": "500 de vida, 30 base y 1.0 de resistencia al empuje real (inmune)."
     },
     {
       "mob": "Wither",
@@ -875,17 +893,19 @@
         "follow_range": 40.0,
         "attack_damage": 2.0
       },
-      "pack": {},
+      "pack": {
+        "armor": 6.0
+      },
       "efectivo": {
         "max_health": 300.0,
         "knockback_resistance": 0.0,
         "movement_speed": 0.6,
-        "armor": 4.0,
+        "armor": 6.0,
         "armor_toughness": 0.0,
         "follow_range": 40.0,
         "attack_damage": 2.0
       },
-      "nota": "300 de vida; jefe. Su daño no es cuerpo a cuerpo."
+      "nota": "Pack: armadura 6.0. 300 de vida; jefe. Su daño no es cuerpo a cuerpo."
     },
     {
       "mob": "Dragon del End",

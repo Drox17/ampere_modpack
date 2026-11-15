@@ -17,9 +17,9 @@ import subprocess
 from pathlib import Path
 
 JAVAP = r"C:\Users\Metabodiru\AppData\Roaming\PrismLauncher\java\java-runtime-gamma\bin\javap.exe"
-JAR = r"C:\Users\Metabodiru\AppData\Roaming\PrismLauncher\instances\TheOptimizer\gestion\datos\servidor\forge-instalado\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar"
-TSRG = r"C:\Users\Metabodiru\AppData\Roaming\PrismLauncher\instances\TheOptimizer\gestion\datos\servidor\forge-instalado\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt"
-MOJANG = r"C:\Users\Metabodiru\AppData\Roaming\PrismLauncher\instances\TheOptimizer\gestion\datos\servidor\forge-instalado\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-mappings.txt"
+JAR = r"C:\Users\Metabodiru\Desktop\servidor-theoptimizer\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar"
+TSRG = r"C:\Users\Metabodiru\AppData\Roaming\PrismLauncher\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt"
+MOJANG = r"C:\Users\Metabodiru\Desktop\servidor-theoptimizer\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-mappings.txt"
 
 RAIZ = Path(__file__).resolve().parents[1]
 DATOS = RAIZ / "datos"
@@ -68,13 +68,28 @@ MOBS = [
     ("boss.enderdragon.EnderDragon", "Dragon del End", "jefe"),
 ]
 
+# Atributos vanilla fijados fuera de createAttributes() (finalizeSpawn / registro)
+VANILLA_EXTRAS = {
+    "Esqueleto del Wither": {"attack_damage": 4.0},
+    "Warden": {"knockback_resistance": 1.0},
+}
+
 # Cambios del pack: TheOptimizer-MobBalance (EntityAttributeModificationEvent)
 CAMBIOS_PACK = {
-    "Esqueleto": {"max_health": 12.0},
-    "Errante": {"max_health": 12.0},
-    "Arana": {"max_health": 14.0},
+    "Esqueleto": {"max_health": 16.0},
+    "Errante": {"max_health": 16.0},
+    "Esqueleto del Wither": {"max_health": 24.0, "armor": 4.0},
+    "Arana": {"max_health": 18.0},
+    "Arana de cueva": {"max_health": 15.0},
     "Fantasma": {"max_health": 10.0},
     "Bruja": {"max_health": 20.0},
+    "Vindicador": {"armor": 6.0},
+    "Guardian": {"armor": 6.0},
+    "Zoglin": {"armor": 6.0},
+    "Guardian anciano": {"armor": 8.0},
+    "Piglin bruto": {"armor": 8.0, "attack_damage": 5.0},
+    "Devastador": {"armor": 10.0},
+    "Wither": {"armor": 6.0},
 }
 
 COLUMNAS = [
@@ -240,12 +255,12 @@ NOTAS = {
     "Zombi momificado": "Igual que el zombi, pero no se quema de día y aplica Hambre.",
     "Ahogado": "Zombi acuático; puede llevar tridente y nada.",
     "Aldeano zombi": "Zombi con armadura 2; se cura con debilidad + manzana dorada.",
-    "Esqueleto": "Pack: 12 de vida (antes 20). Arquero; su cuerpo a cuerpo es flojo.",
-    "Errante": "Pack: 12 de vida. Flechas de lentitud.",
-    "Esqueleto del Wither": "20 de vida; espada de piedra y efecto Wither.",
+    "Esqueleto": "Pack: 16 de vida (antes 20; evita 1-hit ante espada de oro). Arquero; su cuerpo a cuerpo es flojo.",
+    "Errante": "Pack: 16 de vida (antes 20). Flechas de lentitud.",
+    "Esqueleto del Wither": "Pack: 24 de vida y 4 de armadura. En vanilla su ataque base en finalizeSpawn es 4.0 (+4.0 espada de piedra = 8.0 Normal / 12.0 Difícil) y aplica Wither.",
     "Creeper": "20 de vida; su daño es la explosión, no el atributo de melee.",
-    "Arana": "Pack: 14 de vida (antes 16). Rápida y escala paredes.",
-    "Arana de cueva": "12 de vida; aplica veneno.",
+    "Arana": "Pack: 18 de vida (antes 16; mínimo 2 golpes con hacha de madera). Rápida y escala paredes.",
+    "Arana de cueva": "Pack: 15 de vida (antes 12; mínimo 2 golpes con madera); aplica veneno.",
     "Lepisma": "8 de vida; llama a más lepismas al ser golpeada.",
     "Endermite": "8 de vida; aparece al usar perlas del End.",
     "Slime": "La vida depende del tamaño; el daño es por contacto.",
@@ -254,24 +269,24 @@ NOTAS = {
     "Blaze": "20 de vida y 6 de daño base; ataca con bolas de fuego.",
     "Bruja": "Pack: 20 de vida (antes 26). Combate con pociones.",
     "Saqueador": "24 de vida; ballesta y seguimiento 32.",
-    "Vindicador": "24 de vida, 5 base; en Difícil su hacha pega ~19.",
+    "Vindicador": "Pack: armadura 6.0 (activa penalización de Diamante y perforación de Netherita). 24 de vida, 5 base.",
     "Evocador": "24 de vida; invoca Vex y colmillos.",
     "Ilusionista": "32 de vida; ilusiones y arco.",
-    "Devastador": "100 de vida, 12 base y 0.75 de resistencia al empuje; montura de saqueadores.",
-    "Guardian": "30 de vida; rayo y seguimiento largo.",
-    "Guardian anciano": "80 de vida; aplica fatiga de minería.",
+    "Devastador": "Pack: armadura 10.0. 100 de vida, 12 base y 0.75 de resistencia al empuje; montura de saqueadores.",
+    "Guardian": "Pack: armadura 6.0. 30 de vida; rayo y seguimiento largo.",
+    "Guardian anciano": "Pack: armadura 8.0. 80 de vida; aplica fatiga de minería.",
     "Shulker": "30 de vida; proyectiles de levitación.",
     "Fantasma": "Pack: 10 de vida (antes 20). Vuela y ataca en picado.",
     "Enderman": "40 de vida y 7 base; se teletransporta y esquiva flechas.",
     "Vex": "14 de vida; atraviesa paredes.",
     "Hoglin": "40 de vida, 6 base y 0.6 de resistencia al empuje.",
-    "Zoglin": "40 de vida; inmune al fuego y 0.6 de resistencia al empuje.",
+    "Zoglin": "Pack: armadura 6.0. 40 de vida; inmune al fuego y 0.6 de resistencia al empuje.",
     "Piglin": "16 de vida; trueque y ballesta.",
-    "Piglin bruto": "50 de vida y 7 base; hacha y mucha resistencia.",
+    "Piglin bruto": "Pack: armadura 8.0 y ataque base 5.0 (antes 7.0; compensa el +2 del hacha de oro normalizada -> 13.0 Normal / 19.5 Difícil).",
     "Piglin zombificado": "No parseable (clase sin atributos propios); hereda de Zombi: 20 de vida y 3 de daño.",
     "Gigante": "100 de vida y 50 base; no aparece en supervivencia, solo referencia.",
-    "Warden": "500 de vida y 30 base; su resistencia al empuje real es 1.0 (inmune), no capturada por el extractor.",
-    "Wither": "300 de vida; jefe. Su daño no es cuerpo a cuerpo.",
+    "Warden": "500 de vida, 30 base y 1.0 de resistencia al empuje real (inmune).",
+    "Wither": "Pack: armadura 6.0. 300 de vida; jefe. Su daño no es cuerpo a cuerpo.",
     "Dragon del End": "200 de vida; jefe. Ataca con aliento y embestidas.",
 }
 
@@ -292,6 +307,7 @@ def main() -> None:
         atributos = resolver(PKG + clase, mapa, cache)
         atributos = {k: (v if v is not None else defaults.get(k)) for k, v in atributos.items()} if atributos else {}
         atributos = {k: v for k, v in atributos.items() if v is not None}
+        atributos.update(VANILLA_EXTRAS.get(nombre, {}))
         fila = {
             "mob": nombre,
             "clase": clase,
@@ -322,8 +338,10 @@ def main() -> None:
 
     def fmt(f: dict, clave: str) -> str:
         valor = f["efectivo"].get(clave)
-        return "-" if valor is None else ("%g" % valor)
+        marca = " *(pack)*" if clave in f["pack"] else ""
+        return "-" if valor is None else ("%g%s" % (valor, marca))
 
+    etiquetas = {clave: etiq for clave, etiq, _ in COLUMNAS}
     lineas = [
         "# Mobs hostiles vanilla (1.20.1): atributos base y efecto del pack",
         "",
@@ -337,20 +355,22 @@ def main() -> None:
         "3. La **herencia** se resuelve por la cabecera `extends` (p. ej. Zombi → Monster → PathfinderMob → Mob → LivingEntity).",
         "4. Los atributos añadidos sin valor (`Builder.m_22266_`) usan el **valor por defecto** del atributo,",
         "   que se extrae del inicializador estático de `Attributes`.",
-        "5. Se cruza con el único mod del pack que toca atributos de hostiles:",
+        "5. Se añaden los valores vanilla fijados fuera de `createAttributes()` (`Esqueleto del Wither`: ataque base 4.0 en `finalizeSpawn`; `Warden`: resistencia al empuje 1.0).",
+        "6. Se cruza con el único mod del pack que toca atributos de hostiles:",
         "   `TheOptimizer-MobBalance` (`EntityAttributeModificationEvent`).",
         "",
         "Reejecutar: `python herramientas/extraer_atributos_vanilla.py`.",
         "",
         "## Cambios del pack (MobBalance)",
         "",
-        "| Mob | Vida vanilla | Vida pack |",
-        "|---|---:|---:|",
+        "| Mob | Atributo | Vanilla | Pack |",
+        "|---|---|---:|---:|",
     ]
     for nombre, cambio in CAMBIOS_PACK.items():
         fila = next(f for f in filas if f["mob"] == nombre)
-        vv = fila["vanilla"].get("max_health")
-        lineas.append(f"| {nombre} | {('%g' % vv) if vv is not None else '-'} | {'%g' % cambio['max_health']} |")
+        for clave, valor_pack in cambio.items():
+            vv = fila["vanilla"].get(clave)
+            lineas.append(f"| {nombre} | {etiquetas.get(clave, clave)} | {('%g' % vv) if vv is not None else '-'} | {'%g' % valor_pack} |")
 
     lineas += [
         "",
@@ -445,8 +465,7 @@ def main() -> None:
         "- **Creeper, Ghast, Blaze, Shulker, Slime y Cubo de magma** no tienen daño cuerpo a cuerpo:",
         "  usan explosión, bola de fuego, proyectil o daño por tamaño/contacto, que no son atributos.",
         "- La vida de **Slime** y **Cubo de magma** depende del tamaño (la tabla muestra el atributo base).",
-        "- **Warden**: su resistencia al empuje real es 1.0 (inmune); el extractor no la captura porque la",
-        "  asigna por una vía distinta al patrón `add(Attribute, valor)`.",
+        "- **Warden y Esqueleto del Wither**: sus valores fuera de `createAttributes()` (resistencia al empuje `1.0` en Warden y ataque base `4.0` en `finalizeSpawn` del Esqueleto del Wither, +4.0 por espada de piedra = 8.0) se integran vía `VANILLA_EXTRAS`.",
         "- **Piglin zombificado** no se pudo parsear (su clase no define atributos); hereda de Zombi: 20 de vida, 3 de daño.",
         "- **Gigante** está incluido como referencia, pero no aparece en supervivencia.",
         "- El daño de los proyectiles (flechas de esqueleto, bolas de blaze) y los efectos (veneno de araña de",

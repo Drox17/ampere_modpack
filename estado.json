@@ -10,7 +10,7 @@
     "id": "theoptimizer_equipment",
     "version": "1.25.1",
     "jar": "TheOptimizer-EquipmentBalance-1.25.1.jar",
-    "pruebas": 2406
+    "pruebas": 2417
   },
   "config": {
     "unified_harvest_speed": 6.0,
@@ -37,7 +37,7 @@
     "iron_axe_exhaustion_cost": 1.0,
     "iron_axe_extra_wear": 1,
     "iron_axe_shield_disable_ticks": 100,
-    "diamond_armored_target_threshold": 8.0,
+    "diamond_armored_target_threshold": 6.0,
     "diamond_armored_damage_penalty": 0.15,
     "netherite_armored_damage_bonus": 0.15,
     "iron_repair_fraction": 1.0,
@@ -122,7 +122,7 @@
     "low_hunger_critical_interval_multiplier": 0.5,
     "low_hunger_growl_volume": 0.2,
     "low_hunger_growl_pitch": 0.55,
-    "gold_smite_level": 3,
+    "gold_smite_level": 2,
     "leaves_free_durability": true,
     "normalize_irons_weapons": true,
     "irons_weapon_repair_fraction": 0.25,
@@ -153,7 +153,8 @@
     "luck_mining_nuggets_min": 1,
     "luck_mining_nuggets_max": 2,
     "luck_bonemeal_bonus_per_luck": 0.025,
-    "luck_minor_chest_nuggets_cap": 3
+    "luck_minor_chest_nuggets_cap": 3,
+    "netherite_armored_target_threshold": 6.0
   },
   "invariantes": [
     "C1",
