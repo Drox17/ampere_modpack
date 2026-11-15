@@ -1568,20 +1568,8 @@ file = "moonlight-global-datapacks/TheOptimizer_LootFixes.zip"
 hash = "ff7e0822c5a1813afea4db2d3c88f02654a9345d84a480b7abb4d3ab785f228f"
 
 [[files]]
-file = "resourcepacks/Correcciones-TheOptimizer.zip"
-hash = "a17daf428dbd8a069136726616fe1068021a4f173006597db31584e91a0f67d6"
-
-[[files]]
-file = "resourcepacks/Fluid & Foolish 1.0.1.zip"
-hash = "f8c06622c0d444fbc9737c590de3ccec2cad48c33771027127c3ab497bb68c64"
-
-[[files]]
-file = "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip"
-hash = "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e"
-
-[[files]]
-file = "resourcepacks/Musgo 1.20.1.zip"
-hash = "9784ce7ed5c06e3add496e99d41d7f4790ef143c6d23b15ce633236152422c1d"
+file = "resourcepacks/Bushy pink petals, wildflowers  leaf litter.zip"
+hash = "edc4c5016a5bfcc188ea31cf1c826c2aadada1d5ed29e0705d7433453bc63421"
 
 [[files]]
 file = "resourcepacks/Stay_True_1.20.zip"
@@ -1600,3 +1588,7 @@ metafile = true
 file = "resourcepacks/bushy-pinkpetals-wildflowers-leaflitter.pw.toml"
 hash = "a904f912fd9988046f2732e36487885e4dc1d9ffbb12384baff2048bce182807"
 metafile = true
+
+[[files]]
+file = "resourcepacks/§rBeautClouds §b1.1.zip"
+hash = "b1b95db98f9f6008b7bc2c0e32f108bf5002ca983ed3567f32f4e45bd74a2a8e"
