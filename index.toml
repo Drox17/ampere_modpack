@@ -898,7 +898,7 @@ hash = "c1150586b8ab28b23913ed762c3907952a00835f5f2e5dc3dd493efe64c67f77"
 
 [[files]]
 file = "config/theoptimizer_equipment.json"
-hash = "b03cf2675210cda133ab26a1a64a8396aa03447dc1ec6132fea2d3102761603b"
+hash = "1c473814636c87fe49d263bb618fdd00e032d601058457968b4433f60b91f4d9"
 
 [[files]]
 file = "config/theoptimizer_repopulation.json"
@@ -930,15 +930,15 @@ hash = "447dd543e178a9454ccf3bf0d9d7bd7957b1af6da9d74f2cd3d9b5fbe8548e98"
 
 [[files]]
 file = "mods/TheOptimizer-AdvancementLayout-1.0.0.jar"
-hash = "1250da9124da78bb617e1dfb564e227d188f0fb3f863902d8e1d5b9cadd5daea"
+hash = "073e17df7b44b5c54c22258c9c7ea9c4f9bfd3a9e223dad511ee227fdc32889f"
 
 [[files]]
-file = "mods/TheOptimizer-EquipmentBalance-1.25.2.jar"
-hash = "571aaec267b9ef94adb4e70f79ebc5ede820587677ffe80830111dc3a3a52d7c"
+file = "mods/TheOptimizer-EquipmentBalance-1.25.3.jar"
+hash = "de352b3b9c80645c099b2ba3229ef9359a4ef9e2d2ebb80a8da1733a4e3970f1"
 
 [[files]]
 file = "mods/TheOptimizer-MobBalance-1.5.2.jar"
-hash = "6370048c0e2bdbc22a05960b2c5263b92ceeb994a9b2f877cf658c271c45f9ab"
+hash = "c0e9a465304818139c06f34f9e17ef12d29113cf855c675ffbe408947748279f"
 
 [[files]]
 file = "mods/TheOptimizer-SimpleTombParticlesFix-1.0.0.jar"
@@ -946,7 +946,7 @@ hash = "fc6ad3184c928b11d422a370504385bf0f79b82e24f5d9e13303ed7a3d8eac15"
 
 [[files]]
 file = "mods/TheOptimizer-WildlifeRepopulation-1.6.2.jar"
-hash = "d590dc39382efc7ffbccc98a086f071e6a377f08c2566565c1f3221a879cb4a5"
+hash = "0119e0c2927050002de5498e8582085e24fbef13ce6100b0128e39a69cdd24b9"
 
 [[files]]
 file = "mods/ae2.pw.toml"
