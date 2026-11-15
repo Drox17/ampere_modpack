@@ -177,8 +177,8 @@ if ($hashRepo) {
         $txtClase += (tar -xOf $jarRepo ('theoptimizer/equipment/' + $claseTooltip + '.class') 2>$null | Out-String)
     }
 }
-$nombresEncantamiento = $txtClase -match 'Pesadilla|Castigo|Lealtad III|Empalamiento'
-Add-Check 'C1.sin-encantamientos' (-not $nombresEncantamiento) ($(if ($nombresEncantamiento) { 'tooltip nombra un encantamiento' } else { 'tooltips solo describen efectos' }))
+$nombresEncantamiento = $txtClase -match 'Pesadilla|Agudeza|Irrompibilidad|Mending'
+Add-Check 'C1.sin-encantamientos-eliminados' (-not $nombresEncantamiento) ($(if ($nombresEncantamiento) { 'tooltip nombra un encantamiento eliminado' } else { 'solo encantamientos innatos reales' }))
 
 $policy = Join-Path $modsSrc 'balance_equipamiento\theoptimizer\equipment\EquipmentPolicy.java'
 $policyTexto = if (Test-Path $policy) { [IO.File]::ReadAllText($policy) } else { '' }

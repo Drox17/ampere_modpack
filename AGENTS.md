@@ -32,7 +32,7 @@ vanilla con mods. Si una propuesta contradice estos trece puntos, está mal.
 Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se rediseña** antes de implementarse.
 
 **Reglas derivadas que ya han causado errores:**
-- **No nombrar encantamientos en tooltips**: se describe el efecto ("daño ×2 a artrópodos").
+- **Encantamientos innatos explícitos en tooltips** (1.25.5): los encantamientos innatos reales de armas, armaduras y herramientas se nombran directamente (`Toque de seda`, `Fortuna III`, `Castigo`, `Empuje I`, `Barrido III`, `Respiración III`, `Afinidad acuática`, `Caída de pluma IV`, `Caminante de hojas`, `Sigilo rápido III`, `Velocidad de alma II`, `Lealtad III`, `Empalamiento V`), sin prosa explicando su funcionamiento y sin nombrar encantamientos eliminados. Solo los picos anuncian alcance a obsidiana/escombros.
 - **Detalles avanzados con Shift** (1.24.2): resumen de rol y costes al pasar el cursor; mantener **Shift** muestra cifras y condiciones del equipo vestido actualmente, nunca un conjunto completo hipotético. Usar segundos, corazones y muslitos en vez de ticks o fórmulas técnicas.
 - **Nada de prosa con números**: los valores salen del código y se muestran en el tooltip.
 - **No proponer sistemas que usen XP** como moneda ni escalar mecánicas con niveles (P3).
@@ -101,7 +101,7 @@ Si la respuesta lleva a máquina, optimización extrema o AFK, **la propuesta se
 
 ## 4. Invariantes (si falla una, es bug)
 
-1. **C1** Ningún tooltip nombra encantamientos.
+1. **C1** Tooltips solo nombran encantamientos innatos reales (nunca encantamientos eliminados ni explicaciones de cómo funcionan).
 2. **C2** Todo set del linaje L hereda fuego/wither, repulsión, debilidad con luz ambiental <8 y reparación 50 % desde 1.24.2. Los efectos defensivos escalan por pieza; la inmunidad requiere el linaje completo.
 3. **C3** Toda armadura con `spell_power` paga coste de daño cuerpo a cuerpo.
 4. **C4** Paridad horizontal: sets físicos 16 (2/5/6/3), túnicas 10 y Cursium 12; dureza 0, también en atributos externos. Sustituye el techo anterior de 15/20 por decisión explícita de la 1.23.0.
